@@ -16,7 +16,7 @@ import tempfile
 from typing import Callable
 import uuid
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 PLAN_PATH = ROOT / "grocery_plan.json"
 STATE_PATH = ROOT / "grocery_state.json"
 SHOPS = ("sun", "moon", "sign", "mystery")
