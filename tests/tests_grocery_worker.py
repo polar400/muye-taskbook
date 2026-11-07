@@ -12,7 +12,7 @@ from unittest.mock import patch
 import grocery_worker
 from grocery_plan import load_catalog, load_state, new_state, save_state
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class OpenInput:
@@ -74,7 +74,7 @@ class GroceryWorkerTests(unittest.TestCase):
         request_path.write_text(json.dumps(self.request), encoding='utf-8')
         code = (f"import sys; sys.path.insert(0,{str(self.root)!r}); "
                 f"sys.path.insert(1,{str(ROOT/'vendor')!r}); "
-                f"import grocery_worker; grocery_worker.main({str(request_path)!r})")
+                f"sys.path.insert(2,{str(ROOT/'src')!r}); import grocery_worker; grocery_worker.main({str(request_path)!r})")
         process = subprocess.Popen([sys.executable, '-u', '-c', code], cwd=ROOT,
                                    stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         try:
