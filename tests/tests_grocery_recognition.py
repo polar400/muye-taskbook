@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image
 
 
-GAME_FIXTURE = json.loads((Path(__file__).resolve().parent / "verification/grocery-icons-20261026/game-cases.json").read_text(encoding="utf-8"))
+GAME_FIXTURE = json.loads((Path(__file__).resolve().parents[1] / "verification/grocery-icons-20261026/game-cases.json").read_text(encoding="utf-8"))
 GAME_CASES = tuple((tuple(case["box"]), case["asset"]) for case in GAME_FIXTURE["cases"])
 
 
@@ -132,7 +132,7 @@ class GroceryRecognitionTests(unittest.TestCase):
         return manifest
 
     def fixture_directory(self, prefix):
-        workspace = Path(__file__).resolve().parent
+        workspace = Path(__file__).resolve().parents[1]
         base = (workspace / "verification/grocery-icons-20261026").resolve()
         if not base.is_relative_to(workspace):
             raise ValueError("Test fixture directory escapes workspace")
