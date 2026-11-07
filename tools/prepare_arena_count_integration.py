@@ -37,7 +37,7 @@ def show_arena_task(ui,mode):
 
 
 def sources():
-    before=(ROOT/'app.py').read_text(encoding='utf-8');after=before
+    before=(ROOT/'src/app.py').read_text(encoding='utf-8');after=before
     changes=(
         ("from arena_task import validate_arena_config",
          "from arena_task import validate_arena_config\nfrom arena_settings import parse_battle_limit"),
@@ -53,7 +53,7 @@ def sources():
         for old,new in changes:
             if after.count(old)!=1:raise RuntimeError('app.py位置已变化，请先核对共享补丁')
             after=after.replace(old,new,1)
-    return {'app.py':(before,after),'arena_task_ui.py':((ROOT/'arena_task_ui.py').read_text(encoding='utf-8'),UI_SOURCE)}
+    return {'app.py':(before,after),'arena_task_ui.py':((ROOT/'src/arena_task_ui.py').read_text(encoding='utf-8'),UI_SOURCE)}
 
 
 def main():
