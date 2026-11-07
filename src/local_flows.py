@@ -47,7 +47,7 @@ class LocalFlows:
                 time.sleep(.15)
     def observe(self):
         self.image=self.capture_ready();self.items=self.ocr.read(self.image)
-        self.window.save(self.image,Path(__file__).resolve().parent/'verification/background-latest.png')
+        self.window.save(self.image,Path(__file__).resolve().parents[1]/'verification/background-latest.png')
         return self.items
     def hits(self,pattern):return [x for x in self.items if re.search(pattern,normalized(x['text']))]
     def click_item(self,item,delay=.6):
@@ -129,7 +129,7 @@ class LocalFlows:
                 self.log('已点击一倍速，等待二倍速')
             if on and len(speed2)==1:
                 self.log('已确认自动开启、二倍速')
-                self.window.save(self.image,Path(__file__).resolve().parent/'verification/background-latest.png')
+                self.window.save(self.image,Path(__file__).resolve().parents[1]/'verification/background-latest.png')
                 return
             # Art templates first; OCR only the control strip as a fallback.
             if time.monotonic()>=next_ocr:
@@ -147,7 +147,7 @@ class LocalFlows:
                     self.click_text(r'^[xX×]1$',delay=0);clicked_speed=True
                     self.log('已点击一倍速，等待二倍速')
             self.checkpoint();time.sleep(.1)
-        self.window.save(self.image,Path(__file__).resolve().parent/'verification/background-latest.png')
+        self.window.save(self.image,Path(__file__).resolve().parents[1]/'verification/background-latest.png')
         raise RuntimeError('战斗控制按钮等待超时：未确认自动开启与二倍速，已保存截图')
 
     def battle_settlement(self):
