@@ -24,7 +24,7 @@ from team_instance_task import validate_team_instance_config
 from team_instance_ui import show_team_instance
 from arena_settings import parse_battle_limit
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 TASKS = [(task['id'], task['label']) for task in json.loads((ROOT/'resources/tasks.json').read_text(encoding='utf-8'))['tasks']]
 BLUE = '#ae4428'
 
@@ -526,7 +526,7 @@ class App(tk.Tk):
             if not cfg['preview']:
                 if not local:
                     if not all(v.get().strip() for v in (self.model,self.family,self.base_url,self.api_key)):raise ValueError('请在连接设置填写模型名称、API地址、Family和API Key')
-                    if not (ROOT/'node_modules/@midscene/computer').exists():raise ValueError('缺少运行依赖，请运行 安装依赖.cmd')
+                    if not (ROOT/'node_modules/@midscene/computer').exists():raise ValueError('缺少运行依赖，请运行 scripts/安装依赖.cmd')
                 elif not (ROOT/'resources/local/ocr/rec.onnx').exists():raise ValueError('缺少本地OCR模型')
                 self.refresh_windows()
                 if not self.windows:raise ValueError('未找到360游戏大厅中的火影忍者online窗口')
@@ -545,7 +545,7 @@ class App(tk.Tk):
             if local:
                 for key in list(env):
                     if key.startswith('MIDSCENE_MODEL_'):env.pop(key)
-            command=[sys.executable,str(ROOT/'native_worker.py'),str(ROOT/'run.json')] if local else [node,str(ROOT/'worker.mjs'),str(ROOT/'run.json')]
+            command=[sys.executable,str(ROOT/'src/native_worker.py'),str(ROOT/'run.json')] if local else [node,str(ROOT/'src/worker.mjs'),str(ROOT/'run.json')]
             self.process=subprocess.Popen(command,cwd=ROOT,env=env,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace',creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
         except (ValueError,tk.TclError,OSError,sqlite3.Error) as e:
             if self.failure_tracker:self.collect_failure_event({'kind':'error','message':str(e),'failure':exception_details(e,self.failure_tracker.secrets)},self.failure_tracker)
