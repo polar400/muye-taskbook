@@ -10,7 +10,7 @@ from ranked_pipeline import RankedSession,run_ranked_pipeline
 from PIL import Image
 import numpy as np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 FRAMES=['verification/failure-20261106-005541-308d39bb9a19-ranked.png',
         'verification/failure-20261106-005612-02e7419ac0d1-ranked.png']
 POWERS=[1499302,1455783,1313308,2350943,715530]
