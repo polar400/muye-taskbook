@@ -218,7 +218,7 @@ class LocalTests(unittest.TestCase):
         from PIL import Image
         import numpy as np
         from adapters.local_ocr import LocalOCR
-        frame=np.array(Image.open(Path(__file__).resolve().parent/'resources/local/battle-settlement-calibration.png').convert('RGB'))[:,:,::-1].copy()
+        frame=np.array(Image.open(Path(__file__).resolve().parents[1]/'resources/local/battle-settlement-calibration.png').convert('RGB'))[:,:,::-1].copy()
         flow=LocalFlows(Mock(),LocalOCR(),{},lambda:None,Mock())
         flow.window.capture.return_value=frame;flow.confirm=Mock()
         self.assertTrue(flow.battle())
@@ -229,7 +229,7 @@ class LocalTests(unittest.TestCase):
         from PIL import Image
         import numpy as np
         from adapters.local_ocr import LocalOCR
-        frame=np.array(Image.open(Path(__file__).resolve().parent/'resources/local/survival-claim-confirm-calibration.png').convert('RGB'))[:,:,::-1].copy()
+        frame=np.array(Image.open(Path(__file__).resolve().parents[1]/'resources/local/survival-claim-confirm-calibration.png').convert('RGB'))[:,:,::-1].copy()
         flow=LocalFlows(Mock(),LocalOCR(),{},lambda:None,Mock())
         flow.window.capture.return_value=frame
         with patch('local_flows.time.sleep'):flow.confirm()
@@ -247,7 +247,7 @@ class LocalTests(unittest.TestCase):
         from PIL import Image
         import numpy as np
         from adapters.local_ocr import LocalOCR
-        base=Path(__file__).resolve().parent/'resources/local'
+        base=Path(__file__).resolve().parents[1]/'resources/local'
         frames=[np.array(Image.open(base/name).convert('RGB'))[:,:,::-1].copy()
                 for name in ('survival-claim-confirm-calibration.png','survival-calibration.png')]
         flow=LocalFlows(Mock(),LocalOCR(),{'reset':False},lambda:None,Mock())
@@ -263,7 +263,7 @@ class LocalTests(unittest.TestCase):
         from PIL import Image
         import numpy as np
         from adapters.local_ocr import LocalOCR
-        base=Path(__file__).resolve().parent/'resources/local'
+        base=Path(__file__).resolve().parents[1]/'resources/local'
         frames=[np.array(Image.open(base/name).convert('RGB'))[:,:,::-1].copy()
                 for name in ('survival-reward-popup-calibration.png','survival-calibration.png')]
         flow=LocalFlows(Mock(),LocalOCR(),{'reset':False},lambda:None,Mock())
@@ -291,7 +291,7 @@ class LocalTests(unittest.TestCase):
         ocr=LocalOCR();flow=LocalFlows(Mock(),ocr,{},lambda:None,Mock())
         for name in ('survival-1920-calibration.png','survival-1920-shifted-calibration.png'):
             with self.subTest(screenshot=name):
-                image=Path(__file__).resolve().parent/'resources/local'/name
+                image=Path(__file__).resolve().parents[1]/'resources/local'/name
                 flow.image=np.array(Image.open(image).convert('RGB'))[:,:,::-1].copy()
                 flow.items=ocr.read(flow.image)
                 self.assertEqual(flow.survival_points(),(140,220))
@@ -305,7 +305,7 @@ class LocalTests(unittest.TestCase):
         import numpy as np
         from adapters.local_ocr import LocalOCR
         ocr=LocalOCR();flow=LocalFlows(Mock(),ocr,{},lambda:None,Mock())
-        path=Path(__file__).resolve().parent/'verification/failure-20261018-234702-3aa6ed0d9603-survival.png'
+        path=Path(__file__).resolve().parents[1]/'verification/failure-20261018-234702-3aa6ed0d9603-survival.png'
         flow.image=np.array(Image.open(path).convert('RGB'))[:,:,::-1].copy()
         flow.items=ocr.read(flow.image)
         self.assertTrue(any('80/2]0' in i['text'] for i in flow.items))
