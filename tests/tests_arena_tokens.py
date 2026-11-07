@@ -15,7 +15,7 @@ from arena_tokens import TokenReader,TokenPolicy,DAILY_MODE
 from arena_task import validate_arena_config
 import tests_arena_daily as daily_tests
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class TokenReaderTests(unittest.TestCase):
