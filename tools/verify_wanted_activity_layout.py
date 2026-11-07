@@ -11,7 +11,7 @@ from datetime import datetime
 from unittest.mock import Mock
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from adapters.local_ocr import LocalOCR
 from local_flows import LocalFlows
 from wanted_task import WantedTask
