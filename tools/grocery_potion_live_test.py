@@ -9,7 +9,7 @@ import sys
 import time
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from tools import grocery_key_live_test as common
 from grocery_plan import now,_write_json
 from grocery_vision import GroceryVision
