@@ -9,7 +9,7 @@ from ranked_numbers import NumberRecognitionError,opponent_region,read_opponent,
 from PIL import Image
 import numpy as np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 NOV6='verification/failure-20261106-011716-016eae9a5cb8-ranked.png'
 
 
