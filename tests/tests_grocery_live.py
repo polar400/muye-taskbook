@@ -9,7 +9,7 @@ from grocery_driver import GroceryDriver
 from grocery_vision import GroceryVision, GroceryRecognitionError
 from grocery_plan import load_catalog, new_state, run_state
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 class FastStop:
     def is_set(self): return False
