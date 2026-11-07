@@ -9,7 +9,7 @@ import time
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 FOLDER = ROOT/'verification/welfare-reentry-20261027'
 SOURCES = ('welfare_vision.py', 'welfare_task.py', 'welfare_task_ui.py', 'app.py', 'native_worker.py',
            'resources/tasks.json', 'tests_welfare_entry.py', 'tests_welfare_ui.py',
@@ -43,8 +43,8 @@ def main():
             holdouts.append({'path': f'verification/{run}/{name}', 'sha256': sha(ROOT/'verification'/run/name),
                              'matches': matches})
     after = {name: sha(ROOT/name) for name in baseline}
-    no_redraw = not (ROOT/'ui_redraw.py').exists() and 'window_paint' not in (ROOT/'app.py').read_text(encoding='utf-8')
-    no_queue_change = 'task_queue_canvas' not in (ROOT/'mission_desk_ui.py').read_text(encoding='utf-8')
+    no_redraw = not (ROOT/'ui_redraw.py').exists() and 'window_paint' not in (ROOT/'src/app.py').read_text(encoding='utf-8')
+    no_queue_change = 'task_queue_canvas' not in (ROOT/'src/mission_desk_ui.py').read_text(encoding='utf-8')
     report = {'tests': result.testsRun, 'failures': len(result.failures), 'errors': len(result.errors),
               'seconds': round(time.monotonic()-started, 3), 'gameInputs': 0, 'liveVerified': False,
               'protectedMatchStageStart': baseline == before == after, 'protectedSha256': after,
