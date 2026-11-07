@@ -96,14 +96,14 @@ class VirtualPointerTests(unittest.TestCase):
         self.assertEqual(run_stub(cursor,0x10000,4984),(('original',0x5678),None,{}))
 
     def test_missing_authorization_never_opens_any_process(self):
-        with tempfile.TemporaryDirectory(prefix='arena-virtual-auth-',dir=Path(__file__).parent/'verification') as path:
+        with tempfile.TemporaryDirectory(prefix='arena-virtual-auth-',dir=Path(__file__).resolve().parents[1]/'verification') as path:
             window=Mock()
             with patch.object(virtual,'ROOT',Path(path)),patch.object(virtual.ctypes,'WinDLL') as loader:
                 with self.assertRaisesRegex(RuntimeError,'尚未获准'):virtual.ArenaVirtualPointer(window)
                 loader.assert_not_called();window.check.assert_not_called()
 
     def test_consumed_once_authorization_cannot_open_native_apis(self):
-        with tempfile.TemporaryDirectory(prefix='arena-virtual-auth-',dir=Path(__file__).parent/'verification') as folder:
+        with tempfile.TemporaryDirectory(prefix='arena-virtual-auth-',dir=Path(__file__).resolve().parents[1]/'verification') as folder:
             root=Path(folder);(root/'verification').mkdir()
             for name in ('arena-virtual-pointer-authorization-20261020.json','arena-lower-virtual-authorization-20261020.json'):
                 (root/'verification'/name).write_text('{"decision":"consumed","remaining":0}',encoding='utf-8')
