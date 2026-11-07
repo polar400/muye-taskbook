@@ -131,9 +131,9 @@ class TaskOrderTests(unittest.TestCase):
         cfg = ui.config()
         path = self.root/'preview.json'
         path.write_text(json.dumps(cfg), encoding='utf-8')
-        project = Path(app.__file__).resolve().parent
-        commands = [[sys.executable, str(project/'native_worker.py'), str(path)],
-                    [shutil.which('node'), str(project/'worker.mjs'), str(path)]]
+        project = Path(app.__file__).resolve().parents[1]
+        commands = [[sys.executable, str(project/'src/native_worker.py'), str(path)],
+                    [shutil.which('node'), str(project/'src/worker.mjs'), str(path)]]
         for command in commands:
             with self.subTest(worker=command[1]):
                 result = subprocess.run(command, cwd=project, capture_output=True, text=True,
