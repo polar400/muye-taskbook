@@ -11,7 +11,7 @@ import grocery_scroll as scroll
 from tools import grocery_potion_live_test as probe
 from grocery_recognition import np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class Clock:
