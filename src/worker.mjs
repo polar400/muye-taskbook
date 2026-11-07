@@ -22,7 +22,7 @@ async function checkpoint() { if(stopped) throw Error('已停止'); if(paused) e
 
 async function main() {
   const cfg=JSON.parse(fs.readFileSync(process.argv[2],'utf8').replace(/^\uFEFF/,''));
-  const resource=Resource.load(new URL('./resources/tasks.json',import.meta.url));
+  const resource=Resource.load(new URL('../resources/tasks.json',import.meta.url));
   const names=Object.fromEntries(resource.tasks.map(t=>[t.id,t.label]));
   for(const id of cfg.tasks) resource.task(id);
   if(cfg.preview) {
