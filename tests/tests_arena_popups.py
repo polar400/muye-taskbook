@@ -13,7 +13,7 @@ from arena_daily import ArenaDaily
 import numpy as np
 from PIL import Image
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class ArenaPopupTests(unittest.TestCase):
