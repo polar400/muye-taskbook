@@ -10,7 +10,7 @@ from unittest.mock import Mock,patch
 import native_worker as worker
 from failure_archive import FailureArchive,RunFailureTracker
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 class NativeFailureTests(unittest.TestCase):
     def setUp(self):
