@@ -7,7 +7,7 @@ import sys
 import time
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 
 
 def main():
@@ -53,7 +53,7 @@ def main():
         report.update(status='failed', error=str(error))
         raise
     finally:
-        report['sourceSha256'] = hashlib.sha256((ROOT/'adapters/background_window.py').read_bytes()).hexdigest()
+        report['sourceSha256'] = hashlib.sha256((ROOT/'src/adapters/background_window.py').read_bytes()).hexdigest()
         destination.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
         print(destination, flush=True)
 
