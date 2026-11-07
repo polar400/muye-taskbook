@@ -10,7 +10,7 @@ import sys
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from grocery_recognition import ASSET_ROOT, GroceryRecognizer, SHOPS
 from PIL import Image, ImageDraw, ImageFont
 
