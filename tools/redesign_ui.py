@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path(__file__).resolve().parents[1] / 'app.py'
+path = Path(__file__).resolve().parents[1] / 'src/app.py'
 source = path.read_text(encoding='utf-8')
 start = source.index('    def build(self):')
 end = source.index('    def field(', start)
@@ -92,7 +92,7 @@ build = '''    def build(self):
         self.log_text.pack(fill='both',expand=True)
         ttk.Label(self.help_panel,text='小工具',font=('Microsoft YaHei UI',15)).pack(anchor='w',pady=(0,20))
         ttk.Button(self.help_panel,text='打开项目文件夹',command=lambda:os.startfile(ROOT)).pack(anchor='w',pady=8)
-        ttk.Button(self.help_panel,text='打开使用说明',command=lambda:os.startfile(ROOT/'使用说明.md')).pack(anchor='w',pady=8)
+        ttk.Button(self.help_panel,text='打开使用说明',command=lambda:os.startfile(ROOT/'docs/使用说明.md')).pack(anchor='w',pady=8)
         ttk.Button(self.help_panel,text='打开后台验证结果',command=lambda:os.startfile(ROOT/'verification/验证结果.md')).pack(anchor='w',pady=8)
         ttk.Label(self.help_panel,text='使用方法：勾选左侧任务 → 点击齿轮设置 → 保存设置 → 开始执行。\\n\\n流程预览只检查队列，不操作游戏。押镖目前做到接取，后续交付步骤待补充。',wraplength=780,foreground='#777777').pack(anchor='w',pady=24)
         footer=ttk.Frame(self,padding=(22,7));footer.pack(fill='x')
