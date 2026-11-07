@@ -15,7 +15,7 @@ from ranked_pipeline import RankedSession
 from ranked_numbers import (NumberRecognitionError,arbitrate,digit_bank,kernels,
                             opponent_region,read_opponent,save_evidence,shape_reading)
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 LATEST='出错任务/排位战/证据/ac3c382f3b9deeb677c9b8fb.png'
 POWER=[634467,674651,750130,962616,471398]
 
@@ -230,7 +230,7 @@ class UnifiedNumberTests(unittest.TestCase):
 
     def test_worker_failure_note_links_diagnostics_without_hiding_original_error(self):
         flow=self.flow();flow.ranked_state()
-        tree=ast.parse((ROOT/'native_worker.py').read_text(encoding='utf-8'))
+        tree=ast.parse((ROOT/'src/native_worker.py').read_text(encoding='utf-8'))
         report=next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name=='report_error')
         with TemporaryDirectory(prefix='test-ranked-worker-',dir=ROOT/'verification') as folder:
             tracker=Mock(task_id='ranked',run='offline',secrets=[],finished=False,failed=True)
