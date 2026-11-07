@@ -7,7 +7,7 @@ import struct
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from app import game_windows
 from adapters.background_window import BackgroundWindow,u
 
