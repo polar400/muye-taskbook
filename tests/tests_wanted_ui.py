@@ -11,7 +11,7 @@ import native_worker
 from local_flows import LocalFlows
 from failure_archive import LABELS
 
-PROJECT=Path(__file__).resolve().parent
+PROJECT=Path(__file__).resolve().parents[1]
 
 
 class WantedUITests(unittest.TestCase):
