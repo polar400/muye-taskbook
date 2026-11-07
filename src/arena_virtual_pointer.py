@@ -13,7 +13,7 @@ import struct
 from arena_pointer_pe import Module,imports
 from adapters.background_window import client_to_message
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 def pointer_stubs(x,y,hwnd,*,clock,started,original_cursor,original_hit):
