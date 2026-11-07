@@ -4,7 +4,7 @@ from ctypes import wintypes as W
 from pathlib import Path
 import sys
 import time
-ROOT=Path(__file__).resolve().parents[1]
+ROOT=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(ROOT/'vendor'))
 from maa.controller import Win32Controller
 from maa.define import MaaWin32ScreencapMethodEnum as Capture, MaaWin32InputMethodEnum as Input
