@@ -11,7 +11,7 @@ from wanted_task import WantedTask
 from PIL import Image
 import numpy as np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 BOXES={
  'wanted_kunai':([44,193,57,59],(0,142)),
  'wanted_daily':([297,55,205,78],(230,20)),
@@ -244,7 +244,7 @@ class WantedCompletedActivityTests(unittest.TestCase):
             self.assertEqual(game.page,'home')
             return 'accepted'
         game.escort=Mock(side_effect=next_task)
-        worker=ast.parse((ROOT/'native_worker.py').read_text(encoding='utf-8'))
+        worker=ast.parse((ROOT/'src/native_worker.py').read_text(encoding='utf-8'))
         main=next(n for n in worker.body if isinstance(n,ast.FunctionDef) and n.name=='main')
         loop=next(n for n in main.body if isinstance(n,ast.For) and any(isinstance(x,ast.Try) for x in n.body))
         events=[]
@@ -252,7 +252,7 @@ class WantedCompletedActivityTests(unittest.TestCase):
         env={'cfg':{'tasks':['wanted','escort']},'tasks':{'wanted':'通缉任务','escort':'押镖'},
              'flow':game,'checkpoint':lambda:None,'run_ranked_pipeline':Mock(),
              'emit':lambda kind,message,**kw:events.append((kind,message,kw))}
-        exec(compile(ast.Module(body=[loop],type_ignores=[]),str(ROOT/'native_worker.py'),'exec'),env)
+        exec(compile(ast.Module(body=[loop],type_ignores=[]),str(ROOT/'src/native_worker.py'),'exec'),env)
         self.assertEqual(game.inputs,['wanted_daily','close'])
         self.assertEqual(game.page,'home')
         game.escort.assert_called_once()
