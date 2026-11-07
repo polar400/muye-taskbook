@@ -7,7 +7,7 @@ import sys
 import time
 import unittest
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 
 def main():
     protected=['config.json','run.json','local_flows.py','adapters/background_window.py','adapters/local_ocr.py','mission_desk_ui.py']
