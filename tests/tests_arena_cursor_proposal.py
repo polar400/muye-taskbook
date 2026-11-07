@@ -8,7 +8,7 @@ import unittest
 from unittest.mock import Mock
 from adapters.background_window import client_to_message
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class CursorProposalTests(unittest.TestCase):
