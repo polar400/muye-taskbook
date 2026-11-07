@@ -1,5 +1,5 @@
 @echo off
-cd /d "%~dp0"
+cd /d "%~dp0.."
 python -c "import sys,struct,tkinter; assert sys.version_info[:2] == (3,14) and struct.calcsize('P') == 8, 'Windows x64 Python 3.14 required'"
 if errorlevel 1 goto failed
 if exist vendor\maa\__init__.py if exist vendor\numpy\__init__.py goto pillow
