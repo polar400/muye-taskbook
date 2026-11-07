@@ -15,7 +15,7 @@ from team_instance_task import run_team_instance, validate_team_instance_config
 from welfare_task import run_welfare
 from survival_plan import survival_plan
 from failure_archive import RunFailureTracker, exception_details, run_id, clean
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 paused=threading.Event();stopped=threading.Event()
 tracker=None;window=None;flow=None
 
