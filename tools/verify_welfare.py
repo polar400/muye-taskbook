@@ -9,7 +9,7 @@ import time
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 PROTECTED = ['app.py', 'local_flows.py', 'native_worker.py', 'adapters/background_window.py',
              'adapters/local_ocr.py', 'resources/tasks.json', 'config.json', 'run.json',
              '任务状态.md', '技术文档.md']
