@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image
 from grocery_scroll import scroll_once, drag_thumb
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SUPPORTED = {'10800057': '洞穴密钥', '10840089': '修行药水'}
 NOTICE = '可购买：月商店的洞穴密钥、修行药水。其他商品暂仅展示和保存预设。'
 
