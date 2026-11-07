@@ -15,7 +15,7 @@ from maa.pipeline import JTemplateMatch
 from arena_tokens import DAILY_MODE,TokenPolicy,TokenReader
 from arena_settings import battle_limit
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 def norm(text):return re.sub(r'\s+','',text).replace('：',':').replace('／','/')
