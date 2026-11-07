@@ -10,7 +10,7 @@ from grocery_vision import GroceryVision
 from grocery_recognition import np
 from PIL import Image
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 EVIDENCE=ROOT/'verification/grocery-key-live-20261031'
 
 
