@@ -12,7 +12,7 @@ import time
 import unittest
 from unittest.mock import patch
 
-PROJECT = Path(__file__).resolve().parent
+PROJECT = Path(__file__).resolve().parents[1]
 OUT = PROJECT/'verification/arena-tools-20261106'
 OUT.mkdir(exist_ok=True)
 BASELINE = OUT/'before-application.json'
