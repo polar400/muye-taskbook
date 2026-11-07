@@ -40,11 +40,11 @@ class ReferenceTests(unittest.TestCase):
         self.assertEqual(self.vision.button(image, 'large_monthly')['state'], 'unavailable')
 
     def live_frame(self, name):
-        path = Path(__file__).resolve().parent/'verification/welfare-20261027-003252-54f155ca'/name
+        path = Path(__file__).resolve().parents[1]/'verification/welfare-20261027-003252-54f155ca'/name
         return np.array(Image.open(path).convert('RGB'))[:, :, ::-1].copy()
 
     def test_independent_live_home_entry(self):
-        path = Path(__file__).resolve().parent/'verification/welfare-live-before-20261027.png'
+        path = Path(__file__).resolve().parents[1]/'verification/welfare-live-before-20261027.png'
         image = np.array(Image.open(path).convert('RGB'))[:, :, ::-1].copy()
         self.assertEqual(self.vision.unique(image, 'entry'), [1452, 199, 109, 112])
 
@@ -175,7 +175,7 @@ class FakeOCR:
 
 class FlowTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory(prefix='welfare-test-', dir=Path(__file__).resolve().parent/'verification')
+        self.temp = tempfile.TemporaryDirectory(prefix='welfare-test-', dir=Path(__file__).resolve().parents[1]/'verification')
         self.addCleanup(self.temp.cleanup)
         self.window = FakeWindow()
         self.task = WelfareTask(self.window, FakeOCR(), self.temp.name, vision=FakeVision(), emit=lambda text: None)
