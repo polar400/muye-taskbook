@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {runFlow,chooseOpponent,survivalPlan} from './flows.mjs';
+import {runFlow,chooseOpponent,survivalPlan} from '../src/flows.mjs';
 const cfg={reset:true,difficulty:'阿修罗级',tolerance:20,battleSeconds:30,hostingMinutes:1};
 function mock(answers) {
  const actions=[];
