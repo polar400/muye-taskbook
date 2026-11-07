@@ -11,7 +11,7 @@ import textwrap
 import time
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from adapters.background_window import BackgroundWindow,client_to_message,u
 from adapters.local_ocr import LocalOCR
 from app import game_windows
