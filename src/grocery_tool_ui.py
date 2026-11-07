@@ -7,7 +7,7 @@ import sys
 import tkinter as tk
 from tkinter import ttk
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 from grocery_plan import load_catalog, load_plan, save_plan, load_state, parse_quantity
 from PIL import Image, ImageTk
 
@@ -173,8 +173,8 @@ class GroceryToolView(tk.Frame):
         tk.Label(self.shortcuts_page, text='常用入口', font=(SERIF, 23, 'bold'), bg=PAPER,
                  fg=INK).pack(anchor='w', pady=(0, 20))
         self.shortcut_buttons = []
-        for label, relative in (('打开项目文件夹', ''), ('打开使用说明', '使用说明.md'),
-                                ('打开后台使用说明', '后台使用说明.md'),
+        for label, relative in (('打开项目文件夹', ''), ('打开使用说明', 'docs/使用说明.md'),
+                                ('打开后台使用说明', 'docs/后台使用说明.md'),
                                 ('打开后台验证结果', 'verification/验证结果.md')):
             button = ttk.Button(self.shortcuts_page, text=label,
                                 command=lambda name=relative: os.startfile(ROOT / name))
