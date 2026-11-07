@@ -11,7 +11,7 @@ from welfare_vision import WelfareVision, BUTTONS, load
 from welfare_task import WelfareTask
 from tests_welfare import FakeWindow, FakeVision, FakeOCR
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RUNS = ('welfare-20261027-164018-d4431784', 'welfare-20261027-164314-6955d573',
         'welfare-20261027-164444-d37735b2')
 
