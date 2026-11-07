@@ -10,7 +10,7 @@ import app
 from grocery_controller import GroceryController
 from grocery_plan import load_catalog, new_state, save_state, load_state
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class Value:
