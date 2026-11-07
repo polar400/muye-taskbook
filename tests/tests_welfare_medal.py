@@ -8,7 +8,7 @@ from adapters.local_ocr import LocalOCR
 import numpy as np
 from welfare_vision import WelfareVision, BUTTONS
 from welfare_task import WelfareTask
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RUN = ROOT/'verification/welfare-20261105-233044-4da3a7f2'
 def frame(name='021.png'):
     return np.array(Image.open(RUN/name).convert('RGB'))[:, :, ::-1].copy()
