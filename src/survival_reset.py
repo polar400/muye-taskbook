@@ -32,7 +32,7 @@ def _dilate(mask):
 @lru_cache(maxsize=1)
 def _references():
     import numpy as np
-    folder = Path(__file__).resolve().parent / 'resources/local/survival-reset-digits'
+    folder = Path(__file__).resolve().parents[1] / 'resources/local/survival-reset-digits'
     return {cutoff: [_normalize(_mask(np.array(Image.open(folder / f'{digit}.png').convert('RGB')), cutoff))
                      for digit in (0, 1)] for cutoff in CUTOFFS}
 
