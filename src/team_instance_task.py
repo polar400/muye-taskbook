@@ -7,7 +7,7 @@ from maa.resource import Resource
 from maa.tasker import Tasker
 from maa.pipeline import JTemplateMatch
 
-ASSETS = Path(__file__).resolve().parent / 'resources/local/team_instance'
+ASSETS = Path(__file__).resolve().parents[1] / 'resources/local/team_instance'
 
 class TeamInstanceTask:
     def __init__(self, flow, timeout=30):
