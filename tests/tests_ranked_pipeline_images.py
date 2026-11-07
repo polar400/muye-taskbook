@@ -9,7 +9,7 @@ from ranked_pipeline import RankedSession
 from PIL import Image
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class PipelineImageTests(unittest.TestCase):
