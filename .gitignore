@@ -1,3 +1,4 @@
+# Local dependencies, runtime records and machine-specific configuration
 node_modules/
 logs/
 midscene_run/
