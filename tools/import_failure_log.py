@@ -4,7 +4,7 @@ import argparse
 import json
 import sys
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from failure_archive import import_log,FailureArchive
 
 parser=argparse.ArgumentParser()
