@@ -4,7 +4,7 @@ import re
 import sys
 import time
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'vendor'))
 from adapters.local_ocr import ReadOnlyController
 from maa.resource import Resource
