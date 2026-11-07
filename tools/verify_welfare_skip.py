@@ -9,7 +9,7 @@ import time
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 FOLDER = ROOT/'verification/welfare-skip-nonclaim-20261027'
 
 
