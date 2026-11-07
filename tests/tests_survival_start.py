@@ -10,7 +10,7 @@ import numpy as np
 
 from survival_start import survival_start_button, start_survival_battle
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def button(box=(881, 143, 191, 45), score=1.):
