@@ -131,7 +131,7 @@ def main():
     promoted=read_promotions(suite,ledger)|set(args.promoted_lineup)
     for case in suite['cases']:
         if digest(ROOT/case['path'])!=case['sha256']:raise ValueError('source changed: '+case['path'])
-    sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'vendor'))
+    sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)];sys.path.insert(0,str(ROOT/'vendor'))
     from adapters.local_ocr import LocalOCR
     import ranked_numbers,ranked_vision
     if args.frozen_code:
