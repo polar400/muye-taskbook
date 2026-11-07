@@ -12,7 +12,7 @@ import unittest
 from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from grocery_plan import now
 from grocery_driver import capability_summary
 from PIL import Image
@@ -99,11 +99,11 @@ def main():
     # Reproduce existing failure against the exact backed-up App and old build.
     import app, mission_desk_ui
     old_app = types.ModuleType('grocery_baseline_app')
-    old_app.__file__ = str(ROOT/'app.py')
+    old_app.__file__ = str(ROOT/'src/app.py')
     sys.modules[old_app.__name__] = old_app
     exec(compile((OUT/'app-before.py').read_text(encoding='utf-8'), old_app.__file__, 'exec'), old_app.__dict__)
     old_ui = types.ModuleType('grocery_baseline_mission')
-    old_ui.__file__ = str(ROOT/'mission_desk_ui.py')
+    old_ui.__file__ = str(ROOT/'src/mission_desk_ui.py')
     exec(compile((OUT/'mission-desk-before.py').read_text(encoding='utf-8'), old_ui.__file__, 'exec'), old_ui.__dict__)
     def baseline_app():
         old_app.ROOT = app.ROOT  # The original test patches this to temporary storage.
