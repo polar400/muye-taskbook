@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 from local_flows import LocalFlows
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class RankedBattleTests(unittest.TestCase):
