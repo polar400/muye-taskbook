@@ -7,7 +7,7 @@ from unittest.mock import patch
 
 import app
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class ArenaCountUITests(unittest.TestCase):
