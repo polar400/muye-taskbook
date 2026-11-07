@@ -11,7 +11,7 @@ import numpy as np
 from welfare_vision import WelfareVision, load
 from welfare_task import WelfareTask
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 RUNS = ('welfare-20261027-005740-a146eb9d', 'welfare-20261027-010028-333dd707',
         'welfare-20261027-010200-a5e92b7a', 'welfare-20261027-012409-3895c8e3',
         'welfare-20261027-012424-6420f2a0', 'welfare-20261027-012555-03024030')
