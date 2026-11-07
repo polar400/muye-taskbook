@@ -259,7 +259,7 @@ class App(tk.Tk):
             env=os.environ.copy()
             env.update(MIDSCENE_MODEL_NAME=self.model.get().strip(),MIDSCENE_MODEL_FAMILY=self.family.get().strip(),MIDSCENE_MODEL_BASE_URL=self.base_url.get().strip(),MIDSCENE_MODEL_API_KEY=self.api_key.get().strip())
             env['PYTHONIOENCODING']='utf-8'
-            self.process=subprocess.Popen([node,str(ROOT/'worker.mjs'),str(ROOT/'run.json')],cwd=ROOT,env=env,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace',creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
+            self.process=subprocess.Popen([node,str(ROOT/'src/worker.mjs'),str(ROOT/'run.json')],cwd=ROOT,env=env,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace',creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
         except (ValueError,tk.TclError,OSError) as e:messagebox.showerror('无法开始',str(e));self.notebook.select(self.settings_panel);return
         self.running=True;self.stopping=False;self.paused=False;self.pending_pause=False
         for key,_ in TASKS:self.statuses[key].set('排队中' if key in cfg['tasks'] else '未选择')
