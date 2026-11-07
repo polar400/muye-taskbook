@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def proposals():
-    app=(ROOT/'app.py').read_text(encoding='utf-8')
+    app=(ROOT/'src/app.py').read_text(encoding='utf-8')
     revised=app
     for old,new in (
         ("        self.ranked_server = tk.StringVar(value='连服')",
@@ -19,7 +19,7 @@ def proposals():
          "                    arenaMode=self.arena_mode.get(),\n                    rankedServer=self.ranked_server.get(),rankedLimit=ranked_limit,")):
         if revised.count(old)!=1:raise RuntimeError('app.py已变化，请重新核对接入位置')
         revised=revised.replace(old,new,1)
-    source=(ROOT/'adapters/background_window.py').read_text(encoding='utf-8')
+    source=(ROOT/'src/adapters/background_window.py').read_text(encoding='utf-8')
     marker='    def save(self,image,path):'
     if source.count(marker)!=1 or '    def hover(' in source:raise RuntimeError('悬停接口已变化，请重新核对')
     method='''    def hover(self,x,y):
