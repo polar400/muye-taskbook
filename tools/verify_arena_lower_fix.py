@@ -9,7 +9,7 @@ import time
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 
 
 def digest(path):return hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
@@ -27,7 +27,7 @@ def main():
     allowed={'adapters/background_window.py'} if args.cursor_proposal_applied else set()
     session_same=all(before[p]==sha for p,sha in baseline.items() if p not in allowed)
     if args.cursor_proposal_applied:
-        actual=(ROOT/'adapters/background_window.py').read_text(encoding='utf-8')
+        actual=(ROOT/'src/adapters/background_window.py').read_text(encoding='utf-8')
         session_same=session_same and hashlib.sha256(actual.encode()).hexdigest()==proposal['proposedTextSha256']
     stream=io.StringIO();start=time.monotonic()
     names=['tests_arena','tests_arena_daily','tests_arena_tokens','tests_arena_hover','tests_arena_ui',
