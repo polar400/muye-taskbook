@@ -10,7 +10,7 @@ from tools import grocery_potion_live_test as probe
 from grocery_vision import GroceryVision,GroceryRecognitionError
 from grocery_recognition import GroceryRecognizer,np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 EVIDENCE=ROOT/'verification/grocery-potion-live-20261031'
 
 
