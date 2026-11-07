@@ -1,7 +1,7 @@
 """Welfare-only visual anchors. All coordinates are in the calibrated game crop."""
 from pathlib import Path
 import sys
-sys.path.insert(0, str(Path(__file__).resolve().parent / 'vendor'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'vendor'))
 import numpy as np
 from PIL import Image
 from adapters.local_ocr import ReadOnlyController
@@ -9,7 +9,7 @@ from maa.resource import Resource
 from maa.tasker import Tasker
 from maa.pipeline import JTemplateMatch
 
-ASSETS = Path(__file__).resolve().parent / 'resources/local/welfare'
+ASSETS = Path(__file__).resolve().parents[1] / 'resources/local/welfare'
 BASE_CLOSE = (1598, 134)
 BUTTONS = {'monthly': (640, 752, 820, 830), 'large_monthly': (930, 752, 1110, 830),
            'medal_daily': (1230, 526, 1410, 607), 'medal_weekly': (1230, 744, 1410, 825),
