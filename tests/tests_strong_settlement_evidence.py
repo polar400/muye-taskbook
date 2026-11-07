@@ -8,7 +8,7 @@ from adapters.local_ocr import LocalOCR
 from PIL import Image
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / '出错任务/强者降临/证据/2ba1d650762f427c6ffceb43.png'
 
 
