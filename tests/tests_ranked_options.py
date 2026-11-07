@@ -8,7 +8,7 @@ from PIL import Image
 from local_flows import LocalFlows
 from ranked_policy import ranked_options
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class RankedPolicyTests(unittest.TestCase):
