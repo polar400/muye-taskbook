@@ -14,7 +14,7 @@ from log_retention import maintain_logs
 
 class ReleaseTests(unittest.TestCase):
     def test_fifteen_calendar_days_with_multiple_logs_and_incidents(self):
-        with tempfile.TemporaryDirectory(dir=Path(__file__).parent/'verification') as temporary:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]/'verification') as temporary:
             root=Path(temporary);logs=root/'logs';logs.mkdir()
             for name in ('2026-10-23.log','2026-10-24.log','2026-10-24.backup.log','2026-11-07.log'):
                 (logs/name).write_text('run',encoding='utf-8')
@@ -45,7 +45,7 @@ class ReleaseTests(unittest.TestCase):
         self.assertNotIn('历史',message);self.assertNotIn('99',message)
 
     def test_log_cleanup_is_triggered_again_after_midnight(self):
-        with tempfile.TemporaryDirectory(dir=Path(__file__).parent/'verification') as temporary:
+        with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]/'verification') as temporary:
             root=Path(temporary)
             ui=SimpleNamespace(api_key=Mock(get=lambda:''),failure_tracker=None,log_views=[])
             with patch.object(app,'ROOT',root),patch.object(app,'local_day',side_effect=[date(2026,11,7),date(2026,11,7),date(2026,11,8)]),patch.object(app,'maintain_logs') as cleanup:
@@ -54,7 +54,7 @@ class ReleaseTests(unittest.TestCase):
             self.assertTrue((root/'logs/2026-11-08.log').exists())
 
     def test_node_worker_has_no_history_output(self):
-        source=(Path(__file__).parent/'worker.mjs').read_text(encoding='utf-8')
+        source=(Path(__file__).resolve().parents[1]/'src/worker.mjs').read_text(encoding='utf-8')
         self.assertNotIn('reviewHistory',source)
         self.assertNotIn('历史复盘',source)
 
