@@ -9,7 +9,7 @@ from ranked_vision import read_ranked_remaining
 from PIL import Image
 import numpy as np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 FRAMES=['verification/failure-20261106-011630-9f9f174d8ec0-ranked.png',
         'verification/failure-20261106-011640-3c1baf0df03b-ranked.png']
 
