@@ -122,7 +122,7 @@ class LowerProbeTests(unittest.TestCase):
         self.assertEqual(len(f.clicks),2);self.assert_restored(f)
 
     def test_consumed_hover_authorization_is_not_a_lower_authorization(self):
-        with tempfile.TemporaryDirectory(prefix='arena-lower-auth-',dir=Path(__file__).parent/'verification') as folder:
+        with tempfile.TemporaryDirectory(prefix='arena-lower-auth-',dir=Path(__file__).resolve().parents[1]/'verification') as folder:
             root=Path(folder);(root/'verification').mkdir()
             (root/'verification/arena-virtual-pointer-authorization-20261020.json').write_text(
                 '{"decision":"allowed_by_user","remaining":1}',encoding='utf-8')
@@ -130,7 +130,7 @@ class LowerProbeTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError,'旧悬停授权已用完'):tool.read_authorization()
 
     def test_pending_current_authorization_blocks_before_native_calls(self):
-        with tempfile.TemporaryDirectory(prefix='arena-lower-auth-',dir=Path(__file__).parent/'verification') as folder:
+        with tempfile.TemporaryDirectory(prefix='arena-lower-auth-',dir=Path(__file__).resolve().parents[1]/'verification') as folder:
             root=Path(folder);(root/'verification').mkdir()
             (root/'verification/arena-lower-virtual-authorization-20261020.json').write_text(
                 '{"decision":"pending","remaining":0,"scopeCode":"arena-lower-confirm-once"}',encoding='utf-8')
