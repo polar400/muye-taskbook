@@ -1,1 +1,13 @@
-{"name":"naruto-online-helper","version":"0.1.0","private":true,"type":"module","dependencies":{"@midscene/computer":"^1.0.0"}}
+{
+  "name": "muye-taskbook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@midscene/computer": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "description": "木叶任务簿：支持火影忍者 Online 的 Windows 每日任务助手"
+}
