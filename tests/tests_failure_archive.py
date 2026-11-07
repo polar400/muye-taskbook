@@ -9,7 +9,7 @@ from concurrent.futures import ThreadPoolExecutor
 import app
 from failure_archive import FailureArchive,RunFailureTracker,import_log,exception_details,classify
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 class FailureArchiveTests(unittest.TestCase):
     def test_wrapped_power_errors_keep_specific_root_category(self):
