@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {Resource} from './resource.mjs';
-import {Tasker} from './tasker.mjs';
+import {Resource} from '../src/core/resource.mjs';
+import {Tasker} from '../src/core/tasker.mjs';
 const data=()=>({format:'naruto-task-resource-v1',tasks:[{id:'a',label:'A',entry:'A'},{id:'b',label:'B',entry:'B'}],nodes:{A:{action:{type:'Custom',handler:'a'},next:['Done']},B:{action:{type:'Custom',handler:'b'},next:['Done']},Done:{action:{type:'DoNothing'},next:[]}}});
 test('资源拒绝无效后继和重复ID',()=>{
  const d=data();d.nodes.A.next=['Missing'];assert.throws(()=>new Resource(d),/后继/);
