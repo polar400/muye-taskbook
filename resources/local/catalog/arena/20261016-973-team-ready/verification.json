@@ -1,0 +1,26 @@
+{
+  "sampleId": "20261016-973-team-ready",
+  "label": "竞技场",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 62,
+  "newDigitCrops": 4,
+  "reusedAssets": 2,
+  "reuseReasons": {
+    "existing_semantic_same_state": 2
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "条件已满足",
+    "条件已满足",
+    "战令：3个",
+    "追打状态"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

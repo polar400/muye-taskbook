@@ -1,0 +1,1417 @@
+{
+  "id": "20261016-973-daily",
+  "task": "activities",
+  "label": "日常活动",
+  "date": "2026-10-16",
+  "accountServer": "973",
+  "scope": "日常活动",
+  "state": "日常活动选中，参与可用",
+  "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+  "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "sourceImage": "source.png",
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "tab_daily",
+      "label": "日常活动",
+      "state": "选中",
+      "type": "button",
+      "box": [
+        297,
+        55,
+        502,
+        133
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        297,
+        162,
+        502,
+        240
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_daily.png",
+      "size": [
+        205,
+        78
+      ],
+      "sha256": "0bac031c49070c67e24ca78816b6c1f133f6d8a82f9c5dfe5921c348bf728b86",
+      "pixelSha256": "1a3e7182de18bee870c602b8235312a6909a01fa1471c23fa3dd04c72e5a322a"
+    },
+    {
+      "id": "tab_timed",
+      "label": "限时活动",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        503,
+        55,
+        707,
+        133
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        503,
+        162,
+        707,
+        240
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_timed.png",
+      "size": [
+        204,
+        78
+      ],
+      "sha256": "3be823f8f75fdfdc519a050aabd495ca9929ddbb1ff5477bc24cf31394fa5340",
+      "pixelSha256": "974358e2962d7460b3ca348953eeab2959bb70c76681385efe89c5eddbb74911"
+    },
+    {
+      "id": "participate",
+      "label": "参与按钮",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        1267,
+        689,
+        1440,
+        741
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1267,
+        796,
+        1440,
+        848
+      ],
+      "runtimeEnabled": false,
+      "path": "participate.png",
+      "size": [
+        173,
+        52
+      ],
+      "sha256": "2c7d4b23453354eb03cdfad7c74cd4e2e559893f889ca1a8aa47c936e7ff4785",
+      "pixelSha256": "f6bba8a4979637fcd9129b30b343783f3afb79e427b8396353d63f1e8a174692"
+    },
+    {
+      "id": "event_icon_1",
+      "label": "竞技场图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1020,
+        153,
+        1108,
+        234
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        260,
+        1108,
+        341
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_1.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "909f07f82f4bda82d8b3757f51ccdb6e3d8613220316546b7b20cc0084a73d46",
+      "pixelSha256": "e18bd6df8628483b84560bdaf60f926f1a52cb8606929afa33d5860748e0b238"
+    },
+    {
+      "id": "event_label_1",
+      "label": "竞技场文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        165,
+        477,
+        219
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        272,
+        477,
+        326
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_1.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "8b4b7452e96e881782c58acf898bca39d1e52ecfa20bbfcd26a015f023eb1e3d",
+      "pixelSha256": "e8f16b13b2a01a324a69278bde0d04d91b2f1f989d41b34af7fbb28e7c94a524"
+    },
+    {
+      "id": "event_icon_2",
+      "label": "泡温泉图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1020,
+        239,
+        1108,
+        320
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        346,
+        1108,
+        427
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_2.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "a23d6f07cd2a2c2ff1d1f533ca0cf2e59f60546072669887a78c5a521577afb5",
+      "pixelSha256": "a5fddb74858c953ca783140a6fbadc2fcd925ca48ae3b7631c136608e750d9d2"
+    },
+    {
+      "id": "event_label_2",
+      "label": "泡温泉文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        251,
+        477,
+        305
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        358,
+        477,
+        412
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_2.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "e3c56f9eda021b19ca1fb162c1379a8675e637939a15193b0d82d7bf5352fe3f",
+      "pixelSha256": "0df73ca2f608635594a8f2d1a2c58b83fd0662dd8af92994d699774bcadbd663"
+    },
+    {
+      "id": "event_icon_3",
+      "label": "通缉任务图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1020,
+        325,
+        1108,
+        406
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        432,
+        1108,
+        513
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_3.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "53f2152886069167f9a583fe76bf3fa87d062527e231cb7f27e08bf9ffce7c76",
+      "pixelSha256": "ac03f62ca59c0a950dee29cf5e46c81a4e004d65a62a7f7d16d3799e9178550a"
+    },
+    {
+      "id": "event_label_3",
+      "label": "通缉任务文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        337,
+        477,
+        391
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        444,
+        477,
+        498
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_3.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "53e3c8a5283fe8bb2e84d4124f84b82b13e4cc746d93aa98521fa3e1808c5c99",
+      "pixelSha256": "a2ba077de3f57af3ad29a263f810604a9828e5687f718dc57fa25fdd606efb2f"
+    },
+    {
+      "id": "event_icon_4",
+      "label": "忍者测验图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1020,
+        411,
+        1108,
+        492
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        518,
+        1108,
+        599
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_4.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "d65d18701b49d4d53b059e12241cc88acb020e5f0d2e8d61fb917f5b85922dbd",
+      "pixelSha256": "f47767b742033a257deb49095ad4b8a3f8b041ce17e688ff4ffa62d4595216e8"
+    },
+    {
+      "id": "event_label_4",
+      "label": "忍者测验文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        423,
+        477,
+        477
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        530,
+        477,
+        584
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_4.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "3f05667cda18b33f8ab59c704f48de35a9e5c11dfcedf770fa6bfb8b9b312158",
+      "pixelSha256": "49e4110de2c0ae9d9f521bae148540e377be8e6c2a2fa4f6939864ed8e907b12"
+    },
+    {
+      "id": "event_icon_5",
+      "label": "登录图标",
+      "state": "已完成角标",
+      "type": "icon",
+      "box": [
+        1020,
+        497,
+        1108,
+        578
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        604,
+        1108,
+        685
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_5.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "1b9527cc973f923c1c62de360ab19e35cce37ddb1076a088e399c3b4304c4fcf",
+      "pixelSha256": "adee09e9f3a8fa4176f744979bf6eb2caf75014d80eb830101359abbde4cc539"
+    },
+    {
+      "id": "event_label_5",
+      "label": "登录文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        509,
+        477,
+        563
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        616,
+        477,
+        670
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_5.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "f609636eaae083766720604f63addde302087e73647c732b3cd355d733af91ce",
+      "pixelSha256": "78d90760c65de6ec78f9df4b7d25046cc1ac8985f85a0d0dca4cfb7d43021218"
+    },
+    {
+      "id": "event_icon_6",
+      "label": "忍者考试图标",
+      "state": "已完成角标",
+      "type": "icon",
+      "box": [
+        1020,
+        583,
+        1108,
+        664
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        690,
+        1108,
+        771
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_6.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "7c7c9b364ab8e461a7bf7b2e87ddf7352bafc1e3404f8d839829701e923fbc5a",
+      "pixelSha256": "016d9bcc2925e77a85362af4a5034c0fbe88fc49291ed35095c626353a097201"
+    },
+    {
+      "id": "event_label_6",
+      "label": "忍者考试文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        595,
+        477,
+        649
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        702,
+        477,
+        756
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_6.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "2aba2d30883fdacee788b5e777a4c0885a587aa3fa777702989c23e5cd8da48c",
+      "pixelSha256": "e14cf9b1e10d3b3b7543550af756db4d8c7d3b8cd11df9985da4c64c8e150da3"
+    },
+    {
+      "id": "event_icon_7",
+      "label": "丰饶之间图标",
+      "state": "已完成角标",
+      "type": "icon",
+      "box": [
+        1020,
+        669,
+        1108,
+        750
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1020,
+        776,
+        1108,
+        857
+      ],
+      "runtimeEnabled": false,
+      "path": "event_icon_7.png",
+      "size": [
+        88,
+        81
+      ],
+      "sha256": "b07d5961485c7d7ef24d3dd9e4988992fcccd05b41cfd9aa0fa9e3be9544ae93",
+      "pixelSha256": "2c2c2834bf6ed767b790b00629bb7767cf4aaabeca17474a4542181815812277"
+    },
+    {
+      "id": "event_label_7",
+      "label": "丰饶之间文字入口",
+      "state": "正常",
+      "type": "text_button",
+      "box": [
+        311,
+        681,
+        477,
+        735
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        311,
+        788,
+        477,
+        842
+      ],
+      "runtimeEnabled": false,
+      "path": "event_label_7.png",
+      "size": [
+        166,
+        54
+      ],
+      "sha256": "ece7b797682712170543b692d14c535bcd09c66e7a276ff8b0f6f9b07b9285b1",
+      "pixelSha256": "3757d5ff1da6992daae3a34dacd6e15c838877c060783bad58a68b46454ccd7c"
+    },
+    {
+      "id": "arena_rank_marker",
+      "label": "竞技场段位大标志",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        1196,
+        159,
+        1460,
+        330
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1196,
+        266,
+        1460,
+        437
+      ],
+      "runtimeEnabled": false,
+      "path": "arena_rank_marker.png",
+      "size": [
+        264,
+        171
+      ],
+      "sha256": "d268b95ba5d2a02be0a7bebc7823c29dbeb6d556d20682ea3690ee7444e6dec2",
+      "pixelSha256": "3f0010acc4caca35dd6d4d60260aac7a4110e840737214d03e083b425fd1dbc6"
+    },
+    {
+      "id": "completed_stamp",
+      "label": "已完成角标",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        1031,
+        514,
+        1097,
+        562
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1031,
+        621,
+        1097,
+        669
+      ],
+      "runtimeEnabled": false,
+      "path": "completed_stamp.png",
+      "size": [
+        66,
+        48
+      ],
+      "sha256": "047b10c757a442732200f37e496c6652e9cdb6d3028cc39aa16b0735a3e1a285",
+      "pixelSha256": "0521eedae7e9813a2767fa1ec8c56ccebe86107e8b5712d4f9af96f4f581d33f"
+    },
+    {
+      "id": "digit_activity_gold_large_3",
+      "label": "activity_gold_large 单字 3",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        848,
+        949,
+        862,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        848,
+        1056,
+        862,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "3",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 0
+      },
+      "path": "digit_activity_gold_large_3.png",
+      "size": [
+        14,
+        26
+      ],
+      "sha256": "5783e7eef3540992f27a36aa39a013629ebc7e9a6188bbf34ef83f2888bb5c81",
+      "pixelSha256": "346ce4ae88694f1a0fec0b02bff9c362dfd6b6429eb7c9c200d5b901e59755ac"
+    },
+    {
+      "id": "digit_activity_gold_large_5",
+      "label": "activity_gold_large 单字 5",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        867,
+        949,
+        883,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        867,
+        1056,
+        883,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "5",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 1
+      },
+      "path": "digit_activity_gold_large_5.png",
+      "size": [
+        16,
+        26
+      ],
+      "sha256": "25e2bab0fec7d616d540bfa36102bfebc2d34abbf4803ce1af7a1b4c7d855602",
+      "pixelSha256": "cb165ddf24152f7c5de283a5538d6c6f35f442e7c12dd5dea9270bbd48bfed09"
+    },
+    {
+      "id": "digit_activity_gold_large_8",
+      "label": "activity_gold_large 单字 8",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        889,
+        949,
+        904,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        889,
+        1056,
+        904,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "8",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 2
+      },
+      "path": "digit_activity_gold_large_8.png",
+      "size": [
+        15,
+        26
+      ],
+      "sha256": "66528b80ad17196a2a501bc0fed99719de1375b1c6fab8efe64929728f8edafd",
+      "pixelSha256": "cada9e0ffa9bd351b7405983226cfbd4fff50f90398ec63a84704dc08035209e"
+    },
+    {
+      "id": "digit_activity_gold_large_0",
+      "label": "activity_gold_large 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        930,
+        949,
+        946,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        930,
+        1056,
+        946,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 4
+      },
+      "path": "digit_activity_gold_large_0.png",
+      "size": [
+        16,
+        26
+      ],
+      "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9",
+      "pixelSha256": "286c59d80b2a2dc09f806258c2eccdb77d95c390a9f61147a082236d6d59ee59"
+    },
+    {
+      "id": "digit_activity_gold_large_7",
+      "label": "activity_gold_large 单字 7",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        980,
+        950,
+        996,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        980,
+        1057,
+        996,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "7",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 6
+      },
+      "path": "digit_activity_gold_large_7.png",
+      "size": [
+        16,
+        25
+      ],
+      "sha256": "26cf565144d77a57791bd96fb1de794c51e6b68e38e630e2dc6d856381422f7d",
+      "pixelSha256": "73ce67a48ba99b3e7a4bb26fc4463b87b3718797f6cc29e47cff7e904624e454"
+    },
+    {
+      "id": "digit_activity_gold_large_6",
+      "label": "activity_gold_large 单字 6",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1022,
+        949,
+        1038,
+        976
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1022,
+        1056,
+        1038,
+        1083
+      ],
+      "runtimeEnabled": false,
+      "digit": "6",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 8
+      },
+      "path": "digit_activity_gold_large_6.png",
+      "size": [
+        16,
+        27
+      ],
+      "sha256": "2ba16eb933a53382c76d1a3e0398dc7f9b580a32f516a4b30490c73369214771",
+      "pixelSha256": "0ab7d07468410e75f6a83f1d28b972a44846e5bb7e35f26da52af26cf3bf694b"
+    },
+    {
+      "id": "digit_activity_gold_large_9",
+      "label": "activity_gold_large 单字 9",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        472,
+        949,
+        486,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        472,
+        1056,
+        486,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "9",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "0/6950",
+        "index": 3
+      },
+      "path": "digit_activity_gold_large_9.png",
+      "size": [
+        14,
+        26
+      ],
+      "sha256": "ccbd7e02955a9b786522e7e8aa8f9f919598690d38395b063d66755b415d31bf",
+      "pixelSha256": "423581d95d8d0e82969d3fa24d03a71d497e4d3cc9b47de91a79f69672aa41bf"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "calendar",
+      "label": "活动周历",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1415,
+        80,
+        1553,
+        128
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1415,
+        187,
+        1553,
+        235
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/calendar.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "calendar",
+        "sha256": "b720c2389318c2b56322c7af362f7faffaf73898166a9a7b06b96bcdfb53db19"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "scroll_up",
+      "label": "活动列表向上",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1121,
+        155,
+        1151,
+        192
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1121,
+        262,
+        1151,
+        299
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/scroll_up.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "scroll_up",
+        "sha256": "18812cb70ae57154b6b65c8d49df7df4eb5e5b7adf98f402a506422000309202"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "scroll_down",
+      "label": "活动列表向下",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1121,
+        711,
+        1151,
+        750
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1121,
+        818,
+        1151,
+        857
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/scroll_down.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "scroll_down",
+        "sha256": "6ae0ed21247d3685cab7bed46a78ebfb1cd86bb46bf8fb7b5cb85f7cfd7b0b5a"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "frog_available",
+      "label": "绿色活跃奖励蛙",
+      "state": "正常",
+      "type": "reward_state",
+      "box": [
+        466,
+        759,
+        570,
+        842
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        466,
+        866,
+        570,
+        949
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/frog_available.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "frog_available",
+        "sha256": "a8d806b25f51fd22a52839c4f9d43af2e1e2d2e933cab6c274a5f54b370337a6"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "frog_locked",
+      "label": "灰色活跃奖励蛙",
+      "state": "正常",
+      "type": "reward_state",
+      "box": [
+        1222,
+        759,
+        1325,
+        842
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1222,
+        866,
+        1325,
+        949
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/frog_locked.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "frog_locked",
+        "sha256": "9781bc6540cf3002efff501e64ae03c8135c8ddcdd8513137d0fbf3e8b4a8e0f"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "sun_currency",
+      "label": "日之印图标",
+      "state": "正常",
+      "type": "currency_icon",
+      "box": [
+        293,
+        907,
+        379,
+        994
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        293,
+        1014,
+        379,
+        1101
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/sun_currency.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "sun_currency",
+        "sha256": "32039f50f8ceb58fbc3b458c73e78d29b161ef3358fcc1bacbde7861aba4e127"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "moon_currency",
+      "label": "月之印图标",
+      "state": "正常",
+      "type": "currency_icon",
+      "box": [
+        735,
+        907,
+        823,
+        994
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        735,
+        1014,
+        823,
+        1101
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/moon_currency.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "moon_currency",
+        "sha256": "c62fe44cf329f0f530635933841504e1ceed7db20647b038d27b4d200dc5b97f"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "shop_activity",
+      "label": "活动杂货屋入口",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1433,
+        909,
+        1577,
+        1002
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1433,
+        1016,
+        1577,
+        1109
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/shop_activity.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "shop_activity",
+        "sha256": "41c52106ed07737e5e229abafc6805869f96843533bb2bfc78ccff3a5a4f96f7"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "close_panel",
+      "label": "活动面板关闭",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1617,
+        15,
+        1674,
+        74
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1617,
+        122,
+        1674,
+        181
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/close_panel.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "close_panel",
+        "sha256": "b119e7cedf5f05c0d085c1525d3f4df5b5d893c2a94261222e62787ce5a07910"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "tab_recommended",
+      "label": "今日推荐",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        708,
+        55,
+        914,
+        133
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        708,
+        162,
+        914,
+        240
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/tab_recommended.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "tab_recommended",
+        "sha256": "4ae4c4372ba6fdcc02badec7d4f8e624c6e600e757cbb475b13ab15f5e33a16c"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "reward",
+      "label": "段位奖励按钮",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1415,
+        334,
+        1475,
+        373
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1415,
+        441,
+        1475,
+        480
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "arena/20261016-973-team-ready/reward.png",
+        "manifest": "arena/20261016-973-team-ready/manifest.json",
+        "assetId": "reward",
+        "sha256": "831e270b69496e1792cde217caec1011170f5ec517ce4ca2598ad755c5bd8b27"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "reward_silver_many",
+      "label": "大量月之印奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1321,
+        607,
+        1392,
+        677
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1321,
+        714,
+        1392,
+        784
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "activities/20261016-973-timed/reward_silver_many.png",
+        "manifest": "activities/20261016-973-timed/manifest.json",
+        "assetId": "reward_silver_many",
+        "sha256": "f67affe72be53fdb840e5d521c76687e5ec6b7fa8934e1507b3c6b4b7508d747"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_3_1",
+      "label": "activity_gold_large 单字 3",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        911,
+        949,
+        925,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        911,
+        1056,
+        925,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "3",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 3
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_3.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_3",
+        "sha256": "5783e7eef3540992f27a36aa39a013629ebc7e9a6188bbf34ef83f2888bb5c81"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_7_1",
+      "label": "activity_gold_large 单字 7",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1001,
+        950,
+        1017,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1001,
+        1057,
+        1017,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "7",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 7
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_7.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_7",
+        "sha256": "26cf565144d77a57791bd96fb1de794c51e6b68e38e630e2dc6d856381422f7d"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_0_1",
+      "label": "activity_gold_large 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1043,
+        949,
+        1060,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1043,
+        1056,
+        1060,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 9
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_0.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_0",
+        "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_0_2",
+      "label": "activity_gold_large 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1064,
+        949,
+        1081,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        1064,
+        1056,
+        1081,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "35830/77600",
+        "index": 10
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_0.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_0",
+        "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_0_3",
+      "label": "activity_gold_large 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        399,
+        949,
+        415,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        399,
+        1056,
+        415,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "0/6950",
+        "index": 0
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_0.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_0",
+        "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_6_1",
+      "label": "activity_gold_large 单字 6",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        449,
+        949,
+        465,
+        976
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        449,
+        1056,
+        465,
+        1083
+      ],
+      "runtimeEnabled": false,
+      "digit": "6",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "0/6950",
+        "index": 2
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_6.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_6",
+        "sha256": "2ba16eb933a53382c76d1a3e0398dc7f9b580a32f516a4b30490c73369214771"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_5_1",
+      "label": "activity_gold_large 单字 5",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        492,
+        949,
+        508,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        492,
+        1056,
+        508,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "5",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "0/6950",
+        "index": 4
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_5.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_5",
+        "sha256": "25e2bab0fec7d616d540bfa36102bfebc2d34abbf4803ce1af7a1b4c7d855602"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_activity_gold_large_0_4",
+      "label": "activity_gold_large 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        512,
+        949,
+        529,
+        975
+      ],
+      "sourceFilename": "codex-clipboard-1fe45c5c-9b9a-46b5-b944-7188d6080bb0.png",
+      "sourceSha256": "4015c64cc041f66b5cac82c6557a7d77235374f74d8c604b7a9d0601d9ea48d0",
+      "sourceBox": [
+        512,
+        1056,
+        529,
+        1082
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "activity_gold_large",
+      "occurrence": {
+        "text": "0/6950",
+        "index": 5
+      },
+      "reference": {
+        "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_0.png",
+        "manifest": "activities/20261016-973-daily/manifest.json",
+        "assetId": "digit_activity_gold_large_0",
+        "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "只从用户附件离线提取，未操作游戏；裁切坐标不是点击目标。",
+    "已有同功能同状态图标复用引用；语义复用不声称当前画面像素相同。",
+    "数字逐字保存并标注字体样式；不固定业务读数。",
+    "素材候选未自动接入resources/local/image，未改变任务执行。",
+    "日期为接收／整理日期，不推定附件拍摄时间。"
+  ]
+}

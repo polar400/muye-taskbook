@@ -1,0 +1,683 @@
+{
+  "id": "20261016-973-online-gift",
+  "task": "welfare",
+  "label": "福利大厅",
+  "date": "2026-10-16",
+  "accountServer": "973",
+  "scope": "福利大厅",
+  "state": "在线礼包，三个领取按钮可见",
+  "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+  "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "sourceImage": "source.png",
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "tab_online",
+      "label": "在线礼包",
+      "state": "选中",
+      "type": "button",
+      "box": [
+        277,
+        214,
+        539,
+        318
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        277,
+        321,
+        539,
+        425
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_online.png",
+      "size": [
+        262,
+        104
+      ],
+      "sha256": "5beea08e567817fd1584541015dde887a38ef9b5dcf7603e955205d45d96aecb",
+      "pixelSha256": "4a009c406e9887815c448c5d802b7301e59d6bc7b7646015f177945fb929c2d3"
+    },
+    {
+      "id": "tab_daily",
+      "label": "每日福利",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        346,
+        321,
+        548,
+        386
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        346,
+        428,
+        548,
+        493
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_daily.png",
+      "size": [
+        202,
+        65
+      ],
+      "sha256": "42254975f18923459e6e07e89f16068050c04d8ed9569981fa292db305990719",
+      "pixelSha256": "f69b7ade5fce68e71c6d78afceb86e18cbbd61dee4ab97d7758cd849e3c39e7e"
+    },
+    {
+      "id": "tab_fund",
+      "label": "等级基金",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        347,
+        388,
+        554,
+        450
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        347,
+        495,
+        554,
+        557
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_fund.png",
+      "size": [
+        207,
+        62
+      ],
+      "sha256": "55f0a3ddec6c33632697a40b22d9fa102e8bab243d9d5e3360470d6ff00799e3",
+      "pixelSha256": "8f1aa9d536de688a52433fd3dbcbdc188e4def63c9c402632d319e904f7c558c"
+    },
+    {
+      "id": "tab_level",
+      "label": "等级礼包",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        350,
+        452,
+        558,
+        514
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        350,
+        559,
+        558,
+        621
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_level.png",
+      "size": [
+        208,
+        62
+      ],
+      "sha256": "cadb89f9835bb3f03f418652a481272c515681da4a0befee50e0940a596802a4",
+      "pixelSha256": "b9a8d51286ca294b30e54a409e4fab72d4add9508c15ae24d24f4e77e936f435"
+    },
+    {
+      "id": "tab_power",
+      "label": "战斗力礼包",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        351,
+        516,
+        560,
+        578
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        351,
+        623,
+        560,
+        685
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_power.png",
+      "size": [
+        209,
+        62
+      ],
+      "sha256": "7f7a00e07c12b62f8c70d16f8ca26d8e0183f54913c5bc773f4ee6889e42d71c",
+      "pixelSha256": "521fd0c65f1f3e75c55abf48dfe96cc32f02a0cf0a810b602de9d445db57b4cc"
+    },
+    {
+      "id": "tab_recovery",
+      "label": "资源追回",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        353,
+        580,
+        562,
+        642
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        353,
+        687,
+        562,
+        749
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_recovery.png",
+      "size": [
+        209,
+        62
+      ],
+      "sha256": "7add19bf002516bda758ba60c141bf92363732f77639835b11fa61d7cbad48f9",
+      "pixelSha256": "0b8f772e6c5d90611b8dec39884f06b0e4d6f6e6d86e50127751bce6908267b9"
+    },
+    {
+      "id": "claim",
+      "label": "领取按钮",
+      "state": "可见，未操作",
+      "type": "button",
+      "box": [
+        649,
+        735,
+        806,
+        790
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        649,
+        842,
+        806,
+        897
+      ],
+      "runtimeEnabled": false,
+      "path": "claim.png",
+      "size": [
+        157,
+        55
+      ],
+      "sha256": "a9307fd125e01f99abf2d44ed4a0371c7013c07fe93e646f9894c696e7294c71",
+      "pixelSha256": "f977b2e21aecc953e7f8392942782241e4a687fd0e71f72771838a04f75be413"
+    },
+    {
+      "id": "reward_coin",
+      "label": "铜币奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        657,
+        553,
+        712,
+        604
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        657,
+        660,
+        712,
+        711
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_coin.png",
+      "size": [
+        55,
+        51
+      ],
+      "sha256": "7438575096769c579579bad32c181eb011e26e902bfc2fc14652e269738065c7",
+      "pixelSha256": "c1b6b1dd49cf7b02e48dd0a3653e2748853a5c774ac867efd6e15d45a77bcddf"
+    },
+    {
+      "id": "reward_book",
+      "label": "书本奖励（物品名称未确认）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        736,
+        558,
+        795,
+        605
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        736,
+        665,
+        795,
+        712
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_book.png",
+      "size": [
+        59,
+        47
+      ],
+      "sha256": "0fd59df8a5887d6205590afb89f5c4a062f6ace0c9a8bf4c1d976de8b92f98bb",
+      "pixelSha256": "c36cf08cfb5b6ccecadd06037358a4ee858bf6b04fbc34688a793ff09341b363"
+    },
+    {
+      "id": "reward_ramen",
+      "label": "拉面奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        653,
+        640,
+        706,
+        704
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        653,
+        747,
+        706,
+        811
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_ramen.png",
+      "size": [
+        53,
+        64
+      ],
+      "sha256": "f14225727d65b836569445bdf959010a1651c97fd3d79b464322d112d1d3547e",
+      "pixelSha256": "803bc6f115427ce5f19ca2565afbfa50d1665948c5a21f5207821c883dfe6887"
+    },
+    {
+      "id": "reward_megaphone",
+      "label": "喇叭奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        737,
+        638,
+        790,
+        704
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        737,
+        745,
+        790,
+        811
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_megaphone.png",
+      "size": [
+        53,
+        66
+      ],
+      "sha256": "6ce766a07e6ed7ad4751fe863eeca2ce0814e7fe9ca96738a2b5b430e43522eb",
+      "pixelSha256": "f970da89f9ec19340586fde44a37fc7cf026939de25ee012118a446df668c7f9"
+    },
+    {
+      "id": "reward_scroll",
+      "label": "卷轴奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1037,
+        551,
+        1090,
+        617
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1037,
+        658,
+        1090,
+        724
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_scroll.png",
+      "size": [
+        53,
+        66
+      ],
+      "sha256": "3efb4501cb9fedded053fc8c80c5a0f95ba55ba252c65a93428c165d4dd4f726",
+      "pixelSha256": "83234002daf08a717084e45716093db23e01c3057151813c8b0cd0496fdc0dca"
+    },
+    {
+      "id": "reward_food",
+      "label": "烤肉奖励（物品名称未确认）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        953,
+        639,
+        1013,
+        703
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        953,
+        746,
+        1013,
+        810
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_food.png",
+      "size": [
+        60,
+        64
+      ],
+      "sha256": "4ba3ff22cc32d19349acc88902bbfd35ac0209444631b6622622a42b7fd7271e",
+      "pixelSha256": "397449a934f8434238f078bff5e75a86dfa368fe7775b4220326a18ddab983bd"
+    },
+    {
+      "id": "reward_potion",
+      "label": "奔跑忍者图标奖励（物品名称未确认）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1037,
+        638,
+        1091,
+        701
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1037,
+        745,
+        1091,
+        808
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_potion.png",
+      "size": [
+        54,
+        63
+      ],
+      "sha256": "d96384d05a096c354d938e600f7e8da97e04e63958b588525e6c9519d29f8dc7",
+      "pixelSha256": "4ca71cb10dce476ce51330b6ceb4e48cf46050a3dc41fc1ddcc437bede3e65b3"
+    },
+    {
+      "id": "reward_dango",
+      "label": "团子奖励（保留原数量2角标）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1332,
+        550,
+        1405,
+        623
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1332,
+        657,
+        1405,
+        730
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_dango.png",
+      "size": [
+        73,
+        73
+      ],
+      "sha256": "6a960581f40400496e2dfcc32873ade93dc38ed0c6a4d256640d9fb81c17d523",
+      "pixelSha256": "c059c9f93cb66819fc9f6641da72d4d2991651edf78b60c95f0f67f68d12acf0"
+    },
+    {
+      "id": "reward_coupon",
+      "label": "点券奖励",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1254,
+        640,
+        1318,
+        690
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1254,
+        747,
+        1318,
+        797
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_coupon.png",
+      "size": [
+        64,
+        50
+      ],
+      "sha256": "6178e0595811d0cd62ff8b7c06c5af78a547ee47eee5c3f31da42b179d3bd709",
+      "pixelSha256": "670019771aec9f3bc30ae290117501276725607aa3d3fc0be99fd868e0be6046"
+    },
+    {
+      "id": "reward_water",
+      "label": "蓝色药水奖励（物品名称未确认）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        1341,
+        639,
+        1389,
+        705
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1341,
+        746,
+        1389,
+        812
+      ],
+      "runtimeEnabled": false,
+      "path": "reward_water.png",
+      "size": [
+        48,
+        66
+      ],
+      "sha256": "4124978c78d158b6c71782fefc76507b7f4d04708a1da6f400846e2f066dece1",
+      "pixelSha256": "b5822bfaf09306525f0441c1e1dcbf29f75843b5c69b9bc035c8111da994d89e"
+    },
+    {
+      "id": "claim_state_1",
+      "label": "在线满10分钟可领取标记",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        555,
+        455,
+        655,
+        675
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        555,
+        562,
+        655,
+        782
+      ],
+      "runtimeEnabled": false,
+      "path": "claim_state_1.png",
+      "size": [
+        100,
+        220
+      ],
+      "sha256": "be8f0acae565372d02241350e2ec62e18aff976ecf167e22718df187adfe9156",
+      "pixelSha256": "371cbc567f7f6c0776406e563f5b509cc526784ec6beaeed3eed5a52fec1bf49"
+    },
+    {
+      "id": "claim_state_2",
+      "label": "在线满30分钟可领取标记",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        850,
+        455,
+        950,
+        675
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        850,
+        562,
+        950,
+        782
+      ],
+      "runtimeEnabled": false,
+      "path": "claim_state_2.png",
+      "size": [
+        100,
+        220
+      ],
+      "sha256": "b04dada9e88558359d28fe942f7a2505170ff694229190c8f77991179a5d004a",
+      "pixelSha256": "2fbb87a593333c84f734964802865e3ccbd337b692d9f39e72c751c313f2cc97"
+    },
+    {
+      "id": "claim_state_3",
+      "label": "在线满60分钟可领取标记",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        1145,
+        455,
+        1245,
+        675
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1145,
+        562,
+        1245,
+        782
+      ],
+      "runtimeEnabled": false,
+      "path": "claim_state_3.png",
+      "size": [
+        100,
+        220
+      ],
+      "sha256": "798b10f30babe74b3a1b14ddf3ad6299adadbb5a9f30dce505106bde854d34bb",
+      "pixelSha256": "47649ffb354f16b4296a08dfd86cf4fe7b2ea4c64e54af3137601df9f9084806"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "close_panel",
+      "label": "福利大厅关闭",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1572,
+        102,
+        1628,
+        160
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1572,
+        209,
+        1628,
+        267
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/close_panel.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "close_panel",
+        "sha256": "b119e7cedf5f05c0d085c1525d3f4df5b5d893c2a94261222e62787ce5a07910"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "claim_2",
+      "label": "领取按钮2",
+      "state": "可见，未操作",
+      "type": "button",
+      "box": [
+        942,
+        735,
+        1100,
+        790
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        942,
+        842,
+        1100,
+        897
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "welfare/20261016-973-online-gift/claim.png",
+        "manifest": "welfare/20261016-973-online-gift/manifest.json",
+        "assetId": "claim",
+        "sha256": "a9307fd125e01f99abf2d44ed4a0371c7013c07fe93e646f9894c696e7294c71"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "claim_3",
+      "label": "领取按钮3",
+      "state": "可见，未操作",
+      "type": "button",
+      "box": [
+        1238,
+        735,
+        1396,
+        790
+      ],
+      "sourceFilename": "codex-clipboard-3163deb0-8d89-482e-bcd0-bfd42aaf58aa.png",
+      "sourceSha256": "aa83f9920a08bef3115909781edbcd9fd8385197bc8d0a76dee76f61297de731",
+      "sourceBox": [
+        1238,
+        842,
+        1396,
+        897
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "welfare/20261016-973-online-gift/claim.png",
+        "manifest": "welfare/20261016-973-online-gift/manifest.json",
+        "assetId": "claim",
+        "sha256": "a9307fd125e01f99abf2d44ed4a0371c7013c07fe93e646f9894c696e7294c71"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "只从用户附件离线提取，未操作游戏；裁切坐标不是点击目标。",
+    "已有同功能同状态图标复用引用；语义复用不声称当前画面像素相同。",
+    "数字逐字保存并标注字体样式；不固定业务读数。",
+    "素材候选未自动接入resources/local/image，未改变任务执行。",
+    "日期为接收／整理日期，不推定附件拍摄时间。"
+  ]
+}

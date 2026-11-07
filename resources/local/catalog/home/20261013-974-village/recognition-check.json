@@ -1,0 +1,51 @@
+{
+  "taskEntries": {
+    "entry_survival": [
+      {
+        "box": [
+          1018,
+          113,
+          70,
+          59
+        ],
+        "score": 0.951096,
+        "template": "entry_survival"
+      }
+    ],
+    "entry_strong": [
+      {
+        "box": [
+          1206,
+          112,
+          62,
+          61
+        ],
+        "score": 0.947661,
+        "template": "entry_strong"
+      }
+    ],
+    "entry_ranked": [
+      {
+        "box": [
+          1479,
+          10,
+          61,
+          58
+        ],
+        "score": 0.973309,
+        "template": "entry_ranked"
+      }
+    ]
+  },
+  "hostingComputer": {
+    "box": [
+      665,
+      124,
+      46,
+      43
+    ],
+    "score": 0.924402,
+    "template": "computer"
+  },
+  "gameInput": false
+}

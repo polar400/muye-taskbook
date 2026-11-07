@@ -1,0 +1,14 @@
+{
+  "status": "verified-probe-only",
+  "rootWindowTitle": "火影忍者ol",
+  "rootWindowClass": "DUIWindow",
+  "inputWindowClass": "NativeWindowClass",
+  "captureMethod": "FramePool",
+  "inputMethod": "DirectWindowPostMessage",
+  "referenceWindowPixels": [1920,1122],
+  "referenceGameRectPixels": [0,106,1894,990],
+  "referenceInputClientSize": [1263,660],
+  "supportsOcclusion": true,
+  "supportsTrueMinimize": false,
+  "note": "仅为本轮实测基准。运行时重新测量窗口、DPI和客户区，不能固定复用句柄或坐标。"
+}

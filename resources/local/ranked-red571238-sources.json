@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "annotation": "571238",
+  "actualGameInputs": 0,
+  "sources": [
+    {
+      "path": "verification/failure-20261106-005541-308d39bb9a19-ranked.png",
+      "sha256": "1c0311c142c91b8a4889b1210a5e1a86021be8bc53f6f7a280a4c9af812b9367"
+    },
+    {
+      "path": "verification/failure-20261106-005612-02e7419ac0d1-ranked.png",
+      "sha256": "d2806ec5ab25c9b5c39a6026ef8b57bc6e4153f99f28b93b3221c655ad89b780"
+    }
+  ],
+  "templates": [
+    {
+      "digit": "7",
+      "glyphIndex": 1,
+      "path": "resources/local/image/ranked_power_digit7_failure571238_1.png",
+      "sha256": "e309bb7d6d65a83878e231302d08ba929721d7e6df11a24c9224ede21046a8e7",
+      "pixelSha256": "09833a88fe7ca396b135177c985fecf0ac73f50d4223e9f150f613f17cfe36f6",
+      "shape": [
+        18,
+        25
+      ],
+      "sourceBoxes": [
+        [
+          218,
+          107,
+          243,
+          125
+        ],
+        [
+          218,
+          107,
+          243,
+          125
+        ]
+      ]
+    },
+    {
+      "digit": "8",
+      "glyphIndex": 5,
+      "path": "resources/local/image/ranked_power_digit8_failure571238_5.png",
+      "sha256": "719106c9ac15d1b2d0cf1bfafebec3616b4112afb50f76d48be9329b51044c0f",
+      "pixelSha256": "646cc27c3fc44c7056d4857237d7f04bb743aab0cc91100cbc12cfc11d287155",
+      "shape": [
+        21,
+        28
+      ],
+      "sourceBoxes": [
+        [
+          339,
+          106,
+          367,
+          127
+        ],
+        [
+          339,
+          106,
+          367,
+          127
+        ]
+      ]
+    }
+  ],
+  "notes": [
+    "Both observations have identical new glyph pixels; not independent font holdouts.",
+    "Only 7 and 8 are added; existing reader thresholds and all old templates retained."
+  ]
+}

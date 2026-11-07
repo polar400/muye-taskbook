@@ -1,0 +1,176 @@
+{
+  "passed": 21,
+  "results": [
+    {
+      "detail": [
+        "生存演习",
+        "强者降临",
+        "游戏内托管",
+        "排位战编辑中",
+        "通缉任务",
+        "押镖（接取）"
+      ],
+      "name": "six_manifest_tasks",
+      "passed": true
+    },
+    {
+      "detail": "请至少勾选一项任务。",
+      "name": "empty_queue_blocked",
+      "passed": true
+    },
+    {
+      "detail": "排位战",
+      "name": "edit_target_explicit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "after": 2,
+        "before": 3
+      },
+      "name": "queue_reorder",
+      "passed": true
+    },
+    {
+      "detail": "900",
+      "name": "advanced_controls",
+      "passed": true
+    },
+    {
+      "detail": "common",
+      "name": "keyboard_tabs",
+      "passed": true
+    },
+    {
+      "detail": "请输入 1–20 之间的整数",
+      "name": "out_of_range_count_blocked",
+      "passed": true
+    },
+    {
+      "detail": "请输入 0–100 之间的整数",
+      "name": "field_feedback",
+      "passed": true
+    },
+    {
+      "detail": {
+        "battleSeconds": 900,
+        "counts": {
+          "A": 2,
+          "B": 3,
+          "C": 5,
+          "S": 2,
+          "SS": 1
+        },
+        "difficulty": "阿修罗级",
+        "escortGrade": "SS",
+        "escortRefreshLimit": 4,
+        "grades": [
+          "SS",
+          "S",
+          "A",
+          "B",
+          "C"
+        ],
+        "hostingMinutes": 90,
+        "order": [
+          "survival",
+          "strong",
+          "ranked",
+          "hosting",
+          "wanted",
+          "escort"
+        ],
+        "rankedAll": false,
+        "rankedCount": 2,
+        "rankedServer": "本服",
+        "reset": true,
+        "selected": [
+          "ranked"
+        ],
+        "survivalGoal": 220,
+        "survivalInitial": 60,
+        "tolerance": 20
+      },
+      "name": "browser_persistence",
+      "passed": true
+    },
+    {
+      "detail": "演示运行中",
+      "name": "main_button_starts",
+      "passed": true
+    },
+    {
+      "detail": {
+        "now": 2,
+        "pausedEvents": 2
+      },
+      "name": "pause_freezes_events",
+      "passed": true
+    },
+    {
+      "detail": "演示运行中",
+      "name": "resume",
+      "passed": true
+    },
+    {
+      "detail": {
+        "now": 4,
+        "stoppedEvents": 4
+      },
+      "name": "stop_cancels_pending_queue",
+      "passed": true
+    },
+    {
+      "detail": "演示已中止",
+      "name": "uncertain_result_stops_without_retry",
+      "passed": true
+    },
+    {
+      "detail": "open",
+      "name": "guide_dialog",
+      "passed": true
+    },
+    {
+      "detail": "open",
+      "name": "honest_connection_boundary",
+      "passed": true
+    },
+    {
+      "detail": {
+        "label": "队列演示结束",
+        "status": "接取演示"
+      },
+      "name": "completion_and_partial_scope",
+      "passed": true
+    },
+    {
+      "detail": {
+        "firstLog": 0,
+        "followed": 175
+      },
+      "name": "auto_follow_toggle",
+      "passed": true
+    },
+    {
+      "detail": 237,
+      "name": "log_fulltext_available",
+      "passed": true
+    },
+    {
+      "detail": [
+        "http://127.0.0.1:4175/styles.css",
+        "http://127.0.0.1:4175/app.js"
+      ],
+      "name": "same_origin_resources",
+      "passed": true
+    },
+    {
+      "detail": {
+        "documentWidth": 1440,
+        "width": 1440
+      },
+      "name": "no_horizontal_overflow",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "sourceFilename": "codex-clipboard-499a6f4b-03e6-4795-8e0b-d080ff958ea6.png",
+  "sourceImage": "idle-home-user-source.png",
+  "sourceSha256": "14d2e8daf55b097bbbd530b89023cf31ae1c5194120c919ede1220dc198f5064",
+  "gameImage": "idle-home-game.png",
+  "gameCrop": [
+    45,
+    151,
+    1965,
+    1166
+  ],
+  "gameSha256": "17e1e96852271abe79b41337de94a28bdbc93fb2e7bf9c311bc342fbcd0ea24f",
+  "runtimeTemplatesAdded": 0,
+  "gameInput": false
+}

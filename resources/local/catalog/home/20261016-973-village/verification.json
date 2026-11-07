@@ -1,0 +1,25 @@
+{
+  "sampleId": "20261016-973-village",
+  "label": "主界面",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 24,
+  "newDigitCrops": 5,
+  "reusedAssets": 38,
+  "reuseReasons": {
+    "existing_semantic_same_state": 37,
+    "identical_foreground_mask": 1
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "生存演习",
+    "木叶村南e09.1s4"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

@@ -1,0 +1,62 @@
+{
+  "task": "wanted",
+  "gameInput": false,
+  "sources": [
+    {
+      "originalFilename": "codex-clipboard-abcfd631-3355-45c1-8af0-6b09b8eef45d.png",
+      "path": "resources/local/wanted/autopath-home-user-source.png",
+      "sha256": "54755da35a2cfdd248d2a73f10df30c13f831849bf848f4e11b93c82f829ffad",
+      "size": [
+        2010,
+        1212
+      ]
+    },
+    {
+      "originalFilename": "codex-clipboard-fab8420b-a603-459f-99bc-41ffdffecbf0.png",
+      "path": "resources/local/wanted/autopath-label-user-source.png",
+      "sha256": "d605d9e2a62c65d6f3f6a4a48b4eb782b6f9eab2a5dc58b0ef0dcc287a07fa82",
+      "size": [
+        250,
+        102
+      ]
+    },
+    {
+      "originalFilename": "codex-clipboard-604d768c-f61c-45e4-8ec7-3a63805938c5.png",
+      "path": "resources/local/image/wanted_autopath_label_user20261019.png",
+      "sha256": "b5538cb8291fdbc6d9e52ec5d9fd88d0f068a09c40689786a84d0b0dd5db8516",
+      "size": [
+        249,
+        49
+      ]
+    }
+  ],
+  "gameImage": "resources/local/wanted/autopath-home-game.png",
+  "gameCrop": [
+    45,
+    151,
+    1965,
+    1166
+  ],
+  "gameSha256": "2f59d8f76858e507830870d3487c1c4c8b118fa8019634b6255e00818a0a1f02",
+  "assets": [
+    {
+      "path": "resources/local/image/wanted_autopath_label_user20261019.png",
+      "source": "resources/local/image/wanted_autopath_label_user20261019.png",
+      "sourceBox": [
+        0,
+        0,
+        249,
+        49
+      ],
+      "meaning": "用户提供的自动寻路中文字原片，原字节直接作为运行模板，不重复裁剪。"
+    }
+  ],
+  "runtimeTemplatesAdded": 1,
+  "threshold": 0.9,
+  "roi": [
+    0.36,
+    0.08,
+    0.6,
+    0.2
+  ]
+}

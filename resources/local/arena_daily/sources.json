@@ -1,0 +1,122 @@
+[
+  {
+    "name": "eligible",
+    "source": "resources/local/catalog/arena/20261016-973-team-ready/condition_met.png",
+    "box": null,
+    "path": "resources/local/arena_daily/image/eligible.png",
+    "sourceSha256": "88bf5514ef800c134af4300850664bbeefbd547c941dbd8b8698108620e533a0",
+    "sha256": "88bf5514ef800c134af4300850664bbeefbd547c941dbd8b8698108620e533a0"
+  },
+  {
+    "name": "unmet",
+    "source": "resources/local/arena/references/reward-unmet-user.png",
+    "box": [
+      119,
+      424,
+      220,
+      453
+    ],
+    "path": "resources/local/arena_daily/image/unmet.png",
+    "sourceSha256": "b0f1d85ad0912bdcb4870b1172fcaa4545abc08e2be07635b3af801c8ea69b9a",
+    "sha256": "6095c95d9d5f3f03ca438f000d5f2636caa59be20ad72a20064b5f8a7fd034cd"
+  },
+  {
+    "name": "claim",
+    "source": "resources/local/arena/references/reward-ready-user.png",
+    "box": [
+      137,
+      373,
+      235,
+      409
+    ],
+    "path": "resources/local/arena_daily/image/claim.png",
+    "sourceSha256": "07f17f3527b1fa1160f087641c4ac38247cf7161abfda194e657af1aab6ac7d8",
+    "sha256": "d779cd46e87abd3a95b4ad6a898ef76a4901db19258369534ffc8710b763e936"
+  },
+  {
+    "name": "lower",
+    "source": "resources/local/arena/references/lower-difficulty-user.png",
+    "box": [
+      107,
+      13,
+      206,
+      52
+    ],
+    "path": "resources/local/arena_daily/image/lower.png",
+    "sourceSha256": "82a919e0aba37d326ce1c6324aee7356c738ad510a053b24751b9909546e9958",
+    "sha256": "83c4dfcb8d7ca3c0c9ab38e42fec31addbc010a942d7afc9d53bdd70c1680e16"
+  },
+  {
+    "name": "progress_zero",
+    "source": "resources/local/catalog/arena/20261016-973-team-ready/game.png",
+    "box": [
+      224,
+      530,
+      320,
+      553
+    ],
+    "path": "resources/local/arena_daily/image/progress_zero.png",
+    "sourceSha256": "e7f2111659fbf95d2bbc4c3c766cc5d12afd61b441e871ad9ab835730cd8d4f9",
+    "sha256": "78ea4535a5da9c5f0f28ff8e59728ec4f9c7b5ca12fc0796784b99ae07a1154e"
+  },
+  {
+    "name": "progress_zero_unmet",
+    "source": "resources/local/arena/references/reward-unmet-user.png",
+    "box": [
+      120,
+      460,
+      219,
+      486
+    ],
+    "path": "resources/local/arena_daily/image/progress_zero_unmet.png",
+    "sourceSha256": "b0f1d85ad0912bdcb4870b1172fcaa4545abc08e2be07635b3af801c8ea69b9a",
+    "sha256": "7e093213b35b2146ed63f3fd7758c228cfaed7d1f997059856cbe45b21e6e14b"
+  },
+  {
+    "name": "progress_zero_lower",
+    "source": "resources/local/arena/references/lower-difficulty-user.png",
+    "box": [
+      107,
+      57,
+      208,
+      83
+    ],
+    "path": "resources/local/arena_daily/image/progress_zero_lower.png",
+    "sourceSha256": "82a919e0aba37d326ce1c6324aee7356c738ad510a053b24751b9909546e9958",
+    "sha256": "e4a70da97a2fa119a5b501e63ffdb9b1c678b5a9e85a70e0d3ee54cf5006e4d6"
+  },
+  {
+    "name": "progress_done",
+    "source": "resources/local/arena/references/reward-ready-user.png",
+    "box": [
+      139,
+      415,
+      237,
+      439
+    ],
+    "path": "resources/local/arena_daily/image/progress_done.png",
+    "sourceSha256": "07f17f3527b1fa1160f087641c4ac38247cf7161abfda194e657af1aab6ac7d8",
+    "sha256": "bb93446139f78be472e8ab73cf5255493a2389bbc2deb2c3306cc03d9f236efc"
+  },
+  {
+    "name": "header",
+    "source": "resources/local/arena/task_header.png",
+    "box": null,
+    "path": "resources/local/arena_daily/image/header.png",
+    "sourceSha256": "0c8e5d024768fa9c03602d2260f0fa9d287da4758e54de63d1cf5f1034713dea",
+    "sha256": "0c8e5d024768fa9c03602d2260f0fa9d287da4758e54de63d1cf5f1034713dea"
+  },
+  {
+    "name": "lower_highlight",
+    "source": "verification/arena-hover-live-20261020-000058-120721/physical-after-1.png",
+    "box": [
+      220,
+      485,
+      319,
+      524
+    ],
+    "path": "resources/local/arena_daily/image/lower_highlight.png",
+    "sourceSha256": "93d11e7090097165934b9f85e7f05b6f78e18042b053c768c2c553384b391631",
+    "sha256": "ace235c3c6c3c4523b7c5a3e7d85eb9f1e60432924f30b5df534ed3c7964a009"
+  }
+]

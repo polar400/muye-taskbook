@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="六种滚动交互的灰白网页原型：触发、联动、视差、吸顶、吸附与横向滚动。">
+  <title>Scroll Studies · 滚动交互实验室</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="reading-track" role="progressbar" aria-label="页面阅读进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="reading-bar"></div></div>
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">≋</span> SCROLL STUDIES <span class="edition">/ 交互实验室</span></a>
+    <div class="header-actions"><span id="reading-number">00%</span><button id="motion-toggle" aria-pressed="false">减少动效</button></div>
+  </header>
+  <nav class="chapter-nav" aria-label="动效导航">
+    <span class="nav-caption">六种滚动方式</span>
+    <a href="#triggered"><b>01</b> 触发</a><a href="#linked"><b>02</b> 联动</a><a href="#parallax"><b>03</b> 视差</a><a href="#sticky"><b>04</b> 吸顶</a><a href="#snap"><b>05</b> 吸附</a><a href="#horizontal"><b>06</b> 横向</a>
+    <span class="nav-foot">向下滚动，亲手体验 <span aria-hidden="true">↓</span></span>
+  </nav>
+  <main id="top">
+    <section class="hero">
+      <div class="eyebrow"><span class="dot"></span> INTERACTION COLLECTION — VOL. 01</div>
+      <h1>让滚动，<br>成为<span class="outline-text">叙事。</span></h1>
+      <div class="hero-bottom"><p>一次滚动，六种表达。<br>在简约的线框中，观察距离、节奏与空间。</p><a class="round-link" href="#triggered" aria-label="开始体验滚动触发"><span aria-hidden="true">↘</span></a></div>
+      <div class="hero-meta"><span>灰白线框 / 可交互原型</span><span>SCROLL TO EXPLORE ↓</span><span>06 EXPERIMENTS</span></div>
+    </section>
+
+    <section id="triggered" class="experiment">
+      <div class="section-heading"><div><span class="eyebrow">01 / SCROLL-TRIGGERED</span><h2>出现，只需一个契机。</h2><p>卡片进入视口后自动播完入场动画。离开再回来，也不会重复播放。</p></div><span class="mode-tag">进入视口 → 播放一次</span></div>
+      <div class="reveal-grid">
+        <article class="reveal-card"><div class="card-top"><span>01</span><span class="reveal-state">等待进入</span></div><div class="wire-art art-circle" aria-hidden="true"><i></i><i></i></div><h3>先看见</h3><p>透明度从 0 到 1，内容缓缓浮现。</p></article>
+        <article class="reveal-card"><div class="card-top"><span>02</span><span class="reveal-state">等待进入</span></div><div class="wire-art art-grid" aria-hidden="true"><i></i><i></i><i></i><i></i></div><h3>再靠近</h3><p>轻微向上移动，让入场更有呼吸感。</p></article>
+        <article class="reveal-card"><div class="card-top"><span>03</span><span class="reveal-state">等待进入</span></div><div class="wire-art art-lines" aria-hidden="true"><i></i><i></i><i></i></div><h3>然后停留</h3><p>动画完成后保留状态，不随滚动倒放。</p></article>
+      </div>
+      <div class="section-note"><span>一次触发 · 独立播放</span><span>往回滚动，检查卡片是否保持可见 ↑</span></div>
+    </section>
+
+    <section id="linked" class="experiment linked-section">
+      <div class="section-heading"><div><span class="eyebrow">02 / SCROLL-LINKED</span><h2>你的滚动，就是时间轴。</h2><p>向下推进，向上回退。顶部阅读条随整页进度拉伸，下方实验随本段距离同步。</p></div><span class="mode-tag">滚动距离 → 动画进度</span></div>
+      <div class="linked-runway"><div class="linked-stage"><div class="stage-caption"><span>SCROLL TIMELINE</span><output id="linked-percent">0%</output></div><div class="timeline-line"><div id="timeline-fill"></div><span id="timeline-orb"></span></div><div class="timeline-labels"><span>起点 / 0</span><span>过程 / 50</span><span>终点 / 100</span></div><div class="linked-preview"><div id="linked-square" aria-hidden="true"></div><div><h3>每一帧，都由你决定。</h3><p>试着停下滚轮，再向上滚动。</p></div></div></div></div>
+      <div class="section-note"><span>实时同步 · 可以倒放</span><span>顶部细线展示整页阅读进度</span></div>
+    </section>
+
+    <section id="parallax" class="experiment">
+      <div class="section-heading"><div><span class="eyebrow">03 / PARALLAX</span><h2>同一方向，不同速度。</h2><p>远景缓慢移动，近景更快经过。多层灰阶，让平面拥有空间深度。</p></div><span class="mode-tag">多层速度 → 空间深度</span></div>
+      <div class="parallax-scene"><div class="scene-grid" aria-hidden="true"></div><div class="scene-sun parallax-layer" data-speed="0.12" aria-hidden="true"></div><div class="mountain mountain-back parallax-layer" data-speed="0.2" aria-hidden="true"></div><div class="mountain mountain-mid parallax-layer" data-speed="0.4" aria-hidden="true"></div><div class="mountain mountain-front parallax-layer" data-speed="0.7" aria-hidden="true"></div><div class="scene-title"><span>DEPTH STUDY</span><strong>远 · 中 · 近</strong></div><div class="scene-labels"><span>远景 × 0.12</span><span>中景 × 0.40</span><span>近景 × 0.70</span></div></div>
+      <div class="section-note"><span>多层错位 · 连续变化</span><span>上下滚动，观察山形与圆的位置变化</span></div>
+    </section>
+
+    <section id="sticky" class="experiment">
+      <div class="section-heading"><div><span class="eyebrow">04 / STICKY</span><h2>页面向前，重点留下。</h2><p>左侧卡片到达顶部后固定，右侧内容继续滚动；本段结束后，卡片自然离开。</p></div><span class="mode-tag">到达顶部 → 固定位置</span></div>
+      <div class="sticky-layout"><aside class="sticky-card"><div class="card-top"><span>PINNED NOTE</span><span aria-hidden="true">↗</span></div><div class="pin-symbol" aria-hidden="true">＋</div><h3>把注意力<br>留在这里。</h3><p>这张卡片会在本段内停靠，陪你读完右侧的三个章节。</p><span class="sticky-indicator">POSITION: STICKY</span></aside><div class="sticky-copy"><article><span>CHAPTER / 01</span><h3>滚到边界</h3><p>开始时，卡片和普通内容一样随页面移动。接近顶部时，它进入固定状态。</p><div class="wire-block"></div></article><article><span>CHAPTER / 02</span><h3>保持位置</h3><p>继续向下，左侧不再移动。目录、注释或产品预览可以用这种方式陪伴阅读。</p><div class="wire-block short"></div></article><article><span>CHAPTER / 03</span><h3>自然离场</h3><p>吸顶只在父区块范围内生效。读完本段，卡片会随区块一起离开视口。</p><div class="wire-block"></div></article></div></div>
+    </section>
+
+    <section id="snap" class="experiment">
+      <div class="section-heading"><div><span class="eyebrow">05 / SCROLL SNAP</span><h2>每次停下，恰好一屏。</h2><p>把鼠标放进下方画框内滚动，松手后对齐完整区块。也可以点击圆点或箭头切换。</p></div><span class="mode-tag">滚动结束 → 自动对齐</span></div>
+      <div class="snap-shell"><div class="snap-toolbar"><span>在画框内滚动 ↓</span><span id="snap-count" aria-live="polite">01 / 03</span></div><div class="snap-window" tabindex="0" aria-label="滚动吸附演示，包含三个整屏区块"><article class="snap-page"><span>FRAME / 01</span><div class="snap-graphic graphic-one" aria-hidden="true"></div><h3>留白，是第一幕。</h3><p>向下滚动，进入下一屏</p></article><article class="snap-page"><span>FRAME / 02</span><div class="snap-graphic graphic-two" aria-hidden="true"></div><h3>秩序，是第二幕。</h3><p>停止滚动，画面会自动归位</p></article><article class="snap-page"><span>FRAME / 03</span><div class="snap-graphic graphic-three" aria-hidden="true"></div><h3>完整，是最后一幕。</h3><p>继续滚动可离开演示区</p></article></div><div class="snap-controls"><button id="snap-prev" aria-label="上一个吸附区块">←</button><div class="snap-dots"><button aria-label="跳到吸附区块 1" aria-pressed="true"></button><button aria-label="跳到吸附区块 2" aria-pressed="false"></button><button aria-label="跳到吸附区块 3" aria-pressed="false"></button></div><button id="snap-next" aria-label="下一个吸附区块">→</button></div></div>
+    </section>
+
+    <section id="horizontal" class="experiment horizontal-section">
+      <div class="section-heading"><div><span class="eyebrow">06 / HORIZONTAL SCROLL</span><h2>向下滚，向旁边看。</h2><p>保持向下滚动，卡片从右向左依次展开。走到最后，页面继续向下。</p></div><span class="mode-tag">垂直输入 → 水平位移</span></div>
+      <div class="horizontal-runway"><div class="horizontal-stage"><div class="stage-caption"><span>A DIFFERENT DIRECTION →</span><output id="horizontal-percent">0%</output></div><div class="horizontal-viewport"><div class="horizontal-track"><article class="horizontal-card"><span>01 / START</span><div class="horizontal-art h-art-one" aria-hidden="true"></div><h3>换个方向</h3><p>滚轮依然向下，视线开始向右。</p></article><article class="horizontal-card"><span>02 / CONTINUE</span><div class="horizontal-art h-art-two" aria-hidden="true"></div><h3>展开过程</h3><p>卡片随着滚动距离连续移动。</p></article><article class="horizontal-card"><span>03 / EXPLORE</span><div class="horizontal-art h-art-three" aria-hidden="true"></div><h3>沿途停留</h3><p>停下滚轮，画面也停在当前进度。</p></article><article class="horizontal-card"><span>04 / FINISH</span><div class="horizontal-art h-art-four" aria-hidden="true"></div><h3>回到纵向</h3><p>到达终点后，继续阅读下方内容。</p></article></div></div><div class="horizontal-meter"><div id="horizontal-fill"></div></div></div></div>
+    </section>
+    <footer class="page-footer"><span class="eyebrow">END OF COLLECTION</span><h2>滚动有终点。<br><span>灵感没有。</span></h2><a class="text-link" href="#top">回到顶部 ↗</a><div class="footer-meta"><span>SCROLL STUDIES / 六种交互原型</span><span>纯本地 · 无外部依赖</span></div></footer>
+  </main>
+  <noscript><p class="noscript">请启用 JavaScript 体验触发、联动、视差和横向动效；吸顶与吸附仍可使用。</p></noscript>
+</body>
+</html>

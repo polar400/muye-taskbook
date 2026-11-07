@@ -1,0 +1,26 @@
+{
+  "format": "naruto-task-resource-v1",
+  "tasks": [
+    {"id":"survival","label":"生存演习","entry":"Survival"},
+    {"id":"strong","label":"强者降临","entry":"Strong"},
+    {"id":"hosting","label":"游戏内托管","entry":"Hosting"},
+    {"id":"ranked","label":"排位战","entry":"Ranked"},
+    {"id":"wanted","label":"通缉任务","entry":"Wanted"},
+    {"id":"escort","label":"押镖（接取）","entry":"Escort"},
+    {"id":"arena","label":"竞技场","entry":"Arena"},
+    {"id":"team_instance","label":"组队副本","entry":"TeamInstance"},
+    {"id":"welfare","label":"福利大厅","entry":"Welfare"}
+  ],
+  "nodes": {
+    "Welfare":{"action":{"type":"Custom","handler":"welfare"},"next":["Complete"]},
+    "TeamInstance":{"action":{"type":"Custom","handler":"team_instance"},"next":["Complete"]},
+    "Arena":{"action":{"type":"Custom","handler":"arena"},"next":["Complete"]},
+    "Wanted":{"action":{"type":"Custom","handler":"wanted"},"next":["Complete"]},
+    "Survival":{"action":{"type":"Custom","handler":"survival"},"next":["Complete"]},
+    "Strong":{"action":{"type":"Custom","handler":"strong"},"next":["Complete"]},
+    "Hosting":{"action":{"type":"Custom","handler":"hosting"},"next":["Complete"]},
+    "Ranked":{"action":{"type":"Custom","handler":"ranked"},"next":["Complete"]},
+    "Escort":{"action":{"type":"Custom","handler":"escort"},"next":["Complete"]},
+    "Complete":{"action":{"type":"DoNothing"},"next":[]}
+  }
+}

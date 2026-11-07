@@ -1,0 +1,1843 @@
+{
+  "id": "20261016-973-team-ready",
+  "task": "arena",
+  "label": "竞技场",
+  "date": "2026-10-16",
+  "accountServer": "973",
+  "scope": "竞技场",
+  "state": "我的忍者／阵容与任务",
+  "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+  "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "sourceImage": "source.png",
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "rank_medal",
+      "label": "竞技场段位徽章",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        74,
+        86,
+        357,
+        278
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        74,
+        193,
+        357,
+        385
+      ],
+      "runtimeEnabled": false,
+      "path": "rank_medal.png",
+      "size": [
+        283,
+        192
+      ],
+      "sha256": "7db29e6bb1ea70314b032fe6fb53e1fd68b6659b18004d466072d667b9e858fe",
+      "pixelSha256": "bd9deb4c033fc2e020387e5ca813ab1837650d8080133889a1c40f700f483231"
+    },
+    {
+      "id": "my_ninjas_title",
+      "label": "我的忍者标题",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        1084,
+        128,
+        1319,
+        181
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1084,
+        235,
+        1319,
+        288
+      ],
+      "runtimeEnabled": false,
+      "path": "my_ninjas_title.png",
+      "size": [
+        235,
+        53
+      ],
+      "sha256": "f96bdf3ee1c6385343a87a903758e2cf4fa0165fa845b1c3f16afe86c7cea520",
+      "pixelSha256": "f1d454017b6437e912abe16eeac307c2d41983d4c82e75a218d3403e370b1f84"
+    },
+    {
+      "id": "reward",
+      "label": "段位奖励按钮",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        278,
+        273,
+        340,
+        311
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        278,
+        380,
+        340,
+        418
+      ],
+      "runtimeEnabled": false,
+      "path": "reward.png",
+      "size": [
+        62,
+        38
+      ],
+      "sha256": "831e270b69496e1792cde217caec1011170f5ec517ce4ca2598ad755c5bd8b27",
+      "pixelSha256": "e825c164f753dbc25d7d3fb2ffa46f399eb50c6cac377e84d2d279024c1896a7"
+    },
+    {
+      "id": "tab_arena",
+      "label": "竞技场页签",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1383,
+        0,
+        1528,
+        94
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1383,
+        107,
+        1528,
+        201
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_arena.png",
+      "size": [
+        145,
+        94
+      ],
+      "sha256": "649b841eab34a1b01b21193e0d156bd2e7fefc8fbf0c4d21b33304316dc564c8",
+      "pixelSha256": "fb4bad95a3a2ae218aa3e4fff2c1e86bfa90ae9acce0607719648d84d92d9850"
+    },
+    {
+      "id": "tab_finals",
+      "label": "巅峰赛页签（灰色）",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1528,
+        0,
+        1665,
+        94
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1528,
+        107,
+        1665,
+        201
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_finals.png",
+      "size": [
+        137,
+        94
+      ],
+      "sha256": "4aead963ccf6917151d530fdd18154341f9ccfc0a8c03082f74f8b0710cf8ee2",
+      "pixelSha256": "afa1debe6423804f9654d6ba31574a2a21b344a1fe9b09395fab7f1ae1d673b3"
+    },
+    {
+      "id": "tab_training",
+      "label": "主角训练页签",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1665,
+        0,
+        1795,
+        94
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1665,
+        107,
+        1795,
+        201
+      ],
+      "runtimeEnabled": false,
+      "path": "tab_training.png",
+      "size": [
+        130,
+        94
+      ],
+      "sha256": "5a1093d5ec5b2ff3b7d50a24cd52939bccf9dc79544fefe9cffe7328fce38499",
+      "pixelSha256": "c1b009d363509aae1e3d06bf0bb06c99b08b2b2c478ea5749b17807c4c7031de"
+    },
+    {
+      "id": "help_book",
+      "label": "玩法说明书",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1796,
+        27,
+        1854,
+        85
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1796,
+        134,
+        1854,
+        192
+      ],
+      "runtimeEnabled": false,
+      "path": "help_book.png",
+      "size": [
+        58,
+        58
+      ],
+      "sha256": "c904a3177813b54cdc062496fe11f26ff16ca1da3ab6b026cb1a255aa0bf8614",
+      "pixelSha256": "d8ce2eff9c4f026a44a25b59059160647c56ec7b313116da21549d3de77a9bb4"
+    },
+    {
+      "id": "filter_stars",
+      "label": "星级筛选",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1080,
+        186,
+        1168,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1080,
+        293,
+        1168,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_stars.png",
+      "size": [
+        88,
+        43
+      ],
+      "sha256": "aa517d5a2cedf41f0c363e18813a24f45ee3b1addbb99c4b3fcbbc716e1ac9d1",
+      "pixelSha256": "123e677678fa0bcb8b9c6892bdfce138156591db352bb3b54fd476d5b60b903c"
+    },
+    {
+      "id": "filter_dropdown_arrow",
+      "label": "筛选下拉箭头",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1133,
+        193,
+        1164,
+        226
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1133,
+        300,
+        1164,
+        333
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_dropdown_arrow.png",
+      "size": [
+        31,
+        33
+      ],
+      "sha256": "66d4c9bcbb72edf6e396761f4fce48484eb181af327aeecf2896e823a64b7b69",
+      "pixelSha256": "780057202493a6b6c50c5216f6047253fbc3d93abcd530b90f7e1db58c5938b4"
+    },
+    {
+      "id": "filter_element",
+      "label": "属性筛选",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1170,
+        186,
+        1307,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1170,
+        293,
+        1307,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_element.png",
+      "size": [
+        137,
+        43
+      ],
+      "sha256": "c4946caf563f35de77d431599ecb55d0f64bab411c3b7dba08a48ab58a0bd293",
+      "pixelSha256": "c7ba817770799702b3122dc4afc9718393192db8377301d3cf26ddb5985c9dbb"
+    },
+    {
+      "id": "filter_chase",
+      "label": "追打状态筛选",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1309,
+        186,
+        1452,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1309,
+        293,
+        1452,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_chase.png",
+      "size": [
+        143,
+        43
+      ],
+      "sha256": "c502913241a2dde4e6cb1bf9e798b3a007b745ec2819031b83558a950b4e150b",
+      "pixelSha256": "e788120bfe64cc610d479b2924741659a0fec7a64a4430b1eb65c6bedead2cb7"
+    },
+    {
+      "id": "filter_cause",
+      "label": "造成状态筛选",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1454,
+        186,
+        1595,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1454,
+        293,
+        1595,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_cause.png",
+      "size": [
+        141,
+        43
+      ],
+      "sha256": "85d3cce9ebb103e686e1ce03aa6b11e708b484c05c0095fb8d38a00c9dbfe6fc",
+      "pixelSha256": "274e6dda93968f9f418a1b5a0fd819293be407c576325ed5dc17b2b597b9d77d"
+    },
+    {
+      "id": "filter_chakra",
+      "label": "查克拉筛选",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1597,
+        186,
+        1709,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1597,
+        293,
+        1709,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "filter_chakra.png",
+      "size": [
+        112,
+        43
+      ],
+      "sha256": "ec8cdf54c35a43fea4752afdd4677f788c075b3b61c63462f1fcfde5e802532b",
+      "pixelSha256": "2c63b358ded1a18747c6e87308253b0ae7a25ba50cbcae3be8c13ddc995384ac"
+    },
+    {
+      "id": "search",
+      "label": "输入忍者名字",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1711,
+        186,
+        1870,
+        229
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1711,
+        293,
+        1870,
+        336
+      ],
+      "runtimeEnabled": false,
+      "path": "search.png",
+      "size": [
+        159,
+        43
+      ],
+      "sha256": "3aa674aa5af772beb60f86168299dfade5cbe93b9d16d24aa10f91093671d6f0",
+      "pixelSha256": "b1518c931b6ba87a28b9e15da53f7319f09b353f22ea1aca1ec3971d1c19bfe4"
+    },
+    {
+      "id": "scroll_up",
+      "label": "忍者列表向上",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1835,
+        244,
+        1884,
+        291
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1835,
+        351,
+        1884,
+        398
+      ],
+      "runtimeEnabled": false,
+      "path": "scroll_up.png",
+      "size": [
+        49,
+        47
+      ],
+      "sha256": "2785a6cb0f1230173313bc8ce1536439c4a79e7c0ca487ce243055f816ede634",
+      "pixelSha256": "aa5e5a795826c8cdfbd84ba8796d590945846ad9dd97065a6c5156d1b225f62c"
+    },
+    {
+      "id": "scroll_down",
+      "label": "忍者列表向下",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1834,
+        906,
+        1884,
+        955
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1834,
+        1013,
+        1884,
+        1062
+      ],
+      "runtimeEnabled": false,
+      "path": "scroll_down.png",
+      "size": [
+        50,
+        49
+      ],
+      "sha256": "f903e01d93a7d8a3be5e023ee4de1652c669926048a630ebef4f3bd63c8b8cc4",
+      "pixelSha256": "fb44221e3266efc6d9b9d89a9bbd5bb5813fbb0959e12e2014aa1e7b6551e746"
+    },
+    {
+      "id": "scroll_thumb",
+      "label": "忍者列表滚动滑块",
+      "state": "正常",
+      "type": "control",
+      "box": [
+        1845,
+        291,
+        1876,
+        369
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1845,
+        398,
+        1876,
+        476
+      ],
+      "runtimeEnabled": false,
+      "path": "scroll_thumb.png",
+      "size": [
+        31,
+        78
+      ],
+      "sha256": "76317d35205523de785ebb2a89a80f1a261100e7a6ba66aea6f5c303d0b7da3d",
+      "pixelSha256": "7ee8e7f5c25ca7cadc7635356aa847375f838ed9a61e0c10532ea037986efc93"
+    },
+    {
+      "id": "condition_met",
+      "label": "条件已满足标记",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        222,
+        491,
+        322,
+        521
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        222,
+        598,
+        322,
+        628
+      ],
+      "runtimeEnabled": false,
+      "path": "condition_met.png",
+      "size": [
+        100,
+        30
+      ],
+      "sha256": "88bf5514ef800c134af4300850664bbeefbd547c941dbd8b8698108620e533a0",
+      "pixelSha256": "32f00f798ffdb0ce44980f742a46787b1f7c58d07eba668d48596127601289c6"
+    },
+    {
+      "id": "task_reward",
+      "label": "竞技场任务奖励图标（含数量角标）",
+      "state": "正常",
+      "type": "reward_icon",
+      "box": [
+        128,
+        479,
+        214,
+        563
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        128,
+        586,
+        214,
+        670
+      ],
+      "runtimeEnabled": false,
+      "path": "task_reward.png",
+      "size": [
+        86,
+        84
+      ],
+      "sha256": "e3bcd5978307263a8ae5e706349fac8109fc269e84287442ac2c3774362da760",
+      "pixelSha256": "cf3f399eff5f78ee81ede8ae3886cd3fda10166e592bdb952bc42802bc174841"
+    },
+    {
+      "id": "main_talent",
+      "label": "主角天赋",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        392,
+        670,
+        502,
+        709
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        392,
+        777,
+        502,
+        816
+      ],
+      "runtimeEnabled": false,
+      "path": "main_talent.png",
+      "size": [
+        110,
+        39
+      ],
+      "sha256": "14a19c1b7c496fad978e65267356136e4a3216e442d6d400b184169ffe3ed44a",
+      "pixelSha256": "500c13ef1d8d325565bc6d93695f39a05475d94ffbe3fa19485c548f96c98fc9"
+    },
+    {
+      "id": "treasure_tab",
+      "label": "宝具页签",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        511,
+        670,
+        620,
+        709
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        511,
+        777,
+        620,
+        816
+      ],
+      "runtimeEnabled": false,
+      "path": "treasure_tab.png",
+      "size": [
+        109,
+        39
+      ],
+      "sha256": "2e9edecc9fd5045b57106acd0074156d2caa68d921d8a3d18346a3021c65f5fa",
+      "pixelSha256": "50c4014f67d504505514dc612536b2185f84978c57e1277283add835ae45febf"
+    },
+    {
+      "id": "ranking_button",
+      "label": "排行榜按钮",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        901,
+        670,
+        1013,
+        709
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        901,
+        777,
+        1013,
+        816
+      ],
+      "runtimeEnabled": false,
+      "path": "ranking_button.png",
+      "size": [
+        112,
+        39
+      ],
+      "sha256": "324306e96d349d7b29d441c4d4383e6fdebe3efb5870e5404421db521c06b4fa",
+      "pixelSha256": "4c3223616e026318379495d9cdbc1c8a9131bf3217cc81e69edf0fd1288b1e56"
+    },
+    {
+      "id": "trial_record",
+      "label": "试玩阵容独立记录标记",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        684,
+        668,
+        880,
+        710
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        684,
+        775,
+        880,
+        817
+      ],
+      "runtimeEnabled": false,
+      "path": "trial_record.png",
+      "size": [
+        196,
+        42
+      ],
+      "sha256": "cb947d1f4ed256459f7f0e3f657299563649c069e6642797e2df586e7342f9ba",
+      "pixelSha256": "eaa0931f63a35cfe28b5a528e1d2ed6f4337cb0a73766048e12a427279160d63"
+    },
+    {
+      "id": "ranked_battle",
+      "label": "段位战斗按钮",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        415,
+        872,
+        680,
+        971
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        415,
+        979,
+        680,
+        1078
+      ],
+      "runtimeEnabled": false,
+      "path": "ranked_battle.png",
+      "size": [
+        265,
+        99
+      ],
+      "sha256": "625685263316b038cb393d44643b715cb8c4e53927c8ec58f2d0dab0f3044674",
+      "pixelSha256": "956a15c3a4c6da2f71da4c04461587d82155863d0a3fa2044828fcf1b331892d"
+    },
+    {
+      "id": "casual_battle",
+      "label": "休闲战斗按钮",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        715,
+        872,
+        970,
+        971
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        715,
+        979,
+        970,
+        1078
+      ],
+      "runtimeEnabled": false,
+      "path": "casual_battle.png",
+      "size": [
+        255,
+        99
+      ],
+      "sha256": "686cb5d4748eecac6c1f7b7150b6fea49ea873f7327c7b6c4abbebdb0c489a70",
+      "pixelSha256": "bf60abce19c190e66c58cbd5a960bfcfa12fca76aaf1b93d9f172861594b5615"
+    },
+    {
+      "id": "first_win",
+      "label": "首胜角标",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        1097,
+        367,
+        1156,
+        420
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1097,
+        474,
+        1156,
+        527
+      ],
+      "runtimeEnabled": false,
+      "path": "first_win.png",
+      "size": [
+        59,
+        53
+      ],
+      "sha256": "7729dedacc3bd48c269be71f5e57e5103170175e66acc9072dd1fbf27b9ff14f",
+      "pixelSha256": "3c52a602349d1cc10c63dd1f2683b3ae4a67984208291ea61c68cf5e3c806613"
+    },
+    {
+      "id": "star",
+      "label": "忍者星级单颗星",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1237,
+        260,
+        1267,
+        294
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1237,
+        367,
+        1267,
+        401
+      ],
+      "runtimeEnabled": false,
+      "path": "star.png",
+      "size": [
+        30,
+        34
+      ],
+      "sha256": "5fa5d497a7926ca3988492a3f9bbd8249bef09bc5968283eaa216baee0df5e99",
+      "pixelSha256": "1fac6633ef06ead36f5682e78330c9f4bc4146f882823614bf105e156ebbed9d"
+    },
+    {
+      "id": "element_wind",
+      "label": "风属性图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1299,
+        289,
+        1337,
+        326
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1299,
+        396,
+        1337,
+        433
+      ],
+      "runtimeEnabled": false,
+      "path": "element_wind.png",
+      "size": [
+        38,
+        37
+      ],
+      "sha256": "92a6bf47003763c4771eb7c1c738f8b10747c927e4f0b909abc8bfed0d2313c9",
+      "pixelSha256": "98947883506dd55626442e701d4daa59ad46d619721a689ec40c27f20d2a81cb"
+    },
+    {
+      "id": "element_earth",
+      "label": "土属性图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1541,
+        289,
+        1581,
+        326
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1541,
+        396,
+        1581,
+        433
+      ],
+      "runtimeEnabled": false,
+      "path": "element_earth.png",
+      "size": [
+        40,
+        37
+      ],
+      "sha256": "4c748cb93a3002e3d7324b302a0bc85fa7a66a3eb935e16dbe08bcd6ce47af9f",
+      "pixelSha256": "82d37214d1c921467703051c98c5742fafe9aeab04576775a0f3e9dda11ecc41"
+    },
+    {
+      "id": "element_fire",
+      "label": "火属性图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1299,
+        408,
+        1337,
+        445
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1299,
+        515,
+        1337,
+        552
+      ],
+      "runtimeEnabled": false,
+      "path": "element_fire.png",
+      "size": [
+        38,
+        37
+      ],
+      "sha256": "a419f5ed394d09e548935d5b0ad4838d0379d2668d9eaf889874e7ed44e8931a",
+      "pixelSha256": "16d1d2eeddba944ccb8a50d4911a161a4a3125084df8d751b54e191a43344e0c"
+    },
+    {
+      "id": "element_water",
+      "label": "水属性图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1299,
+        525,
+        1337,
+        562
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1299,
+        632,
+        1337,
+        669
+      ],
+      "runtimeEnabled": false,
+      "path": "element_water.png",
+      "size": [
+        38,
+        37
+      ],
+      "sha256": "0a298289c6eecf8b4702c92ed3a99c3f750baba95630446c4b7b64e9aaf5eb3b",
+      "pixelSha256": "287cb859101087a4624781a74df0a7263065d39be78e71d57e455d8bdcc0f0cb"
+    },
+    {
+      "id": "element_lightning",
+      "label": "雷属性图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1793,
+        758,
+        1832,
+        795
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1793,
+        865,
+        1832,
+        902
+      ],
+      "runtimeEnabled": false,
+      "path": "element_lightning.png",
+      "size": [
+        39,
+        37
+      ],
+      "sha256": "dbb01e926c1247180bce797826ebc802e6f571ffbb78b4f1e463c6345f5f8d08",
+      "pixelSha256": "06964dfddc25a30d1940261fec22aad16709bab5638ef2a4387a2bddf909bf72"
+    },
+    {
+      "id": "ninja_portrait_01",
+      "label": "手鞠[泳装]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        250,
+        1197,
+        337
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        357,
+        1197,
+        444
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_01.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "4efce48b89dd790cd22214c7b82204fdc69dfd940aca6f471ef4ddef21f021a6",
+      "pixelSha256": "7bfccad5d91997d9f38bdbb06e437e9cb70349dee2481efea8612e5d4ca7f320"
+    },
+    {
+      "id": "ninja_portrait_02",
+      "label": "井野[泳装]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        250,
+        1445,
+        337
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        357,
+        1445,
+        444
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_02.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "5dbf8b755d9b2b1972bf4594dcf574e2358d3191ca0d88d9a87abf8ccf77310d",
+      "pixelSha256": "7617ae269f471e2b0b5c3b6aece6cd099b7ea6fef11ed06d75e67b696f9a3510"
+    },
+    {
+      "id": "ninja_portrait_03",
+      "label": "角都[地怨虞]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        250,
+        1693,
+        337
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        357,
+        1693,
+        444
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_03.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "9282477d736bfc5dfb65a08c33c9e8ce19295bc326a42dd5d4dbd2078123ca5a",
+      "pixelSha256": "060d4c545cf23295614665f47eff72f885de921173baaf851e8522ec21e831a3"
+    },
+    {
+      "id": "ninja_portrait_04",
+      "label": "伊鲁卡",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        367,
+        1197,
+        454
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        474,
+        1197,
+        561
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_04.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "992934ee366f80d1e86d043dd1cedbe8f50a56bcef6d86d9eae17eb5be88a05e",
+      "pixelSha256": "9005c4b492cab0ef8a587f860c78686acefa3f05a6470aeb4a4c2a9aa871bed5"
+    },
+    {
+      "id": "ninja_portrait_05",
+      "label": "大蛇丸[木叶的叛忍]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        367,
+        1445,
+        454
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        474,
+        1445,
+        561
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_05.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "cdfe9101cbac73efcb5e7a3bbfb789fef911987f40a3351e8bd1c450333cd1c1",
+      "pixelSha256": "523f74cf3fabc815155ebb5c6959fb0a521838ac2eccfd453c72571fc306a574"
+    },
+    {
+      "id": "ninja_portrait_06",
+      "label": "大蛇丸[三忍大战]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        367,
+        1693,
+        454
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        474,
+        1693,
+        561
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_06.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "7c4664cfcafba924ca3097e0c98f5b633914485b92d5569a86f451ffd6db2143",
+      "pixelSha256": "8cb4abc6ba5e8f21dedbb77502e1fd6a52f908e187510c04df8c1e9ad2feb822"
+    },
+    {
+      "id": "ninja_portrait_07",
+      "label": "羽高[秽土转生]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        484,
+        1197,
+        571
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        591,
+        1197,
+        678
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_07.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "5798a8e013ad526b12b62075b87627bf9b7ec8c9ef87dfb694a30b26a95f2c55",
+      "pixelSha256": "89c3f0b1e5afae3696f9d3ffd369160107e3b2979183545ca9263ceb862fd30d"
+    },
+    {
+      "id": "ninja_portrait_08",
+      "label": "羽高[六尾人柱力]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        484,
+        1445,
+        571
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        591,
+        1445,
+        678
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_08.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "da4255d2162b43967e2b2429ffe5c27b2d995a2a87bea643c4db5ce78f950893",
+      "pixelSha256": "83e053d145669ccbb4b6b376ce32fda662d0165127991f6c07d6095e423258d4"
+    },
+    {
+      "id": "ninja_portrait_09",
+      "label": "鬼灯幻月[二代水影·秽土转生]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        484,
+        1693,
+        571
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        591,
+        1693,
+        678
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_09.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "3bedd452d93e2ef6f34b03d7cfca0b9eace4e9edbf1f92e2973f723174b0de7b",
+      "pixelSha256": "b4eacf173ddf78c354c120b5aa2974d830687883a181f6e89917e61a496c061d"
+    },
+    {
+      "id": "ninja_portrait_10",
+      "label": "宇智波止水[须佐能乎]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        601,
+        1197,
+        688
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        708,
+        1197,
+        795
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_10.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "96868a73b7ddcce08a0c96c2bdd93f0bfcce45fb6d2e4c17bb87641baceda7a0",
+      "pixelSha256": "aa6f5284be03e29a8ed22dc622048fee9828570646a0bab49f1e404ad66755e9"
+    },
+    {
+      "id": "ninja_portrait_11",
+      "label": "由木人[二尾人柱力]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        601,
+        1445,
+        688
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        708,
+        1445,
+        795
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_11.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "27555a067d066763259241cb5525c791bd56e5b41828a3a6373c4ab105778660",
+      "pixelSha256": "44351783ef8c0d34ba568aa4fa188d16f86f62b05957e40ec26ace1ab84ed557"
+    },
+    {
+      "id": "ninja_portrait_12",
+      "label": "矢仓[秽土转生]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        601,
+        1693,
+        688
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        708,
+        1693,
+        795
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_12.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "16c7e1d9a58aebfbde078509d78081786bdd1a0fe56578915026660c586110c6",
+      "pixelSha256": "a2c13c96422c3ecd4a554e43bca6f5b02153b48c94adb017dabf1096128754e8"
+    },
+    {
+      "id": "ninja_portrait_13",
+      "label": "野原琳",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        718,
+        1197,
+        805
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        825,
+        1197,
+        912
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_13.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "554a0af6db1743e51ab15be884860ecebbea9a0c8efe0a6121df5bd4ba032693",
+      "pixelSha256": "b4ac0b52e1a3d4eb25ce7beae2bf16a1398c44eed14be580275284252d81c1f0"
+    },
+    {
+      "id": "ninja_portrait_14",
+      "label": "井野[夏装]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        718,
+        1445,
+        805
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        825,
+        1445,
+        912
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_14.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "ed0b5fc2dfdb8c314dd58da9a136e053b9c921f10ab2b36003c1109e99185a10",
+      "pixelSha256": "296debe896db08a3d5ad85ac3de311ea6a092444b873701ad5664e1cb085eb6a"
+    },
+    {
+      "id": "ninja_portrait_15",
+      "label": "凯[惊门]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        718,
+        1693,
+        805
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        825,
+        1693,
+        912
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_15.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "163d99761297cefe8b9a89af8468e733f06bef2ddb4e9137c8ca9308c01ce209",
+      "pixelSha256": "f89e3db28ec70d9d928b32c2736a8cd9255c086ec4f9e6cbe3a7c5d2516ec51a"
+    },
+    {
+      "id": "ninja_portrait_16",
+      "label": "红豆[新春]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1100,
+        835,
+        1197,
+        922
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1100,
+        942,
+        1197,
+        1029
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_16.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "f046b80fad7eeae2f331dc626d1462e32d7336a6bc35c9c771b173a42fe1330e",
+      "pixelSha256": "f1e923bf0ac0821bca76e1226c6c691da74746f7cc4ac5981e32b68a69282319"
+    },
+    {
+      "id": "ninja_portrait_17",
+      "label": "佩恩·修罗道",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1348,
+        835,
+        1445,
+        922
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1348,
+        942,
+        1445,
+        1029
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_17.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "8e901394f1dfc637e358247d1d2f2aab7cfc44e084d4b80656d9ddbae7913b7d",
+      "pixelSha256": "4a9f087feda6e3dd90e3016e8ac16831176155d39887bb5baecb968903ee5cbf"
+    },
+    {
+      "id": "ninja_portrait_18",
+      "label": "团藏[代理火影]",
+      "state": "试用或首胜角标按原图保留，非纯净头像",
+      "type": "portrait",
+      "box": [
+        1596,
+        835,
+        1693,
+        922
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1596,
+        942,
+        1693,
+        1029
+      ],
+      "runtimeEnabled": false,
+      "path": "ninja_portrait_18.png",
+      "size": [
+        97,
+        87
+      ],
+      "sha256": "ded345a2117236d7c8e40c7fd05467d049892dcb6eb15dfa5d60dce1c569ed44",
+      "pixelSha256": "9530e6a418e666de48d3968ed6f72f6da29eb4acabd2c5a8104f178712472efc"
+    },
+    {
+      "id": "skill_slot_1",
+      "label": "阵容技能栏第1图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        396,
+        724,
+        461,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        396,
+        831,
+        461,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_1.png",
+      "size": [
+        65,
+        54
+      ],
+      "sha256": "5d379772e41a96394bd3aa296067dc2142c853a8b0958dc8109430552da78054",
+      "pixelSha256": "58785a3802b928b991136c041149729428d3cdc81ab922548aee0a4f5c006eb7"
+    },
+    {
+      "id": "skill_slot_2",
+      "label": "阵容技能栏第2图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        467,
+        724,
+        538,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        467,
+        831,
+        538,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_2.png",
+      "size": [
+        71,
+        54
+      ],
+      "sha256": "2a1ac4576ae22cd24ce454904195d29c13720d486e61c7f033c152da37f7a156",
+      "pixelSha256": "2297233374ffddc0f8018b199ffcc4d9bd06cdae801fb9c8d2ea90eb6bf12e95"
+    },
+    {
+      "id": "skill_slot_3",
+      "label": "阵容技能栏第3图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        553,
+        724,
+        618,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        553,
+        831,
+        618,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_3.png",
+      "size": [
+        65,
+        54
+      ],
+      "sha256": "d7441159960d0536c6aaa549a56205ceda0c48eb725db392848d0566337fb95c",
+      "pixelSha256": "0118a92abd242cbaec524f67ff5c8a5f369d654113efcee708bf2d2a862fc35b"
+    },
+    {
+      "id": "skill_slot_4",
+      "label": "阵容技能栏第4图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        624,
+        724,
+        695,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        624,
+        831,
+        695,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_4.png",
+      "size": [
+        71,
+        54
+      ],
+      "sha256": "ef0b517c644408822dc7d23fa008dbeb047fe347efab23421abe14c5b9f2757e",
+      "pixelSha256": "71172ff29d36b352e67abfdbbf8d45f749682911cc25858a1b015d26f2c01e60"
+    },
+    {
+      "id": "skill_slot_5",
+      "label": "阵容技能栏第5图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        711,
+        724,
+        775,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        711,
+        831,
+        775,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_5.png",
+      "size": [
+        64,
+        54
+      ],
+      "sha256": "0eb76c01eafc92d9d7b5eb526ca33f4cf67fa13ce1c449c0a36492c8c76523a9",
+      "pixelSha256": "cf5a1bc5b383ea603be9927a8e1cb9a34bc0f8a64ff63b742cac94956b366d80"
+    },
+    {
+      "id": "skill_slot_6",
+      "label": "阵容技能栏第6图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        781,
+        724,
+        852,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        781,
+        831,
+        852,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_6.png",
+      "size": [
+        71,
+        54
+      ],
+      "sha256": "2c74acbed3c4208da487df10b1a4f9ceaf4b6ce69120155ded5cb204c92eab0c",
+      "pixelSha256": "89db5a16adba7164860df24e91405c7a9d79285c516612b42040ac5f475653a7"
+    },
+    {
+      "id": "skill_slot_7",
+      "label": "阵容技能栏第7图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        864,
+        724,
+        930,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        864,
+        831,
+        930,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_7.png",
+      "size": [
+        66,
+        54
+      ],
+      "sha256": "6e966dbaf5038dddb655d884d95d4997a7ae028ef246d7fff99d32c3839fbb65",
+      "pixelSha256": "e459439489d936e8f19943754145df02211722281ba05afb0e288f4293ca6c36"
+    },
+    {
+      "id": "skill_slot_8",
+      "label": "阵容技能栏第8图标",
+      "state": "正常",
+      "type": "skill_icon",
+      "box": [
+        936,
+        724,
+        1009,
+        778
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        936,
+        831,
+        1009,
+        885
+      ],
+      "runtimeEnabled": false,
+      "path": "skill_slot_8.png",
+      "size": [
+        73,
+        54
+      ],
+      "sha256": "44659aaaafae49b6cfb5cd4a03dca02fe444c2fde29918a020412c91dbe52d77",
+      "pixelSha256": "6fbab6cf8f291f1e06af9df88bca23cc5a1c3eba70088c2ee3afbee39230f9f5"
+    },
+    {
+      "id": "digit_action_red_1",
+      "label": "action_red 单字 1",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        693,
+        30,
+        721,
+        82
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        693,
+        137,
+        721,
+        189
+      ],
+      "runtimeEnabled": false,
+      "digit": "1",
+      "family": "action_red",
+      "occurrence": null,
+      "path": "digit_action_red_1.png",
+      "size": [
+        28,
+        52
+      ],
+      "sha256": "ee1571cfbd9b2958c4a05af526c88b0950d17c033190891d803ca2453257603d",
+      "pixelSha256": "f79298d6642045163b2c6b8aa9531187f38996c005d050875b1b4f58dca121a1"
+    },
+    {
+      "id": "digit_action_red_2",
+      "label": "action_red 单字 2",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        685,
+        188,
+        721,
+        240
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        685,
+        295,
+        721,
+        347
+      ],
+      "runtimeEnabled": false,
+      "digit": "2",
+      "family": "action_red",
+      "occurrence": null,
+      "path": "digit_action_red_2.png",
+      "size": [
+        36,
+        52
+      ],
+      "sha256": "7179e2cd202488d4523d94b60533e317b3820b748fe3f052797d0d71339cb379",
+      "pixelSha256": "1ee4a1c1ab3f41e068ed72f88885962112d6a0ed047ae6d96c23ec732d13cdf3"
+    },
+    {
+      "id": "digit_action_red_3",
+      "label": "action_red 单字 3",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        504,
+        85,
+        538,
+        137
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        504,
+        192,
+        538,
+        244
+      ],
+      "runtimeEnabled": false,
+      "digit": "3",
+      "family": "action_red",
+      "occurrence": null,
+      "path": "digit_action_red_3.png",
+      "size": [
+        34,
+        52
+      ],
+      "sha256": "013898be69687299d1843fab29e0c7dab7b2cb1491f84cb95d9d7fddd3592695",
+      "pixelSha256": "b88685843d984333172350240c0e8c32f30d766db5e2cc0889d79a749f6f4310"
+    },
+    {
+      "id": "digit_action_red_4",
+      "label": "action_red 单字 4",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        466,
+        294,
+        503,
+        343
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        466,
+        401,
+        503,
+        450
+      ],
+      "runtimeEnabled": false,
+      "digit": "4",
+      "family": "action_red",
+      "occurrence": null,
+      "path": "digit_action_red_4.png",
+      "size": [
+        37,
+        49
+      ],
+      "sha256": "b6c9c7051ff3c86895005ea90520dbf91d9fe8fb0659b9cdd4febf452f2face8",
+      "pixelSha256": "4fbe3d74c5d63e384ad2640c56e85441424dbfeff5407760ff72912b6f15dfa4"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "close_panel",
+      "label": "关闭面板",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1854,
+        27,
+        1911,
+        84
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        1854,
+        134,
+        1911,
+        191
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/close_panel.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "close_panel",
+        "sha256": "b119e7cedf5f05c0d085c1525d3f4df5b5d893c2a94261222e62787ce5a07910"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "shop",
+      "label": "杂货屋",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        112,
+        787,
+        326,
+        872
+      ],
+      "sourceFilename": "codex-clipboard-d15ef6f2-826e-452d-a61d-e5a4980786bf.png",
+      "sourceSha256": "57eb38cfc006964f71219c86746cba380af7681ac7aa5597fc51becb9b27ef4e",
+      "sourceBox": [
+        112,
+        894,
+        326,
+        979
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/shop.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "shop",
+        "sha256": "9943f2ca45e2bbc8b1353591ce81b032fb37a3cb19ea8d35b2c43c1f2206d618"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "只从用户附件离线提取，未操作游戏；裁切坐标不是点击目标。",
+    "已有同功能同状态图标复用引用；语义复用不声称当前画面像素相同。",
+    "数字逐字保存并标注字体样式；不固定业务读数。",
+    "素材候选未自动接入resources/local/image，未改变任务执行。",
+    "日期为接收／整理日期，不推定附件拍摄时间。"
+  ]
+}

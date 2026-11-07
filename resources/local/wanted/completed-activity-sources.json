@@ -1,0 +1,46 @@
+{
+  "task": "wanted",
+  "userRule": "在该日常活动页面通缉条目已消失，视为通缉已完成；关闭面板后继续队列。",
+  "sources": [
+    {
+      "path": "resources\\local\\wanted\\completed-daily-user-source.png",
+      "original": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-c4c65be2-72c4-4ec1-8fd9-1aba36cb0fbe.png",
+      "sha256": "40af06fcde23d872d278d22ba35cc159d8a8b9434d13a65331f3056bfaa4de8a",
+      "gameBox": [
+        45,
+        151,
+        1965,
+        1166
+      ]
+    },
+    {
+      "path": "出错任务\\通缉任务\\证据\\c3f691628bbbdc5d990d88a4.png",
+      "sha256": "49faa61773c831d3d37a91030c918931c6655eb7c51800f45b4fc670d1e59b71",
+      "gameBox": [
+        0,
+        0,
+        1920,
+        1015
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "resources\\local\\image\\wanted_daily_completed_rows_20261018.png",
+      "source": "出错任务\\通缉任务\\证据\\c3f691628bbbdc5d990d88a4.png",
+      "sourceBox": [
+        320,
+        335,
+        466,
+        473
+      ],
+      "sha256": "9a7614b4af70b3ff2ffdd2e8ad6e3635ef3b52b16e8bc133ff2d56c31272fe07",
+      "meaning": "通缉条目消失后，第三／四行强者降临及忍者测验的相邻静态标题；不含数字读数。"
+    }
+  ],
+  "reused": [
+    "resources/local/image/wanted_daily_selected_catalog.png",
+    "resources/local/image/close_*.png"
+  ],
+  "threshold": 0.9
+}

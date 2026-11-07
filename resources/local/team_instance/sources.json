@@ -1,0 +1,52 @@
+{
+  "kunai": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-d09b9940-8ee0-4089-b207-70d8b1384426.png",
+    "sha256": "3a7d5bcb8489ff9b2139b829ffa81c1071bef3d25eb00635eec6328cce1e5c54"
+  },
+  "activities": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-10e5c18f-6ee3-4409-9500-0085b440483f.png",
+    "sha256": "afec50e9e3735804db493b9f39edec4a4a3298125aace50f1745f362c1a888fc"
+  },
+  "row": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-22d9e06a-7e3a-4c8a-a3fd-a6e474fb3fee.png",
+    "sha256": "08e4fbbcb2bdad24bf2c76c11f57f8a20a8b0c4961d4876e08c489d7e8ed9d5f"
+  },
+  "participate": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-f67d57c1-b2fc-4a98-8a99-b97384c4a036.png",
+    "sha256": "66783e7e766bac90b38fba8da540071129537f4f71335d5314a2c103b0aafe39"
+  },
+  "derived": {
+    "gameCrop": [
+      45,
+      151,
+      1965,
+      1166
+    ],
+    "gameCrops": {
+      "limited_active": [
+        496,
+        51,
+        692,
+        121
+      ],
+      "team_row_blue": [
+        303,
+        286,
+        448,
+        337
+      ],
+      "participate": [
+        1270,
+        682,
+        1408,
+        723
+      ]
+    },
+    "plainRowCrop": [
+      44,
+      22,
+      185,
+      73
+    ]
+  }
+}

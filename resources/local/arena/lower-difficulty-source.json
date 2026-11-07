@@ -1,0 +1,10 @@
+{
+  "sourceFilename": "codex-clipboard-a2b9faf7-900a-4bdb-9a96-63fcf082a249.png",
+  "path": "resources/local/arena/references/lower-difficulty-user.png",
+  "sha256": "82a919e0aba37d326ce1c6324aee7356c738ad510a053b24751b9909546e9958",
+  "runtimeEnabled": false,
+  "observation": "任务奖励500、进度0/1，悬停位置显示降低难度",
+  "userRule": "鼠标放到条件未满足变为降低难度；点击降低难度后点击确定",
+  "missingEvidence": "降低难度后的确认弹窗原图；当前图不含确认按钮",
+  "implementationStatus": "日常专属目录已派生按钮模板；确认弹窗采用语义校验，仍缺实际弹窗与实机验证"
+}

@@ -1,0 +1,18 @@
+{
+  "source": "resources/local/arena_tokens/references/count2-user.png",
+  "originalFilename": "codex-clipboard-417cb577-3d4d-452e-885f-3089d804fc65.png",
+  "sourceSha256": "acd6ff17987fe961be40bac18449f07fba927d422d68e59899793fe7f070e456",
+  "path": "resources/local/arena_tokens/image/war_label.png",
+  "box": [
+    12,
+    4,
+    73,
+    32
+  ],
+  "sha256": "ce8707d48befe967f2c8203beffdf5c306f2288e494cc058803d03b92ec28374",
+  "observedCount": 2,
+  "unverifiedRealCounts": [
+    0,
+    1
+  ]
+}

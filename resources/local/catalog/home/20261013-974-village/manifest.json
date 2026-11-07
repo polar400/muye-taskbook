@@ -1,0 +1,835 @@
+{
+  "id": "20261013-974-village",
+  "task": "home",
+  "label": "主界面",
+  "date": "2026-10-13",
+  "accountServer": "974",
+  "scope": "木叶村主界面",
+  "state": "菜单展开",
+  "sourceFilename": "codex-clipboard-7e69d5bb-2be6-466b-8be7-e52ecc2c058c.png",
+  "sourceSha256": "e2d2a55229732284e5a39bf8bb304a08de08663ad670bc945664a4f9d74c42df",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "hotspot",
+      "label": "限时热点",
+      "state": "正常",
+      "type": "button",
+      "path": "hotspot.png",
+      "box": [
+        704,
+        0,
+        814,
+        99
+      ],
+      "size": [
+        110,
+        99
+      ],
+      "sha256": "03641089266ced69a7127742a1d52b4543bc8866d4e47b30dfe23e89b211035e",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ninja_manual",
+      "label": "忍者手册",
+      "state": "正常",
+      "type": "button",
+      "path": "ninja_manual.png",
+      "box": [
+        918,
+        0,
+        1010,
+        99
+      ],
+      "size": [
+        92,
+        99
+      ],
+      "sha256": "edc6bd4a07908537eaeb56db67a960b3857e20e9a9d67b2bc5b52ce3133bfa92",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "daily_training",
+      "label": "日常锻炼",
+      "state": "正常",
+      "type": "button",
+      "path": "daily_training.png",
+      "box": [
+        1010,
+        0,
+        1102,
+        99
+      ],
+      "size": [
+        92,
+        99
+      ],
+      "sha256": "aabf97fa11782d58d5c609d6edf6c16551ac147fa0e4319b18ef85c98b1a1fe7",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ranking",
+      "label": "排行榜",
+      "state": "正常",
+      "type": "button",
+      "path": "ranking.png",
+      "box": [
+        1102,
+        0,
+        1191,
+        99
+      ],
+      "size": [
+        89,
+        99
+      ],
+      "sha256": "e29ea5677854085aa8770eea9145c4569bf26f92189d2c3b52ba43e3f614a946",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "honor_hall",
+      "label": "荣誉殿堂",
+      "state": "正常",
+      "type": "button",
+      "path": "honor_hall.png",
+      "box": [
+        1191,
+        0,
+        1288,
+        99
+      ],
+      "size": [
+        97,
+        99
+      ],
+      "sha256": "c0b473e3864ec65451081e86fffa812121e0cc8b15edb8bc99e57881a47711f0",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ninja_exam",
+      "label": "忍者考试",
+      "state": "正常",
+      "type": "button",
+      "path": "ninja_exam.png",
+      "box": [
+        1288,
+        0,
+        1380,
+        99
+      ],
+      "size": [
+        92,
+        99
+      ],
+      "sha256": "a2ff48f5d8cf34f25a49cb8ff5df8138fac09a0ced061c1f01e75a3034fce957",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "extreme_training",
+      "label": "极限特训",
+      "state": "正常",
+      "type": "button",
+      "path": "extreme_training.png",
+      "box": [
+        1380,
+        0,
+        1468,
+        99
+      ],
+      "size": [
+        88,
+        99
+      ],
+      "sha256": "3fca0a3ed40e0b0e24cd6b10e03e073bc32e957d670887d255d244f4bbe4c605",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ranked",
+      "label": "排位战",
+      "state": "正常",
+      "type": "button",
+      "path": "ranked.png",
+      "box": [
+        1468,
+        0,
+        1559,
+        99
+      ],
+      "size": [
+        91,
+        99
+      ],
+      "sha256": "294034096225cf5a8eb6e8c6728815e98f6e8d9c295b9b6a436fd84cb8fad360",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "space_time",
+      "label": "时空间",
+      "state": "正常",
+      "type": "button",
+      "path": "space_time.png",
+      "box": [
+        918,
+        99,
+        1010,
+        203
+      ],
+      "size": [
+        92,
+        104
+      ],
+      "sha256": "b1726bb69b4008232af3509053681725c51e7cc304f01cb8fa21c54895b546a2",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "survival",
+      "label": "生存演习",
+      "state": "正常",
+      "type": "button",
+      "path": "survival.png",
+      "box": [
+        1010,
+        99,
+        1102,
+        203
+      ],
+      "size": [
+        92,
+        104
+      ],
+      "sha256": "92c01824cacbfd5c037c34fcf8c96d6c5dc6b3db98cd9c1de9d3da12a744c6f8",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "endless_illusion",
+      "label": "无限幻象",
+      "state": "正常",
+      "type": "button",
+      "path": "endless_illusion.png",
+      "box": [
+        1102,
+        99,
+        1191,
+        203
+      ],
+      "size": [
+        89,
+        104
+      ],
+      "sha256": "24cff218061a9d4ae92072ad02f8f6f0880491e2c424edfe9bd1951425040976",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "strong",
+      "label": "强者降临",
+      "state": "正常",
+      "type": "button",
+      "path": "strong.png",
+      "box": [
+        1191,
+        99,
+        1288,
+        203
+      ],
+      "size": [
+        97,
+        104
+      ],
+      "sha256": "a24894cc1ebec43dcdb48b0f609f611ff3b2fa988036acebe38c06edf653a9d3",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "abundance",
+      "label": "丰饶之间",
+      "state": "正常",
+      "type": "button",
+      "path": "abundance.png",
+      "box": [
+        1288,
+        99,
+        1380,
+        203
+      ],
+      "size": [
+        92,
+        104
+      ],
+      "sha256": "fd4d020cc68661675824c6f5f0801bb968ca558576085c9f67cd864cc446a95f",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "arena",
+      "label": "竞技场",
+      "state": "正常",
+      "type": "button",
+      "path": "arena.png",
+      "box": [
+        1380,
+        99,
+        1468,
+        203
+      ],
+      "size": [
+        88,
+        104
+      ],
+      "sha256": "9aee2b225659bf346eaaa1032d99396e3723d3dc659111bb1f8371e8e1ff20c8",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "mystery_cave",
+      "label": "神秘洞穴",
+      "state": "正常",
+      "type": "button",
+      "path": "mystery_cave.png",
+      "box": [
+        1468,
+        99,
+        1559,
+        203
+      ],
+      "size": [
+        91,
+        104
+      ],
+      "sha256": "08d7c49a3d73435a21698cc49a08efa0e8c59f6f8ea5d6334a7429eec6c0490e",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "treasure",
+      "label": "宝藏",
+      "state": "正常",
+      "type": "button",
+      "path": "treasure.png",
+      "box": [
+        1187,
+        204,
+        1288,
+        331
+      ],
+      "size": [
+        101,
+        127
+      ],
+      "sha256": "dae3a328c21e5acee272a8c60a071e8fdaa6dff4c59ec2e141160d83770fc708",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "privilege_events",
+      "label": "特权活动",
+      "state": "正常",
+      "type": "button",
+      "path": "privilege_events.png",
+      "box": [
+        1288,
+        204,
+        1380,
+        331
+      ],
+      "size": [
+        92,
+        127
+      ],
+      "sha256": "9f7e3e0f621f1a1dd9dc34d753f0a4c527079e9863498487f37c0cb554156b19",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "benefits",
+      "label": "福利大厅",
+      "state": "正常",
+      "type": "button",
+      "path": "benefits.png",
+      "box": [
+        1380,
+        204,
+        1468,
+        331
+      ],
+      "size": [
+        88,
+        127
+      ],
+      "sha256": "0228775c401e8c60fac254efef2a9b5cff99a1c30a58df3a94bd581a35079d05",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "first_recharge",
+      "label": "天天首充礼",
+      "state": "正常；付费入口仅归档",
+      "type": "button",
+      "path": "first_recharge.png",
+      "box": [
+        1468,
+        204,
+        1563,
+        331
+      ],
+      "size": [
+        95,
+        127
+      ],
+      "sha256": "f85c04b504cf2486f6b39da053694d54dbc21510d12ed0a21db47300ece5f5d8",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "event_banner",
+      "label": "中央活动横幅",
+      "state": "当前活动外观",
+      "type": "event_marker",
+      "path": "event_banner.png",
+      "box": [
+        836,
+        196,
+        1087,
+        292
+      ],
+      "size": [
+        251,
+        96
+      ],
+      "sha256": "e1ea79f52d7ad01a64f639b5e408eef5b2611cc49b9d1151a8b8cbddec5ef8a9",
+      "runtimeEnabled": false,
+      "note": "横幅可能随活动更新；完整样本保存上下文。"
+    },
+    {
+      "id": "strengthen",
+      "label": "变强",
+      "state": "正常",
+      "type": "button",
+      "path": "strengthen.png",
+      "box": [
+        493,
+        80,
+        569,
+        121
+      ],
+      "size": [
+        76,
+        41
+      ],
+      "sha256": "c367e2843a8c65cd53be8ceb6c1007b5094db727f3f19f63c3b569a1b7de9e02",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "badge",
+      "label": "中忍勋章",
+      "state": "正常",
+      "type": "button",
+      "path": "badge.png",
+      "box": [
+        570,
+        80,
+        709,
+        122
+      ],
+      "size": [
+        139,
+        42
+      ],
+      "sha256": "04b8786e55c3b838028b1180bab40346766fa1af76dfed375713bb029663bfb3",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "recharge",
+      "label": "充值",
+      "state": "付费入口，仅归档",
+      "type": "button",
+      "path": "recharge.png",
+      "box": [
+        552,
+        125,
+        627,
+        167
+      ],
+      "size": [
+        75,
+        42
+      ],
+      "sha256": "0f3c0c566ae53c4e7f2c780d4d9d256ed75cad29401b55340b239a415069e1e8",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "lock_icon",
+      "label": "玩家面板锁图标",
+      "state": "正常",
+      "type": "icon",
+      "path": "lock_icon.png",
+      "box": [
+        628,
+        125,
+        667,
+        167
+      ],
+      "size": [
+        39,
+        42
+      ],
+      "sha256": "35ab32881292911c2f991ba79647914417efcb8cf985425fa4245608bad588fa",
+      "runtimeEnabled": false,
+      "note": "仅记录可见外观，不推定具体用途。"
+    },
+    {
+      "id": "hosting_computer",
+      "label": "托管小电脑",
+      "state": "正常",
+      "type": "button",
+      "path": "hosting_computer.png",
+      "box": [
+        665,
+        124,
+        712,
+        168
+      ],
+      "size": [
+        47,
+        44
+      ],
+      "sha256": "65a6c3addd46184e3a47409b8626b05c050b26f703b20f2103a8cd10ffca5e92",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "stamina_plus",
+      "label": "体力加号",
+      "state": "增加入口，仅归档",
+      "type": "button",
+      "path": "stamina_plus.png",
+      "box": [
+        627,
+        36,
+        675,
+        78
+      ],
+      "size": [
+        48,
+        42
+      ],
+      "sha256": "8a0ad2f3e65d9d578560f1fb570e665514a274fddacb839ca2c8359b40d8d038",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "scroll_duel",
+      "label": "左侧活动横条",
+      "state": "羁绊对决08:00开启",
+      "type": "event_marker",
+      "path": "scroll_duel.png",
+      "box": [
+        0,
+        185,
+        322,
+        247
+      ],
+      "size": [
+        322,
+        62
+      ],
+      "sha256": "eb5d26f05594751ea00f9d527531b867eb4e1323a0ec83257e0eb74abf48203e",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "training_record",
+      "label": "忍者修行录",
+      "state": "展开",
+      "type": "button",
+      "path": "training_record.png",
+      "box": [
+        1594,
+        298,
+        1920,
+        354
+      ],
+      "size": [
+        326,
+        56
+      ],
+      "sha256": "2c4c0dd7942c75802cfbe1acc2dcd5073b7dd533810f799427d0ab926cb5b1c8",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "task_list",
+      "label": "任务列表",
+      "state": "展开",
+      "type": "button",
+      "path": "task_list.png",
+      "box": [
+        1593,
+        455,
+        1920,
+        522
+      ],
+      "size": [
+        327,
+        67
+      ],
+      "sha256": "560e56d521fb506641d842770d8b656e49146d16e7d359220257312d009217a1",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "character",
+      "label": "角色",
+      "state": "正常",
+      "type": "button",
+      "path": "character.png",
+      "box": [
+        1058,
+        886,
+        1144,
+        990
+      ],
+      "size": [
+        86,
+        104
+      ],
+      "sha256": "a9c77152ac27d0ddf24ebcacb3c35448aabf44880abff4126e3a9bcae95fac6a",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ninjas",
+      "label": "忍者",
+      "state": "正常",
+      "type": "button",
+      "path": "ninjas.png",
+      "box": [
+        1144,
+        886,
+        1234,
+        990
+      ],
+      "size": [
+        90,
+        104
+      ],
+      "sha256": "8331e43bd737eba9c678018a31783c6046febde030ead83d7d1007d4c9766899",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "upgrade",
+      "label": "提升",
+      "state": "正常",
+      "type": "button",
+      "path": "upgrade.png",
+      "box": [
+        1234,
+        886,
+        1334,
+        990
+      ],
+      "size": [
+        100,
+        104
+      ],
+      "sha256": "93edce88a1fa6fea6dcfd5228be3cc9379f8eb7fc1be6705c4cb2b067c0ad87b",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "organization",
+      "label": "组织",
+      "state": "正常",
+      "type": "button",
+      "path": "organization.png",
+      "box": [
+        1334,
+        886,
+        1418,
+        990
+      ],
+      "size": [
+        84,
+        104
+      ],
+      "sha256": "0842b0f74a9832159968ea50837dc2e003a580771f90e39abf4e5fcd925cc6db",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "home",
+      "label": "家园",
+      "state": "正常",
+      "type": "button",
+      "path": "home.png",
+      "box": [
+        1418,
+        886,
+        1510,
+        990
+      ],
+      "size": [
+        92,
+        104
+      ],
+      "sha256": "e59698f1ae7c04aa03a8fa5b761896dfa05cee76843d1e571232133f191ed9a9",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "shop",
+      "label": "杂货屋",
+      "state": "正常",
+      "type": "button",
+      "path": "shop.png",
+      "box": [
+        1510,
+        886,
+        1600,
+        990
+      ],
+      "size": [
+        90,
+        104
+      ],
+      "sha256": "e1383112d7056890553281fd16d4887db15667b0bf8ac29eeeb44399af18cc6a",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "store",
+      "label": "底部商店入口",
+      "state": "正常",
+      "type": "button",
+      "path": "store.png",
+      "box": [
+        1600,
+        886,
+        1690,
+        990
+      ],
+      "size": [
+        90,
+        104
+      ],
+      "sha256": "317b242cf929b7660fdf22fa9ae3ee0d45b50cc5b26416b4fc7185075d7df0c3",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "recruit",
+      "label": "招募",
+      "state": "正常",
+      "type": "button",
+      "path": "recruit.png",
+      "box": [
+        1690,
+        886,
+        1782,
+        990
+      ],
+      "size": [
+        92,
+        104
+      ],
+      "sha256": "2ed0eb7c575bc46086c87afcf8a809485b40c061aeef039dfbc32dda9b8fc0f2",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "dungeon",
+      "label": "副本",
+      "state": "正常",
+      "type": "button",
+      "path": "dungeon.png",
+      "box": [
+        1782,
+        849,
+        1920,
+        992
+      ],
+      "size": [
+        138,
+        143
+      ],
+      "sha256": "2a432eeaa1285c56bbb9b4155ca39f49fa8518ea7075643f88b02e9214415735",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "world_menu",
+      "label": "世界菜单",
+      "state": "正常",
+      "type": "button",
+      "path": "world_menu.png",
+      "box": [
+        0,
+        943,
+        79,
+        988
+      ],
+      "size": [
+        79,
+        45
+      ],
+      "sha256": "92ed32bb5c33c6ba3082b4877b2317e29db899f76fccf2185a141a52dc8890f6",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "own_power_region",
+      "label": "我方战力区域",
+      "state": "须动态读取",
+      "type": "dynamic_region",
+      "path": "own_power_region.png",
+      "box": [
+        135,
+        79,
+        435,
+        123
+      ],
+      "size": [
+        300,
+        44
+      ],
+      "sha256": "377de4ddcebe155e8d4053b4ce4b494330724119cdd8ddea81fd3b5d4cd78143",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "currency_region",
+      "label": "货币读数区域",
+      "state": "须动态读取",
+      "type": "dynamic_region",
+      "path": "currency_region.png",
+      "box": [
+        121,
+        125,
+        470,
+        172
+      ],
+      "size": [
+        349,
+        47
+      ],
+      "sha256": "43350b6436def1b75ba8f8695398a9428f3d1d3e6648355d58314ddbb453b59e",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "map_region",
+      "label": "地图与坐标区域",
+      "state": "随位置变化",
+      "type": "dynamic_region",
+      "path": "map_region.png",
+      "box": [
+        1618,
+        66,
+        1920,
+        300
+      ],
+      "size": [
+        302,
+        234
+      ],
+      "sha256": "262962b5f9ac32737856a21ab73f80c9999e90ed20bc57636a863df6bae137f9",
+      "runtimeEnabled": false
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "当前是采集归档，不覆盖image运行模板。",
+    "货币、战力、地图和活动文字不作为固定业务状态。",
+    "未单独裁切的头像、工具栏小图标等仍可从game.png提取，无需重复截图。",
+    "付费入口仅保存外观，不授权自动点击或购买。"
+  ]
+}

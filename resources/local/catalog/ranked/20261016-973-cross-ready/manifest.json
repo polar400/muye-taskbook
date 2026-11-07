@@ -1,0 +1,1601 @@
+{
+  "id": "20261016-973-cross-ready",
+  "task": "ranked",
+  "label": "排位战",
+  "date": "2026-10-16",
+  "accountServer": "973",
+  "scope": "排位战",
+  "state": "联服，剩余5次，刷新可用",
+  "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+  "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "sourceImage": "source.png",
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "team_portrait_1_1",
+      "label": "排位阵容第1行第1头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        135,
+        245,
+        194,
+        304
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        135,
+        352,
+        194,
+        411
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_1_1.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "8690e0a409f29d880d65b097de8a94e5c052a3d40904549916bfa7822ead7d94",
+      "pixelSha256": "e7180fbc1fa7cc4c7d05e44d7733704911b5e2ddd2cc314b2c2fbcd29b90ecb8"
+    },
+    {
+      "id": "team_portrait_2_1",
+      "label": "排位阵容第2行第1头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        135,
+        327,
+        194,
+        386
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        135,
+        434,
+        194,
+        493
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_2_1.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "290cf6e742f7658288bd901b8fd34fd6122ee863e70c90d0743ed5522981e776",
+      "pixelSha256": "6634099d564bba18bed47a001f3eac00313066bcbb87885e9f6ab5d21f9c1bc9"
+    },
+    {
+      "id": "team_portrait_3_1",
+      "label": "排位阵容第3行第1头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        135,
+        411,
+        194,
+        470
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        135,
+        518,
+        194,
+        577
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_3_1.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "2dfd28b96f61225187948831d2d9385c653cbe25f846435b4ec1ed1c8595fcca",
+      "pixelSha256": "4c2ea211cc362d36c4c3e28c084a835a07e898ac2932b8efabd54470b3d2d68a"
+    },
+    {
+      "id": "team_portrait_1_2",
+      "label": "排位阵容第1行第2头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        196,
+        245,
+        255,
+        304
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        196,
+        352,
+        255,
+        411
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_1_2.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "5b1b4cef48a8ca066d8ed387a43718e7c82d865eb0f13eef79a2d58bfb4fe41e",
+      "pixelSha256": "c48f8a35ac36310a3364514843f6870e90a74afbcd0ff8b3d9b290721979cbe4"
+    },
+    {
+      "id": "team_portrait_2_2",
+      "label": "排位阵容第2行第2头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        196,
+        327,
+        255,
+        386
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        196,
+        434,
+        255,
+        493
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_2_2.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "551f9a54861366f7b819130820a0df673373bf707c6a4ec8862478be831a64d8",
+      "pixelSha256": "5464d38b97bad2e522c456f9b6933c6c8a2283ff76c859b4162fa625d4797f85"
+    },
+    {
+      "id": "team_portrait_3_2",
+      "label": "排位阵容第3行第2头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        196,
+        411,
+        255,
+        470
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        196,
+        518,
+        255,
+        577
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_3_2.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "b52d0857becfa637e9a505d729c55ae5a43547835ad53bd273c84affc1f95d37",
+      "pixelSha256": "a48c1344ec28b599f512fe84625862a3bdb8da38dda20ace587f82fabc1e450f"
+    },
+    {
+      "id": "team_portrait_1_3",
+      "label": "排位阵容第1行第3头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        257,
+        245,
+        316,
+        304
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        257,
+        352,
+        316,
+        411
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_1_3.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "89c354cbdc98c8b76c1caafcad5ce4c25549fc13f2a06ac25be781d61a2e58a4",
+      "pixelSha256": "4fe390adcec12c1e1e70d9c858c55e41cfdbbfcf774d3dfd7a7d13d23c320f0e"
+    },
+    {
+      "id": "team_portrait_2_3",
+      "label": "排位阵容第2行第3头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        257,
+        327,
+        316,
+        386
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        257,
+        434,
+        316,
+        493
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_2_3.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "2b648c9312ba09b2a7bafd5457e759a03b215ac5a0167a29feda775d31e3d242",
+      "pixelSha256": "7a763bb57d1dd17389d654e8f8e6266f39513fd5211c96102e60c209573c6705"
+    },
+    {
+      "id": "team_portrait_3_3",
+      "label": "排位阵容第3行第3头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        257,
+        411,
+        316,
+        470
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        257,
+        518,
+        316,
+        577
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_3_3.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "0f3f83cdca7d33ae9c4135f68b8a915b232e467d419a3daf471984e31b1e8a17",
+      "pixelSha256": "c152d2c47e50a6a44d46440939ee4e8e7442de7c521c3d4ce91c97be765c43ce"
+    },
+    {
+      "id": "team_portrait_1_4",
+      "label": "排位阵容第1行第4头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        318,
+        245,
+        377,
+        304
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        318,
+        352,
+        377,
+        411
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_1_4.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "35f50fa82c87cb1f6741a72aa7de132348d19ac1c63498985706c8e7fe91f45e",
+      "pixelSha256": "60a2dd3b7a21feb6a8317b586df2c81b74adb6e4ed1504bfef7157aabc2fab24"
+    },
+    {
+      "id": "team_portrait_2_4",
+      "label": "排位阵容第2行第4头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        318,
+        327,
+        377,
+        386
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        318,
+        434,
+        377,
+        493
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_2_4.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "e6b1f63cee73c4553f7752d44c111967ef37b27a51b7bdf19ffafe2f76f15a56",
+      "pixelSha256": "36fd9b5a6153898ecd87ee55e33da471e11c9438f2760ad520e972dabf3a2004"
+    },
+    {
+      "id": "team_portrait_3_4",
+      "label": "排位阵容第3行第4头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        318,
+        411,
+        377,
+        470
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        318,
+        518,
+        377,
+        577
+      ],
+      "runtimeEnabled": false,
+      "path": "team_portrait_3_4.png",
+      "size": [
+        59,
+        59
+      ],
+      "sha256": "948bcc782f3f95a7b0909cd809eaf9849908d5ca17ca73d4e874f764c5838b5a",
+      "pixelSha256": "f9cfc957e92ec78fb31a59b8a6ae61e8136b80e07d02c50d8853d0673084b0c5"
+    },
+    {
+      "id": "rank_emblem_1",
+      "label": "排行榜第1名美术字",
+      "state": "正常",
+      "type": "digit",
+      "box": [
+        717,
+        150,
+        784,
+        243
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        717,
+        257,
+        784,
+        350
+      ],
+      "runtimeEnabled": false,
+      "digit": "1",
+      "family": "rank_emblem",
+      "path": "rank_emblem_1.png",
+      "size": [
+        67,
+        93
+      ],
+      "sha256": "658ad724131f097ca37e6377572c1ae669180c4b3eb20384bef6007d3f2e3b8c",
+      "pixelSha256": "4d062eb98b2d17b730074db0778a183bff86fb9c2b1fbc06fd7a239d2e8e9fcd"
+    },
+    {
+      "id": "rank_emblem_2",
+      "label": "排行榜第2名美术字",
+      "state": "正常",
+      "type": "digit",
+      "box": [
+        717,
+        250,
+        784,
+        342
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        717,
+        357,
+        784,
+        449
+      ],
+      "runtimeEnabled": false,
+      "digit": "2",
+      "family": "rank_emblem",
+      "path": "rank_emblem_2.png",
+      "size": [
+        67,
+        92
+      ],
+      "sha256": "41c0fa605007c000cbb023f20051887c59a2db2dfbdb89a0903196854b37c0f5",
+      "pixelSha256": "d6a56927b3fcda5b14092037a6de583bdcf52dcd92fbba971bb87767556fb3ee"
+    },
+    {
+      "id": "rank_emblem_3",
+      "label": "排行榜第3名美术字",
+      "state": "正常",
+      "type": "digit",
+      "box": [
+        717,
+        350,
+        784,
+        442
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        717,
+        457,
+        784,
+        549
+      ],
+      "runtimeEnabled": false,
+      "digit": "3",
+      "family": "rank_emblem",
+      "path": "rank_emblem_3.png",
+      "size": [
+        67,
+        92
+      ],
+      "sha256": "57edd24d672b613680f825e3b846390a1560eb564f8dbd0ba4c74a35c89fc8d7",
+      "pixelSha256": "f7ebcd1cee25b5762f75c858d3741af4376390defe22248e141b1411073ea8dc"
+    },
+    {
+      "id": "leader_portrait",
+      "label": "排行榜头像（前两名同外观复用）",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        784,
+        150,
+        874,
+        243
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        784,
+        257,
+        874,
+        350
+      ],
+      "runtimeEnabled": false,
+      "path": "leader_portrait.png",
+      "size": [
+        90,
+        93
+      ],
+      "sha256": "195366a187d5c2cf62b8888fe168ef9003ba52ade328f7b3adbb3a0e2581e5ff",
+      "pixelSha256": "7c1e6285f3639589bd5d0a8c0a078b4f7c5f8ec67266b41183a66a75412b30f9"
+    },
+    {
+      "id": "leader_portrait_third",
+      "label": "排行榜第三名头像",
+      "state": "正常",
+      "type": "portrait",
+      "box": [
+        784,
+        350,
+        874,
+        442
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        784,
+        457,
+        874,
+        549
+      ],
+      "runtimeEnabled": false,
+      "path": "leader_portrait_third.png",
+      "size": [
+        90,
+        92
+      ],
+      "sha256": "094fc1ff9241f9c53c2d80ffc60219a76a81806fa193f3a45a3d97d06f314aec",
+      "pixelSha256": "17be424c51d3fa3d8dece3a6e9532d93df7340664388da1c4bb6144559e7063b"
+    },
+    {
+      "id": "team_lane_0",
+      "label": "阵容上路",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        64,
+        258,
+        109,
+        298
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        64,
+        365,
+        109,
+        405
+      ],
+      "runtimeEnabled": false,
+      "path": "team_lane_0.png",
+      "size": [
+        45,
+        40
+      ],
+      "sha256": "d09790ea34dbeec2ab02ace61cde7fc5776410e89fb9353ebf1faf2c1fad83e2",
+      "pixelSha256": "5c36994a4420765b511def8781f9895aef0494ad63ab724f77e7bf37343149b2"
+    },
+    {
+      "id": "team_lane_1",
+      "label": "阵容中路",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        64,
+        340,
+        109,
+        380
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        64,
+        447,
+        109,
+        487
+      ],
+      "runtimeEnabled": false,
+      "path": "team_lane_1.png",
+      "size": [
+        45,
+        40
+      ],
+      "sha256": "f0b035ddc95d9e3f44374828ae1347da8fc28da8b937ede1f56c88ff66e09e88",
+      "pixelSha256": "53b7a7c198e32aada8ef4c76d3f2e3adf33e2dfc0d064b7c2d5f5f9ef00c82e3"
+    },
+    {
+      "id": "team_lane_2",
+      "label": "阵容下路",
+      "state": "正常",
+      "type": "page_marker",
+      "box": [
+        64,
+        422,
+        109,
+        462
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        64,
+        529,
+        109,
+        569
+      ],
+      "runtimeEnabled": false,
+      "path": "team_lane_2.png",
+      "size": [
+        45,
+        40
+      ],
+      "sha256": "f249b3c2207523ca46ca8c1ec8c52f692e230685f04df9bdf207ef214dac1a76",
+      "pixelSha256": "f4493ab4783dc9391c8a821f5da63723382bfd50a07e766d4c13520009d721e4"
+    },
+    {
+      "id": "digit_white_serif_small_1",
+      "label": "white_serif_small 单字 1",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        976,
+        215,
+        984,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        976,
+        322,
+        984,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "1",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_1.png",
+      "size": [
+        8,
+        15
+      ],
+      "sha256": "f5ca86d7bd24235d21c29e38f09b6aff1e7971c22ab533705b691b4b03c743e2",
+      "pixelSha256": "c317b47f8b060678d030ec12a590178d10189cf6eb065730ced0a1077e1933bc"
+    },
+    {
+      "id": "digit_white_serif_small_0",
+      "label": "white_serif_small 单字 0",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        984,
+        215,
+        993,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        984,
+        322,
+        993,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "0",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_0.png",
+      "size": [
+        9,
+        15
+      ],
+      "sha256": "5de177201ad650247d742e32b8b385682c38dae7d964b9e86f12c838a4d672a8",
+      "pixelSha256": "789286386d36f124e125ca3112faa863ab1cf524b5ee0afce244529f16016c73"
+    },
+    {
+      "id": "digit_white_serif_small_6",
+      "label": "white_serif_small 单字 6",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        993,
+        215,
+        1002,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        993,
+        322,
+        1002,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "6",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_6.png",
+      "size": [
+        9,
+        15
+      ],
+      "sha256": "d8844b79d0d90ed10ea551900fbe6b39b92e1519de3d155893cad2b905691f20",
+      "pixelSha256": "e743a5a54bb4cd18a641b39f091aa6b3de4c8e082b5982f6beddc8daddd82970"
+    },
+    {
+      "id": "digit_white_serif_small_4",
+      "label": "white_serif_small 单字 4",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1002,
+        215,
+        1012,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1002,
+        322,
+        1012,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "4",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_4.png",
+      "size": [
+        10,
+        15
+      ],
+      "sha256": "7ca36f009636e801972d3c0f724210d25a48dcae77e4fb88c5169f4811a068d2",
+      "pixelSha256": "958ddc75e3b6918f5ee4a38c60b160216d3d9278937f8d7ca45a8d664a59614c"
+    },
+    {
+      "id": "digit_white_serif_small_5",
+      "label": "white_serif_small 单字 5",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1012,
+        215,
+        1021,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1012,
+        322,
+        1021,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "5",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_5.png",
+      "size": [
+        9,
+        15
+      ],
+      "sha256": "7c70f9bcaf7318fd8f717cf3ea70a60419de3b43a80f439a886562b5f48c344a",
+      "pixelSha256": "288e4a7a634f55e30fa846d9b016b510a6126940bf1a6dbacead89e145557bf8"
+    },
+    {
+      "id": "digit_white_serif_small_2",
+      "label": "white_serif_small 单字 2",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1030,
+        215,
+        1038,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1030,
+        322,
+        1038,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "2",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_2.png",
+      "size": [
+        8,
+        15
+      ],
+      "sha256": "a4054f223c624fe610176d629f1309e7794aa38211a76a90a40c15d31a338cf2",
+      "pixelSha256": "fc4c77620fd91c29a24a90aa0d1df9ed257a13600a65590ed866463ee9fb8fae"
+    },
+    {
+      "id": "digit_white_serif_small_9",
+      "label": "white_serif_small 单字 9",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1038,
+        215,
+        1048,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1038,
+        322,
+        1048,
+        337
+      ],
+      "runtimeEnabled": false,
+      "digit": "9",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_9.png",
+      "size": [
+        10,
+        15
+      ],
+      "sha256": "e6fb1ea7aa21021895458221d4d8b13849531efe6182994db05406900eee97e0",
+      "pixelSha256": "b5ea8f825c295030fefe4f648521776fcce1b75c9f9d8680bbf1d4de0082638c"
+    },
+    {
+      "id": "digit_white_serif_small_7",
+      "label": "white_serif_small 单字 7",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        1002,
+        314,
+        1012,
+        329
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1002,
+        421,
+        1012,
+        436
+      ],
+      "runtimeEnabled": false,
+      "digit": "7",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_7.png",
+      "size": [
+        10,
+        15
+      ],
+      "sha256": "d83e0f5f0cfdd9d94f811d86e27ed845e35fb2e7145168fa1a34660a4a872a8b",
+      "pixelSha256": "e75c72fc90ca8769c54afdbcba00445efdc4be215da21c46a06ceb803056bb66"
+    },
+    {
+      "id": "digit_white_serif_small_8",
+      "label": "white_serif_small 单字 8",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        975,
+        413,
+        984,
+        428
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        975,
+        520,
+        984,
+        535
+      ],
+      "runtimeEnabled": false,
+      "digit": "8",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_8.png",
+      "size": [
+        9,
+        15
+      ],
+      "sha256": "e6a864e9f65b956d1ee7a28b6d9f49483a708fe67d3e712bc80cdb6c8939034f",
+      "pixelSha256": "550c57e2e8e4fec9e56741905cbf26d823393e25f38236818682784ab99de47b"
+    },
+    {
+      "id": "digit_white_serif_small_3",
+      "label": "white_serif_small 单字 3",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        993,
+        413,
+        1003,
+        428
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        993,
+        520,
+        1003,
+        535
+      ],
+      "runtimeEnabled": false,
+      "digit": "3",
+      "family": "white_serif_small",
+      "occurrence": null,
+      "path": "digit_white_serif_small_3.png",
+      "size": [
+        10,
+        15
+      ],
+      "sha256": "9cde9c54673513e180f04ddf2815707c95f79f88f846774992bb58721bd70528",
+      "pixelSha256": "82862bcc9d12ec032c06da3175eddff6f7d968b280aeaee3f2996991e69c6db7"
+    },
+    {
+      "id": "digit_ranked_red_9",
+      "label": "ranked_red 单字 9",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        317,
+        106,
+        347,
+        127
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        317,
+        213,
+        347,
+        234
+      ],
+      "runtimeEnabled": false,
+      "digit": "9",
+      "family": "ranked_red",
+      "occurrence": {
+        "text": "572798",
+        "index": 4,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_ranked_red_9.png",
+      "size": [
+        30,
+        21
+      ],
+      "sha256": "e339897ba21d46bddd4212a9f9575caa795bb481e03e2ca8ba8359239fec37d2",
+      "pixelSha256": "c023103108fbefd3867fb039ae1bdb08fc7991edb389d279dc70c1f867e2706c"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "scope_local_unselected",
+      "label": "本服入口",
+      "state": "未选中",
+      "type": "button",
+      "box": [
+        1587,
+        0,
+        1683,
+        84
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1587,
+        107,
+        1683,
+        191
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/scope_local_unselected.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "scope_local_unselected",
+        "sha256": "788f897f1871bc19839b634028cbc53beb96524575682da6510092a2d448f874"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "scope_cross_selected",
+      "label": "联服入口",
+      "state": "选中",
+      "type": "button",
+      "box": [
+        1684,
+        0,
+        1798,
+        84
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1684,
+        107,
+        1798,
+        191
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/scope_cross_selected.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "scope_cross_selected",
+        "sha256": "c14fe657168206f46b5b8cc21eeef938942e938dcd323318f3fbb3edc8dc5a93"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "title_cross",
+      "label": "联服标题",
+      "state": "联服页面",
+      "type": "page_marker",
+      "box": [
+        752,
+        8,
+        812,
+        125
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        752,
+        115,
+        812,
+        232
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/title_cross.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "title_cross",
+        "sha256": "440ab5111fa2ff28ffaf9a39b25864d0f4cfdf4e6a0f192f53782571542417ec"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "refresh_ready",
+      "label": "刷新对手",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        1661,
+        889,
+        1783,
+        935
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1661,
+        996,
+        1783,
+        1042
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/refresh_ready.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "refresh_ready",
+        "sha256": "858f5760f752045b4f68f7e21c0fc0c0bc7e3ebe3dda5399511cbb14bdfee7fc"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "challenge_1",
+      "label": "挑战按钮1",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        351,
+        823,
+        507,
+        873
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        351,
+        930,
+        507,
+        980
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/challenge_1.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "challenge_1",
+        "sha256": "2f4c70b0dd8c7f29e7af525169beba0c11154f8dffae520601ba6952ace3b588"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "challenge_2",
+      "label": "挑战按钮2",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        641,
+        928,
+        797,
+        979
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        641,
+        1035,
+        797,
+        1086
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/challenge_2.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "challenge_2",
+        "sha256": "7418b144ac79a4a673786ebae9bad65e86ae791f95070b6eb301163609ce65c0"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "challenge_3",
+      "label": "挑战按钮3",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        882,
+        891,
+        1037,
+        941
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        882,
+        998,
+        1037,
+        1048
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/challenge_3.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "challenge_3",
+        "sha256": "0e4647eb4d91498b1584df4a369f37c72351b86029d3853f72870584be378626"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "challenge_4",
+      "label": "挑战按钮4",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        1109,
+        849,
+        1266,
+        900
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1109,
+        956,
+        1266,
+        1007
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/challenge_4.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "challenge_4",
+        "sha256": "ef129276b88cfb1916dd12ab767b0f52c55d2828e203f4b3d11749e67cda078b"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "challenge_5",
+      "label": "挑战按钮5",
+      "state": "可用",
+      "type": "button",
+      "box": [
+        1434,
+        824,
+        1590,
+        874
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1434,
+        931,
+        1590,
+        981
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/challenge_5.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "challenge_5",
+        "sha256": "9a8ff5bb6c0ab422bc1d39d50f0f029401347ff091fdb8089afd48fe031cc1e0"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "close_panel",
+      "label": "关闭面板",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1854,
+        7,
+        1911,
+        64
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1854,
+        114,
+        1911,
+        171
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/close_panel.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "close_panel",
+        "sha256": "b119e7cedf5f05c0d085c1525d3f4df5b5d893c2a94261222e62787ce5a07910"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "view_ranking",
+      "label": "查看排行",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        335,
+        26,
+        433,
+        65
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        335,
+        133,
+        433,
+        172
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/view_ranking.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "view_ranking",
+        "sha256": "56b2119faf5b3865fdd3b3be5234b82da2a873481ab83ebba17aa89a34a3e219"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "battle_report",
+      "label": "战报",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        440,
+        26,
+        502,
+        65
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        440,
+        133,
+        502,
+        172
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/battle_report.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "battle_report",
+        "sha256": "baf0b8885fe498d04f976051bf571c219a96a0b69da4d81fda3f1a9898059c78"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "adjust_team",
+      "label": "调整阵容",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        237,
+        175,
+        394,
+        231
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        237,
+        282,
+        394,
+        338
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/adjust_team.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "adjust_team",
+        "sha256": "8a8405c9b0cbf1144ad0c4d0aab20bb31fe8389a47993ad92ef4b6f79b0d5a40"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "view_reward",
+      "label": "查看奖励",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1753,
+        276,
+        1855,
+        316
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1753,
+        383,
+        1855,
+        423
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/view_reward.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "view_reward",
+        "sha256": "5ebab256c99999da4c75d68839dcee37141fa6945e53600b661e319520d11773"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "shop",
+      "label": "杂货屋",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1625,
+        317,
+        1845,
+        421
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1625,
+        424,
+        1845,
+        528
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/shop.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "shop",
+        "sha256": "9943f2ca45e2bbc8b1353591ce81b032fb37a3cb19ea8d35b2c43c1f2206d618"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ninja_trial",
+      "label": "忍者试用",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        30,
+        487,
+        160,
+        536
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        30,
+        594,
+        160,
+        643
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/ninja_trial.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "ninja_trial",
+        "sha256": "a55e4226c500850433dd2a76eb2c925f7cb30d3ebb3ec0267987ca0889c47bc5"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "buy_attempts",
+      "label": "增加挑战次数入口",
+      "state": "购买入口，仅归档",
+      "type": "button",
+      "box": [
+        1813,
+        85,
+        1854,
+        125
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        1813,
+        192,
+        1854,
+        232
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "ranked/20261013-974-cross-ready/buy_attempts.png",
+        "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+        "assetId": "buy_attempts",
+        "sha256": "649f0d3a66b90d635b110a9699c8f9302ba01a62ee1f7cdf0721e02d52a7aee7"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_ranked_red_5",
+      "label": "ranked_red 单字 5",
+      "state": "已有同像素红色字形掩码",
+      "type": "digit",
+      "digit": "5",
+      "family": "ranked_red",
+      "box": [
+        180,
+        105,
+        207,
+        128
+      ],
+      "sourceBox": [
+        180,
+        212,
+        207,
+        235
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "runtimeEnabled": false,
+      "reference": {
+        "projectPath": "resources/local/image/ranked_power_digit5_runtime.png",
+        "sha256": "6edcf8887ada5dfb44590772cfc6aa52285748835037243f0e3ee4d084131d42",
+        "sourceDocumentation": "resources/local/来源说明.md",
+        "representation": "existing_black_white_mask"
+      },
+      "reuseReason": "identical_foreground_mask",
+      "occurrence": {
+        "text": "572798",
+        "index": 0,
+        "method": "red_mask_projection"
+      }
+    },
+    {
+      "id": "digit_ranked_red_7",
+      "label": "ranked_red 单字 7",
+      "state": "已有同像素红色字形掩码",
+      "type": "digit",
+      "digit": "7",
+      "family": "ranked_red",
+      "box": [
+        219,
+        106,
+        243,
+        123
+      ],
+      "sourceBox": [
+        219,
+        213,
+        243,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "runtimeEnabled": false,
+      "reference": {
+        "projectPath": "resources/local/image/ranked_power_digit7_power340470_4.png",
+        "sha256": "e52c801b5a409c3d93e779abfcf7b4a7a67702434b1d8992263a009301c552fc",
+        "sourceDocumentation": "resources/local/来源说明.md",
+        "representation": "existing_black_white_mask"
+      },
+      "reuseReason": "identical_foreground_mask",
+      "occurrence": {
+        "text": "572798",
+        "index": 1,
+        "method": "red_mask_projection"
+      }
+    },
+    {
+      "id": "digit_ranked_red_2",
+      "label": "ranked_red 单字 2",
+      "state": "已有同像素红色字形掩码",
+      "type": "digit",
+      "digit": "2",
+      "family": "ranked_red",
+      "box": [
+        249,
+        106,
+        279,
+        127
+      ],
+      "sourceBox": [
+        249,
+        213,
+        279,
+        234
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "runtimeEnabled": false,
+      "reference": {
+        "projectPath": "resources/local/image/ranked_power_digit2_runtime.png",
+        "sha256": "0b6a3cf796a90afd43a6235095d5739eb1f5c689268b830f9bab14869a77a759",
+        "sourceDocumentation": "resources/local/来源说明.md",
+        "representation": "existing_black_white_mask"
+      },
+      "reuseReason": "identical_foreground_mask",
+      "occurrence": {
+        "text": "572798",
+        "index": 2,
+        "method": "red_mask_projection"
+      }
+    },
+    {
+      "id": "digit_ranked_red_7_1",
+      "label": "ranked_red 单字 7",
+      "state": "已有同像素红色字形掩码",
+      "type": "digit",
+      "digit": "7",
+      "family": "ranked_red",
+      "box": [
+        288,
+        106,
+        312,
+        123
+      ],
+      "sourceBox": [
+        288,
+        213,
+        312,
+        230
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "runtimeEnabled": false,
+      "reference": {
+        "projectPath": "resources/local/image/ranked_power_digit7_power340470_4.png",
+        "sha256": "e52c801b5a409c3d93e779abfcf7b4a7a67702434b1d8992263a009301c552fc",
+        "sourceDocumentation": "resources/local/来源说明.md",
+        "representation": "existing_black_white_mask"
+      },
+      "reuseReason": "identical_foreground_mask",
+      "occurrence": {
+        "text": "572798",
+        "index": 3,
+        "method": "red_mask_projection"
+      }
+    },
+    {
+      "id": "digit_ranked_red_8",
+      "label": "ranked_red 单字 8",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        351,
+        105,
+        379,
+        126
+      ],
+      "sourceFilename": "codex-clipboard-77e57b41-2e02-420f-bdbd-8038c2e469e5.png",
+      "sourceSha256": "d1aa9c5a95924fb2bb2d674274bf90320c481d567dc53c5554bfd02d8c378eea",
+      "sourceBox": [
+        351,
+        212,
+        379,
+        233
+      ],
+      "runtimeEnabled": false,
+      "digit": "8",
+      "family": "ranked_red",
+      "occurrence": {
+        "text": "572798",
+        "index": 5,
+        "method": "red_mask_projection"
+      },
+      "reference": {
+        "projectPath": "resources/local/image/ranked_power_digit8_failure572882_3.png",
+        "sha256": "c59fc6c3e7b8d40f14bacf9ecd80a40812d0c0760605be40e0cc0fdfba199f6c",
+        "sourceDocumentation": "resources/local/来源说明.md",
+        "representation": "existing_black_white_mask"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "只从用户附件离线提取，未操作游戏；裁切坐标不是点击目标。",
+    "已有同功能同状态图标复用引用；语义复用不声称当前画面像素相同。",
+    "数字逐字保存并标注字体样式；不固定业务读数。",
+    "素材候选未自动接入resources/local/image，未改变任务执行。",
+    "日期为接收／整理日期，不推定附件拍摄时间。"
+  ]
+}

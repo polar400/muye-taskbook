@@ -1,0 +1,32 @@
+{
+  "task": "wanted",
+  "threshold": 0.9,
+  "assets": [
+    {
+      "path": "resources\\local\\image\\wanted_kunai_core_20261017.png",
+      "label": "苦无金属刃和白环核心，排除发光边缘与场景背景",
+      "source": "resources/local/wanted/kunai-source.png",
+      "sourceBox": [
+        29,
+        15,
+        73,
+        49
+      ],
+      "sourceSha256": "6c8e849e8d797aeb9e5f24429958314e37b3a413c5af82b68d6fd78206930579",
+      "sha256": "683bb5950b2ce4ddd94172bb9348ccdd1f957e8fcefcfa081bf0fff29d5cb562"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_detail_title_failure20261017.png",
+      "label": "右侧活动详情的通缉任务美术字标题",
+      "source": "出错任务/通缉任务/证据/831508e2d050f1b570feb564.png",
+      "sourceBox": [
+        1185,
+        154,
+        1308,
+        186
+      ],
+      "sourceSha256": "6101120e4d1326c52c73a63e89b74e30fa85c2e0c3c4ed4b28dc8ad3cd7af1df",
+      "sha256": "0b8b970ff1de6535c0cdde34cd21a4145e3af37adc1cda752dcfc45301cddda7"
+    }
+  ]
+}

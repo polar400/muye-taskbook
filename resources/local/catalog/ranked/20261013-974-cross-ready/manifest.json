@@ -1,0 +1,395 @@
+{
+  "id": "20261013-974-cross-ready",
+  "task": "ranked",
+  "label": "排位战",
+  "date": "2026-10-13",
+  "accountServer": "974",
+  "scope": "联服",
+  "state": "刷新可用",
+  "sourceFilename": "codex-clipboard-51c1debf-6a52-47ba-b9b1-09516d786dea.png",
+  "sourceSha256": "7e49bfce4996f939b5297365e68326d4a8c802b0fae9a52adaf550ebcb482395",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "scope_local_unselected",
+      "label": "本服入口",
+      "state": "未选中",
+      "type": "button",
+      "path": "scope_local_unselected.png",
+      "box": [
+        1587,
+        0,
+        1683,
+        84
+      ],
+      "size": [
+        96,
+        84
+      ],
+      "sha256": "788f897f1871bc19839b634028cbc53beb96524575682da6510092a2d448f874",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "scope_cross_selected",
+      "label": "联服入口",
+      "state": "选中",
+      "type": "button",
+      "path": "scope_cross_selected.png",
+      "box": [
+        1684,
+        0,
+        1798,
+        84
+      ],
+      "size": [
+        114,
+        84
+      ],
+      "sha256": "c14fe657168206f46b5b8cc21eeef938942e938dcd323318f3fbb3edc8dc5a93",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "title_cross",
+      "label": "联服标题",
+      "state": "联服页面",
+      "type": "page_marker",
+      "path": "title_cross.png",
+      "box": [
+        752,
+        8,
+        812,
+        125
+      ],
+      "size": [
+        60,
+        117
+      ],
+      "sha256": "440ab5111fa2ff28ffaf9a39b25864d0f4cfdf4e6a0f192f53782571542417ec",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "refresh_ready",
+      "label": "刷新对手",
+      "state": "可用",
+      "type": "button",
+      "path": "refresh_ready.png",
+      "box": [
+        1661,
+        889,
+        1783,
+        935
+      ],
+      "size": [
+        122,
+        46
+      ],
+      "sha256": "858f5760f752045b4f68f7e21c0fc0c0bc7e3ebe3dda5399511cbb14bdfee7fc",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "challenge_1",
+      "label": "挑战按钮1",
+      "state": "可用",
+      "type": "button",
+      "path": "challenge_1.png",
+      "box": [
+        351,
+        823,
+        507,
+        873
+      ],
+      "size": [
+        156,
+        50
+      ],
+      "sha256": "2f4c70b0dd8c7f29e7af525169beba0c11154f8dffae520601ba6952ace3b588",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "challenge_2",
+      "label": "挑战按钮2",
+      "state": "可用",
+      "type": "button",
+      "path": "challenge_2.png",
+      "box": [
+        641,
+        928,
+        797,
+        979
+      ],
+      "size": [
+        156,
+        51
+      ],
+      "sha256": "7418b144ac79a4a673786ebae9bad65e86ae791f95070b6eb301163609ce65c0",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "challenge_3",
+      "label": "挑战按钮3",
+      "state": "可用",
+      "type": "button",
+      "path": "challenge_3.png",
+      "box": [
+        882,
+        891,
+        1037,
+        941
+      ],
+      "size": [
+        155,
+        50
+      ],
+      "sha256": "0e4647eb4d91498b1584df4a369f37c72351b86029d3853f72870584be378626",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "challenge_4",
+      "label": "挑战按钮4",
+      "state": "可用",
+      "type": "button",
+      "path": "challenge_4.png",
+      "box": [
+        1109,
+        849,
+        1266,
+        900
+      ],
+      "size": [
+        157,
+        51
+      ],
+      "sha256": "ef129276b88cfb1916dd12ab767b0f52c55d2828e203f4b3d11749e67cda078b",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "challenge_5",
+      "label": "挑战按钮5",
+      "state": "可用",
+      "type": "button",
+      "path": "challenge_5.png",
+      "box": [
+        1434,
+        824,
+        1590,
+        874
+      ],
+      "size": [
+        156,
+        50
+      ],
+      "sha256": "9a8ff5bb6c0ab422bc1d39d50f0f029401347ff091fdb8089afd48fe031cc1e0",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "close_panel",
+      "label": "关闭面板",
+      "state": "正常",
+      "type": "button",
+      "path": "close_panel.png",
+      "box": [
+        1854,
+        7,
+        1911,
+        64
+      ],
+      "size": [
+        57,
+        57
+      ],
+      "sha256": "b119e7cedf5f05c0d085c1525d3f4df5b5d893c2a94261222e62787ce5a07910",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "view_ranking",
+      "label": "查看排行",
+      "state": "正常",
+      "type": "button",
+      "path": "view_ranking.png",
+      "box": [
+        335,
+        26,
+        433,
+        65
+      ],
+      "size": [
+        98,
+        39
+      ],
+      "sha256": "56b2119faf5b3865fdd3b3be5234b82da2a873481ab83ebba17aa89a34a3e219",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "battle_report",
+      "label": "战报",
+      "state": "正常",
+      "type": "button",
+      "path": "battle_report.png",
+      "box": [
+        440,
+        26,
+        502,
+        65
+      ],
+      "size": [
+        62,
+        39
+      ],
+      "sha256": "baf0b8885fe498d04f976051bf571c219a96a0b69da4d81fda3f1a9898059c78",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "adjust_team",
+      "label": "调整阵容",
+      "state": "正常",
+      "type": "button",
+      "path": "adjust_team.png",
+      "box": [
+        237,
+        175,
+        394,
+        231
+      ],
+      "size": [
+        157,
+        56
+      ],
+      "sha256": "8a8405c9b0cbf1144ad0c4d0aab20bb31fe8389a47993ad92ef4b6f79b0d5a40",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "view_reward",
+      "label": "查看奖励",
+      "state": "正常",
+      "type": "button",
+      "path": "view_reward.png",
+      "box": [
+        1753,
+        276,
+        1855,
+        316
+      ],
+      "size": [
+        102,
+        40
+      ],
+      "sha256": "5ebab256c99999da4c75d68839dcee37141fa6945e53600b661e319520d11773",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "shop",
+      "label": "杂货屋",
+      "state": "正常",
+      "type": "button",
+      "path": "shop.png",
+      "box": [
+        1625,
+        317,
+        1845,
+        421
+      ],
+      "size": [
+        220,
+        104
+      ],
+      "sha256": "9943f2ca45e2bbc8b1353591ce81b032fb37a3cb19ea8d35b2c43c1f2206d618",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "ninja_trial",
+      "label": "忍者试用",
+      "state": "正常",
+      "type": "button",
+      "path": "ninja_trial.png",
+      "box": [
+        30,
+        487,
+        160,
+        536
+      ],
+      "size": [
+        130,
+        49
+      ],
+      "sha256": "a55e4226c500850433dd2a76eb2c925f7cb30d3ebb3ec0267987ca0889c47bc5",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "buy_attempts",
+      "label": "增加挑战次数入口",
+      "state": "购买入口，仅归档",
+      "type": "button",
+      "path": "buy_attempts.png",
+      "box": [
+        1813,
+        85,
+        1854,
+        125
+      ],
+      "size": [
+        41,
+        40
+      ],
+      "sha256": "649f0d3a66b90d635b110a9699c8f9302ba01a62ee1f7cdf0721e02d52a7aee7",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "own_power_region",
+      "label": "我方战力",
+      "state": "示例341307，须动态读取",
+      "type": "dynamic_region",
+      "path": "own_power_region.png",
+      "box": [
+        169,
+        83,
+        385,
+        137
+      ],
+      "size": [
+        216,
+        54
+      ],
+      "sha256": "77d459a8a0a9e50ca64d4c970564190b8fef96eb975bbb8d8df296773081601e",
+      "runtimeEnabled": false
+    },
+    {
+      "id": "remaining_region",
+      "label": "剩余挑战次数",
+      "state": "示例6，须动态读取",
+      "type": "dynamic_region",
+      "path": "remaining_region.png",
+      "box": [
+        1635,
+        83,
+        1812,
+        126
+      ],
+      "size": [
+        177,
+        43
+      ],
+      "sha256": "000d4afc8ce0ed21c985ba0f118e9ce25a5bafdd9a7650427d0e69a53867a3e3",
+      "runtimeEnabled": false
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "归档候选与当前运行模板分开保存，未覆盖resources/local/image。",
+    "数字为截图时的状态，只保存读数区域，不作为固定模板。",
+    "购买次数入口仅归档，不属于已授权的自动购买操作。"
+  ]
+}

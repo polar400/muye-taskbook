@@ -1,0 +1,24 @@
+{
+  "sampleId": "20261016-973-daily",
+  "label": "日常活动",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 26,
+  "newDigitCrops": 7,
+  "reusedAssets": 20,
+  "reuseReasons": {
+    "existing_semantic_same_state": 20
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "可完成任务:2/2",
+    "剩余奖励时间:1/1"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

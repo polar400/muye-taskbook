@@ -1,0 +1,15 @@
+{
+  "sampleId": "20261013-974-cross-ready",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "graphicalAssets": 17,
+  "dynamicRegions": 2,
+  "allCropsPixelEqual": true,
+  "scope": "连服",
+  "refreshState": "ready",
+  "challengeCount": 5,
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

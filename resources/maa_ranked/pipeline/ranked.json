@@ -1,0 +1,19 @@
+{
+  "RankedStart": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"start"},"next":["RankedPanel"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedEnter": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"enter"},"next":["RankedPanel"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedPanel": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"panel"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"scope"},"next":["RankedRead"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedScoped": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"scoped"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"scoped"},"next":["RankedRead"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedRead": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"stable"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"decide"},"next":["RankedChallenge"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedChallenge": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"challenge"},"next":["RankedWaitBattle"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedWaitBattle": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"wait_battle"},"next":["RankedSettlement","RankedEndButton"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedEndButton": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"end_button"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"end_battle"},"next":["RankedSettlement"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedSettlement": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"settlement"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"result"},"next":["RankedConfirm"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedConfirm": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"confirm"},"next":["RankedReturned"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedReturned": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"panel"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"returned"},"next":["RankedRead"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedRefresh": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"refresh"},"next":["RankedRefreshNotice","RankedRefreshed"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedRefreshNotice": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"refresh_notice"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"refresh_notice"},"next":["RankedRefreshed"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedRefreshed": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"refreshed"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"refreshed"},"next":["RankedRead"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedClose": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"close"},"next":["RankedHome"],"timeout":-1,"on_error":["RankedFailed"]},
+  "RankedHome": {"recognition":"Custom","custom_recognition":"RankedRecognition","custom_recognition_param":{"state":"home"},"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"finish"},"next":[],"on_error":["RankedFailed"]},
+  "RankedFailed": {"action":"Custom","custom_action":"RankedAction","custom_action_param":{"op":"fail"},"next":[]}
+}

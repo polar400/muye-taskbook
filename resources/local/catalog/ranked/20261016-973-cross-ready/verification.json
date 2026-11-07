@@ -1,0 +1,26 @@
+{
+  "sampleId": "20261016-973-cross-ready",
+  "label": "排位战",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 31,
+  "newDigitCrops": 14,
+  "reusedAssets": 22,
+  "reuseReasons": {
+    "existing_semantic_same_state": 18,
+    "identical_foreground_mask": 4
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "调整阵容",
+    "战报",
+    "刷新对手"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

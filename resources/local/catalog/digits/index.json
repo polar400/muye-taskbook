@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "order": "1234567890",
+  "gameInput": false,
+  "runtimeEnabled": false,
+  "notes": [
+    "只保存或引用真实可见的逐字字形；缺字不合成、不跨字体补齐。",
+    "white_serif_small全套来自当前排位榜；ranked_red为既有掩码和新原色字形引用。",
+    "同数字的不同字体／尺寸分家族，使用时须匹配family和representation。"
+  ],
+  "families": [
+    {
+      "id": "action_red",
+      "availableDigits": "1234",
+      "missingDigits": "567890",
+      "complete": false,
+      "digits": {
+        "1": {
+          "catalogPath": "arena/20261016-973-team-ready/digit_action_red_1.png",
+          "manifest": "arena/20261016-973-team-ready/manifest.json",
+          "assetId": "digit_action_red_1",
+          "sha256": "ee1571cfbd9b2958c4a05af526c88b0950d17c033190891d803ca2453257603d",
+          "representation": "source_rgb_crop"
+        },
+        "2": {
+          "catalogPath": "arena/20261016-973-team-ready/digit_action_red_2.png",
+          "manifest": "arena/20261016-973-team-ready/manifest.json",
+          "assetId": "digit_action_red_2",
+          "sha256": "7179e2cd202488d4523d94b60533e317b3820b748fe3f052797d0d71339cb379",
+          "representation": "source_rgb_crop"
+        },
+        "3": {
+          "catalogPath": "arena/20261016-973-team-ready/digit_action_red_3.png",
+          "manifest": "arena/20261016-973-team-ready/manifest.json",
+          "assetId": "digit_action_red_3",
+          "sha256": "013898be69687299d1843fab29e0c7dab7b2cb1491f84cb95d9d7fddd3592695",
+          "representation": "source_rgb_crop"
+        },
+        "4": {
+          "catalogPath": "arena/20261016-973-team-ready/digit_action_red_4.png",
+          "manifest": "arena/20261016-973-team-ready/manifest.json",
+          "assetId": "digit_action_red_4",
+          "sha256": "b6c9c7051ff3c86895005ea90520dbf91d9fe8fb0659b9cdd4febf452f2face8",
+          "representation": "source_rgb_crop"
+        }
+      }
+    },
+    {
+      "id": "activity_gold_large",
+      "availableDigits": "3567890",
+      "missingDigits": "124",
+      "complete": false,
+      "digits": {
+        "3": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_3.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_3",
+          "sha256": "5783e7eef3540992f27a36aa39a013629ebc7e9a6188bbf34ef83f2888bb5c81",
+          "representation": "source_rgb_crop"
+        },
+        "5": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_5.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_5",
+          "sha256": "25e2bab0fec7d616d540bfa36102bfebc2d34abbf4803ce1af7a1b4c7d855602",
+          "representation": "source_rgb_crop"
+        },
+        "6": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_6.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_6",
+          "sha256": "2ba16eb933a53382c76d1a3e0398dc7f9b580a32f516a4b30490c73369214771",
+          "representation": "source_rgb_crop"
+        },
+        "7": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_7.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_7",
+          "sha256": "26cf565144d77a57791bd96fb1de794c51e6b68e38e630e2dc6d856381422f7d",
+          "representation": "source_rgb_crop"
+        },
+        "8": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_8.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_8",
+          "sha256": "66528b80ad17196a2a501bc0fed99719de1375b1c6fab8efe64929728f8edafd",
+          "representation": "source_rgb_crop"
+        },
+        "9": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_9.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_9",
+          "sha256": "ccbd7e02955a9b786522e7e8aa8f9f919598690d38395b063d66755b415d31bf",
+          "representation": "source_rgb_crop"
+        },
+        "0": {
+          "catalogPath": "activities/20261016-973-daily/digit_activity_gold_large_0.png",
+          "manifest": "activities/20261016-973-daily/manifest.json",
+          "assetId": "digit_activity_gold_large_0",
+          "sha256": "598ffa7acc652c50c9f8b6156533310d134d43191d2a0f421106a2ed66f05ba9",
+          "representation": "source_rgb_crop"
+        }
+      }
+    },
+    {
+      "id": "home_red",
+      "availableDigits": "25789",
+      "missingDigits": "13460",
+      "complete": false,
+      "digits": {
+        "2": {
+          "catalogPath": "home/20261016-973-village/digit_home_red_2.png",
+          "manifest": "home/20261016-973-village/manifest.json",
+          "assetId": "digit_home_red_2",
+          "sha256": "d9d2233d143655b5302809df7d6ba4676957f67a9e2f0c0e967eb3e9282286f0",
+          "representation": "source_rgb_crop"
+        },
+        "5": {
+          "catalogPath": "home/20261016-973-village/digit_home_red_5.png",
+          "manifest": "home/20261016-973-village/manifest.json",
+          "assetId": "digit_home_red_5",
+          "sha256": "d2dad8cfa3f250b0f40ea2ce389f83a04689cb3e2dbbd13e4b1c16109c5641c6",
+          "representation": "source_rgb_crop"
+        },
+        "7": {
+          "catalogPath": "home/20261016-973-village/digit_home_red_7.png",
+          "manifest": "home/20261016-973-village/manifest.json",
+          "assetId": "digit_home_red_7",
+          "sha256": "5a26da794cdeb444fbf65697a9ac6b190eabb00a997965ed1e3888ba1fe27dc4",
+          "representation": "source_rgb_crop"
+        },
+        "8": {
+          "catalogPath": "home/20261016-973-village/digit_home_red_8.png",
+          "manifest": "home/20261016-973-village/manifest.json",
+          "assetId": "digit_home_red_8",
+          "sha256": "dec29e949d66d8728f85cdd89112ad175d325feb6fa6c6d5b330409fdc8bec17",
+          "representation": "source_rgb_crop"
+        },
+        "9": {
+          "catalogPath": "home/20261016-973-village/digit_home_red_9.png",
+          "manifest": "home/20261016-973-village/manifest.json",
+          "assetId": "digit_home_red_9",
+          "sha256": "3be94b3ae356bfb170f569510887c15b8d5eb68e076603215a79671798c12537",
+          "representation": "source_rgb_crop"
+        }
+      }
+    },
+    {
+      "id": "rank_emblem",
+      "availableDigits": "123",
+      "missingDigits": "4567890",
+      "complete": false,
+      "digits": {
+        "1": {
+          "catalogPath": "ranked/20261016-973-cross-ready/rank_emblem_1.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "rank_emblem_1",
+          "sha256": "658ad724131f097ca37e6377572c1ae669180c4b3eb20384bef6007d3f2e3b8c",
+          "representation": "source_rgb_crop"
+        },
+        "2": {
+          "catalogPath": "ranked/20261016-973-cross-ready/rank_emblem_2.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "rank_emblem_2",
+          "sha256": "41c0fa605007c000cbb023f20051887c59a2db2dfbdb89a0903196854b37c0f5",
+          "representation": "source_rgb_crop"
+        },
+        "3": {
+          "catalogPath": "ranked/20261016-973-cross-ready/rank_emblem_3.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "rank_emblem_3",
+          "sha256": "57edd24d672b613680f825e3b846390a1560eb564f8dbd0ba4c74a35c89fc8d7",
+          "representation": "source_rgb_crop"
+        }
+      }
+    },
+    {
+      "id": "ranked_red",
+      "availableDigits": "1234567890",
+      "missingDigits": "",
+      "complete": true,
+      "digits": {
+        "1": {
+          "projectPath": "resources/local/image/ranked_power_digit1_catalog341307_2.png",
+          "sha256": "b6cfc514eb938e70539920332f2d77d9848a6a94009f8b51877f2748f0668252",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "2": {
+          "projectPath": "resources/local/image/ranked_power_digit2_runtime.png",
+          "sha256": "0b6a3cf796a90afd43a6235095d5739eb1f5c689268b830f9bab14869a77a759",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "3": {
+          "projectPath": "resources/local/image/ranked_power_digit3_catalog341307_3.png",
+          "sha256": "1bd58d62558b822ae39232eef3cf181e7ed2b344bf7d5ab002eee1edff5e35fd",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "4": {
+          "projectPath": "resources/local/image/ranked_power_digit4_power340470_1.png",
+          "sha256": "f6b6e6399df345e95a540e2bdcad4609398a46ab0dd821b04461f700eac98863",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "5": {
+          "projectPath": "resources/local/image/ranked_power_digit5_runtime.png",
+          "sha256": "6edcf8887ada5dfb44590772cfc6aa52285748835037243f0e3ee4d084131d42",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "6": {
+          "projectPath": "resources/local/image/ranked_power_digit6_runtime.png",
+          "sha256": "1147eeddafe03ae7a53f328389b8972111b47c849897f222b0a76dbf3f352988",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "7": {
+          "projectPath": "resources/local/image/ranked_power_digit7_power340470_4.png",
+          "sha256": "e52c801b5a409c3d93e779abfcf7b4a7a67702434b1d8992263a009301c552fc",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "8": {
+          "projectPath": "resources/local/image/ranked_power_digit8_failure572882_3.png",
+          "sha256": "c59fc6c3e7b8d40f14bacf9ecd80a40812d0c0760605be40e0cc0fdfba199f6c",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        },
+        "9": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_ranked_red_9.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_ranked_red_9",
+          "sha256": "e339897ba21d46bddd4212a9f9575caa795bb481e03e2ca8ba8359239fec37d2",
+          "representation": "source_rgb_crop"
+        },
+        "0": {
+          "projectPath": "resources/local/image/ranked_power_digit0_power340470_2.png",
+          "sha256": "acbeab02af19d5dc35f6d3b402b6c8a63eb9e6f20f3827821321b0d24fca844a",
+          "sourceDocumentation": "resources/local/来源说明.md",
+          "representation": "existing_black_white_mask"
+        }
+      }
+    },
+    {
+      "id": "white_serif_small",
+      "availableDigits": "1234567890",
+      "missingDigits": "",
+      "complete": true,
+      "digits": {
+        "1": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_1.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_1",
+          "sha256": "f5ca86d7bd24235d21c29e38f09b6aff1e7971c22ab533705b691b4b03c743e2",
+          "representation": "source_rgb_crop"
+        },
+        "2": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_2.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_2",
+          "sha256": "a4054f223c624fe610176d629f1309e7794aa38211a76a90a40c15d31a338cf2",
+          "representation": "source_rgb_crop"
+        },
+        "3": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_3.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_3",
+          "sha256": "9cde9c54673513e180f04ddf2815707c95f79f88f846774992bb58721bd70528",
+          "representation": "source_rgb_crop"
+        },
+        "4": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_4.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_4",
+          "sha256": "7ca36f009636e801972d3c0f724210d25a48dcae77e4fb88c5169f4811a068d2",
+          "representation": "source_rgb_crop"
+        },
+        "5": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_5.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_5",
+          "sha256": "7c70f9bcaf7318fd8f717cf3ea70a60419de3b43a80f439a886562b5f48c344a",
+          "representation": "source_rgb_crop"
+        },
+        "6": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_6.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_6",
+          "sha256": "d8844b79d0d90ed10ea551900fbe6b39b92e1519de3d155893cad2b905691f20",
+          "representation": "source_rgb_crop"
+        },
+        "7": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_7.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_7",
+          "sha256": "d83e0f5f0cfdd9d94f811d86e27ed845e35fb2e7145168fa1a34660a4a872a8b",
+          "representation": "source_rgb_crop"
+        },
+        "8": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_8.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_8",
+          "sha256": "e6a864e9f65b956d1ee7a28b6d9f49483a708fe67d3e712bc80cdb6c8939034f",
+          "representation": "source_rgb_crop"
+        },
+        "9": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_9.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_9",
+          "sha256": "e6fb1ea7aa21021895458221d4d8b13849531efe6182994db05406900eee97e0",
+          "representation": "source_rgb_crop"
+        },
+        "0": {
+          "catalogPath": "ranked/20261016-973-cross-ready/digit_white_serif_small_0.png",
+          "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+          "assetId": "digit_white_serif_small_0",
+          "sha256": "5de177201ad650247d742e32b8b385682c38dae7d964b9e86f12c838a4d672a8",
+          "representation": "source_rgb_crop"
+        }
+      }
+    }
+  ]
+}

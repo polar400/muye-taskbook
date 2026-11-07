@@ -1,0 +1,438 @@
+{
+  "schema": 1,
+  "source_sha256": "8e4c2ac834ef5d0cc2a1a2eded1c2b437f27a7cdc89da788de605cffcff98467",
+  "game_crop": [
+    45,
+    131,
+    1920,
+    1015
+  ],
+  "coordinate_system": "canonical_game_1920x1015",
+  "purpose": "Read-only known-page anchors and real name-label evidence; no purchase result evidence",
+  "assets": [
+    {
+      "key": "page_close",
+      "path": "runtime/page_close.png",
+      "box": [
+        1822,
+        54,
+        58,
+        62
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1867,
+        185,
+        58,
+        62
+      ],
+      "sha256": "92b9921c67106647c7e0c59aa71ffd0e328799570ef24cbdd8b8c361d9eaa443",
+      "width": 58,
+      "height": 62,
+      "pixel_sha256": "f48454c36a55709ba020c140162f5701d8bc07a0643411a713b308925881345e"
+    },
+    {
+      "key": "tab_sun_selected",
+      "path": "runtime/tab_sun_selected.png",
+      "box": [
+        1337,
+        43,
+        105,
+        88
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1382,
+        174,
+        105,
+        88
+      ],
+      "sha256": "86d72a87a086ba46cc2490010d0fdb7d0bdc298f1e7f5a188369c430f88bdbc7",
+      "width": 105,
+      "height": 88,
+      "pixel_sha256": "8ecf49fc542e7897e1f3e03b8f6ca2e8243734fb5796564ecdd2b6aeb4ed00e0"
+    },
+    {
+      "key": "currency_sun",
+      "path": "runtime/currency_sun.png",
+      "box": [
+        323,
+        48,
+        48,
+        40
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        368,
+        179,
+        48,
+        40
+      ],
+      "sha256": "7582bc30b7ab87dafdbce90d52ae0653172cb36f4e4f846f47aab243fdc84acd",
+      "width": 48,
+      "height": 40,
+      "pixel_sha256": "532515320a421d512991c3fbf64ef51bce91bc2798690433aa3bb23349a9ce57"
+    },
+    {
+      "key": "currency_moon",
+      "path": "runtime/currency_moon.png",
+      "box": [
+        546,
+        48,
+        45,
+        40
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        591,
+        179,
+        45,
+        40
+      ],
+      "sha256": "0c952077d7cf9d95f0c5b509842643f771da66d22ed1d0b63d46c23093528ef7",
+      "width": 45,
+      "height": 40,
+      "pixel_sha256": "6ee751271afe756be55e173f908aebfd347dbfdc3ff5d9e697d739aa491bd2dd"
+    },
+    {
+      "key": "currency_sign",
+      "path": "runtime/currency_sign.png",
+      "box": [
+        769,
+        48,
+        43,
+        40
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        814,
+        179,
+        43,
+        40
+      ],
+      "sha256": "8a5ca442ae0694e45382c4e88ffcb196e64f85a923d4e922867ef6eb1cdc0e84",
+      "width": 43,
+      "height": 40,
+      "pixel_sha256": "10213839a667d32d1762c1027159936c31a0acfc1bd47cb303a7309d311f7a8e"
+    },
+    {
+      "key": "currency_mystery",
+      "path": "runtime/currency_mystery.png",
+      "box": [
+        989,
+        49,
+        43,
+        40
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1034,
+        180,
+        43,
+        40
+      ],
+      "sha256": "8e1c12a40d7e52e1e8799d3c7ad8f6b8f0de876bcaefc8c7fa0b802216697088",
+      "width": 43,
+      "height": 40,
+      "pixel_sha256": "5523e0c5400fe015425c5011897e23d70a784463e5dc641b35eb8f5677222457"
+    },
+    {
+      "key": "buy_button",
+      "path": "runtime/buy_button.png",
+      "box": [
+        464,
+        276,
+        132,
+        52
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        509,
+        407,
+        132,
+        52
+      ],
+      "sha256": "d1e248fb858ee9ee87148798861fb90de552fc1d4709cbe6949944b5ff8d0971",
+      "width": 132,
+      "height": 52,
+      "pixel_sha256": "a01fddcfbcd50f058cb9b5de364d4d1777f10d3774f4df9365e72aeb8ca07836"
+    },
+    {
+      "key": "name_10800050",
+      "path": "runtime/name_10800050.png",
+      "box": [
+        422,
+        355,
+        92,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        467,
+        486,
+        92,
+        30
+      ],
+      "sha256": "efa7a5808f8c85f96720402d0e76d79eb05c8e34a3520451bb548e3504fe26eb",
+      "width": 92,
+      "height": 30,
+      "pixel_sha256": "9f7b76acd02596621a0669e74ff4cc36f0456aac1567a7d8bb68b2843b854085"
+    },
+    {
+      "key": "name_10830003",
+      "path": "runtime/name_10830003.png",
+      "box": [
+        722,
+        355,
+        92,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        767,
+        486,
+        92,
+        30
+      ],
+      "sha256": "ffd05619464e85133a81aea613a56c92daf29b8589a171acc24f35821a3c809c",
+      "width": 92,
+      "height": 30,
+      "pixel_sha256": "a338634f707ab8d2f416a632754715d32244898c8859ed77be959774590adde2"
+    },
+    {
+      "key": "name_10840036",
+      "path": "runtime/name_10840036.png",
+      "box": [
+        980,
+        355,
+        176,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1025,
+        486,
+        176,
+        30
+      ],
+      "sha256": "b9ba4bf3beff81d91b86c5d4bb531f11f96897ee7375c42c1e7353f33f8ce81f",
+      "width": 176,
+      "height": 30,
+      "pixel_sha256": "48809be7801946b2f27d008ebd487a9d7bbecaea4d2f1fe810bfa281244b2445"
+    },
+    {
+      "key": "name_12300010",
+      "path": "runtime/name_12300010.png",
+      "box": [
+        1312,
+        355,
+        113,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1357,
+        486,
+        113,
+        30
+      ],
+      "sha256": "8dec6673b8e8ae641a23804ab598d719b5a658a420af196191ed96de16a7234a",
+      "width": 113,
+      "height": 30,
+      "pixel_sha256": "56dbdd9e99747b68f0b6e5ebbe3aa9ad1105f3b67a2f7fe0a681a773b9527987"
+    },
+    {
+      "key": "name_10100000",
+      "path": "runtime/name_10100000.png",
+      "box": [
+        412,
+        619,
+        113,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        457,
+        750,
+        113,
+        30
+      ],
+      "sha256": "6438dfb9db2cb742204734c1bb28a81b95b1ca75de465405464a74d2d504aec4",
+      "width": 113,
+      "height": 30,
+      "pixel_sha256": "003496ea51fc093264b384fc0837cef92650c7a063117bb263eb8c1d31b6b10b"
+    },
+    {
+      "key": "name_10190261",
+      "path": "runtime/name_10190261.png",
+      "box": [
+        712,
+        619,
+        113,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        757,
+        750,
+        113,
+        30
+      ],
+      "sha256": "bc7b14c002b4f106a1d6e49caff4b8f78e2817c32aa6ba446a761069f37ce157",
+      "width": 113,
+      "height": 30,
+      "pixel_sha256": "b074578ea7c04f5f03a9bc0aaec81732b74f188963d59ceab7d852e1f29af99c"
+    },
+    {
+      "key": "name_10190514",
+      "path": "runtime/name_10190514.png",
+      "box": [
+        990,
+        619,
+        155,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1035,
+        750,
+        155,
+        30
+      ],
+      "sha256": "09eafa2ac7e85b41b12feef53218d51ce9c3d79c2ee68aff5f67613e25612127",
+      "width": 155,
+      "height": 30,
+      "pixel_sha256": "dd2143719dd22b49a725eb8866c2cf2933e2e7b751230bafa892aa55103b5d1c"
+    },
+    {
+      "key": "name_10190515",
+      "path": "runtime/name_10190515.png",
+      "box": [
+        1290,
+        619,
+        155,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1335,
+        750,
+        155,
+        30
+      ],
+      "sha256": "fd1d1a4dabbefa9359d79b015b8726e294f897011b43e7bae6be5bf4000bbf17",
+      "width": 155,
+      "height": 30,
+      "pixel_sha256": "2117b9c42932b54c72ae67e0519b65f904207c57cfe793e2c3db3de1363bcaac"
+    },
+    {
+      "key": "name_10190516",
+      "path": "runtime/name_10190516.png",
+      "box": [
+        390,
+        883,
+        155,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        435,
+        1014,
+        155,
+        30
+      ],
+      "sha256": "df7094553cd42adf0fbe950f5c50cda61c02105122a2804efec422f2a415a15b",
+      "width": 155,
+      "height": 30,
+      "pixel_sha256": "6643dbcf06f018251172e6e84e08813b7f3737783069a58e988738c2741c9530"
+    },
+    {
+      "key": "name_10190517",
+      "path": "runtime/name_10190517.png",
+      "box": [
+        690,
+        883,
+        155,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        735,
+        1014,
+        155,
+        30
+      ],
+      "sha256": "70d5d98e48d9890dbf2aec5338fed3ff192dcd9c2a79b567b1429ebd9710664d",
+      "width": 155,
+      "height": 30,
+      "pixel_sha256": "79e32d7459beab1aea7c3900081267fa41a7c874011f10b30496d3348da2f900"
+    },
+    {
+      "key": "name_10190518",
+      "path": "runtime/name_10190518.png",
+      "box": [
+        990,
+        883,
+        155,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1035,
+        1014,
+        155,
+        30
+      ],
+      "sha256": "e2e5339024683934cf87f5476cbbb3ca9963b2cfd68944069698f1b3bfe270a0",
+      "width": 155,
+      "height": 30,
+      "pixel_sha256": "559c42024423a44f611a8f7f62d375c5edb7ac1eb8802fb49ac8fa5f2943fb34"
+    },
+    {
+      "key": "name_40701201",
+      "path": "runtime/name_40701201.png",
+      "box": [
+        1301,
+        883,
+        134,
+        30
+      ],
+      "source": "sources/user-game.png",
+      "source_box": [
+        1346,
+        1014,
+        134,
+        30
+      ],
+      "sha256": "9816737d39901abdb696113386a7dd6aff162306e1af7c32c021df4928afe110",
+      "width": 134,
+      "height": 30,
+      "pixel_sha256": "553e13158aee1b61c351a9200fe79fd6de5510f80925b117d5cb3dd8bddd5a0f"
+    }
+  ],
+  "derived_game": {
+    "path": "sources/game-1920.png",
+    "sha256": "6c2df999a7429d1ae4782a320db1a2c3a64cbd337c8f423280a80390508fca37",
+    "width": 1920,
+    "height": 1015,
+    "pixel_sha256": "34d0ee5d69e5a6a9be473f8cd1f36623273378e3517adf6e1a701a0dba53e249",
+    "source": "sources/user-game.png",
+    "source_box": [
+      45,
+      131,
+      1920,
+      1015
+    ]
+  },
+  "supplemental_sources": [
+    {
+      "path": "sources/user-currencies.png",
+      "sha256": "7ed9539234fb1960f9ae34489e37d5f9cedc170605cd5d9932359301b780f76d",
+      "width": 876,
+      "height": 93,
+      "pixel_sha256": "ab3c12dc6d4e53badfa39d1dbe6bb45089121b40772555a8715e43f8abf7e645",
+      "original_path": "C:/Users/lenovo/AppData/Local/Temp/codex-clipboard-d5606961-aefe-4a4c-a27c-0a5cff303254.png",
+      "purpose": "User currency labels and read-only balance reference"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source": "verification\\failure-20261023-134652-84f2addf5c43-team_instance.png",
+  "sha256": "1e2842d83539809d3f6b11034ad5cc1c10e69c63134e8eaad03c659456cc76c0",
+  "crops": {
+    "team_row_yellow": [
+      322,
+      302,
+      457,
+      347
+    ],
+    "team_detail": [
+      1186,
+      154,
+      1304,
+      188
+    ],
+    "participate_live": [
+      1288,
+      698,
+      1417,
+      732
+    ]
+  },
+  "threshold": 0.9
+}

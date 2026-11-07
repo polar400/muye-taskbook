@@ -1,0 +1,27 @@
+{
+  "task": "wanted",
+  "purpose": "Real solo warning confirmation regression; no runtime templates added",
+  "sources": [
+    {
+      "path": "resources/local/wanted/solo-confirm-user-source.png",
+      "original": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-1adb71bc-5891-47df-81ef-41cc9a957620.png",
+      "sha256": "008a7f8117a0c3e7c898bda97b02340a05cd000ed62b7acafe304b7b7d1fafde",
+      "gameBox": [
+        0,
+        107,
+        1920,
+        1122
+      ]
+    },
+    {
+      "path": "出错任务/通缉任务/证据/31bbb72819c67c03690bf62e.png",
+      "sha256": "2e0db79f78b1a55e237de28dd1886477d2071a77449257e3169c9b0bb53cdda1",
+      "gameBox": [
+        0,
+        0,
+        1920,
+        1015
+      ]
+    }
+  ]
+}

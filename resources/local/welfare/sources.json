@@ -1,0 +1,178 @@
+{
+  "reference-1.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-202dc1f3-586c-4add-8610-147beeb4b1c1.png",
+    "sha256": "aa1b15682a0482a3e82ecfabdc6ebb04094dd9e8df477e4dbb140f4da73bf91c"
+  },
+  "reference-2.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-831405ea-48a2-49e3-b61a-5007bc72c3cb.png",
+    "sha256": "a918201fbf1fb6357ea6bf5d03b32414f41b140e35bb91465a710599f4923a6d"
+  },
+  "reference-3.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-ae3b6835-9d38-4641-a9b8-7bc8dcb3b149.png",
+    "sha256": "cf95d491f64e53bd44d674835406bc9ddac4c79e50099894175edea8aef81898"
+  },
+  "reference-4.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-01ada5c6-b5d2-44e1-995b-8ed4366591b0.png",
+    "sha256": "5a4741416b84bfa6a7e5773f9eccea5debb4282dba1e33a9ac8c26aded2eb84e"
+  },
+  "reference-5.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-4e21cb49-1c43-4b02-a1fb-cc64d6724261.png",
+    "sha256": "9ae12d9c5bed8913bc90ab3ff5bea697287b4e774f86439458668baea3da2564"
+  },
+  "reference-6.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-d4abc38c-618a-4c31-8274-9dac080b9f98.png",
+    "sha256": "2818e4ddb703517d5f7f31776955d02b29f2e497087440d84298fa86a5279659"
+  },
+  "reference-7.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-364ca94d-f070-492a-b313-34779ebb45b6.png",
+    "sha256": "6e0fccab15d5f53fecd9ecf217ebd7c54d9d1b2eca960a8400cdc5910a193e53"
+  },
+  "image/entry.png": {
+    "reference": "reference-1.png",
+    "box": [
+      0,
+      0,
+      109,
+      112
+    ],
+    "sha256": "a0814fb898f5deb3e6c824c8ac93c0fe845331329078ecd664485da1e53d96bc"
+  },
+  "image/entry_icon.png": {
+    "reference": "reference-1.png",
+    "box": [
+      25,
+      19,
+      85,
+      83
+    ],
+    "sha256": "e84b06e7e8c7bd37c2906b3128c7dc9e20ca9b3dd592d5d0140f7c78a7cfbc4d"
+  },
+  "image/entry_label.png": {
+    "reference": "reference-1.png",
+    "box": [
+      17,
+      85,
+      98,
+      106
+    ],
+    "sha256": "6905d0aa2b4ce76ae9441e947685c4e1078a5f43d45ae9d43246d25f59bb8f47"
+  },
+  "image/close.png": {
+    "reference": "reference-3.png",
+    "box": [
+      1617,
+      257,
+      1670,
+      311
+    ],
+    "sha256": "304f59ec0d076ba0634bcce65c607aa724f54ad80fcdcac64af297cd7fe422af"
+  },
+  "image/daily_tab.png": {
+    "reference": "reference-7.png",
+    "box": [
+      443,
+      483,
+      557,
+      522
+    ],
+    "sha256": "6288f6027e0030a31068538276c03fbddddc2a66e0873279833ec80b98668c73"
+  },
+  "image/online_tab.png": {
+    "reference": "reference-3.png",
+    "box": [
+      440,
+      392,
+      562,
+      433
+    ],
+    "sha256": "2215f2c2634acf7d245f52bb2af8fb78164fa79e4e89f64c3350b59690d80de5"
+  },
+  "image/daily_selected.png": {
+    "reference": "reference-3.png",
+    "box": [
+      393,
+      459,
+      562,
+      505
+    ],
+    "sha256": "e8c179be5bef05218dbc56c23f17de7b86bb2862b4409835cc230ec7dc3b981d"
+  },
+  "image/online_selected.png": {
+    "reference": "reference-7.png",
+    "box": [
+      392,
+      394,
+      562,
+      443
+    ],
+    "sha256": "519f3eda0499def6abe69b241c159426370c41894bf2fe639d41ab4de9759371"
+  },
+  "image/daily_header.png": {
+    "reference": "reference-3.png",
+    "box": [
+      649,
+      418,
+      863,
+      475
+    ],
+    "sha256": "d38d4e6ba5b3eb9c6ca791c944bbdf86319a45ab6487fb185d8718f2f5811446"
+  },
+  "image/online_header.png": {
+    "reference": "reference-7.png",
+    "box": [
+      1036,
+      435,
+      1386,
+      520
+    ],
+    "sha256": "c2a6a7ad2cc18002944dbbbe77e00bbd1f4bfd93611fbac94608da3566478b3f"
+  },
+  "image/claim_daily.png": {
+    "reference": "reference-3.png",
+    "box": [
+      1003,
+      919,
+      1128,
+      963
+    ],
+    "sha256": "296d4dc65679d4fb2baa1998f8febfe0b59eea693582ddd46f434067d043ac31"
+  },
+  "image/claim_online.png": {
+    "reference": "reference-7.png",
+    "box": [
+      1002,
+      892,
+      1132,
+      936
+    ],
+    "sha256": "ffd279a98357bb6b2436a86a185cb13c180743547eee589f4bc768a8a8cadbbf"
+  },
+  "reference-claimed-live.png": {
+    "source": "verification\\welfare-20261027-003037-aa948325\\037.png",
+    "sha256": "bdd0e3a9f755697def83b8059e4ce0c6885df4d45d52516c52c1b5fbfc518c72"
+  },
+  "image/received.png": {
+    "reference": "reference-claimed-live.png",
+    "box": [
+      980,
+      779,
+      1057,
+      805
+    ],
+    "sha256": "a3d4bfe2bb1fa8286dd805dc6bada986ffb345a7d8989f2a8b08308493b1a981"
+  },
+  "reference-medal-live.png": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-999c38d5-4843-4593-a394-6bb0992af5f0.png",
+    "sha256": "9ba70add40654815390b1aad576bdc106328f2fe09aa943dd1e50a45afcd4618"
+  },
+  "image/claim_medal.png": {
+    "reference": "reference-medal-live.png",
+    "box": [
+      1302,
+      697,
+      1427,
+      741
+    ],
+    "sha256": "e87b2ef4e71e2b66094b2378254731d2a254ffcaa1604af08634dc56868ac3b0"
+  }
+}

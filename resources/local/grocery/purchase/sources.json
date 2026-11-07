@@ -1,0 +1,240 @@
+[
+  {
+    "key": "moon-tab",
+    "source": "verification/grocery-key-live-20261031/key-preflight-1.png",
+    "box": [
+      1435,
+      42,
+      111,
+      91
+    ],
+    "sha256": "3fa7426dd4c66df99d85684b2e34890b9531bb00727d32841a991b0e3593417e",
+    "source_sha256": "a1542f35c963d1be3a7dd3f41a6c34f9dd3f95fafdb57a18802f5d692295d954"
+  },
+  {
+    "key": "key-icon",
+    "source": "verification/grocery-key-live-20261031/key-preflight-1.png",
+    "box": [
+      967,
+      697,
+      88,
+      88
+    ],
+    "sha256": "41d8eeffa396392aca124baf053c143fa78f21280436a09df96edd8578e6fe99",
+    "source_sha256": "a1542f35c963d1be3a7dd3f41a6c34f9dd3f95fafdb57a18802f5d692295d954"
+  },
+  {
+    "key": "potion-icon",
+    "source": "verification/grocery-potion-live-20261031/preflight-1.png",
+    "box": [
+      967,
+      668,
+      88,
+      88
+    ],
+    "sha256": "bb05b3c9d6f9798a63d604049907ae0d7393190fc9bff4fd113bcdc0810d9ba6",
+    "source_sha256": "2e8b5b371e984345b9a8b932da0de1d4186f4789cc0ef1338353c5b9b2a13c90"
+  },
+  {
+    "key": "stock-500",
+    "source": "verification/grocery-key-live-20261031/key-preflight-1.png",
+    "box": [
+      1062,
+      748,
+      112,
+      32
+    ],
+    "sha256": "85ed7c8b94c567cf1ad56be09a0bcda965a53d0c3cedc5369089a9da82f9b79e",
+    "source_sha256": "a1542f35c963d1be3a7dd3f41a6c34f9dd3f95fafdb57a18802f5d692295d954"
+  },
+  {
+    "key": "stock-499",
+    "source": "verification/grocery-key-live-20261031/confirm-one-key-after.png",
+    "box": [
+      1062,
+      748,
+      112,
+      32
+    ],
+    "sha256": "2c43dbc60efff1da7d26ffe1b38120e920aa8ebcc4d1432d4702053e241de04f",
+    "source_sha256": "81df728f8ae314e45517aef17365b876f7127aaebfaf91555ac86ed0d806b6c0"
+  },
+  {
+    "key": "stock-80",
+    "source": "verification/grocery-potion-live-20261031/preflight-1.png",
+    "box": [
+      1062,
+      719,
+      112,
+      32
+    ],
+    "sha256": "730f5b193f88b8e0758d46a71388782f54811976606e4a0765196b9cf0356943",
+    "source_sha256": "2e8b5b371e984345b9a8b932da0de1d4186f4789cc0ef1338353c5b9b2a13c90"
+  },
+  {
+    "key": "stock-79",
+    "source": "verification/grocery-potion-live-20261031/confirm-one-potion-after.png",
+    "box": [
+      1062,
+      719,
+      112,
+      32
+    ],
+    "sha256": "7f36237e280800bb378c7e4b2e5c2d7cdf1b55371d27297fcd3b53f0f49646d3",
+    "source_sha256": "7c63a8cb0bfd58fe909ca7bbcfd0ea1afc323421678a3a63a64c379c18403b29"
+  },
+  {
+    "key": "confirm-button",
+    "source": "verification\\grocery-key-live-20261031\\confirmation-preflight-1.png",
+    "box": [
+      757,
+      499,
+      154,
+      49
+    ],
+    "sha256": "034436a6cf6a95b5581f26dabbebe0168cba094eea1c50a4942c9c3ba1836b11",
+    "source_sha256": "504450fa3d6fcfc40e2255a293e4e938a6e32e469a94ee209a7de979c3155cc0"
+  },
+  {
+    "key": "quantity-1",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-1.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 1,
+    "sha256": "bb8b6317191428fa5fb4d69b20db1f20fe8aab6b559d2dd26ddf264fc9c4a257",
+    "source_sha256": "eb1ba85e38760c4b993ff9a5dee395a1b58c3e30930ae54683b6802b5421c95a"
+  },
+  {
+    "key": "quantity-2",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-2.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 2,
+    "sha256": "31a444095a50450e06c0c078e6b7da00c92ce49cb08cd3ea103b4103139a3aa2",
+    "source_sha256": "d1b14875ec26978cea6ddfc1dc4694b0481f010fc77b301b977d141d0b40e63e"
+  },
+  {
+    "key": "quantity-3",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-3.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 3,
+    "sha256": "dce6710ce7ed388ad18960687dd4b47af2af3057a00758cae5c52afdb52b4aa1",
+    "source_sha256": "c02aa0bf01a0d073b86b66b7c24857d7cf106ee02fbbd0711322b7ec52c2afa0"
+  },
+  {
+    "key": "quantity-4",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-4.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 4,
+    "sha256": "cc2d175c8d99fbbe130e1ab8f65ef7328f714041c658da6df89934d0847940d9",
+    "source_sha256": "8b310ccfa358a6abea314fae7d48416b2a6f9ae3536d0ac1303138bda0052f7f"
+  },
+  {
+    "key": "quantity-5",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-5.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 5,
+    "sha256": "bcbfe46f6c76e81c38ca18f59cdb4606acc1a7a335cf67040c4fac19f4ea7f55",
+    "source_sha256": "00daddb6b96f76edcae100f5d62a4c0d4f61f184683f8c8f7c827bad12c88c08"
+  },
+  {
+    "key": "quantity-6",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-6.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 6,
+    "sha256": "23724bf31d797dcc12d92f84974a947eb2f90cff37fc0ebf08168fa0441414b5",
+    "source_sha256": "6b7ab25b21f6592ea74896cdfdb0da7b12d218fd79986d7776000a78692abeeb"
+  },
+  {
+    "key": "quantity-7",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-7.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 7,
+    "sha256": "978532688184387b8c73c078e2501886efdae1a9f2577894aabe84b51e705eb7",
+    "source_sha256": "491e3a3be69e5fdd85dd549a09c1ebe5294cfc480e9cc40942df96bcc696736b"
+  },
+  {
+    "key": "quantity-8",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-8.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 8,
+    "sha256": "0eec8f2345104ec6d3bd8bfc3612898e5864cff2021176d38e96987f35745442",
+    "source_sha256": "56ac12a6b5090cb3c27c23343073d6e7a63d2be210a14effeaedb1b3642a25dd"
+  },
+  {
+    "key": "quantity-9",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-9.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 9,
+    "sha256": "c96af3d6ee1121de5d2649091025ca6758a44368963dc2eab3819a359986ac61",
+    "source_sha256": "85cca3cbb8f305a13348dbbf63564a657af758dafa6bc150ce2dc75500d7414d"
+  },
+  {
+    "key": "quantity-10",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\quantity-source-10.png",
+    "box": [
+      977,
+      279,
+      42,
+      37
+    ],
+    "value": 10,
+    "sha256": "b9778ad2c44d7fae34538303bfa0d87ad8c2b8e920710600ee583ee676cad9e5",
+    "source_sha256": "dc5b85820e0b2229e312559b8cb877985a64bf4f3eccdf806c91ef83a58e0071"
+  },
+  {
+    "key": "confirm-button-live-20261106",
+    "source": "verification\\grocery-ui-10potions-live-20261106\\attempt4-game.png",
+    "box": [
+      757,
+      500,
+      154,
+      49
+    ],
+    "sha256": "157813b89ad2357ee6c6ba8bacb27b20e8408158fdf4a40e8b27df7fd199b52e",
+    "source_sha256": "43afdaf33e81409990ba5364db82c67a715a63963ed1b9cb97a0a38ea99cd291"
+  }
+]

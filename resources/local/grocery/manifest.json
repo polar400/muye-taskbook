@@ -1,0 +1,2601 @@
+{
+  "schema_version": 1,
+  "collected_at": "2026-10-26T14:16:23+08:00",
+  "rebuilt_at": "2026-10-26T14:17:19+08:00",
+  "timezone": "Asia/Shanghai",
+  "page_url": "https://udonwiki.net/general",
+  "purpose": "Four-shop icon archive and offline ROI recognition; no game IO or purchasing",
+  "asset_rule": "grIcon(it): nonempty head first, otherwise item id; original PNG bytes retained",
+  "pixel_sha256_encoding": "PIL convert RGBA, row-major raw pixel bytes",
+  "sources": [
+    {
+      "path": "sources/general.html",
+      "url": "https://udonwiki.net/general",
+      "sha256": "a6b5ece5afdf01a414eb73d29d07df297c6a73756d89df55180d7ee25398306a",
+      "size": 1419964,
+      "role": "public-website-source"
+    },
+    {
+      "path": "sources/groceries.json",
+      "url": "https://udonwiki.net/static/data/groceries.json",
+      "sha256": "208908ab988d3b6bcd6d38fe042b3c82e93c69b2db8897e40bc8365533c3aac9",
+      "size": 16392,
+      "role": "public-website-source"
+    },
+    {
+      "path": "sources/user-web.png",
+      "original_path": "C:/Users/lenovo/AppData/Local/Temp/codex-clipboard-83ba9dbf-5ea2-4114-a14e-7d713e22f06f.png",
+      "sha256": "dabe0e73bd2d14b351fd5e4563f0fbf2882177073cd143a0e999a3b33cf6ac40",
+      "size": 1041371,
+      "width": 2560,
+      "height": 1528,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "91b9c4bede401e57fd86507f21d5fb4786f164ec0418d1abef35c85184db4a3a",
+      "role": "user-attachment"
+    },
+    {
+      "path": "sources/user-entry.png",
+      "original_path": "C:/Users/lenovo/AppData/Local/Temp/codex-clipboard-c3b31620-492a-4760-a045-f90688c481de.png",
+      "sha256": "4edc6593df1b32ccc0f39673d14aa2e1e74a49de5840fcd5b6f4a9ec6f0afe9d",
+      "size": 27325,
+      "width": 112,
+      "height": 118,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "8b742cfd5a375957747a5730687b9c035f4f0b1e6f106b4b89b615c42b335bf0",
+      "role": "user-attachment"
+    },
+    {
+      "path": "sources/user-game.png",
+      "original_path": "C:/Users/lenovo/AppData/Local/Temp/codex-clipboard-674d6e56-bb21-4e47-b266-353d43819999.png",
+      "sha256": "8e4c2ac834ef5d0cc2a1a2eded1c2b437f27a7cdc89da788de605cffcff98467",
+      "size": 2257209,
+      "width": 2010,
+      "height": 1191,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "f58e091cd5fcdc5a96cb5ff5c48c87e06b136251aaf4bef2dfeffbcdcfb08daa",
+      "role": "user-attachment"
+    }
+  ],
+  "shops": [
+    {
+      "key": "sun",
+      "name": "日之印商店",
+      "currency": "日之印",
+      "items": [
+        {
+          "name": "封印碎片",
+          "id": "10800050",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_10800050"
+        },
+        {
+          "name": "通灵碎片",
+          "id": "10830003",
+          "head": null,
+          "price": 25,
+          "stock": "50",
+          "asset": "item_10830003"
+        },
+        {
+          "name": "技能宝箱卷轴碎片",
+          "id": "10840036",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_10840036"
+        },
+        {
+          "name": "高级精炼符",
+          "id": "12300010",
+          "head": null,
+          "price": 150,
+          "stock": "50",
+          "asset": "item_12300010"
+        },
+        {
+          "name": "符咒材料包",
+          "id": "10100000",
+          "head": null,
+          "price": 500,
+          "stock": "100",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "高级试验剂",
+          "id": "10190261",
+          "head": null,
+          "price": 200,
+          "stock": "200",
+          "asset": "item_10190261"
+        },
+        {
+          "name": "水之手札优惠包",
+          "id": "10190514",
+          "head": null,
+          "price": 400,
+          "stock": "10",
+          "asset": "item_10190514"
+        },
+        {
+          "name": "火之手札优惠包",
+          "id": "10190515",
+          "head": null,
+          "price": 400,
+          "stock": "10",
+          "asset": "item_10190515"
+        },
+        {
+          "name": "风之手札优惠包",
+          "id": "10190516",
+          "head": null,
+          "price": 400,
+          "stock": "10",
+          "asset": "item_10190516"
+        },
+        {
+          "name": "雷之手札优惠包",
+          "id": "10190517",
+          "head": null,
+          "price": 400,
+          "stock": "10",
+          "asset": "item_10190517"
+        },
+        {
+          "name": "土之手札优惠包",
+          "id": "10190518",
+          "head": null,
+          "price": 400,
+          "stock": "10",
+          "asset": "item_10190518"
+        },
+        {
+          "name": "2级生命勾玉",
+          "id": "40701201",
+          "head": null,
+          "price": 100,
+          "stock": "100",
+          "asset": "item_40701201"
+        },
+        {
+          "name": "2级攻击勾玉",
+          "id": "40702201",
+          "head": null,
+          "price": 100,
+          "stock": "100",
+          "asset": "item_40702201"
+        },
+        {
+          "name": "2级防御勾玉",
+          "id": "40703201",
+          "head": null,
+          "price": 75,
+          "stock": "100",
+          "asset": "item_40703201"
+        },
+        {
+          "name": "2级忍术勾玉",
+          "id": "40704201",
+          "head": null,
+          "price": 100,
+          "stock": "100",
+          "asset": "item_40704201"
+        },
+        {
+          "name": "2级抗性勾玉",
+          "id": "40705201",
+          "head": null,
+          "price": 75,
+          "stock": "100",
+          "asset": "item_40705201"
+        },
+        {
+          "name": "1级生命勾玉",
+          "id": "40701101",
+          "head": null,
+          "price": 25,
+          "stock": "200",
+          "asset": "item_40701101"
+        },
+        {
+          "name": "1级攻击勾玉",
+          "id": "40702101",
+          "head": null,
+          "price": 25,
+          "stock": "200",
+          "asset": "item_40702101"
+        },
+        {
+          "name": "1级防御勾玉",
+          "id": "40703101",
+          "head": null,
+          "price": 19,
+          "stock": "200",
+          "asset": "item_40703101"
+        },
+        {
+          "name": "1级忍术勾玉",
+          "id": "40704101",
+          "head": null,
+          "price": 25,
+          "stock": "200",
+          "asset": "item_40704101"
+        },
+        {
+          "name": "1级抗性勾玉",
+          "id": "40705101",
+          "head": null,
+          "price": 19,
+          "stock": "200",
+          "asset": "item_40705101"
+        },
+        {
+          "name": "1级虹之勾玉",
+          "id": "40706101",
+          "head": null,
+          "price": 30,
+          "stock": "50",
+          "asset": "item_40706101"
+        },
+        {
+          "name": "丝绸",
+          "id": "10800049",
+          "head": null,
+          "price": 150,
+          "stock": "50",
+          "asset": "item_10800049"
+        },
+        {
+          "name": "试试手气包",
+          "id": "10190069",
+          "head": null,
+          "price": 100,
+          "stock": "1",
+          "asset": "item_10190069"
+        },
+        {
+          "name": "通用·残页",
+          "id": "13700001",
+          "head": null,
+          "price": 100,
+          "stock": "10",
+          "asset": "item_13700001"
+        }
+      ]
+    },
+    {
+      "key": "moon",
+      "name": "月之印商店",
+      "currency": "月之印",
+      "items": [
+        {
+          "name": "一串铃铛",
+          "id": "10840055",
+          "head": null,
+          "price": 600,
+          "stock": "100",
+          "asset": "item_10840055"
+        },
+        {
+          "name": "一对铃铛",
+          "id": "10840054",
+          "head": null,
+          "price": 400,
+          "stock": "200",
+          "asset": "item_10840054"
+        },
+        {
+          "name": "铃铛",
+          "id": "10840053",
+          "head": null,
+          "price": 200,
+          "stock": "300",
+          "asset": "item_10840053"
+        },
+        {
+          "name": "高级针线",
+          "id": "10800046",
+          "head": null,
+          "price": 1000,
+          "stock": "100",
+          "asset": "item_10800046"
+        },
+        {
+          "name": "中级针线",
+          "id": "10800045",
+          "head": null,
+          "price": 600,
+          "stock": "100",
+          "asset": "item_10800045"
+        },
+        {
+          "name": "普通针线",
+          "id": "10800044",
+          "head": null,
+          "price": 200,
+          "stock": "100",
+          "asset": "item_10800044"
+        },
+        {
+          "name": "珍稀布料",
+          "id": "11800051",
+          "head": null,
+          "price": 1500,
+          "stock": "100",
+          "asset": "item_11800051"
+        },
+        {
+          "name": "高级布料",
+          "id": "10800043",
+          "head": null,
+          "price": 1000,
+          "stock": "100",
+          "asset": "item_10800043"
+        },
+        {
+          "name": "中级布料",
+          "id": "10800042",
+          "head": null,
+          "price": 600,
+          "stock": "100",
+          "asset": "item_10800042"
+        },
+        {
+          "name": "普通布料",
+          "id": "10800041",
+          "head": null,
+          "price": 200,
+          "stock": "100",
+          "asset": "item_10800041"
+        },
+        {
+          "name": "洞穴密钥",
+          "id": "10800057",
+          "head": null,
+          "price": 200,
+          "stock": "500",
+          "asset": "item_10800057"
+        },
+        {
+          "name": "中级精炼符",
+          "id": "12300009",
+          "head": null,
+          "price": 400,
+          "stock": "100",
+          "asset": "item_12300009"
+        },
+        {
+          "name": "低级精炼符",
+          "id": "12300008",
+          "head": null,
+          "price": 200,
+          "stock": "100",
+          "asset": "item_12300008"
+        },
+        {
+          "name": "洗炼符",
+          "id": "12300006",
+          "head": null,
+          "price": 200,
+          "stock": "999",
+          "asset": "item_12300006"
+        },
+        {
+          "name": "洗炼保护符",
+          "id": "12300007",
+          "head": null,
+          "price": 300,
+          "stock": "500",
+          "asset": "item_12300007"
+        },
+        {
+          "name": "试验剂",
+          "id": "10190259",
+          "head": null,
+          "price": 400,
+          "stock": "300",
+          "asset": "item_10190259"
+        },
+        {
+          "name": "解印符",
+          "id": "10840001",
+          "head": null,
+          "price": 20,
+          "stock": "9999",
+          "asset": "item_10840001"
+        },
+        {
+          "name": "通灵契约",
+          "id": "10840002",
+          "head": null,
+          "price": 100,
+          "stock": "200",
+          "asset": "item_10840002"
+        },
+        {
+          "name": "修行药水",
+          "id": "10840089",
+          "head": null,
+          "price": 200,
+          "stock": "100",
+          "asset": "item_10840089"
+        },
+        {
+          "name": "秘卷残页",
+          "id": "10190903",
+          "head": null,
+          "price": 300,
+          "stock": "100",
+          "asset": "item_10190903"
+        },
+        {
+          "name": "真言合剂",
+          "id": "10190904",
+          "head": null,
+          "price": 400,
+          "stock": "50",
+          "asset": "item_10190904"
+        },
+        {
+          "name": "妙木山的馈赠",
+          "id": "10840044",
+          "head": null,
+          "price": 200,
+          "stock": "150",
+          "asset": "item_10840044"
+        },
+        {
+          "name": "妙木山的领悟",
+          "id": "10840052",
+          "head": null,
+          "price": 200,
+          "stock": "150",
+          "asset": "item_10840052"
+        },
+        {
+          "name": "妙木山的历练",
+          "id": "10190618",
+          "head": null,
+          "price": 200,
+          "stock": "150",
+          "asset": "item_10190618"
+        },
+        {
+          "name": "妙木山的收获",
+          "id": "10191221",
+          "head": null,
+          "price": 200,
+          "stock": "150",
+          "asset": "item_10191221"
+        },
+        {
+          "name": "妙木山的训练",
+          "id": "10191229",
+          "head": null,
+          "price": 200,
+          "stock": "150",
+          "asset": "item_10191229"
+        },
+        {
+          "name": "修炼券",
+          "id": "10190602",
+          "head": null,
+          "price": 200,
+          "stock": "30",
+          "asset": "item_10190602"
+        },
+        {
+          "name": "橙色忍具包",
+          "id": "10100144",
+          "head": null,
+          "price": 900,
+          "stock": "30",
+          "asset": "item_10100144"
+        },
+        {
+          "name": "精品忍具包",
+          "id": "10100145",
+          "head": null,
+          "price": 2000,
+          "stock": "30",
+          "asset": "item_10100145"
+        },
+        {
+          "name": "低级五行转换石",
+          "id": "10800075",
+          "head": null,
+          "price": 500,
+          "stock": "30",
+          "asset": "item_10800075"
+        },
+        {
+          "name": "中级五行转换石",
+          "id": "10800076",
+          "head": null,
+          "price": 1000,
+          "stock": "30",
+          "asset": "item_10800076"
+        },
+        {
+          "name": "高级五行转换石",
+          "id": "10800077",
+          "head": null,
+          "price": 1500,
+          "stock": "30",
+          "asset": "item_10800077"
+        },
+        {
+          "name": "超级五行转换石",
+          "id": "10800078",
+          "head": null,
+          "price": 2000,
+          "stock": "30",
+          "asset": "item_10800078"
+        },
+        {
+          "name": "复活药",
+          "id": "10200011",
+          "head": null,
+          "price": 20,
+          "stock": "200",
+          "asset": "item_10200011"
+        },
+        {
+          "name": "“进击吧，福禄丸！”碎片",
+          "id": "23901200",
+          "head": null,
+          "price": 800,
+          "stock": "50",
+          "asset": "item_23901200"
+        },
+        {
+          "name": "“这就是青春”碎片",
+          "id": "23902200",
+          "head": null,
+          "price": 800,
+          "stock": "50",
+          "asset": "item_23902200"
+        },
+        {
+          "name": "紫色通用经验卷轴",
+          "id": "14500009",
+          "head": null,
+          "price": 10000,
+          "stock": "10",
+          "asset": "item_14500009"
+        },
+        {
+          "name": "小队暴击卷轴",
+          "id": "14500013",
+          "head": null,
+          "price": 6000,
+          "stock": "1",
+          "asset": "item_14500013"
+        }
+      ]
+    },
+    {
+      "key": "sign",
+      "name": "签到商店",
+      "currency": "签到令",
+      "items": [
+        {
+          "name": "高级精炼符",
+          "id": "12300010",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_12300010"
+        },
+        {
+          "name": "中级精炼符",
+          "id": "12300009",
+          "head": null,
+          "price": 40,
+          "stock": "100",
+          "asset": "item_12300009"
+        },
+        {
+          "name": "低级精炼符",
+          "id": "12300008",
+          "head": null,
+          "price": 20,
+          "stock": "100",
+          "asset": "item_12300008"
+        },
+        {
+          "name": "忍者试用券",
+          "id": "10190650",
+          "head": null,
+          "price": 100,
+          "stock": "10",
+          "asset": "item_10190650"
+        },
+        {
+          "name": "幸运铜币礼包",
+          "id": "10100000",
+          "head": null,
+          "price": 30,
+          "stock": "100",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "烤肉",
+          "id": "10800038",
+          "head": null,
+          "price": 2,
+          "stock": "100",
+          "asset": "item_10800038"
+        },
+        {
+          "name": "中级通灵兽·突破石",
+          "id": "10840019",
+          "head": null,
+          "price": 300,
+          "stock": "15",
+          "asset": "item_10840019"
+        },
+        {
+          "name": "初级通用技能书",
+          "id": "10620012",
+          "head": null,
+          "price": 750,
+          "stock": "10",
+          "asset": "item_10620012"
+        },
+        {
+          "name": "佐井技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "油女取根技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "山中风技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩畜生道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩人间道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩修罗道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩饿鬼道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "金角技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "银角技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "重吾技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "由木人技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "伊鲁卡技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "多由也技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "静音技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "马基技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "左近右近技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "卡卡西技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "希技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "鸣人[中国风]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "勘九郎技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "丁次技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "志乃技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "阿斯玛[风之刃]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "鬼童丸技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩·地狱道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "宇智波泉奈技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "天天[忍界大战]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "绝技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "猿[忍界大战]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "西瓜山河豚鬼[秽土转生]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "奈良鹿久技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "卡卡西[亲热天堂]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "猿魔技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "黑土技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "山中亥一技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "阿斯玛[风之刃]碎片",
+          "id": "20400127",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400127"
+        },
+        {
+          "name": "卡卡西[斩首大刀]碎片",
+          "id": "20400128",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400128"
+        },
+        {
+          "name": "牙[忍界大战]碎片",
+          "id": "20400163",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400163"
+        },
+        {
+          "name": "勘九郎[忍界大战]碎片",
+          "id": "20400170",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400170"
+        },
+        {
+          "name": "志乃[忍界大战]碎片",
+          "id": "20400164",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400164"
+        },
+        {
+          "name": "鹿丸[中忍]碎片",
+          "id": "20400161",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400161"
+        },
+        {
+          "name": "丁次[忍界大战]碎片",
+          "id": "20400162",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400162"
+        },
+        {
+          "name": "宁次[忍界大战]碎片",
+          "id": "20400157",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400157"
+        },
+        {
+          "name": "佐井[忍界大战]碎片",
+          "id": "20400194",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400194"
+        },
+        {
+          "name": "由木人[二尾人柱力]碎片",
+          "id": "20400187",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400187"
+        },
+        {
+          "name": "手鞠[忍界大战]碎片",
+          "id": "20400168",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400168"
+        },
+        {
+          "name": "雏田[忍界大战]碎片",
+          "id": "20400165",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400165"
+        },
+        {
+          "name": "奈良鹿久碎片",
+          "id": "20400183",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400183"
+        },
+        {
+          "name": "樱[忍界大战]碎片",
+          "id": "20400154",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400154"
+        },
+        {
+          "name": "井野[忍界大战]碎片",
+          "id": "20400159",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400159"
+        },
+        {
+          "name": "李[忍界大战]碎片",
+          "id": "20400215",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400215"
+        },
+        {
+          "name": "山中亥一碎片",
+          "id": "20400184",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400184"
+        },
+        {
+          "name": "宇智波泉奈碎片",
+          "id": "20400309",
+          "head": "",
+          "price": 50,
+          "stock": "30",
+          "asset": "item_20400309"
+        }
+      ]
+    },
+    {
+      "key": "mystery",
+      "name": "神秘商店",
+      "currency": "奇怪的石头",
+      "items": [
+        {
+          "name": "VIP体验勋章（10天）",
+          "id": "10190028",
+          "head": null,
+          "price": 300,
+          "stock": "5",
+          "asset": "item_10190028"
+        },
+        {
+          "name": "“青春校园”碎片",
+          "id": "23900100",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_23900100"
+        },
+        {
+          "name": "“进击吧，福禄丸！”碎片",
+          "id": "23901200",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_23901200"
+        },
+        {
+          "name": "“这就是青春”碎片",
+          "id": "23902200",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_23902200"
+        },
+        {
+          "name": "“西部风情”碎片",
+          "id": "23900400",
+          "head": null,
+          "price": 50,
+          "stock": "50",
+          "asset": "item_23900400"
+        },
+        {
+          "name": "保护试剂包",
+          "id": "10190069",
+          "head": null,
+          "price": 40,
+          "stock": "5",
+          "asset": "item_10190069"
+        },
+        {
+          "name": "小喇叭",
+          "id": "10800001",
+          "head": null,
+          "price": 60,
+          "stock": "5",
+          "asset": "item_10800001"
+        },
+        {
+          "name": "变身卡",
+          "id": "10810001",
+          "head": null,
+          "price": 60,
+          "stock": "5",
+          "asset": "item_10810001"
+        },
+        {
+          "name": "复活药",
+          "id": "10200011",
+          "head": null,
+          "price": 3,
+          "stock": "200",
+          "asset": "item_10200011"
+        },
+        {
+          "name": "改名卡",
+          "id": "12600001",
+          "head": null,
+          "price": 200,
+          "stock": "1",
+          "asset": "item_12600001"
+        },
+        {
+          "name": "通用·残页",
+          "id": "13700001",
+          "head": null,
+          "price": 50,
+          "stock": "10",
+          "asset": "item_13700001"
+        },
+        {
+          "name": "浪花滚滚×7天",
+          "id": "15100002",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100002"
+        },
+        {
+          "name": "烽火燎原×7天",
+          "id": "15100003",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100003"
+        },
+        {
+          "name": "橙色火焰×7天",
+          "id": "15100004",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100004"
+        },
+        {
+          "name": "枫叶知秋×7天",
+          "id": "15100006",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100006"
+        },
+        {
+          "name": "浪漫恋香×7天",
+          "id": "15100007",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100007"
+        },
+        {
+          "name": "妙木修行×7天",
+          "id": "15100008",
+          "head": null,
+          "price": 40,
+          "stock": "4",
+          "asset": "item_15100008"
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "item_10100000": {
+      "path": "image/item_10100000.png",
+      "url": "https://udonwiki.net/static/assets/items/10100000.png",
+      "sha256": "32b4c8d402536896a5843434d1021136d178275105d51ea0231c76ef2d402d67",
+      "size": 2833,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "742ea025fc93a98e678a8af88552ad185576dbc0809dff7bbc63fd69dc8fb972"
+    },
+    "item_10100144": {
+      "path": "image/item_10100144.png",
+      "url": "https://udonwiki.net/static/assets/items/10100144.png",
+      "sha256": "12d73df919fde9f0a694ca3d1442907443ae53cd0218fa88057c7b0defa22fd3",
+      "size": 3043,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "77bef82ac844f26a6cde309856e980ab34ab38f88e317637d14275533baa3309"
+    },
+    "item_10100145": {
+      "path": "image/item_10100145.png",
+      "url": "https://udonwiki.net/static/assets/items/10100145.png",
+      "sha256": "7f508b6fe30596df3a45b785a3ef987753b976312f2dc0e845b401c3effca96a",
+      "size": 3089,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "c8bd0f8c3ac00ce2ae3c31bbfb551d6d318d0cf705b47cf156a46764ab66882e"
+    },
+    "item_10190028": {
+      "path": "image/item_10190028.png",
+      "url": "https://udonwiki.net/static/assets/items/10190028.png",
+      "sha256": "ff865e3794766d7a89a72d944ca6a7e5a17385f33d9180f7cadaf2f25437372b",
+      "size": 3449,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "fd15c52774a8ab1c6a8f164c12bf498efdf5877973f336b056266d9560c9fa57"
+    },
+    "item_10190069": {
+      "path": "image/item_10190069.png",
+      "url": "https://udonwiki.net/static/assets/items/10190069.png",
+      "sha256": "0b7c7e82aa9457a7573dddddafbd02d2cef70ea70e3f42d633b3eb2bc8e47786",
+      "size": 2870,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "18355d0181d216d42f269a79bca556f221d49c51ac4c85dfafcaad2d57b88e4c"
+    },
+    "item_10190259": {
+      "path": "image/item_10190259.png",
+      "url": "https://udonwiki.net/static/assets/items/10190259.png",
+      "sha256": "097d5756ef2baab70af508d7fc0a78c9271c9d93e9aa981c9aa01847a970a18e",
+      "size": 2446,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "3ecead9ffcd98b9992caff39dad2e4bd47d2d5839ad45da479b61abeac565391"
+    },
+    "item_10190261": {
+      "path": "image/item_10190261.png",
+      "url": "https://udonwiki.net/static/assets/items/10190261.png",
+      "sha256": "ff02e5eb56a34f026b14d3428cb1659cec3517d2b9913bdb4c89db4f47169bc3",
+      "size": 2804,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6ad345ad47c633634d49f575f437587005438d01317ce51b267d28378eccf273"
+    },
+    "item_10190514": {
+      "path": "image/item_10190514.png",
+      "url": "https://udonwiki.net/static/assets/items/10190514.png",
+      "sha256": "2d997ebe2c7e84777f3cef4886bc4f3b636ba7b434d83ef9b120b0e644d96acd",
+      "size": 3529,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "083bc95200da00ea38d43bee15f809451d70ab112b9789915ef07ed3e056baea"
+    },
+    "item_10190515": {
+      "path": "image/item_10190515.png",
+      "url": "https://udonwiki.net/static/assets/items/10190515.png",
+      "sha256": "dcc72e08847dc26eaf7543e47032ae9d8a1265dcd29f8dfef44b4148f0da6ed0",
+      "size": 3514,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "0fe752a4c35a4dc81a02ac408c1e6a31473e106c18dc7ee8b2379d22fa65d0f1"
+    },
+    "item_10190516": {
+      "path": "image/item_10190516.png",
+      "url": "https://udonwiki.net/static/assets/items/10190516.png",
+      "sha256": "75d512193982cf40083b78f0312cacfda62bd5dce39c32243cdb2f0f86f38233",
+      "size": 3572,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "adeed5ad3bc1b0a6ee0ed1512623852c6dd80e7967d8b7bff4841f8750de18c4"
+    },
+    "item_10190517": {
+      "path": "image/item_10190517.png",
+      "url": "https://udonwiki.net/static/assets/items/10190517.png",
+      "sha256": "f2ef34b4c3f6e6ee1f08beb3c5e4ba691967e1d4ff3af69a8f6bfc80177d32af",
+      "size": 3533,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "84053464e4c50fc60d089d7abf8619213d8444f28761cad88152e96501ffb8fd"
+    },
+    "item_10190518": {
+      "path": "image/item_10190518.png",
+      "url": "https://udonwiki.net/static/assets/items/10190518.png",
+      "sha256": "7f712f0f393237403b608c4278bb9277fa7450b1e7f65d0fd418f92fd91f81c6",
+      "size": 3617,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "23ec8b55b88b33d4eb1cdfd19c20fa19255078b152100c5b56492e39a7e26f56"
+    },
+    "item_10190602": {
+      "path": "image/item_10190602.png",
+      "url": "https://udonwiki.net/static/assets/items/10190602.png",
+      "sha256": "334679b27e88503a7333909b7866d9f4f86c4825e470bee0d06302d79518369e",
+      "size": 2895,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6d076f2dde4945765c7c1dcfc55eb93e1a9d1a622e724066147c61f6449e195a"
+    },
+    "item_10190618": {
+      "path": "image/item_10190618.png",
+      "url": "https://udonwiki.net/static/assets/items/10190618.png",
+      "sha256": "b1057209ad05041916b2651da104a8d35e63716a79adc751b74d19aa430c0a93",
+      "size": 2995,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "44c821c8850adedc3a5fafa4de8fe7c5c9364e86ee1416d9c752d842982a037f"
+    },
+    "item_10190650": {
+      "path": "image/item_10190650.png",
+      "url": "https://udonwiki.net/static/assets/items/10190650.png",
+      "sha256": "b7ed65252a0c89859f80e92329e202f939e5e9df5d16036546a92fffc1aa4f62",
+      "size": 2453,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "74af6abd771430b551590e123f41c4142d659a696f0e607f0c90b7b5deeef7b7"
+    },
+    "item_10190903": {
+      "path": "image/item_10190903.png",
+      "url": "https://udonwiki.net/static/assets/items/10190903.png",
+      "sha256": "72844cc8b7085babb81f95b5657a8c122684afa7abb6fbd2350002956114419f",
+      "size": 3338,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6543d19b643f48181093a73c319f3968dcc742b9da30c6b8c4dbaf1b9dbd6095"
+    },
+    "item_10190904": {
+      "path": "image/item_10190904.png",
+      "url": "https://udonwiki.net/static/assets/items/10190904.png",
+      "sha256": "cac677187981bf33a0bb084c25aac4160f73aaf29445e6bf59573d94c3795d7e",
+      "size": 3340,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "2d91fd00cb6be77edc1c5f2592aa8d7c0ae535f80a57c667ac755a441dac69f1"
+    },
+    "item_10191221": {
+      "path": "image/item_10191221.png",
+      "url": "https://udonwiki.net/static/assets/items/10191221.png",
+      "sha256": "fa986b53fb6b135484e16f0c677e04fef169580cc616794e8275895ea5f50cee",
+      "size": 8491,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "0394f42612ea4bfcf9c8328f102ec6af115b10f83f9ad931b6d96d6a36948f50"
+    },
+    "item_10191229": {
+      "path": "image/item_10191229.png",
+      "url": "https://udonwiki.net/static/assets/items/10191229.png",
+      "sha256": "fcfeaf8ac744ab4da1994d277b006ac37b959715a8a50996e9831bd3d1a763a5",
+      "size": 8324,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "52eabe4f5a696116809ad271acbb21fdcb128f7eccbe60fb7e9178aa402a8927"
+    },
+    "item_10200011": {
+      "path": "image/item_10200011.png",
+      "url": "https://udonwiki.net/static/assets/items/10200011.png",
+      "sha256": "fe9fcb4756c8d5887609516d7a77395a4f2a515140c50fb1217f24931bf2000e",
+      "size": 2830,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "d685bd7405a37758fc1cdf032978bd5056f607918b16d0d270034517d3a8d20f"
+    },
+    "item_10620012": {
+      "path": "image/item_10620012.png",
+      "url": "https://udonwiki.net/static/assets/items/10620012.png",
+      "sha256": "ea1c50a5955d372c26109dd13698dae313f9eec6066dbb856fe9c0845e75348a",
+      "size": 11327,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "7ad32a36533bcf05860c467d120232e380768d29e306022ed7ccf31846a192e5"
+    },
+    "item_10800001": {
+      "path": "image/item_10800001.png",
+      "url": "https://udonwiki.net/static/assets/items/10800001.png",
+      "sha256": "6e7d1d06ea19df798a27ba17ef4366bc76937f9f4f2db2d6655168f1a3004be3",
+      "size": 2478,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "91ad7e3a9d0cd186c9e885aaba25e54e0b39d8b02f6e7df70dabd725d881ac46"
+    },
+    "item_10800038": {
+      "path": "image/item_10800038.png",
+      "url": "https://udonwiki.net/static/assets/items/10800038.png",
+      "sha256": "b3f55342a67f0ecfe7023a874b422389619126f7e8a7e2a586fd09b86b4418e3",
+      "size": 3463,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "8b9f45b72d2994d25b725de9174ac6639e5f056d0d0e70750071ae3f3849fc6b"
+    },
+    "item_10800041": {
+      "path": "image/item_10800041.png",
+      "url": "https://udonwiki.net/static/assets/items/10800041.png",
+      "sha256": "8b15d85d56f985ed56974c17ba172cacb7a2b20be5f6efca7968cb743eb9d298",
+      "size": 2619,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "c92a3021cf5a45615ec70fee4080e2a7ddea602c4e72cad86a823bc12aef0f08"
+    },
+    "item_10800042": {
+      "path": "image/item_10800042.png",
+      "url": "https://udonwiki.net/static/assets/items/10800042.png",
+      "sha256": "b9b88f279e9991378dae180c5d7c69861f19dde82ec1a9af80c68c46a192a3e8",
+      "size": 2675,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6cd7c489c957cdd3771d6735570e7adc49755fd2205a5bba27881b00611b9f3a"
+    },
+    "item_10800043": {
+      "path": "image/item_10800043.png",
+      "url": "https://udonwiki.net/static/assets/items/10800043.png",
+      "sha256": "948001b6cea3156b25dc7374c39bc07c4399ef26e6cd65da6309240297d434ea",
+      "size": 2651,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6a79a7b57fd711af350d6b2994c488357a09f939917cdaedc825b2b85178d509"
+    },
+    "item_10800044": {
+      "path": "image/item_10800044.png",
+      "url": "https://udonwiki.net/static/assets/items/10800044.png",
+      "sha256": "c1f15536c8a15f071e9e5066165fb61402b203c91bd7309c2783c58ce6f349c7",
+      "size": 3053,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "d9e89eec45c1d5e949caaba16071ed9a5b0c68af2e90b6d258cf22359074df1a"
+    },
+    "item_10800045": {
+      "path": "image/item_10800045.png",
+      "url": "https://udonwiki.net/static/assets/items/10800045.png",
+      "sha256": "ca99742fd6ed1eda3eacabf5334a97e6ee78942d340899b221a6096ae6f904c5",
+      "size": 3081,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "e65d731472ed40d4dd6fccb453f6a04bd006c27406781f4d70ea9814d6346166"
+    },
+    "item_10800046": {
+      "path": "image/item_10800046.png",
+      "url": "https://udonwiki.net/static/assets/items/10800046.png",
+      "sha256": "70a28b78a1f1449a884bfbe992dad6af1b7bf5ddeaa872bb31a5ba4ca74a0d04",
+      "size": 3069,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "4e5b04fb7f708f402b792c333db08eb697d9aed0f20a0e4eb252b07bef40a109"
+    },
+    "item_10800049": {
+      "path": "image/item_10800049.png",
+      "url": "https://udonwiki.net/static/assets/items/10800049.png",
+      "sha256": "2103f1b5d5b53c9973e3973c125f441b8b777560771c4e10d341dd670f9306a6",
+      "size": 2698,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "99bc6c9ec01813db72411244787b9d425d7625c977003bb15792696d7f58ea5f"
+    },
+    "item_10800050": {
+      "path": "image/item_10800050.png",
+      "url": "https://udonwiki.net/static/assets/items/10800050.png",
+      "sha256": "b461ab53c0fbd0aee1e2bc4a239de0b7698bbac860b3a019c0ee79793a01bc14",
+      "size": 2868,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "f9e20cf3c334e8aeba72840ec904e26d3bd29e97f9d6d366bf2db52e10dad07c"
+    },
+    "item_10800057": {
+      "path": "image/item_10800057.png",
+      "url": "https://udonwiki.net/static/assets/items/10800057.png",
+      "sha256": "e121d912909fd3f95f0a4d4c8726789f1cb1eff2a0fc206abc552f2818170834",
+      "size": 2620,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "0e9c4d4bc0df1de6b21860031a7f40d46523ec6f0c4daf0c15d210fa25326366"
+    },
+    "item_10800075": {
+      "path": "image/item_10800075.png",
+      "url": "https://udonwiki.net/static/assets/items/10800075.png",
+      "sha256": "59e8149a7b682d9e1e276b0f6dde6e28e6ec6d36022a5feb2f717f07b62fd172",
+      "size": 4066,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "e84dbb7db998af8b02ea4632da4185fc1ac82d6b91c227b42d24bba9e67979b0"
+    },
+    "item_10800076": {
+      "path": "image/item_10800076.png",
+      "url": "https://udonwiki.net/static/assets/items/10800076.png",
+      "sha256": "20fdfc50ee5ccf9db919ef1970cdf7e70361e1ac05f6c7cada96ddc4d768a336",
+      "size": 4147,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "0789b0b795e02370c1e97f50d835944acddf10a4237668b69dd0516a643cee49"
+    },
+    "item_10800077": {
+      "path": "image/item_10800077.png",
+      "url": "https://udonwiki.net/static/assets/items/10800077.png",
+      "sha256": "9643d9674eaa0791d818acfbdbfda641cf070ce42220065b0c5f60fbd431ce9b",
+      "size": 4146,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "217632fcb97822f955dd3eae1c50b046077672b36b6a9456f0283f2456b4e1d9"
+    },
+    "item_10800078": {
+      "path": "image/item_10800078.png",
+      "url": "https://udonwiki.net/static/assets/items/10800078.png",
+      "sha256": "6d44188005c9e662e49fd8e0626f439a14289512e41086f8e00f4f940d151bea",
+      "size": 4151,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "7fe7270a51426c5886a615d30e358609512ad35e153742357fe9ce260955d0bc"
+    },
+    "item_10810001": {
+      "path": "image/item_10810001.png",
+      "url": "https://udonwiki.net/static/assets/items/10810001.png",
+      "sha256": "ba9e43d420f11d4bd6911526224a2c21e244d1fb7614f78a7dce42ac7558ce29",
+      "size": 2739,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "1c9cc3f70641af522f41b358be57001f43b6b9a0626d3092989e6aa358d4271e"
+    },
+    "item_10830003": {
+      "path": "image/item_10830003.png",
+      "url": "https://udonwiki.net/static/assets/items/10830003.png",
+      "sha256": "3545e5f7fe1859ac2360c84517b1227fb791d1fac767325a2e389384e491894e",
+      "size": 2823,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "8aa2885ea9f3517f2e44589af14d9c997852c5f02889ab57d5b6940d220c7819"
+    },
+    "item_10840001": {
+      "path": "image/item_10840001.png",
+      "url": "https://udonwiki.net/static/assets/items/10840001.png",
+      "sha256": "22cb43a77ba4eaabc70b91afe1b81ca9e7c6a59f92db454f03ab66e352aae66e",
+      "size": 3331,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "29913ac49b3050bdbf2f0bf9c8c9b4061e3b0121023f3f4565c4ca5c06bc0b32"
+    },
+    "item_10840002": {
+      "path": "image/item_10840002.png",
+      "url": "https://udonwiki.net/static/assets/items/10840002.png",
+      "sha256": "6df4c1f610ca70d66cafacba576aea71f19deb4c0f777bb56673e6d5021ce7d0",
+      "size": 3631,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "30acce5f3ef7f84a5573465b52208ddde9c04e544f4c50ac66bb4028bd248123"
+    },
+    "item_10840019": {
+      "path": "image/item_10840019.png",
+      "url": "https://udonwiki.net/static/assets/items/10840019.png",
+      "sha256": "d0e98692233a140cd43ded8fce791fb8ffa17395134e12081d59a9f17443c1d8",
+      "size": 6234,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "cf7c9ff51e5e890f938ecd285aff1a66223a56fb792d1c90426eb6613927692a"
+    },
+    "item_10840036": {
+      "path": "image/item_10840036.png",
+      "url": "https://udonwiki.net/static/assets/items/10840036.png",
+      "sha256": "055d1cb0e30dc7ccdc253243c75ff1f796d51e2e8e1e9e7252f9d8a9529758cc",
+      "size": 2876,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "f2f5ec48788ede6a8d6dc3a09f46ab67bbc2c00c18aae802b5a1a7de2b2916ff"
+    },
+    "item_10840044": {
+      "path": "image/item_10840044.png",
+      "url": "https://udonwiki.net/static/assets/items/10840044.png",
+      "sha256": "820c6920ab8b7fa464374790598a187d1329d8074298d736f179fc84297edccb",
+      "size": 2523,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6ae6462a5c89daba3afd2ed0eee0a988289353f891df089ed454a8eae9848a97"
+    },
+    "item_10840052": {
+      "path": "image/item_10840052.png",
+      "url": "https://udonwiki.net/static/assets/items/10840052.png",
+      "sha256": "da6b786af47f4485cf808fddf5ba8e4dcf30d9ce0c671b86d77e1c4cef1dbbda",
+      "size": 2926,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6d4bf2a92714148de026f37e49c8fed375ac8c8f804817078a263fa32a8f7d1c"
+    },
+    "item_10840053": {
+      "path": "image/item_10840053.png",
+      "url": "https://udonwiki.net/static/assets/items/10840053.png",
+      "sha256": "15f363fd1757f481251f63245de9101dd06f082e4903f59522741a3c7bc41611",
+      "size": 2936,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "b8f1ccbb3e2737b57149691fdd25aaf6f8bbeb3c187d89f980cb31b6527a64c8"
+    },
+    "item_10840054": {
+      "path": "image/item_10840054.png",
+      "url": "https://udonwiki.net/static/assets/items/10840054.png",
+      "sha256": "4d9ad94d8e8bab5b89c3fd665894ed12730ff4d3f84c824b374b6385b6936d1f",
+      "size": 3372,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "99050956a1ae70b1a2883bf833499d0142dc735f5d66706ab47f68f18b61eaec"
+    },
+    "item_10840055": {
+      "path": "image/item_10840055.png",
+      "url": "https://udonwiki.net/static/assets/items/10840055.png",
+      "sha256": "74edbc6107429b964419e70184ced0dc70633b1eddb2a20010e6f2edc337cded",
+      "size": 3476,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "e9c86a625bd4fbb43193d5a7d6c23ce68cefcf71f8fe5562f3177c3e239f8a60"
+    },
+    "item_10840089": {
+      "path": "image/item_10840089.png",
+      "url": "https://udonwiki.net/static/assets/items/10840089.png",
+      "sha256": "d524aca17a10f4d649a921584b79aa5e14c7901fa8b86b1ffe25ec3361f6f729",
+      "size": 3046,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "d6a5d6d328d3ff3aba0fa008a6596e39696ab1c4994040c9a677b9491038e4c7"
+    },
+    "item_11800051": {
+      "path": "image/item_11800051.png",
+      "url": "https://udonwiki.net/static/assets/items/11800051.png",
+      "sha256": "e1449596af276ab44f668aab0fff0485970923043e289472b93b14ec46e8b445",
+      "size": 7716,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "RGBA",
+      "pixel_sha256": "230a0bd3192ba482ac3891155f387f00230afa4e2ce17245242b572a7d17eede"
+    },
+    "item_12300006": {
+      "path": "image/item_12300006.png",
+      "url": "https://udonwiki.net/static/assets/items/12300006.png",
+      "sha256": "5f303816b471f1df36febeebc3b376413969cf53deb4cea7239614be9ffa4046",
+      "size": 2411,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "4280a8a250138de12f9c7eb23dc314d18c95f65ce402b074ff926a913bcf1b26"
+    },
+    "item_12300007": {
+      "path": "image/item_12300007.png",
+      "url": "https://udonwiki.net/static/assets/items/12300007.png",
+      "sha256": "422cd05aa116e4c8f43081159445eacbffa261e307dfad68b651a9ff34fc53db",
+      "size": 2790,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6b0d6a78d5906ff17623fba4ea0038438c783d3c2268b3e42444339fb137dd55"
+    },
+    "item_12300008": {
+      "path": "image/item_12300008.png",
+      "url": "https://udonwiki.net/static/assets/items/12300008.png",
+      "sha256": "67097e9b1762dd5d68252ddbc30b9b58233606d128537f0b281487b0aee891cf",
+      "size": 2416,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "0eb2ebd12859d48521ace245161cce0534d625fa7b48f893e3a510bef446a928"
+    },
+    "item_12300009": {
+      "path": "image/item_12300009.png",
+      "url": "https://udonwiki.net/static/assets/items/12300009.png",
+      "sha256": "6c99cdd955ed905c614da03ac7ea91fb5b5555c839042e5c4da4e25a63f62237",
+      "size": 2459,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "90e27337f1a461abd8540a6977cc2010f2d57aac4d48f5acb53aa5d63593b096"
+    },
+    "item_12300010": {
+      "path": "image/item_12300010.png",
+      "url": "https://udonwiki.net/static/assets/items/12300010.png",
+      "sha256": "43d7e1a851feb19d508d75e663dd81ced3a9e998112dacb8e2e548dbdf023160",
+      "size": 2398,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "861cd6ab5300f0ae69156accf092e8070eeaaf463616f7e3ea15fae2635e96de"
+    },
+    "item_12600001": {
+      "path": "image/item_12600001.png",
+      "url": "https://udonwiki.net/static/assets/items/12600001.png",
+      "sha256": "5d5999a483751b901ceeafb96edb634ad1041e12dd34c522288a99c1a8ea3a6d",
+      "size": 2902,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6a29635996527285473913e268946e5071115c954ce62012e1696247d2c2ba85"
+    },
+    "item_13700001": {
+      "path": "image/item_13700001.png",
+      "url": "https://udonwiki.net/static/assets/items/13700001.png",
+      "sha256": "bc508d984d21a383fc8c4308bc2753c942c94c4b0c1b77542345509adaf48c5b",
+      "size": 2530,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "67173cc3f4e5370f393ef633fbddd4dcb4601d830a64ee44d339c6b2e397ab0e"
+    },
+    "item_14500009": {
+      "path": "image/item_14500009.png",
+      "url": "https://udonwiki.net/static/assets/items/14500009.png",
+      "sha256": "d12b6e83e20cc88ab14669af4e23b989ee9e3a2380eaf600a7581b5cb2422479",
+      "size": 2838,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "be065db32fdd25992c1113066d7ede195254110d460dbad48e2e37464cee4cc1"
+    },
+    "item_14500013": {
+      "path": "image/item_14500013.png",
+      "url": "https://udonwiki.net/static/assets/items/14500013.png",
+      "sha256": "270cde77309a297fed59086e1241b8df73e580d2293bf0d960a8b0c41c4c658b",
+      "size": 2810,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "a0302e702ba26c8ec4bd29ca052e81736235746d5a509e4a7d4b6838ec90c8c0"
+    },
+    "item_15100002": {
+      "path": "image/item_15100002.png",
+      "url": "https://udonwiki.net/static/assets/items/15100002.png",
+      "sha256": "2b9ee4a721b2dfcd30bb8a3f78831b46b7b330c6dc3aeb1116171f758e8c1dfa",
+      "size": 2330,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "8854600a9f3b78f64623a655b5be4d112fb8f8be08d7ebcafff4b87771d46cdd"
+    },
+    "item_15100003": {
+      "path": "image/item_15100003.png",
+      "url": "https://udonwiki.net/static/assets/items/15100003.png",
+      "sha256": "563c3a0ec91862a2c431332a0211d17a0599db7d3c4ae600086fe33bdc899060",
+      "size": 2265,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "44d2d8690864b48bdabe84f00b6f5b1e9bc702a68e9872bf6135b19057508536"
+    },
+    "item_15100004": {
+      "path": "image/item_15100004.png",
+      "url": "https://udonwiki.net/static/assets/items/15100004.png",
+      "sha256": "4da2beef4fbc6b1ad1fbf8e33fd77c299f573ebe285cde9524a1b1da0c9bc40f",
+      "size": 2317,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "49fb591105f7aa05194f82f73e70f100c499c5104a763441735eff44b031ebf9"
+    },
+    "item_15100006": {
+      "path": "image/item_15100006.png",
+      "url": "https://udonwiki.net/static/assets/items/15100006.png",
+      "sha256": "1d262ac7d8fa340d0e175055e1f8de997143c18becb960c218c50228f3095fa8",
+      "size": 2324,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "73dfccb98d949d39e6c64d7cb1c2ee1ce57901780bd9640a94d57946ae47dedb"
+    },
+    "item_15100007": {
+      "path": "image/item_15100007.png",
+      "url": "https://udonwiki.net/static/assets/items/15100007.png",
+      "sha256": "103e522baec009cf2fe7a53427e3a5f7af400da7880ae05f6e398a96c90879ea",
+      "size": 2388,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "8c15f73bc20a2afdc632f00a48e4e961d2f4cfc9ebf30812dfa6275ea5ec4dc7"
+    },
+    "item_15100008": {
+      "path": "image/item_15100008.png",
+      "url": "https://udonwiki.net/static/assets/items/15100008.png",
+      "sha256": "9f8ef13b61dd23022f64ec6e8c941476ec30b6ef353e50e4162dfc5efeb99839",
+      "size": 2346,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "8326affa5e919d351a400c59ac23f1a024f2bca93851bb5f2b33c9136f08ec44"
+    },
+    "item_20400127": {
+      "path": "image/item_20400127.png",
+      "url": "https://udonwiki.net/static/assets/items/20400127.png",
+      "sha256": "f47fa42e14072cd55304ad8944c0e3d8f5027443d0583a27b846602280f14438",
+      "size": 2942,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "31fcc3febc76fc256c48d4b90e65be96dd2d9a9199fd3d628657b1e6218bcd3f"
+    },
+    "item_20400128": {
+      "path": "image/item_20400128.png",
+      "url": "https://udonwiki.net/static/assets/items/20400128.png",
+      "sha256": "d19432b77c972c0bc09f69ac8bfb448052391692ab9e44b348683d93c0d339db",
+      "size": 2941,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "31f1bd059c4c7a302eddad9363821ac581747e1ce5ee8d9cca1511acb5ec3b9b"
+    },
+    "item_20400154": {
+      "path": "image/item_20400154.png",
+      "url": "https://udonwiki.net/static/assets/items/20400154.png",
+      "sha256": "3beeca97ebea727a95cf7ed2e2f059f274587370072bd8b57b33a1f3b84d017e",
+      "size": 3062,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "611a53dafa1ac6407419861cb4c95c2c586acb27709d09e9c203ea3562267f56"
+    },
+    "item_20400157": {
+      "path": "image/item_20400157.png",
+      "url": "https://udonwiki.net/static/assets/items/20400157.png",
+      "sha256": "077801c5d679477df4060b35df8cfcde814887d40bc3ed9bf14a14614b702357",
+      "size": 3004,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "422f0fffeed294a714479856a28624db1a52a4a6c2ec5d0f65cb42519484e1da"
+    },
+    "item_20400159": {
+      "path": "image/item_20400159.png",
+      "url": "https://udonwiki.net/static/assets/items/20400159.png",
+      "sha256": "8f98bdfcc3bb1beee46e8d6fae937c736ddc3b0fd8df5d191f09d1f5f989dcba",
+      "size": 3046,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "50fbbe9dece925ada4613217ce092a1a2dec915e2e97657a2e2f1298297a99c2"
+    },
+    "item_20400161": {
+      "path": "image/item_20400161.png",
+      "url": "https://udonwiki.net/static/assets/items/20400161.png",
+      "sha256": "9643c306599c5c1163160da817d958dc5bc4792cac04fd26e8f504a43a608350",
+      "size": 2746,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "82be911fae68d62963f38a425615276320d9f71ae8192eeecbd9b60232a2d3e3"
+    },
+    "item_20400162": {
+      "path": "image/item_20400162.png",
+      "url": "https://udonwiki.net/static/assets/items/20400162.png",
+      "sha256": "aea0606f0a1ad920130c1de6dfe61c3b963fe71fae3458d000165e948349cc89",
+      "size": 3103,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "1a5e2de9e1d7b1fa5b87c8f5e7f4dd1ea52ee88031eb9166551c18308f78c1ad"
+    },
+    "item_20400163": {
+      "path": "image/item_20400163.png",
+      "url": "https://udonwiki.net/static/assets/items/20400163.png",
+      "sha256": "9faf57939b5d26b2dac0607e6679f5c2262e6c89341ef1b967c5a2357be3b784",
+      "size": 2963,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "f0457803754cd3f6a5aa378bdb592ea409c4c07bc050d7572ea6a768f3309ff8"
+    },
+    "item_20400164": {
+      "path": "image/item_20400164.png",
+      "url": "https://udonwiki.net/static/assets/items/20400164.png",
+      "sha256": "5e4ffafceef5aac96340423088d2adc7c5618d75936530131770eecdb93b46b7",
+      "size": 3096,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "45ecdac2f4d6dfdd6715ba5aab609085d8ab9df7c5812c1ca73fa9a952e5673a"
+    },
+    "item_20400165": {
+      "path": "image/item_20400165.png",
+      "url": "https://udonwiki.net/static/assets/items/20400165.png",
+      "sha256": "9628316872ad66644f849df05179614dad82f12af10318ffccc66a2395a97082",
+      "size": 2933,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "efc66e4f869aa93488d22a3ee8b83e7283da5d10fad6df483bf911cfb4342cb0"
+    },
+    "item_20400168": {
+      "path": "image/item_20400168.png",
+      "url": "https://udonwiki.net/static/assets/items/20400168.png",
+      "sha256": "3ee9ea6a97953a5d45ae95f1636bb7c07bd27adf8d641c1f4021e448a5905225",
+      "size": 2575,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "3438b69346221f0aed2fd1ba786b16716c955655201488d9f2599f9608f4da24"
+    },
+    "item_20400170": {
+      "path": "image/item_20400170.png",
+      "url": "https://udonwiki.net/static/assets/items/20400170.png",
+      "sha256": "29f1f9aea1b22bea7782a6e71cfa2bfad9f5301e2816dfd4a15bb652a451b65b",
+      "size": 2919,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "60febb67279567557480dead241f73486cbf9137db416cfbe15702a70c7c270f"
+    },
+    "item_20400183": {
+      "path": "image/item_20400183.png",
+      "url": "https://udonwiki.net/static/assets/items/20400183.png",
+      "sha256": "d74681fbaf764a2912ea223f9108eb489ffe972fb614c78c7e4120b9e2f7ecbe",
+      "size": 2760,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "85301a076e7a6d5167994a49138765e5777b407a419f828867d009e05ca81673"
+    },
+    "item_20400184": {
+      "path": "image/item_20400184.png",
+      "url": "https://udonwiki.net/static/assets/items/20400184.png",
+      "sha256": "593879fd2b57a0a25f74e1b919561c11d1d5aee3ca5a7116964987c07783eade",
+      "size": 2850,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "cc09e47edd95c8dc93cbd05dd4529e8539cbf0bd242c8359eef463379a23e20e"
+    },
+    "item_20400187": {
+      "path": "image/item_20400187.png",
+      "url": "https://udonwiki.net/static/assets/items/20400187.png",
+      "sha256": "b5c29f960f62329ce9145401b565f944130ebb68931a7fea7c3c83c45769233b",
+      "size": 2831,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "9141000a738921a69a65390a507e9c637e7e481f02b879e0ffb2f833db071c99"
+    },
+    "item_20400194": {
+      "path": "image/item_20400194.png",
+      "url": "https://udonwiki.net/static/assets/items/20400194.png",
+      "sha256": "36021cba070b62bbfd4799351ef17531fb189ec46b8a2f3c5b8d2459f3ca28a1",
+      "size": 2892,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "71b674e5bf770b5a6ecd79c9ba282a0662dfd4836c902e70d4ea25db6f7b6823"
+    },
+    "item_20400215": {
+      "path": "image/item_20400215.png",
+      "url": "https://udonwiki.net/static/assets/items/20400215.png",
+      "sha256": "5b1bf703afca6c64e18b29520da78a54798fe571e0df06fceb214a6dcf435488",
+      "size": 2570,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "a121fb752a997f42d7e3c3e09bcff331aecbf4d2c52dfc044ff340b94fa90277"
+    },
+    "item_20400309": {
+      "path": "image/item_20400309.png",
+      "url": "https://udonwiki.net/static/assets/items/20400309.png",
+      "sha256": "314870aa6c4247383f34f7b5ee0233129ff1b5dc6a747512b67f11b487b5f2ef",
+      "size": 2980,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "ee60ad5bd1e655a7634cb2da3ab96fae5f234602f003a0507b889da62ea0f7e4"
+    },
+    "item_23900100": {
+      "path": "image/item_23900100.png",
+      "url": "https://udonwiki.net/static/assets/items/23900100.png",
+      "sha256": "517df22c21714b2f11692f7cd6fc5b4ff2fa7a4f2f0411043ca59adfdc9a85fa",
+      "size": 3099,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "bf8b13470047f1caa19c8032f4b7c4dbc6d68c169f20162e5bd915b75bd4da6d"
+    },
+    "item_23900400": {
+      "path": "image/item_23900400.png",
+      "url": "https://udonwiki.net/static/assets/items/23900400.png",
+      "sha256": "bd97c7a2b32aef5b692cfee1100e070d91e9eb9abc3853eb677aa46c4d3308cc",
+      "size": 3075,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "107511105b32f53c85c23409ee821a66d0e0531f62faf0afc5a733680d291320"
+    },
+    "item_23901200": {
+      "path": "image/item_23901200.png",
+      "url": "https://udonwiki.net/static/assets/items/23901200.png",
+      "sha256": "6b71e13750c9fc160f0f1fd989578a5e6628d2f83cc055715396d193930bf76a",
+      "size": 3135,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "addbd97378003675c39ea1f6504421618b5162a46616cbce8c449d998bb39414"
+    },
+    "item_23902200": {
+      "path": "image/item_23902200.png",
+      "url": "https://udonwiki.net/static/assets/items/23902200.png",
+      "sha256": "9edde5ea7198036f4cb8b49b46d62f14cb5ef3555b937b273a8bd7b9bac9ca60",
+      "size": 3433,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "58b9834f75e8a3549db7eda1a5ad6bd618056f7baef066ed23348f8e8e57d603"
+    },
+    "item_40701101": {
+      "path": "image/item_40701101.png",
+      "url": "https://udonwiki.net/static/assets/items/40701101.png",
+      "sha256": "7ba0b103585a29914acbf483259f30b94ce1e718a50277b97da434e13efd224e",
+      "size": 3427,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "ef6971cae8f0630e15a20d4ad775cfc1f20b97a1163143b60bb4bee3584841d9"
+    },
+    "item_40701201": {
+      "path": "image/item_40701201.png",
+      "url": "https://udonwiki.net/static/assets/items/40701201.png",
+      "sha256": "755d284db466665a6cc99744977399621d06c71546f8b2b3492434616432c65b",
+      "size": 3421,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "a50a7b19454e1a2d3680c4aac62009809eb61e2d02f827a6e85ddd0c088624f5"
+    },
+    "item_40702101": {
+      "path": "image/item_40702101.png",
+      "url": "https://udonwiki.net/static/assets/items/40702101.png",
+      "sha256": "5b1729477ab5003522e46ea43e019bf08a6c8d1e75460d804b96ab709ca7ce40",
+      "size": 3279,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "3e6ea52d7294e6a3dffec198e6d2317a44060989d39bd87deb101cab16c3cd74"
+    },
+    "item_40702201": {
+      "path": "image/item_40702201.png",
+      "url": "https://udonwiki.net/static/assets/items/40702201.png",
+      "sha256": "4630f5b5e927890a5b3986d678e826bd877224c629b51d99831a3bf728495d90",
+      "size": 3206,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "951cd5c6af4d9a5c74864138c814a51c4fff4732b7db9672bde3b04c0cdae08d"
+    },
+    "item_40703101": {
+      "path": "image/item_40703101.png",
+      "url": "https://udonwiki.net/static/assets/items/40703101.png",
+      "sha256": "6d447509d314c0b06cb34b9e4fd2d2b6be4e74298f9da2b497551c451af5fe27",
+      "size": 3410,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "82d5e50c50066f97fdf21bbb9cfdf71c31b277282c1e642e2f52f33c05eb8ef0"
+    },
+    "item_40703201": {
+      "path": "image/item_40703201.png",
+      "url": "https://udonwiki.net/static/assets/items/40703201.png",
+      "sha256": "225a9006051bd42c92d4623941176d6e6be9488ca3e1b9bf8b64b033e3e62704",
+      "size": 3418,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "7729fa76a4fdb94044a8b933e8df0f13489e15f4da40f494a4c5cf817c06a7e3"
+    },
+    "item_40704101": {
+      "path": "image/item_40704101.png",
+      "url": "https://udonwiki.net/static/assets/items/40704101.png",
+      "sha256": "8fa6ba087f923f69bbf5318f0dcb82b91f613d0cd4b7aa6979da35906333c0ef",
+      "size": 3425,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "ba606659d5d6ca580ea97d300d8650fa785d219cc46ffbc40701fac59ed91eaf"
+    },
+    "item_40704201": {
+      "path": "image/item_40704201.png",
+      "url": "https://udonwiki.net/static/assets/items/40704201.png",
+      "sha256": "aceff99ef815b89f6eefb1daa3d54f65b0dae3ad328f1c07c6401dc10dfce86a",
+      "size": 3369,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "a4c79579933a066948e324d2f1569124eff55a928fa16966c89ccb387e227d39"
+    },
+    "item_40705101": {
+      "path": "image/item_40705101.png",
+      "url": "https://udonwiki.net/static/assets/items/40705101.png",
+      "sha256": "c1fa1f06bab56de9c7f06902f192a93eeb11141fba4c19bbeaac51e8c685b1b6",
+      "size": 3316,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "6a6b81e9c2146520582b2b6d76c5b171b4446009da09a93a72f3547f67975f94"
+    },
+    "item_40705201": {
+      "path": "image/item_40705201.png",
+      "url": "https://udonwiki.net/static/assets/items/40705201.png",
+      "sha256": "c2da8c8588691896f3d5b8000fb77ded249251ba422bf1817adbceb455597b5f",
+      "size": 3298,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "c5798ce664741aea9388261a0b1c0f4fe49b68634afc96697b4ce4e213cf8b9b"
+    },
+    "item_40706101": {
+      "path": "image/item_40706101.png",
+      "url": "https://udonwiki.net/static/assets/items/40706101.png",
+      "sha256": "48b1111d055fb43757de5a9ea9ac3c8841f2ca88b44e14a8216fadc986919862",
+      "size": 3251,
+      "width": 64,
+      "height": 64,
+      "format": "PNG",
+      "mode": "P",
+      "pixel_sha256": "0ce77d68b87c8d721c8f57f42c4c3d2cb7b7cadbc8263912a5bbe24f36cf75f4"
+    }
+  },
+  "missing_icons": [],
+  "download_failures": [],
+  "same_shop_asset_aliases": [
+    {
+      "shop": "sign",
+      "asset": "item_10100000",
+      "items": [
+        {
+          "name": "幸运铜币礼包",
+          "id": "10100000",
+          "head": null,
+          "price": 30,
+          "stock": "100",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佐井技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "油女取根技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "山中风技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩畜生道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩人间道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩修罗道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩饿鬼道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "金角技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "银角技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "重吾技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "由木人技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "伊鲁卡技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "多由也技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "静音技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "马基技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "左近右近技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "卡卡西技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "希技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "鸣人[中国风]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "勘九郎技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "丁次技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "志乃技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "阿斯玛[风之刃]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "鬼童丸技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "佩恩·地狱道技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "宇智波泉奈技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "天天[忍界大战]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "绝技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "猿[忍界大战]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "西瓜山河豚鬼[秽土转生]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "奈良鹿久技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "卡卡西[亲热天堂]技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "猿魔技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "黑土技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        },
+        {
+          "name": "山中亥一技能书任选1",
+          "id": "10100000",
+          "head": null,
+          "price": 750,
+          "stock": "4",
+          "asset": "item_10100000"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "shops": 4,
+    "shop_items": 141,
+    "unique_asset_paths": 97,
+    "saved_assets": 97,
+    "missing_icons": 0,
+    "download_failures": 0,
+    "same_shop_asset_alias_groups": 1
+  },
+  "limitations": [
+    "Website metadata is a reference snapshot, not live game price or stock.",
+    "Same asset can represent multiple products; icon-only selection must reject ambiguity.",
+    "Only the user's sun-shop screenshot is a real-game product sample."
+  ]
+}

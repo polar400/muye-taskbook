@@ -1,0 +1,1817 @@
+{
+  "id": "20261016-973-village",
+  "task": "home",
+  "label": "主界面",
+  "date": "2026-10-16",
+  "accountServer": "973",
+  "scope": "主界面",
+  "state": "木叶村南，菜单展开",
+  "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+  "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+  "sourceSize": [
+    1965,
+    1167
+  ],
+  "sourceImage": "source.png",
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "gameImage": "game.png",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "assets": [
+    {
+      "id": "profile_avatar",
+      "label": "角色头像",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        0,
+        0,
+        130,
+        161
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        0,
+        107,
+        130,
+        268
+      ],
+      "runtimeEnabled": false,
+      "path": "profile_avatar.png",
+      "size": [
+        130,
+        161
+      ],
+      "sha256": "2fb7be81ff0f080e06e7013c2dd470fc7a31c32701bf5b9f6242a062d44988e2",
+      "pixelSha256": "7de2b894c5da9a1d995d6b24254c550a8b44c00142bb0eaae7955c8df6d02ae0"
+    },
+    {
+      "id": "coin",
+      "label": "铜币图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        124,
+        127,
+        168,
+        171
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        124,
+        234,
+        168,
+        278
+      ],
+      "runtimeEnabled": false,
+      "path": "coin.png",
+      "size": [
+        44,
+        44
+      ],
+      "sha256": "1baa685ff07baab2c8aa556eaf8b94de5c663160c226cc586e4a5b314a6cdac5",
+      "pixelSha256": "44d38dd7eb0c7593c20e6dcd0294c75defea233be241c5dd109f026cf33336d2"
+    },
+    {
+      "id": "coupon",
+      "label": "点券图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        275,
+        123,
+        327,
+        171
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        275,
+        230,
+        327,
+        278
+      ],
+      "runtimeEnabled": false,
+      "path": "coupon.png",
+      "size": [
+        52,
+        48
+      ],
+      "sha256": "966e42809df860d356c45114479aacc8b189c9ad7af1aa40df441c1d137a6bae",
+      "pixelSha256": "9fbed9076fdc29a00b46b123873bc590750e68c86608886fbba984295bfd691b"
+    },
+    {
+      "id": "ingot",
+      "label": "元宝图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        410,
+        125,
+        450,
+        169
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        410,
+        232,
+        450,
+        276
+      ],
+      "runtimeEnabled": false,
+      "path": "ingot.png",
+      "size": [
+        40,
+        44
+      ],
+      "sha256": "fc1188d0994138899aef1c05d8afac7ff15a41fcb212edc8e0985b59d3928d27",
+      "pixelSha256": "56094175e36b313b0430286063b6a73ad9d59814b88a5abb33ec75e1458870f7"
+    },
+    {
+      "id": "sun_mark",
+      "label": "日之印标识",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        460,
+        8,
+        495,
+        49
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        460,
+        115,
+        495,
+        156
+      ],
+      "runtimeEnabled": false,
+      "path": "sun_mark.png",
+      "size": [
+        35,
+        41
+      ],
+      "sha256": "83527a983a8b9405b075583b47b78ce04f1992653f2988583fbeda964faa0a56",
+      "pixelSha256": "dedfd39a64ad5e5859ea2895b02f7d04b07651f73e3cd806d1df641a48fba07f"
+    },
+    {
+      "id": "moon_mark",
+      "label": "月之印标识",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        506,
+        7,
+        541,
+        49
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        506,
+        114,
+        541,
+        156
+      ],
+      "runtimeEnabled": false,
+      "path": "moon_mark.png",
+      "size": [
+        35,
+        42
+      ],
+      "sha256": "48a7a0c0f778d9556180c991d093e892beeb52ec69889c97cfd80e1e60d4a505",
+      "pixelSha256": "e17125ee6eb73a3f1680ed74a005d2f04d63c7d8061124b221212ce176f60f1f"
+    },
+    {
+      "id": "toolbar_expand",
+      "label": "工具栏展开柄",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1559,
+        8,
+        1593,
+        84
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1559,
+        115,
+        1593,
+        191
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_expand.png",
+      "size": [
+        34,
+        76
+      ],
+      "sha256": "21e725d5cba194e9d634a8386e70d0a1b16894f2288c0349ce951dcc1454cd59",
+      "pixelSha256": "3a7c3f7ebbedaa3d551e1365be6a9c4129526269877dd3df347215f46bbd0a2a"
+    },
+    {
+      "id": "toolbar_friends",
+      "label": "社交工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1594,
+        9,
+        1635,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1594,
+        116,
+        1635,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_friends.png",
+      "size": [
+        41,
+        53
+      ],
+      "sha256": "f834c2c5585b3b77e12914fb8fa57d0c58dafbb3fe13c31d9c3eaa50ae266d1e",
+      "pixelSha256": "688d9572cd5a46de73a43b0b456fac75e53d14e68987b0bade9a711df40ee109"
+    },
+    {
+      "id": "toolbar_handshake",
+      "label": "握手工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1634,
+        9,
+        1675,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1634,
+        116,
+        1675,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_handshake.png",
+      "size": [
+        41,
+        53
+      ],
+      "sha256": "5b071419448935ebadf66e2994b44591d4839f37a25410f6afa88c81fc891644",
+      "pixelSha256": "2e94bdb3a3f270cbaa780f4ec06bf86d6169543f16bd48c01e74321bc8c72c9e"
+    },
+    {
+      "id": "toolbar_mail",
+      "label": "邮件图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1676,
+        10,
+        1717,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1676,
+        117,
+        1717,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_mail.png",
+      "size": [
+        41,
+        52
+      ],
+      "sha256": "c867bce9e355ff34b07327e14b47f59fd06b96d505910db408949fe3585c978c",
+      "pixelSha256": "c7d10eb9e43935f799410a8d900448ef7850c2c60630a096012b327d35f7de6b"
+    },
+    {
+      "id": "toolbar_briefcase",
+      "label": "公文包工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1717,
+        10,
+        1756,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1717,
+        117,
+        1756,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_briefcase.png",
+      "size": [
+        39,
+        52
+      ],
+      "sha256": "5b5e84e90495912af5115da12492c2c7a35dc4dd30c329aa69c4a340b5c2e60f",
+      "pixelSha256": "72ea06b3b99025b648cd6b2120b554dcc95a342f3b9c12694032d561e5f33c78"
+    },
+    {
+      "id": "toolbar_help",
+      "label": "帮助图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1757,
+        9,
+        1797,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1757,
+        116,
+        1797,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_help.png",
+      "size": [
+        40,
+        53
+      ],
+      "sha256": "8d2ec4a598b4865ee839d78004fce447b1b24af222254ec79329db91e20935a3",
+      "pixelSha256": "36f17e80431c14ace5d72cf2ade023ea3e352e1ba347d87bff44b0a889a6e896"
+    },
+    {
+      "id": "toolbar_link",
+      "label": "链环工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1797,
+        9,
+        1837,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1797,
+        116,
+        1837,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_link.png",
+      "size": [
+        40,
+        53
+      ],
+      "sha256": "dfce65f6ccf0fb0b6ec595f63de29530fb568cdff2fcb2840ee81e223b22bd21",
+      "pixelSha256": "a813ff5f588c5dc156b2a29decc75c94fe87d8d4c0a812df571db22cd9175599"
+    },
+    {
+      "id": "toolbar_headset",
+      "label": "耳机工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1837,
+        9,
+        1878,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1837,
+        116,
+        1878,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_headset.png",
+      "size": [
+        41,
+        53
+      ],
+      "sha256": "37fa916607b3d0f10ce451330b94ceafe219e063b359cee6276e044cd89396f4",
+      "pixelSha256": "2522f4874e7c7e7242726a7b61f30dbd4a5d23ca4f3e518316c44bf030fee648"
+    },
+    {
+      "id": "toolbar_swirl",
+      "label": "旋涡工具图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1878,
+        9,
+        1919,
+        62
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1878,
+        116,
+        1919,
+        169
+      ],
+      "runtimeEnabled": false,
+      "path": "toolbar_swirl.png",
+      "size": [
+        41,
+        53
+      ],
+      "sha256": "e7f2f2104898dad0b5c18c75f634c3df803e38cdcf9d97801d1c66cd3555a0be",
+      "pixelSha256": "90dccb453553a28a9eb5000767e6f12575e2b794f45efeb880cdbd5f0c1c449a"
+    },
+    {
+      "id": "chat_ninja",
+      "label": "聊天忍者图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        525,
+        939,
+        576,
+        989
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        525,
+        1046,
+        576,
+        1096
+      ],
+      "runtimeEnabled": false,
+      "path": "chat_ninja.png",
+      "size": [
+        51,
+        50
+      ],
+      "sha256": "365d367231f6cc9eb5d7ce316a5af6e56bb11222b84b2df6f31d0bacb5002e98",
+      "pixelSha256": "f81d17fd48cf9b424d22b714692544903e2e8b1b51d536215c98fc3759fca293"
+    },
+    {
+      "id": "chat_bubbles",
+      "label": "聊天气泡图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        575,
+        939,
+        624,
+        989
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        575,
+        1046,
+        624,
+        1096
+      ],
+      "runtimeEnabled": false,
+      "path": "chat_bubbles.png",
+      "size": [
+        49,
+        50
+      ],
+      "sha256": "46976fbe0c90b557b88249d2591327647f63c2b741a91cd865ecb65cda4ea8f7",
+      "pixelSha256": "6f51872b0e0cc56f509dfc9c3b954746ad9fe04814c56fa0c0b8e9cc11cc97ba"
+    },
+    {
+      "id": "chat_expand",
+      "label": "聊天栏展开箭头",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        220,
+        872,
+        285,
+        902
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        220,
+        979,
+        285,
+        1009
+      ],
+      "runtimeEnabled": false,
+      "path": "chat_expand.png",
+      "size": [
+        65,
+        30
+      ],
+      "sha256": "8ac0db0fa37f85359272dcd42492ec153e882e882b00d07ce3b88db3cb4db367",
+      "pixelSha256": "0c361c7c4f92cba8d0c52c456abf2607d2630a85c840492e8b006e781b1bb4af"
+    },
+    {
+      "id": "quest_auto",
+      "label": "任务自动标记",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        1811,
+        528,
+        1858,
+        552
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1811,
+        635,
+        1858,
+        659
+      ],
+      "runtimeEnabled": false,
+      "path": "quest_auto.png",
+      "size": [
+        47,
+        24
+      ],
+      "sha256": "0fc4f975e0f9b7dc17d5ff16ab71d069fd604e8e88e8ccad6c1837f4dbc6f746",
+      "pixelSha256": "e08b93994d7b59337a1b1c65b19fe00ec0278170ead7266544e961543911acd0"
+    },
+    {
+      "id": "digit_home_red_5",
+      "label": "home_red 单字 5",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        223,
+        85,
+        247,
+        108
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        223,
+        192,
+        247,
+        215
+      ],
+      "runtimeEnabled": false,
+      "digit": "5",
+      "family": "home_red",
+      "occurrence": {
+        "text": "592897",
+        "index": 0,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_home_red_5.png",
+      "size": [
+        24,
+        23
+      ],
+      "sha256": "d2dad8cfa3f250b0f40ea2ce389f83a04689cb3e2dbbd13e4b1c16109c5641c6",
+      "pixelSha256": "2f75ce8ea4cb67aa9d3495b931a1731f6934e2331b2a2d9b143f769257b8734e"
+    },
+    {
+      "id": "digit_home_red_9",
+      "label": "home_red 单字 9",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        254,
+        87,
+        281,
+        107
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        254,
+        194,
+        281,
+        214
+      ],
+      "runtimeEnabled": false,
+      "digit": "9",
+      "family": "home_red",
+      "occurrence": {
+        "text": "592897",
+        "index": 1,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_home_red_9.png",
+      "size": [
+        27,
+        20
+      ],
+      "sha256": "3be94b3ae356bfb170f569510887c15b8d5eb68e076603215a79671798c12537",
+      "pixelSha256": "34561f400e0d3e2fd0bd097de58eeeb29a3c71ce6265341f288e58ac1d572ad0"
+    },
+    {
+      "id": "digit_home_red_2",
+      "label": "home_red 单字 2",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        283,
+        86,
+        312,
+        107
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        283,
+        193,
+        312,
+        214
+      ],
+      "runtimeEnabled": false,
+      "digit": "2",
+      "family": "home_red",
+      "occurrence": {
+        "text": "592897",
+        "index": 2,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_home_red_2.png",
+      "size": [
+        29,
+        21
+      ],
+      "sha256": "d9d2233d143655b5302809df7d6ba4676957f67a9e2f0c0e967eb3e9282286f0",
+      "pixelSha256": "122f72f130c8f1c54b0451eda4c62c9b9f1409af3421ffac0cb6c557cc8696f4"
+    },
+    {
+      "id": "digit_home_red_8",
+      "label": "home_red 单字 8",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        315,
+        87,
+        343,
+        108
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        315,
+        194,
+        343,
+        215
+      ],
+      "runtimeEnabled": false,
+      "digit": "8",
+      "family": "home_red",
+      "occurrence": {
+        "text": "592897",
+        "index": 3,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_home_red_8.png",
+      "size": [
+        28,
+        21
+      ],
+      "sha256": "dec29e949d66d8728f85cdd89112ad175d325feb6fa6c6d5b330409fdc8bec17",
+      "pixelSha256": "2f82c3b88491d22e19aebc4f21b0c12ae516fe593e99e516dee4ce875db06e82"
+    },
+    {
+      "id": "digit_home_red_7",
+      "label": "home_red 单字 7",
+      "state": "来源实像素",
+      "type": "digit",
+      "box": [
+        381,
+        88,
+        404,
+        104
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        381,
+        195,
+        404,
+        211
+      ],
+      "runtimeEnabled": false,
+      "digit": "7",
+      "family": "home_red",
+      "occurrence": {
+        "text": "592897",
+        "index": 5,
+        "method": "red_mask_projection"
+      },
+      "path": "digit_home_red_7.png",
+      "size": [
+        23,
+        16
+      ],
+      "sha256": "5a26da794cdeb444fbf65697a9ac6b190eabb00a997965ed1e3888ba1fe27dc4",
+      "pixelSha256": "fce37db5ab4bf36a3b43684ba3e697530d8aee57b2971255c57f94a3a38653d8"
+    }
+  ],
+  "reusedAssets": [
+    {
+      "id": "hotspot",
+      "label": "限时热点",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        704,
+        0,
+        814,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        704,
+        107,
+        814,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/hotspot.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "hotspot",
+        "sha256": "03641089266ced69a7127742a1d52b4543bc8866d4e47b30dfe23e89b211035e"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ninja_manual",
+      "label": "忍者手册",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        918,
+        0,
+        1010,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        918,
+        107,
+        1010,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/ninja_manual.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "ninja_manual",
+        "sha256": "edc6bd4a07908537eaeb56db67a960b3857e20e9a9d67b2bc5b52ce3133bfa92"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "daily_training",
+      "label": "日常锻炼",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1010,
+        0,
+        1102,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1010,
+        107,
+        1102,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/daily_training.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "daily_training",
+        "sha256": "aabf97fa11782d58d5c609d6edf6c16551ac147fa0e4319b18ef85c98b1a1fe7"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ranking",
+      "label": "排行榜",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1102,
+        0,
+        1191,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1102,
+        107,
+        1191,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/ranking.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "ranking",
+        "sha256": "e29ea5677854085aa8770eea9145c4569bf26f92189d2c3b52ba43e3f614a946"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "honor_hall",
+      "label": "荣誉殿堂",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1191,
+        0,
+        1288,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1191,
+        107,
+        1288,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/honor_hall.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "honor_hall",
+        "sha256": "c0b473e3864ec65451081e86fffa812121e0cc8b15edb8bc99e57881a47711f0"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ninja_exam",
+      "label": "忍者考试",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1288,
+        0,
+        1380,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1288,
+        107,
+        1380,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/ninja_exam.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "ninja_exam",
+        "sha256": "a2ff48f5d8cf34f25a49cb8ff5df8138fac09a0ced061c1f01e75a3034fce957"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "extreme_training",
+      "label": "极限特训",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1380,
+        0,
+        1468,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1380,
+        107,
+        1468,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/extreme_training.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "extreme_training",
+        "sha256": "3fca0a3ed40e0b0e24cd6b10e03e073bc32e957d670887d255d244f4bbe4c605"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ranked",
+      "label": "排位战",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1468,
+        0,
+        1559,
+        99
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1468,
+        107,
+        1559,
+        206
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/ranked.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "ranked",
+        "sha256": "294034096225cf5a8eb6e8c6728815e98f6e8d9c295b9b6a436fd84cb8fad360"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "space_time",
+      "label": "时空间",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        918,
+        99,
+        1010,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        918,
+        206,
+        1010,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/space_time.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "space_time",
+        "sha256": "b1726bb69b4008232af3509053681725c51e7cc304f01cb8fa21c54895b546a2"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "survival",
+      "label": "生存演习",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1010,
+        99,
+        1102,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1010,
+        206,
+        1102,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/survival.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "survival",
+        "sha256": "92c01824cacbfd5c037c34fcf8c96d6c5dc6b3db98cd9c1de9d3da12a744c6f8"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "endless_illusion",
+      "label": "无限幻象",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1102,
+        99,
+        1191,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1102,
+        206,
+        1191,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/endless_illusion.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "endless_illusion",
+        "sha256": "24cff218061a9d4ae92072ad02f8f6f0880491e2c424edfe9bd1951425040976"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "strong",
+      "label": "强者降临",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1191,
+        99,
+        1288,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1191,
+        206,
+        1288,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/strong.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "strong",
+        "sha256": "a24894cc1ebec43dcdb48b0f609f611ff3b2fa988036acebe38c06edf653a9d3"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "abundance",
+      "label": "丰饶之间",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1288,
+        99,
+        1380,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1288,
+        206,
+        1380,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/abundance.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "abundance",
+        "sha256": "fd4d020cc68661675824c6f5f0801bb968ca558576085c9f67cd864cc446a95f"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "arena",
+      "label": "竞技场",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1380,
+        99,
+        1468,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1380,
+        206,
+        1468,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/arena.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "arena",
+        "sha256": "9aee2b225659bf346eaaa1032d99396e3723d3dc659111bb1f8371e8e1ff20c8"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "mystery_cave",
+      "label": "神秘洞穴",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1468,
+        99,
+        1559,
+        203
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1468,
+        206,
+        1559,
+        310
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/mystery_cave.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "mystery_cave",
+        "sha256": "08d7c49a3d73435a21698cc49a08efa0e8c59f6f8ea5d6334a7429eec6c0490e"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "treasure",
+      "label": "宝藏",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1288,
+        204,
+        1380,
+        312
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1288,
+        311,
+        1380,
+        419
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/treasure.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "treasure",
+        "sha256": "dae3a328c21e5acee272a8c60a071e8fdaa6dff4c59ec2e141160d83770fc708"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "privilege_events",
+      "label": "特权活动",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1380,
+        204,
+        1468,
+        312
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1380,
+        311,
+        1468,
+        419
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/privilege_events.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "privilege_events",
+        "sha256": "9f7e3e0f621f1a1dd9dc34d753f0a4c527079e9863498487f37c0cb554156b19"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "benefits",
+      "label": "福利大厅",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1468,
+        204,
+        1559,
+        312
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1468,
+        311,
+        1559,
+        419
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/benefits.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "benefits",
+        "sha256": "0228775c401e8c60fac254efef2a9b5cff99a1c30a58df3a94bd581a35079d05"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "event_banner",
+      "label": "中央活动横幅",
+      "state": "当前活动外观",
+      "type": "event_marker",
+      "box": [
+        836,
+        196,
+        1087,
+        292
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        836,
+        303,
+        1087,
+        399
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/event_banner.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "event_banner",
+        "sha256": "e1ea79f52d7ad01a64f639b5e408eef5b2611cc49b9d1151a8b8cbddec5ef8a9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "strengthen",
+      "label": "变强",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        493,
+        80,
+        569,
+        121
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        493,
+        187,
+        569,
+        228
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/strengthen.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "strengthen",
+        "sha256": "c367e2843a8c65cd53be8ceb6c1007b5094db727f3f19f63c3b569a1b7de9e02"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "badge",
+      "label": "中忍勋章",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        570,
+        80,
+        709,
+        122
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        570,
+        187,
+        709,
+        229
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/badge.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "badge",
+        "sha256": "04b8786e55c3b838028b1180bab40346766fa1af76dfed375713bb029663bfb3"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "recharge",
+      "label": "充值",
+      "state": "付费入口，仅归档",
+      "type": "button",
+      "box": [
+        552,
+        125,
+        627,
+        167
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        552,
+        232,
+        627,
+        274
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/recharge.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "recharge",
+        "sha256": "0f3c0c566ae53c4e7f2c780d4d9d256ed75cad29401b55340b239a415069e1e8"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "lock_icon",
+      "label": "玩家面板锁图标",
+      "state": "正常",
+      "type": "icon",
+      "box": [
+        628,
+        125,
+        667,
+        167
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        628,
+        232,
+        667,
+        274
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/lock_icon.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "lock_icon",
+        "sha256": "35ab32881292911c2f991ba79647914417efcb8cf985425fa4245608bad588fa"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "hosting_computer",
+      "label": "托管小电脑",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        665,
+        124,
+        712,
+        168
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        665,
+        231,
+        712,
+        275
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/hosting_computer.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "hosting_computer",
+        "sha256": "65a6c3addd46184e3a47409b8626b05c050b26f703b20f2103a8cd10ffca5e92"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "stamina_plus",
+      "label": "体力加号",
+      "state": "增加入口，仅归档",
+      "type": "button",
+      "box": [
+        627,
+        36,
+        675,
+        78
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        627,
+        143,
+        675,
+        185
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/stamina_plus.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "stamina_plus",
+        "sha256": "8a0ad2f3e65d9d578560f1fb570e665514a274fddacb839ca2c8359b40d8d038"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "scroll_duel",
+      "label": "左侧活动横条",
+      "state": "羁绊对决08:00开启",
+      "type": "event_marker",
+      "box": [
+        0,
+        185,
+        322,
+        247
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        0,
+        292,
+        322,
+        354
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/scroll_duel.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "scroll_duel",
+        "sha256": "eb5d26f05594751ea00f9d527531b867eb4e1323a0ec83257e0eb74abf48203e"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "training_record",
+      "label": "忍者修行录",
+      "state": "展开",
+      "type": "button",
+      "box": [
+        1594,
+        298,
+        1920,
+        354
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1594,
+        405,
+        1920,
+        461
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/training_record.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "training_record",
+        "sha256": "2c4c0dd7942c75802cfbe1acc2dcd5073b7dd533810f799427d0ab926cb5b1c8"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "task_list",
+      "label": "任务列表",
+      "state": "展开",
+      "type": "button",
+      "box": [
+        1593,
+        455,
+        1920,
+        522
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1593,
+        562,
+        1920,
+        629
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/task_list.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "task_list",
+        "sha256": "560e56d521fb506641d842770d8b656e49146d16e7d359220257312d009217a1"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "character",
+      "label": "角色",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1058,
+        886,
+        1144,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1058,
+        993,
+        1144,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/character.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "character",
+        "sha256": "a9c77152ac27d0ddf24ebcacb3c35448aabf44880abff4126e3a9bcae95fac6a"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "ninjas",
+      "label": "忍者",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1144,
+        886,
+        1234,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1144,
+        993,
+        1234,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/ninjas.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "ninjas",
+        "sha256": "8331e43bd737eba9c678018a31783c6046febde030ead83d7d1007d4c9766899"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "upgrade",
+      "label": "提升",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1234,
+        886,
+        1334,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1234,
+        993,
+        1334,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/upgrade.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "upgrade",
+        "sha256": "93edce88a1fa6fea6dcfd5228be3cc9379f8eb7fc1be6705c4cb2b067c0ad87b"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "organization",
+      "label": "组织",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1334,
+        886,
+        1418,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1334,
+        993,
+        1418,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/organization.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "organization",
+        "sha256": "0842b0f74a9832159968ea50837dc2e003a580771f90e39abf4e5fcd925cc6db"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "home",
+      "label": "家园",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1418,
+        886,
+        1510,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1418,
+        993,
+        1510,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/home.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "home",
+        "sha256": "e59698f1ae7c04aa03a8fa5b761896dfa05cee76843d1e571232133f191ed9a9"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "shop",
+      "label": "杂货屋",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1510,
+        886,
+        1600,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1510,
+        993,
+        1600,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/shop.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "shop",
+        "sha256": "e1383112d7056890553281fd16d4887db15667b0bf8ac29eeeb44399af18cc6a"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "store",
+      "label": "底部商店入口",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1600,
+        886,
+        1690,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1600,
+        993,
+        1690,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/store.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "store",
+        "sha256": "317b242cf929b7660fdf22fa9ae3ee0d45b50cc5b26416b4fc7185075d7df0c3"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "recruit",
+      "label": "招募",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1690,
+        886,
+        1782,
+        990
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1690,
+        993,
+        1782,
+        1097
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/recruit.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "recruit",
+        "sha256": "2ed0eb7c575bc46086c87afcf8a809485b40c061aeef039dfbc32dda9b8fc0f2"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "dungeon",
+      "label": "副本",
+      "state": "正常",
+      "type": "button",
+      "box": [
+        1782,
+        849,
+        1920,
+        992
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "sourceBox": [
+        1782,
+        956,
+        1920,
+        1099
+      ],
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261013-974-village/dungeon.png",
+        "manifest": "home/20261013-974-village/manifest.json",
+        "assetId": "dungeon",
+        "sha256": "2a432eeaa1285c56bbb9b4155ca39f49fa8518ea7075643f88b02e9214415735"
+      },
+      "reuseReason": "existing_semantic_same_state"
+    },
+    {
+      "id": "digit_home_red_9_1",
+      "label": "home_red 单字 9",
+      "state": "已有同像素红色字形掩码",
+      "type": "digit",
+      "digit": "9",
+      "family": "home_red",
+      "box": [
+        347,
+        87,
+        374,
+        107
+      ],
+      "sourceBox": [
+        347,
+        194,
+        374,
+        214
+      ],
+      "sourceFilename": "codex-clipboard-379f1978-262d-4dac-9d9e-c58e97c0b36e.png",
+      "sourceSha256": "7b52c3da8a722126f0eb39f9a2615712235421e1990d9eba161dc5676e42cd56",
+      "runtimeEnabled": false,
+      "reference": {
+        "catalogPath": "home/20261016-973-village/digit_home_red_9.png",
+        "manifest": "home/20261016-973-village/manifest.json",
+        "assetId": "digit_home_red_9",
+        "sha256": "3be94b3ae356bfb170f569510887c15b8d5eb68e076603215a79671798c12537"
+      },
+      "reuseReason": "identical_foreground_mask",
+      "occurrence": {
+        "text": "592897",
+        "index": 4,
+        "method": "red_mask_projection"
+      }
+    }
+  ],
+  "gameInput": false,
+  "notes": [
+    "只从用户附件离线提取，未操作游戏；裁切坐标不是点击目标。",
+    "已有同功能同状态图标复用引用；语义复用不声称当前画面像素相同。",
+    "数字逐字保存并标注字体样式；不固定业务读数。",
+    "素材候选未自动接入resources/local/image，未改变任务执行。",
+    "日期为接收／整理日期，不推定附件拍摄时间。"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "sampleId": "20261016-973-timed",
+  "label": "限时活动",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 28,
+  "newDigitCrops": 0,
+  "reusedAssets": 1,
+  "reuseReasons": {
+    "existing_semantic_same_state": 1
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "时间:11:00-14:00",
+    "剩余奖励次数:3/3"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

@@ -1,0 +1,165 @@
+{
+  "task": "wanted",
+  "sources": {
+    "kunai": {
+      "originalFilename": "codex-clipboard-91fa01c3-f2d4-491d-a632-4d68a085926b.png",
+      "path": "resources\\local\\wanted\\kunai-source.png",
+      "sha256": "6c8e849e8d797aeb9e5f24429958314e37b3a413c5af82b68d6fd78206930579",
+      "size": [
+        87,
+        63
+      ]
+    },
+    "daily": {
+      "originalFilename": "codex-clipboard-f3e82937-7238-42e7-ad46-b53bebb9ce4d.png",
+      "path": "resources\\local\\wanted\\daily-source.png",
+      "sha256": "f67a8747a2f8ef8a1a304c9b964fcf68640c07add841b68330e777389e2ea6b3",
+      "size": [
+        210,
+        72
+      ]
+    },
+    "row": {
+      "originalFilename": "codex-clipboard-2163fe81-8bfd-421c-9ce1-daaebcbe25d2.png",
+      "path": "resources\\local\\wanted\\row-source.png",
+      "sha256": "feb03495e3f377a5aad2f7e8d9c116b016b1860bc336e67518208f61a06cced6",
+      "size": [
+        858,
+        91
+      ]
+    },
+    "participate": {
+      "originalFilename": "codex-clipboard-7001344c-27b7-4f42-9030-fc62af7773e7.png",
+      "path": "resources\\local\\wanted\\participate-source.png",
+      "sha256": "1c091b77b74086da92a40b2384e21f3fb73c087595add7cb0a68f8aafbeb76b5",
+      "size": [
+        282,
+        61
+      ]
+    },
+    "panel": {
+      "originalFilename": "codex-clipboard-43124e5d-883a-4892-b019-001aa0ccf024.png",
+      "path": "resources\\local\\wanted\\panel-source.png",
+      "sha256": "448e44f2811a02d8f3ee5a59fef3b50ef26da2d7953352cba887953df2242923",
+      "size": [
+        1965,
+        1167
+      ]
+    }
+  },
+  "assets": [
+    {
+      "path": "resources\\local\\image\\wanted_kunai_user.png",
+      "source": "kunai",
+      "sourceBox": [
+        23,
+        0,
+        80,
+        59
+      ],
+      "sha256": "9965f7a0de5b7810db208cf64dfa901d75d43960155c0f160a5bb61f61a04d07"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_daily_user.png",
+      "source": "daily",
+      "sourceBox": [
+        0,
+        0,
+        210,
+        72
+      ],
+      "sha256": "c956b649027e81b93a5bf3de5233a67119ce6d49c284b0c2329947a07b0febf0"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_row_user.png",
+      "source": "row",
+      "sourceBox": [
+        45,
+        20,
+        195,
+        75
+      ],
+      "sha256": "3ce159eadc8cd1b96dda129bc69788452864e12c5eab6845babbc96d74f61522"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_participate_user.png",
+      "source": "participate",
+      "sourceBox": [
+        58,
+        4,
+        226,
+        58
+      ],
+      "sha256": "c674bbc89577a8c61ff0af1f99f00af91c72d3cddabd832a5d4bfffa3d90dbdd"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_title_user.png",
+      "source": "panel",
+      "sourceBox": [
+        812,
+        218,
+        1155,
+        291
+      ],
+      "sha256": "970e6406c196f55bf6ec71d0be3ad61e1de3337a06db7edbcd4b428025b0ae8b"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_auto_user.png",
+      "source": "panel",
+      "sourceBox": [
+        1230,
+        355,
+        1405,
+        410
+      ],
+      "sha256": "2723de826b8692f69840b663884bc0a3415572516e9fb70e532791fc2cafc0b6"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_close_user.png",
+      "source": "panel",
+      "sourceBox": [
+        1530,
+        274,
+        1583,
+        326
+      ],
+      "sha256": "335540d54076aa4f892ac6a0ecedab3f685cb6a4f956dfac0e86dcf1a1b3ee19"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_counter_user.png",
+      "source": "panel",
+      "sourceBox": [
+        821,
+        362,
+        1059,
+        400
+      ],
+      "sha256": "4b57da4b4128af6fad06b527913936e645423ee5fe2540848e5006179318772e"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_daily_selected_catalog.png",
+      "reusedFrom": "resources\\local\\catalog\\activities\\20261016-973-daily\\tab_daily.png",
+      "manifest": "resources\\local\\catalog\\activities\\20261016-973-daily\\manifest.json",
+      "sha256": "0bac031c49070c67e24ca78816b6c1f133f6d8a82f9c5dfe5921c348bf728b86"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_row_catalog.png",
+      "reusedFrom": "resources\\local\\catalog\\activities\\20261016-973-daily\\event_label_3.png",
+      "manifest": "resources\\local\\catalog\\activities\\20261016-973-daily\\manifest.json",
+      "sha256": "53e3c8a5283fe8bb2e84d4124f84b82b13e4cc746d93aa98521fa3e1808c5c99"
+    },
+    {
+      "path": "resources\\local\\image\\wanted_participate_catalog.png",
+      "reusedFrom": "resources\\local\\catalog\\activities\\20261016-973-daily\\participate.png",
+      "manifest": "resources\\local\\catalog\\activities\\20261016-973-daily\\manifest.json",
+      "sha256": "2c7d4b23453354eb03cdfad7c74cd4e2e559893f889ca1a8aa47c936e7ff4785"
+    }
+  ],
+  "gameCrop": [
+    0,
+    107,
+    1920,
+    1122
+  ],
+  "userRules": "自动完成免费；点击自动完成后确认是一次，游戏自动接取并完成全部；最终今日余下次数0。"
+}

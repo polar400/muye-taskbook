@@ -1,0 +1,40 @@
+{
+  "task": "wanted",
+  "threshold": 0.9,
+  "roi": [
+    0.14,
+    0.3,
+    0.3,
+    0.49
+  ],
+  "meaning": "日常已完成条目移除强者降临后，第三行忍者测验＋第四行登录；保留所有原终态检查。",
+  "sources": [
+    {
+      "path": "出错任务/通缉任务/证据/3bbb2b405695d9d538e256a6.png",
+      "sha256": "cb5055141509960117baffdb52c9d23d6c6e8b2f6f72c66ed25f886b053a98a6",
+      "role": "template source"
+    },
+    {
+      "path": "出错任务/通缉任务/证据/c16d65c386bdf5451ff4362a.png",
+      "sha256": "5b6cf2a4fb32ae49b972028a1d2be8576cb5c3df0b7d28a980de0ac6df3682f1",
+      "role": "holdout"
+    },
+    {
+      "path": "出错任务/通缉任务/证据/d12d52e1af766a07db527f97.png",
+      "sha256": "b64582e246e57a9a4d79c0034249d55151a8ffb5d3bad8cd3cad073dc1c98267",
+      "role": "holdout"
+    }
+  ],
+  "asset": {
+    "path": "resources/local/image/wanted_daily_completed_rows_quiz_login20261019.png",
+    "source": "出错任务/通缉任务/证据/3bbb2b405695d9d538e256a6.png",
+    "sourceBox": [
+      320,
+      335,
+      466,
+      473
+    ],
+    "sha256": "9f555ff17abad99150c4de581bac601a8ce4609a07072f1fefcabed6f6d5b405"
+  },
+  "loader": "LocalOCR.match loads wanted_daily_completed_rows_*.png without shared-code changes"
+}

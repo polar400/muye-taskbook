@@ -1,0 +1,22 @@
+{
+  "label": {
+    "source": "resources\\local\\team_instance\\reward_footer.png",
+    "crop": [
+      0,
+      0,
+      128,
+      37
+    ],
+    "sha256": "3d9989614dd5e45e219f019bd83b945834fcf4725f72e3f2d9603f2388244a11"
+  },
+  "references": [
+    {
+      "name": "rewards-strip-reference.png",
+      "sha256": "7985586696cff85f72bb07a6e4fc1eee3c5bd0ab9a21487c4f052039ea1bfb78"
+    },
+    {
+      "name": "rewards-panel-reference.png",
+      "sha256": "aa31766fccf303a3562477ae65655c1efa82c4f8d9e758cb731339b7d4416b0d"
+    }
+  ]
+}

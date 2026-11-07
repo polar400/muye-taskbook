@@ -1,0 +1,11 @@
+{
+  "source": "verification\\failure-20261023-133956-1a3c7e37dd58-team_instance.png",
+  "sha256": "97ea6a40d7661586bd9e8b30a9fccd867ca3bc39a09b9bfa434ab454e5639511",
+  "crop": [
+    45,
+    202,
+    97,
+    246
+  ],
+  "threshold": 0.9
+}

@@ -1,0 +1,11 @@
+{
+  "source": "verification\\failure-20261023-184045-0d5b602b8845-team_instance.png",
+  "sha256": "1276d7af5e60e619070225e7118214b8676148be14bab4f3e150847bc5d6d11e",
+  "crop": [
+    443,
+    152,
+    591,
+    192
+  ],
+  "holdout": "verification/failure-20261023-184132-d35ccd0b5b03-team_instance.png"
+}

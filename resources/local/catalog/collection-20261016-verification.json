@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-16",
+  "status": "passed",
+  "samples": [
+    {
+      "sampleId": "20261016-973-village",
+      "label": "主界面",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 24,
+      "newDigitCrops": 5,
+      "reusedAssets": 38,
+      "reuseReasons": {
+        "existing_semantic_same_state": 37,
+        "identical_foreground_mask": 1
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "生存演习",
+        "木叶村南e09.1s4"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    },
+    {
+      "sampleId": "20261016-973-team-ready",
+      "label": "竞技场",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 62,
+      "newDigitCrops": 4,
+      "reusedAssets": 2,
+      "reuseReasons": {
+        "existing_semantic_same_state": 2
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "条件已满足",
+        "条件已满足",
+        "战令：3个",
+        "追打状态"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    },
+    {
+      "sampleId": "20261016-973-timed",
+      "label": "限时活动",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 28,
+      "newDigitCrops": 0,
+      "reusedAssets": 1,
+      "reuseReasons": {
+        "existing_semantic_same_state": 1
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "时间:11:00-14:00",
+        "剩余奖励次数:3/3"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    },
+    {
+      "sampleId": "20261016-973-cross-ready",
+      "label": "排位战",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 31,
+      "newDigitCrops": 14,
+      "reusedAssets": 22,
+      "reuseReasons": {
+        "existing_semantic_same_state": 18,
+        "identical_foreground_mask": 4
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "调整阵容",
+        "战报",
+        "刷新对手"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    },
+    {
+      "sampleId": "20261016-973-daily",
+      "label": "日常活动",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 26,
+      "newDigitCrops": 7,
+      "reusedAssets": 20,
+      "reuseReasons": {
+        "existing_semantic_same_state": 20
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "可完成任务:2/2",
+        "剩余奖励时间:1/1"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    },
+    {
+      "sampleId": "20261016-973-online-gift",
+      "label": "福利大厅",
+      "gameSize": [
+        1920,
+        1015
+      ],
+      "sourceHashVerified": true,
+      "gameCropPixelEqual": true,
+      "newAssets": 20,
+      "newDigitCrops": 0,
+      "reusedAssets": 3,
+      "reuseReasons": {
+        "existing_semantic_same_state": 3
+      },
+      "allCropsPixelEqual": true,
+      "allHashesAndReferencesValid": true,
+      "pageOcrMarkers": [
+        "领取",
+        "领取",
+        "领取"
+      ],
+      "gameInput": false,
+      "productionTemplatesModified": false
+    }
+  ],
+  "totals": {
+    "newAssets": 191,
+    "newDigitCrops": 30,
+    "reusedAssets": 86
+  },
+  "uniqueScreenshots": 6,
+  "duplicateNewPixelCrops": 0,
+  "preservedBaselineFiles": 93,
+  "digitFamilies": [
+    {
+      "id": "action_red",
+      "availableDigits": "1234",
+      "missingDigits": "567890",
+      "complete": false
+    },
+    {
+      "id": "activity_gold_large",
+      "availableDigits": "3567890",
+      "missingDigits": "124",
+      "complete": false
+    },
+    {
+      "id": "home_red",
+      "availableDigits": "25789",
+      "missingDigits": "13460",
+      "complete": false
+    },
+    {
+      "id": "rank_emblem",
+      "availableDigits": "123",
+      "missingDigits": "4567890",
+      "complete": false
+    },
+    {
+      "id": "ranked_red",
+      "availableDigits": "1234567890",
+      "missingDigits": "",
+      "complete": true
+    },
+    {
+      "id": "white_serif_small",
+      "availableDigits": "1234567890",
+      "missingDigits": "",
+      "complete": true
+    }
+  ],
+  "gameInput": false,
+  "businessTestsRun": false,
+  "limitations": [
+    "仅基于6张附件；没有操作游戏或补采附件外场景。",
+    "页面OCR、像素与来源验证通过，不等于全部新图标已完成运行时接入。",
+    "部分头像带试用／首胜原始覆盖，物品未确认名称保留外观标注。",
+    "部分字形家族不满十字；不借用其他字体或合成缺字。",
+    "当前全图OCR漏读多处美术字；竞技场可见剩余6个任务被读成0，福利20000／30000读作0000。仅记录，不将这些OCR值用作任务判断。"
+  ]
+}

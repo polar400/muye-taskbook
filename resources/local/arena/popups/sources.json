@@ -1,0 +1,91 @@
+{
+  "size": [
+    1920,
+    1015
+  ],
+  "threshold": 0.9,
+  "references": [
+    {
+      "kind": "trial",
+      "path": "resources/local/arena_popup_references/trial-user.png",
+      "sha256": "f9bcd81f86c500d29212e624fc12138f8ea8be398f5eccf1a75f4e42ba667bfd",
+      "originalFilename": "codex-clipboard-bdfdcc3a-d63b-4654-9cfc-e5ef243bd4e1.png",
+      "game": "resources/local/arena_popup_references/trial-game.png",
+      "gameCrop": [
+        45,
+        127,
+        1965,
+        1142
+      ],
+      "gameSha256": "218e78ae31637cb34618ca43b96ec19e840f0e122d74db2cd2c8c11b14d308d2"
+    },
+    {
+      "kind": "victory",
+      "path": "resources/local/arena_popup_references/victory-user.png",
+      "sha256": "69e763556d067e86bb2be2ea5d3f59f7372cfc5deec02d25429037e2147de127",
+      "originalFilename": "codex-clipboard-d556ec2a-7932-453d-8c4a-174a31b28e29.png",
+      "game": "resources/local/arena_popup_references/victory-game.png",
+      "gameCrop": [
+        45,
+        127,
+        1965,
+        1142
+      ],
+      "gameSha256": "d15bfd1ea6bdfb962eebcb62e69ce9f8452f873df50dd7f87fb9bcc61a4ab906"
+    }
+  ],
+  "assets": [
+    {
+      "name": "trial_title",
+      "path": "resources/local/arena/popups/trial_title.png",
+      "source": "resources/local/arena_popup_references/trial-game.png",
+      "box": [
+        735,
+        135,
+        1190,
+        235
+      ],
+      "sha256": "dd279c38669e48aac5f33f63ebea0907e91e8cadaaacbba3fb69fcad540a0490",
+      "sourceSha256": "218e78ae31637cb34618ca43b96ec19e840f0e122d74db2cd2c8c11b14d308d2"
+    },
+    {
+      "name": "trial_skip",
+      "path": "resources/local/arena/popups/trial_skip.png",
+      "source": "resources/local/arena_popup_references/trial-game.png",
+      "box": [
+        1135,
+        696,
+        1256,
+        737
+      ],
+      "sha256": "3f0435eff4c6081259513bc5545b01ced599ca2e345e3cce833ad77a4d1ee045",
+      "sourceSha256": "218e78ae31637cb34618ca43b96ec19e840f0e122d74db2cd2c8c11b14d308d2"
+    },
+    {
+      "name": "victory_title",
+      "path": "resources/local/arena/popups/victory_title.png",
+      "source": "resources/local/arena_popup_references/victory-game.png",
+      "box": [
+        755,
+        135,
+        1155,
+        235
+      ],
+      "sha256": "e9d6004b24f49ec8d5ddf62d6b2d312425d0cb75a9fb1457e538215f8d6d27d5",
+      "sourceSha256": "d15bfd1ea6bdfb962eebcb62e69ce9f8452f873df50dd7f87fb9bcc61a4ab906"
+    },
+    {
+      "name": "victory_confirm",
+      "path": "resources/local/arena/popups/victory_confirm.png",
+      "source": "resources/local/arena_popup_references/victory-game.png",
+      "box": [
+        846,
+        714,
+        1040,
+        765
+      ],
+      "sha256": "2b039bdd3e165e0442e1b4f5337ddfcb2cd6229d89eb66577583ba973177b361",
+      "sourceSha256": "d15bfd1ea6bdfb962eebcb62e69ce9f8452f873df50dd7f87fb9bcc61a4ab906"
+    }
+  ]
+}

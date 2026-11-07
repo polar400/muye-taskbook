@@ -1,0 +1,18 @@
+{
+  "sampleId": "20261013-974-village",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "graphicalAssets": 39,
+  "dynamicRegions": 3,
+  "allCropsPixelEqual": true,
+  "recognizedEntries": [
+    "entry_survival",
+    "entry_strong",
+    "entry_ranked"
+  ],
+  "hostingComputerLocated": true,
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

@@ -1,0 +1,25 @@
+{
+  "sampleId": "20261016-973-online-gift",
+  "label": "福利大厅",
+  "gameSize": [
+    1920,
+    1015
+  ],
+  "sourceHashVerified": true,
+  "gameCropPixelEqual": true,
+  "newAssets": 20,
+  "newDigitCrops": 0,
+  "reusedAssets": 3,
+  "reuseReasons": {
+    "existing_semantic_same_state": 3
+  },
+  "allCropsPixelEqual": true,
+  "allHashesAndReferencesValid": true,
+  "pageOcrMarkers": [
+    "领取",
+    "领取",
+    "领取"
+  ],
+  "gameInput": false,
+  "productionTemplatesModified": false
+}

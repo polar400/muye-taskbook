@@ -1,0 +1,219 @@
+{
+  "task": "arena",
+  "size": [
+    1920,
+    1015
+  ],
+  "threshold": 0.9,
+  "userGameCrop": [
+    45,
+    151,
+    1965,
+    1166
+  ],
+  "assets": [
+    {
+      "name": "row",
+      "path": "resources/local/arena/row.png",
+      "source": "resources/local/arena/daily-user-game.png",
+      "box": [
+        334,
+        174,
+        447,
+        223
+      ],
+      "sourceSha256": "23c168fb5e6b768e58f69859da39295b2817702e541d7f8c05ee5f2763b89d22",
+      "sha256": "4b8c7328e8123ca9a69d0309a4e78382df832803fc5f3157727950345de40a89",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "detail",
+      "path": "resources/local/arena/detail.png",
+      "source": "resources/local/arena/daily-user-game.png",
+      "box": [
+        1168,
+        155,
+        1284,
+        189
+      ],
+      "sourceSha256": "23c168fb5e6b768e58f69859da39295b2817702e541d7f8c05ee5f2763b89d22",
+      "sha256": "cf3c69021477d08e0b6d061b2c4d703fe27fc1f879c1c4c8e36e92c22ffe14d9",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "kunai",
+      "path": "resources/local/arena/kunai.png",
+      "source": "resources/local/image/wanted_kunai_core_20261017.png",
+      "box": null,
+      "sourceSha256": "683bb5950b2ce4ddd94172bb9348ccdd1f957e8fcefcfa081bf0fff29d5cb562",
+      "sha256": "683bb5950b2ce4ddd94172bb9348ccdd1f957e8fcefcfa081bf0fff29d5cb562",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "daily",
+      "path": "resources/local/arena/daily.png",
+      "source": "resources/local/image/wanted_daily_user.png",
+      "box": null,
+      "sourceSha256": "c956b649027e81b93a5bf3de5233a67119ce6d49c284b0c2329947a07b0febf0",
+      "sha256": "c956b649027e81b93a5bf3de5233a67119ce6d49c284b0c2329947a07b0febf0",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "daily_selected",
+      "path": "resources/local/arena/daily_selected.png",
+      "source": "resources/local/image/wanted_daily_selected_catalog.png",
+      "box": null,
+      "sourceSha256": "0bac031c49070c67e24ca78816b6c1f133f6d8a82f9c5dfe5921c348bf728b86",
+      "sha256": "0bac031c49070c67e24ca78816b6c1f133f6d8a82f9c5dfe5921c348bf728b86",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "participate",
+      "path": "resources/local/arena/participate.png",
+      "source": "resources/local/image/wanted_participate_user.png",
+      "box": null,
+      "sourceSha256": "c674bbc89577a8c61ff0af1f99f00af91c72d3cddabd832a5d4bfffa3d90dbdd",
+      "sha256": "c674bbc89577a8c61ff0af1f99f00af91c72d3cddabd832a5d4bfffa3d90dbdd",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "participate_catalog",
+      "path": "resources/local/arena/participate_catalog.png",
+      "source": "resources/local/catalog/activities/20261016-973-daily/participate.png",
+      "box": null,
+      "sourceSha256": "2c7d4b23453354eb03cdfad7c74cd4e2e559893f889ca1a8aa47c936e7ff4785",
+      "sha256": "2c7d4b23453354eb03cdfad7c74cd4e2e559893f889ca1a8aa47c936e7ff4785",
+      "runtimeEnabled": false,
+      "retiredReason": "入口改为主界面竞技场图标；旧素材保留，不再调用"
+    },
+    {
+      "name": "ranked_battle",
+      "path": "resources/local/arena/ranked_battle.png",
+      "source": "resources/local/catalog/arena/20261016-973-team-ready/ranked_battle.png",
+      "box": null,
+      "sourceSha256": "625685263316b038cb393d44643b715cb8c4e53927c8ec58f2d0dab0f3044674",
+      "sha256": "625685263316b038cb393d44643b715cb8c4e53927c8ec58f2d0dab0f3044674",
+      "runtimeEnabled": true
+    },
+    {
+      "name": "casual_battle",
+      "path": "resources/local/arena/casual_battle.png",
+      "source": "resources/local/catalog/arena/20261016-973-team-ready/casual_battle.png",
+      "box": null,
+      "sourceSha256": "686cb5d4748eecac6c1f7b7150b6fea49ea873f7327c7b6c4abbebdb0c489a70",
+      "sha256": "686cb5d4748eecac6c1f7b7150b6fea49ea873f7327c7b6c4abbebdb0c489a70",
+      "runtimeEnabled": true
+    },
+    {
+      "name": "score_label",
+      "path": "resources/local/arena/score_label.png",
+      "source": "resources/local/catalog/arena/20261016-973-team-ready/game.png",
+      "box": [
+        94,
+        282,
+        182,
+        308
+      ],
+      "sourceSha256": "e7f2111659fbf95d2bbc4c3c766cc5d12afd61b441e871ad9ab835730cd8d4f9",
+      "sha256": "e20cea00e61a6c7717056a1914d685d22fd6cf1e13efbade87fd6be734e03ebd",
+      "runtimeEnabled": true
+    },
+    {
+      "name": "task_header",
+      "path": "resources/local/arena/task_header.png",
+      "source": "resources/local/catalog/arena/20261016-973-team-ready/game.png",
+      "box": [
+        201,
+        375,
+        316,
+        402
+      ],
+      "sourceSha256": "e7f2111659fbf95d2bbc4c3c766cc5d12afd61b441e871ad9ab835730cd8d4f9",
+      "sha256": "0c8e5d024768fa9c03602d2260f0fa9d287da4758e54de63d1cf5f1034713dea",
+      "runtimeEnabled": true
+    },
+    {
+      "name": "home_entry_catalog",
+      "path": "resources/local/arena/home_entry_catalog.png",
+      "source": "resources/local/catalog/home/20261013-974-village/arena.png",
+      "box": [
+        14,
+        25,
+        70,
+        74
+      ],
+      "runtimeEnabled": true,
+      "sourceSha256": "9aee2b225659bf346eaaa1032d99396e3723d3dc659111bb1f8371e8e1ff20c8",
+      "sha256": "33155c7cfb32d774ea0d7e7d57dd403fc586c3e00ad7006d226e54822265d674"
+    },
+    {
+      "name": "home_entry_user",
+      "path": "resources/local/arena/home_entry_user.png",
+      "source": "resources/local/arena/references/home-icon-user.png",
+      "box": [
+        16,
+        15,
+        69,
+        61
+      ],
+      "runtimeEnabled": true,
+      "sourceSha256": "1bbe755476de7d73f2602a4417ebf0d2d290b71e0386567d015972de5cfd0169",
+      "sha256": "f6e69c3edb03b06b74ad91c51a465d74f1e1608579d693e870b690a2c5c2fb80"
+    }
+  ],
+  "route": "home-icon",
+  "references": [
+    {
+      "path": "resources/local/arena/references/home-icon-user.png",
+      "originalFilename": "codex-clipboard-f0e8437f-0747-47f8-8639-7d0f6794afdf.png",
+      "state": "主界面竞技场独立图标",
+      "sha256": "1bbe755476de7d73f2602a4417ebf0d2d290b71e0386567d015972de5cfd0169",
+      "size": [
+        88,
+        96
+      ],
+      "runtimeEnabled": false
+    },
+    {
+      "path": "resources/local/arena/references/home-tray-user.png",
+      "originalFilename": "codex-clipboard-8b84cf06-b879-4cde-89f8-cbd2e59c198b.png",
+      "state": "主界面图标组，含竞技场及相邻图标",
+      "sha256": "98bfe5d58c9c8028407d1d87793e41b2d89f28a85d575dd3b0d703a16457bb7c",
+      "size": [
+        660,
+        313
+      ],
+      "runtimeEnabled": false
+    },
+    {
+      "path": "resources/local/arena/references/reward-ready-user.png",
+      "originalFilename": "codex-clipboard-a7fabb14-8e4d-45f0-825d-01b5a4858b64.png",
+      "state": "两项任意阵容胜利任务1/1，各250，显示领取按钮",
+      "sha256": "07f17f3527b1fa1160f087641c4ac38247cf7161abfda194e657af1aab6ac7d8",
+      "size": [
+        262,
+        774
+      ],
+      "runtimeEnabled": false
+    },
+    {
+      "path": "resources/local/arena/references/reward-unmet-user.png",
+      "originalFilename": "codex-clipboard-2e44b27f-a409-433d-ba02-58d63dd9fdae.png",
+      "state": "剩余4项；风属性奥义伤害与中毒忍者任务0/1，各500，条件未满足",
+      "sha256": "b0f1d85ad0912bdcb4870b1172fcaa4545abc08e2be07635b3af801c8ea69b9a",
+      "size": [
+        247,
+        808
+      ],
+      "runtimeEnabled": false
+    }
+  ],
+  "rewardAutomationEnabled": true,
+  "dailyRuntime": "resources/local/arena_daily/sources.json"
+}

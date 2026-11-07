@@ -1,0 +1,61 @@
+{
+  "sealed": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-bcd891cd-6751-4435-a1f4-183c35c26ff2.png",
+    "sha256": "1a37fb68cf50f9b5b44830e811dbbfb4b636ca36968ba11d16776f3a09730a4b"
+  },
+  "picked": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-364c454a-946e-4432-8467-2c255f5283ce.png",
+    "sha256": "e9fba57f5ae6100939b791b20b3edaf796826b657763beb7f8ae3f4ca797d10d"
+  },
+  "revealed": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-b814c64c-e28e-4912-b315-2cf5c17725f2.png",
+    "sha256": "b7be502de46897e7325ccf6a7627d0c84a4386c1f4422da460569f067711d327"
+  },
+  "crops": {
+    "settlement_title": [
+      "sealed",
+      [
+        790,
+        145,
+        1200,
+        280
+      ]
+    ],
+    "card_back": [
+      "sealed",
+      [
+        575,
+        400,
+        650,
+        480
+      ]
+    ],
+    "card_selected": [
+      "picked",
+      [
+        518,
+        309,
+        552,
+        343
+      ]
+    ],
+    "return_game": [
+      "sealed",
+      [
+        1364,
+        1038,
+        1406,
+        1063
+      ]
+    ],
+    "return_game_revealed": [
+      "revealed",
+      [
+        1364,
+        1038,
+        1406,
+        1063
+      ]
+    ]
+  }
+}

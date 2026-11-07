@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "id": "20261013-974-cross-ready",
+      "task": "ranked",
+      "scope": "联服",
+      "state": "刷新可用",
+      "manifest": "ranked/20261013-974-cross-ready/manifest.json",
+      "image": "ranked/20261013-974-cross-ready/game.png",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "20261013-974-village",
+      "task": "home",
+      "scope": "木叶村主界面",
+      "state": "菜单展开",
+      "manifest": "home/20261013-974-village/manifest.json",
+      "image": "home/20261013-974-village/game.png",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "20261016-973-village",
+      "task": "home",
+      "scope": "主界面",
+      "state": "木叶村南，菜单展开",
+      "manifest": "home/20261016-973-village/manifest.json",
+      "image": "home/20261016-973-village/game.png",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "20261016-973-team-ready",
+      "task": "arena",
+      "scope": "竞技场",
+      "state": "我的忍者／阵容与任务",
+      "manifest": "arena/20261016-973-team-ready/manifest.json",
+      "image": "arena/20261016-973-team-ready/game.png",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "20261016-973-timed",
+      "task": "activities",
+      "scope": "限时活动",
+      "state": "限时活动选中，参与灰色",
+      "manifest": "activities/20261016-973-timed/manifest.json",
+      "image": "activities/20261016-973-timed/game.png",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "20261016-973-cross-ready",
+      "task": "ranked",
+      "scope": "排位战",
+      "state": "联服，剩余5次，刷新可用",
+      "manifest": "ranked/20261016-973-cross-ready/manifest.json",
+      "image": "ranked/20261016-973-cross-ready/game.png",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "20261016-973-daily",
+      "task": "activities",
+      "scope": "日常活动",
+      "state": "日常活动选中，参与可用",
+      "manifest": "activities/20261016-973-daily/manifest.json",
+      "image": "activities/20261016-973-daily/game.png",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "20261016-973-online-gift",
+      "task": "welfare",
+      "scope": "福利大厅",
+      "state": "在线礼包，三个领取按钮可见",
+      "manifest": "welfare/20261016-973-online-gift/manifest.json",
+      "image": "welfare/20261016-973-online-gift/game.png",
+      "date": "2026-10-16"
+    }
+  ]
+}

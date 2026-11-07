@@ -1,0 +1,216 @@
+{
+  "recommended": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-0051f06f-0abe-4fd4-b574-511b40611d08.png",
+    "sha256": "a920df52ce84c84162c891834ea61fb5921d95c2c90e77d3b24fb6e5bef5951f"
+  },
+  "first": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-3793f479-355e-40a1-947d-4a160e64f8ef.png",
+    "sha256": "200db6f0706e4fa85fa1c4294dcace9e8a269c99986f096dba4f0ff94fd7bce4"
+  },
+  "middle": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-d579bcbb-70b4-4a4c-ac87-4083ded24dc9.png",
+    "sha256": "e2cb2258212658410edcc284bf9bf319fdfc74c62ff0900e9c46243e3ba5d41e"
+  },
+  "last": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-23911f09-b048-4229-a547-ce74fff2b048.png",
+    "sha256": "4b234b2b7fba21725c2e2b773d45d1b97331b7ddcc4e51bdbcb347443c6e8fde"
+  },
+  "confirm": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-df039083-aa27-4033-b170-5e3ef3764e8e.png",
+    "sha256": "c86a73d7df95736816f4b613813590b4660df628958ccd56496683c9007c34f0"
+  },
+  "hard": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-eeb1a532-9f85-40e1-a0db-a7c2da4aaade.png",
+    "sha256": "c663c3b33ae2365e2772e1e9e684cb1dfe13bd63a3ecba37db153d5ea3f8310a"
+  },
+  "normal": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-66cff440-d28e-4100-b724-25f5ecfc61d6.png",
+    "sha256": "43548a4d6eff663bcd9d7a023e24e881ef28e30a7d2da2c855120bee3cb7bd29"
+  },
+  "easy": {
+    "source": "C:\\Users\\lenovo\\AppData\\Local\\Temp\\codex-clipboard-6f84b5b4-0e89-4be9-8331-2a8db0916b52.png",
+    "sha256": "977300f94daccd71ad7b64a675f0bc1d03d794144051a67da153f39e9bd701ef"
+  },
+  "crops": {
+    "all_active": [
+      "first",
+      [
+        192,
+        64,
+        367,
+        108
+      ]
+    ],
+    "all_inactive": [
+      "recommended",
+      [
+        486,
+        280,
+        645,
+        323
+      ]
+    ],
+    "reward_footer": [
+      "first",
+      [
+        105,
+        765,
+        270,
+        802
+      ]
+    ],
+    "details_button": [
+      "first",
+      [
+        132,
+        380,
+        231,
+        409
+      ]
+    ],
+    "scroll_down": [
+      "first",
+      [
+        1320,
+        718,
+        1362,
+        751
+      ]
+    ],
+    "scroll_up": [
+      "first",
+      [
+        1320,
+        115,
+        1362,
+        145
+      ]
+    ],
+    "confirm_warning": [
+      "confirm",
+      [
+        47,
+        80,
+        566,
+        111
+      ]
+    ],
+    "confirm_enter": [
+      "confirm",
+      [
+        126,
+        145,
+        269,
+        185
+      ]
+    ],
+    "level_0": [
+      "first",
+      [
+        143,
+        113,
+        228,
+        352
+      ]
+    ],
+    "level_1": [
+      "first",
+      [
+        728,
+        135,
+        873,
+        345
+      ]
+    ],
+    "level_2": [
+      "first",
+      [
+        138,
+        459,
+        230,
+        678
+      ]
+    ],
+    "level_3": [
+      "first",
+      [
+        735,
+        452,
+        844,
+        675
+      ]
+    ],
+    "level_4": [
+      "middle",
+      [
+        121,
+        129,
+        241,
+        354
+      ]
+    ],
+    "level_5": [
+      "middle",
+      [
+        742,
+        153,
+        837,
+        350
+      ]
+    ],
+    "level_6": [
+      "middle",
+      [
+        139,
+        445,
+        247,
+        677
+      ]
+    ],
+    "level_7": [
+      "middle",
+      [
+        743,
+        449,
+        842,
+        672
+      ]
+    ],
+    "level_8": [
+      "last",
+      [
+        141,
+        462,
+        241,
+        696
+      ]
+    ],
+    "difficulty_hard": [
+      "hard",
+      [
+        42,
+        8,
+        130,
+        43
+      ]
+    ],
+    "difficulty_normal": [
+      "normal",
+      [
+        42,
+        1,
+        130,
+        37
+      ]
+    ],
+    "difficulty_easy": [
+      "easy",
+      [
+        42,
+        0,
+        131,
+        34
+      ]
+    ]
+  }
+}

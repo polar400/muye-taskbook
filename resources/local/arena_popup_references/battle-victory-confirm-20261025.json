@@ -1,0 +1,19 @@
+{
+  "source": "resources/local/arena_popup_references/battle-victory-confirm-user.png",
+  "originalFilename": "codex-clipboard-06cf5359-90f1-4bb1-ae47-758eb3be4650.png",
+  "sourceSha256": "710ede9d609795d5b36479fe8e767b1aa5419ece4ac2ff956650f213c966bc6b",
+  "gameCrop": [
+    45,
+    130,
+    1965,
+    1145
+  ],
+  "game": "resources/local/arena_popup_references/battle-victory-confirm-game.png",
+  "gameSha256": "c1e2a78f26904f8cc5ffc23b73f715d8215559a7cec38b8a9309e6418c204159",
+  "size": [
+    1920,
+    1015
+  ],
+  "runtimeTemplate": false,
+  "buttonText": "确认"
+}

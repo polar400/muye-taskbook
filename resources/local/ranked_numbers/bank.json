@@ -1,0 +1,2466 @@
+{
+  "version": 1,
+  "family": "ranked_white_small",
+  "gameInput": false,
+  "sources": [
+    {
+      "id": 0,
+      "path": "resources/local/ranked-1920-calibration.png",
+      "sha256": "0f2418be8dafd5311139173965837d394651a7721742c18e383fd35f03cee943"
+    },
+    {
+      "id": 1,
+      "path": "resources/local/ranked-power340470-1920.png",
+      "sha256": "9cfc2756ee03de85c43cf6c7759fcc32dc387e4b7d455dc41d71c0b26378ebcd"
+    },
+    {
+      "id": 2,
+      "path": "resources/local/catalog/ranked/20261016-973-cross-ready/game.png",
+      "sha256": "fbe9487f33199de845e3de95c873861d3fbc9b1665393fb91f268d4b22b73ac3"
+    },
+    {
+      "id": 3,
+      "path": "出错任务/排位战/证据/45706e4f3dec2230d7449180.png",
+      "sha256": "92ee638e4dd04a38780fdafb371738535806a69039a92d53b941193c6a623bd0"
+    }
+  ],
+  "templates": [
+    {
+      "digit": "6",
+      "sourceId": 0,
+      "box": [
+        439,
+        802,
+        446,
+        815
+      ],
+      "pixelSha256": "16a9319725e5b6f0b7d94727fb5a9989baf4d407a68cb582a488875812cd8b56"
+    },
+    {
+      "digit": "7",
+      "sourceId": 0,
+      "box": [
+        449,
+        802,
+        456,
+        815
+      ],
+      "pixelSha256": "67244f7dfbc9321401cb1f810f9120d5866502c365eeff7d91eecc10ef28e846"
+    },
+    {
+      "digit": "2",
+      "sourceId": 0,
+      "box": [
+        457,
+        802,
+        463,
+        815
+      ],
+      "pixelSha256": "65fc1e25a63633ca17085012e8680ae759b98208d45b6f0ad70bc2da7bf159e9"
+    },
+    {
+      "digit": "8",
+      "sourceId": 0,
+      "box": [
+        465,
+        802,
+        475,
+        815
+      ],
+      "pixelSha256": "48b5f4807a5edd713c99e551f404d7c907bd15361052bad1b87def9c7e743919"
+    },
+    {
+      "digit": "8",
+      "sourceId": 0,
+      "box": [
+        475,
+        802,
+        483,
+        815
+      ],
+      "pixelSha256": "f6d9256aa88b9e30a2ed11b0a077a618e93c8783f35e66034f1bbfb7ef09ec55"
+    },
+    {
+      "digit": "6",
+      "sourceId": 0,
+      "box": [
+        483,
+        802,
+        491,
+        815
+      ],
+      "pixelSha256": "b5a7ba14276243814da3a88b290da27de542cef49ca191606861bed46bf3f1a1"
+    },
+    {
+      "digit": "1",
+      "sourceId": 0,
+      "box": [
+        728,
+        910,
+        734,
+        923
+      ],
+      "pixelSha256": "22d3077da8b68b2c5ffe911832ce84e05445526371a0c1a95480fc1fede97704"
+    },
+    {
+      "digit": "4",
+      "sourceId": 0,
+      "box": [
+        754,
+        910,
+        761,
+        923
+      ],
+      "pixelSha256": "cc96bdb9ac519de721f2dc50453a5b5b6e028f1bfa15b318945913ee791f2203"
+    },
+    {
+      "digit": "4",
+      "sourceId": 0,
+      "box": [
+        762,
+        910,
+        770,
+        923
+      ],
+      "pixelSha256": "29cd9c8253d2073c0a32e30c5b71be7ed827721abe8929eb624cddf7ba33a5c7"
+    },
+    {
+      "digit": "5",
+      "sourceId": 0,
+      "box": [
+        781,
+        910,
+        788,
+        923
+      ],
+      "pixelSha256": "2b5be76a653cac0f45bae4ee6330b396f22fd65d8cc16e58ab2eeefefe333c5f"
+    },
+    {
+      "digit": "1",
+      "sourceId": 0,
+      "box": [
+        970,
+        874,
+        974,
+        887
+      ],
+      "pixelSha256": "8dd47776149275f7efe5e0e06b98a22e59d0de07a4546cf7f35edbd35df937c0"
+    },
+    {
+      "digit": "3",
+      "sourceId": 0,
+      "box": [
+        977,
+        874,
+        985,
+        887
+      ],
+      "pixelSha256": "f35aec6efed5d2c52d1515dee65fc10a776300b27caae871b4a45ff526659e71"
+    },
+    {
+      "digit": "0",
+      "sourceId": 0,
+      "box": [
+        1012,
+        874,
+        1022,
+        887
+      ],
+      "pixelSha256": "89278f88eb8146e59502699df2054162baa34720f741b9c259380e80a7b8325f"
+    },
+    {
+      "digit": "8",
+      "sourceId": 0,
+      "box": [
+        1022,
+        874,
+        1030,
+        887
+      ],
+      "pixelSha256": "e018fc5671978c6207602e74317ef1597a57b7b54cfea392880e108c46a8a02d"
+    },
+    {
+      "digit": "4",
+      "sourceId": 0,
+      "box": [
+        1205,
+        829,
+        1213,
+        842
+      ],
+      "pixelSha256": "d619f8b88e139ea5c327a543e2e88106907fdbc3a460f461e213ace24f41cd45"
+    },
+    {
+      "digit": "9",
+      "sourceId": 0,
+      "box": [
+        1223,
+        829,
+        1231,
+        842
+      ],
+      "pixelSha256": "1c31a10111a82b048cd3895a7cb68a88bddc9cdf4b337b420abf5a591960d138"
+    },
+    {
+      "digit": "2",
+      "sourceId": 0,
+      "box": [
+        1231,
+        829,
+        1239,
+        842
+      ],
+      "pixelSha256": "c43bd42eee338fd62a3c338d26368f042d6a91f1551a4fb4a53135f5a764befb"
+    },
+    {
+      "digit": "8",
+      "sourceId": 0,
+      "box": [
+        1241,
+        829,
+        1250,
+        842
+      ],
+      "pixelSha256": "ff718b252dd5126ab746feac893545ad94fe21d29fb68b9f2581f09b47d66b6a"
+    },
+    {
+      "digit": "9",
+      "sourceId": 0,
+      "box": [
+        1250,
+        829,
+        1258,
+        842
+      ],
+      "pixelSha256": "ac07f18b2d21d3927b9b3cd9532034af0b63824c259dd905bf5e1bc157fee896"
+    },
+    {
+      "digit": "1",
+      "sourceId": 0,
+      "box": [
+        1522,
+        805,
+        1528,
+        818
+      ],
+      "pixelSha256": "36de2e1e2a404bb9862befe4ea5ebbce8f1e4e7f2b1001ffe5d709a442830819"
+    },
+    {
+      "digit": "6",
+      "sourceId": 0,
+      "box": [
+        1538,
+        805,
+        1547,
+        818
+      ],
+      "pixelSha256": "db99ea70658a34a066c79806e9a64949ed33107b893935b266cc49e22521999e"
+    },
+    {
+      "digit": "2",
+      "sourceId": 0,
+      "box": [
+        1547,
+        805,
+        1554,
+        818
+      ],
+      "pixelSha256": "e36833daac762db70d346fb6b08aa7e7c342d32a33b10b231e06513ede891b48"
+    },
+    {
+      "digit": "1",
+      "sourceId": 0,
+      "box": [
+        1575,
+        805,
+        1580,
+        818
+      ],
+      "pixelSha256": "5a62413e7c747f2661dbb8e0ae6c18c774feab7b9f75ba63b21cb408bdfb4ee8"
+    },
+    {
+      "digit": "5",
+      "sourceId": 1,
+      "box": [
+        439,
+        802,
+        448,
+        815
+      ],
+      "pixelSha256": "f9bef058bd068c30d271ccfbe045ca8f5d800fe04d8cd5e33e8434c65e7b9384"
+    },
+    {
+      "digit": "6",
+      "sourceId": 1,
+      "box": [
+        474,
+        802,
+        483,
+        815
+      ],
+      "pixelSha256": "0a04e108d21e47aeba86f5be905461bee03c01cb43bac9fe3323d0de6f8fae55"
+    },
+    {
+      "digit": "1",
+      "sourceId": 1,
+      "box": [
+        485,
+        802,
+        490,
+        815
+      ],
+      "pixelSha256": "bb82ac5ded81d14d7507778cf07ae0c16b9dcf2af1a6464989e8d592ebe86376"
+    },
+    {
+      "digit": "3",
+      "sourceId": 1,
+      "box": [
+        735,
+        910,
+        743,
+        923
+      ],
+      "pixelSha256": "e50850faf297d1b9bedcfa95f13a5a8d0e35d6ed8456a9e2d5894a47f97aafd5"
+    },
+    {
+      "digit": "8",
+      "sourceId": 1,
+      "box": [
+        744,
+        910,
+        753,
+        923
+      ],
+      "pixelSha256": "c6b92548a30cfda9baef9dc21bc9119f12acd95f2910aa2319fd4de9ddaa05e2"
+    },
+    {
+      "digit": "9",
+      "sourceId": 1,
+      "box": [
+        753,
+        910,
+        762,
+        923
+      ],
+      "pixelSha256": "2bdeff6ca87243eb6ed3e28d26ee29c006a39437d345e86615e51293b04b8449"
+    },
+    {
+      "digit": "9",
+      "sourceId": 1,
+      "box": [
+        762,
+        910,
+        771,
+        923
+      ],
+      "pixelSha256": "0a9c3792256ed8c9b47c4cdcc6e6d0148445e0fd54226954b3109d589b635d44"
+    },
+    {
+      "digit": "0",
+      "sourceId": 1,
+      "box": [
+        771,
+        910,
+        780,
+        923
+      ],
+      "pixelSha256": "338a54bcf87ef837fde6c1522a38f2d52703016515ea55d533f93075153b3dc0"
+    },
+    {
+      "digit": "6",
+      "sourceId": 1,
+      "box": [
+        968,
+        874,
+        976,
+        887
+      ],
+      "pixelSha256": "d86535bc4475b5f1f3c550084cb6a19171f6b2ff78430d8b8b6769c6a4e37e10"
+    },
+    {
+      "digit": "4",
+      "sourceId": 1,
+      "box": [
+        976,
+        874,
+        985,
+        887
+      ],
+      "pixelSha256": "1ff84da61967ee43ac6916e99bafeaca1e8aac79c17f75b4fcc104c2c93bbbf9"
+    },
+    {
+      "digit": "7",
+      "sourceId": 1,
+      "box": [
+        987,
+        874,
+        995,
+        887
+      ],
+      "pixelSha256": "d19923970b93395d63a0bc8a010f76e64d6c98dbbb1c244912bafd2100df57a3"
+    },
+    {
+      "digit": "5",
+      "sourceId": 1,
+      "box": [
+        995,
+        874,
+        1005,
+        887
+      ],
+      "pixelSha256": "0915bbe6b2f166fb03f39854af74f3bb262d3bd5044f1a8235a5bc8c68d9248c"
+    },
+    {
+      "digit": "6",
+      "sourceId": 1,
+      "box": [
+        1196,
+        829,
+        1205,
+        842
+      ],
+      "pixelSha256": "072175894cb0939917bc4e388212cd17aeb641c5ddcf31992e763deae6898ae8"
+    },
+    {
+      "digit": "6",
+      "sourceId": 1,
+      "box": [
+        1223,
+        829,
+        1232,
+        842
+      ],
+      "pixelSha256": "13938a2cbdd42662658cb2612565ddba544ae66255335757f7385e399a8c3d8c"
+    },
+    {
+      "digit": "0",
+      "sourceId": 1,
+      "box": [
+        1529,
+        805,
+        1538,
+        818
+      ],
+      "pixelSha256": "3e7d5d032f69065c2c320bbf544b9783751603087124ee9d5b14f632acaea470"
+    },
+    {
+      "digit": "8",
+      "sourceId": 1,
+      "box": [
+        1547,
+        805,
+        1556,
+        818
+      ],
+      "pixelSha256": "ed433dcc80b839e2392373267fc419c98e54134c84e6e4e0554d817e8855817d"
+    },
+    {
+      "digit": "6",
+      "sourceId": 1,
+      "box": [
+        1556,
+        805,
+        1565,
+        818
+      ],
+      "pixelSha256": "bdfc3ea24db07951a978f9b7eeec744acd8129e1ab277ea13efcd1b6873bb6d4"
+    },
+    {
+      "digit": "5",
+      "sourceId": 1,
+      "box": [
+        1565,
+        805,
+        1573,
+        818
+      ],
+      "pixelSha256": "49e51fada30317d6105e14378305cfdd83cd60836e5bd771783082df2f266539"
+    },
+    {
+      "digit": "0",
+      "sourceId": 2,
+      "box": [
+        475,
+        802,
+        483,
+        815
+      ],
+      "pixelSha256": "045f193c4b67614c4af1782fe2887e9ba0932ae7be3daca11c8f321efc00e305"
+    },
+    {
+      "digit": "0",
+      "sourceId": 2,
+      "box": [
+        491,
+        802,
+        500,
+        815
+      ],
+      "pixelSha256": "1a92df9d7d9c5d9af7bdb08a9a1926a0327d2788c871774b6a363100825de5a1"
+    },
+    {
+      "digit": "9",
+      "sourceId": 2,
+      "box": [
+        745,
+        910,
+        752,
+        923
+      ],
+      "pixelSha256": "bb9e27f7d2063ccd85b23104408f54c8538959b143239e0671ed3ad747cf009e"
+    },
+    {
+      "digit": "8",
+      "sourceId": 2,
+      "box": [
+        752,
+        910,
+        762,
+        923
+      ],
+      "pixelSha256": "9292c146823e3cdce2aff846099859dac8db8118954c194c24818889cca61daa"
+    },
+    {
+      "digit": "5",
+      "sourceId": 2,
+      "box": [
+        995,
+        874,
+        1004,
+        887
+      ],
+      "pixelSha256": "4971802d8e289fe8fcfbd58f493f8eda94875665e157440c999456ffd0a7b694"
+    },
+    {
+      "digit": "5",
+      "sourceId": 2,
+      "box": [
+        1013,
+        874,
+        1022,
+        887
+      ],
+      "pixelSha256": "44caa4604504960c13da5f9e31adcdab015728dc16eb0e19603a9836b171e33b"
+    },
+    {
+      "digit": "2",
+      "sourceId": 2,
+      "box": [
+        1022,
+        874,
+        1029,
+        887
+      ],
+      "pixelSha256": "f2c95fc052c6204e23c4e31c4ef5ca89899b3e76e901a79d7fe32847481c9601"
+    },
+    {
+      "digit": "6",
+      "sourceId": 2,
+      "box": [
+        1249,
+        829,
+        1258,
+        842
+      ],
+      "pixelSha256": "0db89013964c349598463b5820efee19682eae44ee31209d2d0dfac53b771066"
+    },
+    {
+      "digit": "0",
+      "sourceId": 2,
+      "box": [
+        1565,
+        805,
+        1573,
+        818
+      ],
+      "pixelSha256": "8a9a3e4e343e84286428a2020aa9c53354d949e78c7655957827cd5ebb769a39"
+    },
+    {
+      "digit": "5",
+      "sourceId": 3,
+      "box": [
+        457,
+        802,
+        466,
+        815
+      ],
+      "pixelSha256": "cdfcbe663184c2f9f3c65b66ad2048a6b98e89644b049943ef208fe679219d82"
+    },
+    {
+      "digit": "2",
+      "sourceId": 3,
+      "box": [
+        484,
+        802,
+        491,
+        815
+      ],
+      "pixelSha256": "2a3c98039a405afe841961cafec29fe13553c338ee3935a220307eddd6f5ebd7"
+    },
+    {
+      "digit": "7",
+      "sourceId": 3,
+      "box": [
+        494,
+        802,
+        500,
+        815
+      ],
+      "pixelSha256": "94333d14a1dee1fd0314e0e8f9c435bdc2a41217807e2d0824da92194ee3aa1f"
+    },
+    {
+      "digit": "0",
+      "sourceId": 3,
+      "box": [
+        772,
+        910,
+        779,
+        923
+      ],
+      "pixelSha256": "dab9b17aa72f042a44fbdc8a5074675e39cdb4e960c02302aa4e69de49e4a42b"
+    },
+    {
+      "digit": "0",
+      "sourceId": 3,
+      "box": [
+        977,
+        874,
+        986,
+        887
+      ],
+      "pixelSha256": "7f67dc7e3f7765808e0383cab546f9000137aa4bc4ffb8a4c407bd58e73a7dcc"
+    },
+    {
+      "digit": "6",
+      "sourceId": 3,
+      "box": [
+        986,
+        874,
+        995,
+        887
+      ],
+      "pixelSha256": "08feda91c9ca041ac93941e9be0b3affec34d979eb25b417223b22dc59df94eb"
+    },
+    {
+      "digit": "9",
+      "sourceId": 3,
+      "box": [
+        1013,
+        874,
+        1022,
+        887
+      ],
+      "pixelSha256": "81dd0af6db1e4003adacf40b77884efc7ab5b2ba42503b59ddef81add191d82b"
+    },
+    {
+      "digit": "1",
+      "sourceId": 3,
+      "box": [
+        1225,
+        829,
+        1230,
+        842
+      ],
+      "pixelSha256": "493f97573dced191c5a8acf2db4f0753bddc84acb4e0544b0bf50812a1cd36c1"
+    },
+    {
+      "digit": "1",
+      "sourceId": 2,
+      "box": [
+        976,
+        216,
+        984,
+        229
+      ],
+      "pixelSha256": "8ad7beaf630a249f2523344443d2f68a73b980495dc26d457104b18d8fe48b5b"
+    },
+    {
+      "digit": "2",
+      "sourceId": 2,
+      "box": [
+        1030,
+        216,
+        1038,
+        229
+      ],
+      "pixelSha256": "ea850eeff97cb11b9790245cedb98460b47fd3af56f6a4c39d6b375740675ce9"
+    },
+    {
+      "digit": "3",
+      "sourceId": 2,
+      "box": [
+        993,
+        414,
+        1003,
+        427
+      ],
+      "pixelSha256": "9e270a2342230f270c35417c64390c228aabf84506c77440218440a1ac70eef0"
+    },
+    {
+      "digit": "4",
+      "sourceId": 2,
+      "box": [
+        1002,
+        216,
+        1012,
+        229
+      ],
+      "pixelSha256": "60bcf4f25fccbddd2ae359dcd522b5cb5d32e2841cd84590748a02d1639cc4ad"
+    },
+    {
+      "digit": "5",
+      "sourceId": 2,
+      "box": [
+        1012,
+        216,
+        1021,
+        229
+      ],
+      "pixelSha256": "806604707a49a458542a0ad9a385c26e98520f572113814b3366879744a1684f"
+    },
+    {
+      "digit": "6",
+      "sourceId": 2,
+      "box": [
+        993,
+        216,
+        1002,
+        229
+      ],
+      "pixelSha256": "e17e1a9adc91925edb692dde246b2bb7f7ec08c346ee6ba64d5b7e7651af98cb"
+    },
+    {
+      "digit": "7",
+      "sourceId": 2,
+      "box": [
+        1002,
+        315,
+        1012,
+        328
+      ],
+      "pixelSha256": "5fba9e3484e9539d123d0de2f272c366c39d81c3a7b95f7874a8591e808fad92"
+    },
+    {
+      "digit": "8",
+      "sourceId": 2,
+      "box": [
+        975,
+        414,
+        984,
+        427
+      ],
+      "pixelSha256": "5659952853652266ab5dfc12c9ff520b121a1c167c5bc038cde97f395f3ee0e4"
+    },
+    {
+      "digit": "9",
+      "sourceId": 2,
+      "box": [
+        1038,
+        216,
+        1048,
+        229
+      ],
+      "pixelSha256": "f2af2b2af4a15a4082ecc0eb4bfa6f2ebbfb9eaaee4677d4b281c9c00cf5cd70"
+    },
+    {
+      "digit": "0",
+      "sourceId": 2,
+      "box": [
+        984,
+        216,
+        993,
+        229
+      ],
+      "pixelSha256": "cbdb207dbc4818a67358714de29762e0943b28391d02b681b478dbe13d05400f"
+    }
+  ],
+  "annotations": [
+    {
+      "sourceId": 0,
+      "value": 672886,
+      "buttonBox": [
+        406,
+        834,
+        56,
+        26
+      ],
+      "numericBox": [
+        439,
+        802,
+        491,
+        815
+      ],
+      "glyphs": [
+        {
+          "digit": "6",
+          "box": [
+            439,
+            802,
+            446,
+            815
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "7",
+          "box": [
+            449,
+            802,
+            456,
+            815
+          ],
+          "alignmentIoU": 0.7352941176470589
+        },
+        {
+          "digit": "2",
+          "box": [
+            457,
+            802,
+            463,
+            815
+          ],
+          "alignmentIoU": 0.7105263157894737
+        },
+        {
+          "digit": "8",
+          "box": [
+            465,
+            802,
+            475,
+            815
+          ],
+          "alignmentIoU": 0.525
+        },
+        {
+          "digit": "8",
+          "box": [
+            475,
+            802,
+            483,
+            815
+          ],
+          "alignmentIoU": 0.7719298245614035
+        },
+        {
+          "digit": "6",
+          "box": [
+            483,
+            802,
+            491,
+            815
+          ],
+          "alignmentIoU": 0.603448275862069
+        }
+      ]
+    },
+    {
+      "sourceId": 0,
+      "value": 1174445,
+      "buttonBox": [
+        694,
+        939,
+        58,
+        30
+      ],
+      "numericBox": [
+        728,
+        910,
+        788,
+        923
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            728,
+            910,
+            734,
+            923
+          ],
+          "alignmentIoU": 0.7454545454545455
+        },
+        {
+          "digit": "1",
+          "box": [
+            737,
+            910,
+            743,
+            923
+          ],
+          "alignmentIoU": 0.7454545454545455
+        },
+        {
+          "digit": "7",
+          "box": [
+            746,
+            910,
+            753,
+            923
+          ],
+          "alignmentIoU": 0.7352941176470589
+        },
+        {
+          "digit": "4",
+          "box": [
+            754,
+            910,
+            761,
+            923
+          ],
+          "alignmentIoU": 0.8333333333333334
+        },
+        {
+          "digit": "4",
+          "box": [
+            762,
+            910,
+            770,
+            923
+          ],
+          "alignmentIoU": 0.775
+        },
+        {
+          "digit": "4",
+          "box": [
+            771,
+            910,
+            779,
+            923
+          ],
+          "alignmentIoU": 0.775
+        },
+        {
+          "digit": "5",
+          "box": [
+            781,
+            910,
+            788,
+            923
+          ],
+          "alignmentIoU": 0.5416666666666666
+        }
+      ]
+    },
+    {
+      "sourceId": 0,
+      "value": 1313308,
+      "buttonBox": [
+        936,
+        905,
+        56,
+        26
+      ],
+      "numericBox": [
+        970,
+        874,
+        1030,
+        887
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            970,
+            874,
+            974,
+            887
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "3",
+          "box": [
+            977,
+            874,
+            985,
+            887
+          ],
+          "alignmentIoU": 0.725
+        },
+        {
+          "digit": "1",
+          "box": [
+            988,
+            874,
+            992,
+            887
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "3",
+          "box": [
+            995,
+            874,
+            1003,
+            887
+          ],
+          "alignmentIoU": 0.725
+        },
+        {
+          "digit": "3",
+          "box": [
+            1004,
+            874,
+            1012,
+            887
+          ],
+          "alignmentIoU": 0.725
+        },
+        {
+          "digit": "0",
+          "box": [
+            1012,
+            874,
+            1022,
+            887
+          ],
+          "alignmentIoU": 0.43243243243243246
+        },
+        {
+          "digit": "8",
+          "box": [
+            1022,
+            874,
+            1030,
+            887
+          ],
+          "alignmentIoU": 0.5846153846153846
+        }
+      ]
+    },
+    {
+      "sourceId": 0,
+      "value": 1419289,
+      "buttonBox": [
+        1164,
+        858,
+        58,
+        32
+      ],
+      "numericBox": [
+        1198,
+        829,
+        1258,
+        842
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            1198,
+            829,
+            1202,
+            842
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "4",
+          "box": [
+            1205,
+            829,
+            1213,
+            842
+          ],
+          "alignmentIoU": 0.7608695652173914
+        },
+        {
+          "digit": "1",
+          "box": [
+            1216,
+            829,
+            1220,
+            842
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "9",
+          "box": [
+            1223,
+            829,
+            1231,
+            842
+          ],
+          "alignmentIoU": 0.7321428571428571
+        },
+        {
+          "digit": "2",
+          "box": [
+            1231,
+            829,
+            1239,
+            842
+          ],
+          "alignmentIoU": 0.660377358490566
+        },
+        {
+          "digit": "8",
+          "box": [
+            1241,
+            829,
+            1250,
+            842
+          ],
+          "alignmentIoU": 0.703125
+        },
+        {
+          "digit": "9",
+          "box": [
+            1250,
+            829,
+            1258,
+            842
+          ],
+          "alignmentIoU": 0.7142857142857143
+        }
+      ]
+    },
+    {
+      "sourceId": 0,
+      "value": 1162291,
+      "buttonBox": [
+        1488,
+        834,
+        68,
+        30
+      ],
+      "numericBox": [
+        1522,
+        805,
+        1580,
+        818
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            1522,
+            805,
+            1528,
+            818
+          ],
+          "alignmentIoU": 0.5178571428571429
+        },
+        {
+          "digit": "1",
+          "box": [
+            1531,
+            805,
+            1535,
+            818
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "6",
+          "box": [
+            1538,
+            805,
+            1547,
+            818
+          ],
+          "alignmentIoU": 0.6333333333333333
+        },
+        {
+          "digit": "2",
+          "box": [
+            1547,
+            805,
+            1554,
+            818
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "2",
+          "box": [
+            1556,
+            805,
+            1563,
+            818
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "9",
+          "box": [
+            1565,
+            805,
+            1573,
+            818
+          ],
+          "alignmentIoU": 0.7321428571428571
+        },
+        {
+          "digit": "1",
+          "box": [
+            1575,
+            805,
+            1580,
+            818
+          ],
+          "alignmentIoU": 0.7380952380952381
+        }
+      ]
+    },
+    {
+      "sourceId": 1,
+      "value": 547461,
+      "buttonBox": [
+        406,
+        834,
+        56,
+        26
+      ],
+      "numericBox": [
+        439,
+        802,
+        490,
+        815
+      ],
+      "glyphs": [
+        {
+          "digit": "5",
+          "box": [
+            439,
+            802,
+            448,
+            815
+          ],
+          "alignmentIoU": 0.6
+        },
+        {
+          "digit": "4",
+          "box": [
+            448,
+            802,
+            455,
+            815
+          ],
+          "alignmentIoU": 0.8333333333333334
+        },
+        {
+          "digit": "7",
+          "box": [
+            458,
+            802,
+            465,
+            815
+          ],
+          "alignmentIoU": 0.7352941176470589
+        },
+        {
+          "digit": "4",
+          "box": [
+            466,
+            802,
+            473,
+            815
+          ],
+          "alignmentIoU": 0.8333333333333334
+        },
+        {
+          "digit": "6",
+          "box": [
+            474,
+            802,
+            483,
+            815
+          ],
+          "alignmentIoU": 0.7017543859649122
+        },
+        {
+          "digit": "1",
+          "box": [
+            485,
+            802,
+            490,
+            815
+          ],
+          "alignmentIoU": 0.9761904761904762
+        }
+      ]
+    },
+    {
+      "sourceId": 1,
+      "value": 1389901,
+      "buttonBox": [
+        694,
+        939,
+        58,
+        30
+      ],
+      "numericBox": [
+        728,
+        910,
+        787,
+        923
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            728,
+            910,
+            733,
+            923
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "3",
+          "box": [
+            735,
+            910,
+            743,
+            923
+          ],
+          "alignmentIoU": 0.8108108108108109
+        },
+        {
+          "digit": "8",
+          "box": [
+            744,
+            910,
+            753,
+            923
+          ],
+          "alignmentIoU": 0.5882352941176471
+        },
+        {
+          "digit": "9",
+          "box": [
+            753,
+            910,
+            762,
+            923
+          ],
+          "alignmentIoU": 0.7384615384615385
+        },
+        {
+          "digit": "9",
+          "box": [
+            762,
+            910,
+            771,
+            923
+          ],
+          "alignmentIoU": 0.7538461538461538
+        },
+        {
+          "digit": "0",
+          "box": [
+            771,
+            910,
+            780,
+            923
+          ],
+          "alignmentIoU": 0.5079365079365079
+        },
+        {
+          "digit": "1",
+          "box": [
+            782,
+            910,
+            787,
+            923
+          ],
+          "alignmentIoU": 0.9761904761904762
+        }
+      ]
+    },
+    {
+      "sourceId": 1,
+      "value": 647519,
+      "buttonBox": [
+        936,
+        905,
+        52,
+        24
+      ],
+      "numericBox": [
+        968,
+        874,
+        1021,
+        887
+      ],
+      "glyphs": [
+        {
+          "digit": "6",
+          "box": [
+            968,
+            874,
+            976,
+            887
+          ],
+          "alignmentIoU": 0.576271186440678
+        },
+        {
+          "digit": "4",
+          "box": [
+            976,
+            874,
+            985,
+            887
+          ],
+          "alignmentIoU": 0.8775510204081632
+        },
+        {
+          "digit": "7",
+          "box": [
+            987,
+            874,
+            995,
+            887
+          ],
+          "alignmentIoU": 0.65
+        },
+        {
+          "digit": "5",
+          "box": [
+            995,
+            874,
+            1005,
+            887
+          ],
+          "alignmentIoU": 0.5789473684210527
+        },
+        {
+          "digit": "1",
+          "box": [
+            1006,
+            874,
+            1010,
+            887
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "9",
+          "box": [
+            1013,
+            874,
+            1021,
+            887
+          ],
+          "alignmentIoU": 0.7321428571428571
+        }
+      ]
+    },
+    {
+      "sourceId": 1,
+      "value": 611663,
+      "buttonBox": [
+        1164,
+        858,
+        58,
+        32
+      ],
+      "numericBox": [
+        1196,
+        829,
+        1249,
+        842
+      ],
+      "glyphs": [
+        {
+          "digit": "6",
+          "box": [
+            1196,
+            829,
+            1205,
+            842
+          ],
+          "alignmentIoU": 0.6229508196721312
+        },
+        {
+          "digit": "1",
+          "box": [
+            1207,
+            829,
+            1213,
+            842
+          ],
+          "alignmentIoU": 0.5178571428571429
+        },
+        {
+          "digit": "1",
+          "box": [
+            1216,
+            829,
+            1220,
+            842
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "6",
+          "box": [
+            1223,
+            829,
+            1232,
+            842
+          ],
+          "alignmentIoU": 0.6833333333333333
+        },
+        {
+          "digit": "6",
+          "box": [
+            1232,
+            829,
+            1241,
+            842
+          ],
+          "alignmentIoU": 0.6333333333333333
+        },
+        {
+          "digit": "3",
+          "box": [
+            1241,
+            829,
+            1249,
+            842
+          ],
+          "alignmentIoU": 0.725
+        }
+      ]
+    },
+    {
+      "sourceId": 1,
+      "value": 402865,
+      "buttonBox": [
+        1488,
+        834,
+        68,
+        30
+      ],
+      "numericBox": [
+        1520,
+        805,
+        1573,
+        818
+      ],
+      "glyphs": [
+        {
+          "digit": "4",
+          "box": [
+            1520,
+            805,
+            1528,
+            818
+          ],
+          "alignmentIoU": 0.7608695652173914
+        },
+        {
+          "digit": "0",
+          "box": [
+            1529,
+            805,
+            1538,
+            818
+          ],
+          "alignmentIoU": 0.6909090909090909
+        },
+        {
+          "digit": "2",
+          "box": [
+            1538,
+            805,
+            1545,
+            818
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "8",
+          "box": [
+            1547,
+            805,
+            1556,
+            818
+          ],
+          "alignmentIoU": 0.71875
+        },
+        {
+          "digit": "6",
+          "box": [
+            1556,
+            805,
+            1565,
+            818
+          ],
+          "alignmentIoU": 0.65
+        },
+        {
+          "digit": "5",
+          "box": [
+            1565,
+            805,
+            1573,
+            818
+          ],
+          "alignmentIoU": 0.5
+        }
+      ]
+    },
+    {
+      "sourceId": 2,
+      "value": 1312030,
+      "buttonBox": [
+        404,
+        832,
+        60,
+        28
+      ],
+      "numericBox": [
+        440,
+        802,
+        500,
+        815
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            440,
+            802,
+            445,
+            815
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "3",
+          "box": [
+            447,
+            802,
+            455,
+            815
+          ],
+          "alignmentIoU": 0.8108108108108109
+        },
+        {
+          "digit": "1",
+          "box": [
+            458,
+            802,
+            463,
+            815
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "2",
+          "box": [
+            466,
+            802,
+            472,
+            815
+          ],
+          "alignmentIoU": 0.7105263157894737
+        },
+        {
+          "digit": "0",
+          "box": [
+            475,
+            802,
+            483,
+            815
+          ],
+          "alignmentIoU": 0.7450980392156863
+        },
+        {
+          "digit": "3",
+          "box": [
+            483,
+            802,
+            491,
+            815
+          ],
+          "alignmentIoU": 0.8108108108108109
+        },
+        {
+          "digit": "0",
+          "box": [
+            491,
+            802,
+            500,
+            815
+          ],
+          "alignmentIoU": 0.24675324675324675
+        }
+      ]
+    },
+    {
+      "sourceId": 2,
+      "value": 1698132,
+      "buttonBox": [
+        694,
+        939,
+        58,
+        30
+      ],
+      "numericBox": [
+        728,
+        910,
+        787,
+        923
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            728,
+            910,
+            733,
+            923
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "6",
+          "box": [
+            736,
+            910,
+            743,
+            923
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "9",
+          "box": [
+            745,
+            910,
+            752,
+            923
+          ],
+          "alignmentIoU": 0.82
+        },
+        {
+          "digit": "8",
+          "box": [
+            752,
+            910,
+            762,
+            923
+          ],
+          "alignmentIoU": 0.42857142857142855
+        },
+        {
+          "digit": "1",
+          "box": [
+            764,
+            910,
+            769,
+            923
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "3",
+          "box": [
+            771,
+            910,
+            779,
+            923
+          ],
+          "alignmentIoU": 0.8108108108108109
+        },
+        {
+          "digit": "2",
+          "box": [
+            781,
+            910,
+            787,
+            923
+          ],
+          "alignmentIoU": 0.7105263157894737
+        }
+      ]
+    },
+    {
+      "sourceId": 2,
+      "value": 1645952,
+      "buttonBox": [
+        936,
+        905,
+        52,
+        24
+      ],
+      "numericBox": [
+        970,
+        874,
+        1029,
+        887
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            970,
+            874,
+            974,
+            887
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "6",
+          "box": [
+            977,
+            874,
+            985,
+            887
+          ],
+          "alignmentIoU": 0.576271186440678
+        },
+        {
+          "digit": "4",
+          "box": [
+            985,
+            874,
+            994,
+            887
+          ],
+          "alignmentIoU": 0.8775510204081632
+        },
+        {
+          "digit": "5",
+          "box": [
+            995,
+            874,
+            1004,
+            887
+          ],
+          "alignmentIoU": 0.5740740740740741
+        },
+        {
+          "digit": "9",
+          "box": [
+            1004,
+            874,
+            1012,
+            887
+          ],
+          "alignmentIoU": 0.7321428571428571
+        },
+        {
+          "digit": "5",
+          "box": [
+            1013,
+            874,
+            1022,
+            887
+          ],
+          "alignmentIoU": 0.5636363636363636
+        },
+        {
+          "digit": "2",
+          "box": [
+            1022,
+            874,
+            1029,
+            887
+          ],
+          "alignmentIoU": 0.6458333333333334
+        }
+      ]
+    },
+    {
+      "sourceId": 2,
+      "value": 1579496,
+      "buttonBox": [
+        1164,
+        858,
+        58,
+        32
+      ],
+      "numericBox": [
+        1198,
+        829,
+        1258,
+        842
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            1198,
+            829,
+            1202,
+            842
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "5",
+          "box": [
+            1205,
+            829,
+            1215,
+            842
+          ],
+          "alignmentIoU": 0.5789473684210527
+        },
+        {
+          "digit": "7",
+          "box": [
+            1215,
+            829,
+            1223,
+            842
+          ],
+          "alignmentIoU": 0.65
+        },
+        {
+          "digit": "9",
+          "box": [
+            1223,
+            829,
+            1231,
+            842
+          ],
+          "alignmentIoU": 0.7321428571428571
+        },
+        {
+          "digit": "4",
+          "box": [
+            1232,
+            829,
+            1240,
+            842
+          ],
+          "alignmentIoU": 0.7608695652173914
+        },
+        {
+          "digit": "9",
+          "box": [
+            1241,
+            829,
+            1249,
+            842
+          ],
+          "alignmentIoU": 0.7321428571428571
+        },
+        {
+          "digit": "6",
+          "box": [
+            1249,
+            829,
+            1258,
+            842
+          ],
+          "alignmentIoU": 0.639344262295082
+        }
+      ]
+    },
+    {
+      "sourceId": 2,
+      "value": 866320,
+      "buttonBox": [
+        1486,
+        834,
+        70,
+        30
+      ],
+      "numericBox": [
+        1520,
+        805,
+        1573,
+        818
+      ],
+      "glyphs": [
+        {
+          "digit": "8",
+          "box": [
+            1520,
+            805,
+            1529,
+            818
+          ],
+          "alignmentIoU": 0.71875
+        },
+        {
+          "digit": "6",
+          "box": [
+            1529,
+            805,
+            1538,
+            818
+          ],
+          "alignmentIoU": 0.6833333333333333
+        },
+        {
+          "digit": "6",
+          "box": [
+            1538,
+            805,
+            1547,
+            818
+          ],
+          "alignmentIoU": 0.6333333333333333
+        },
+        {
+          "digit": "3",
+          "box": [
+            1547,
+            805,
+            1555,
+            818
+          ],
+          "alignmentIoU": 0.725
+        },
+        {
+          "digit": "2",
+          "box": [
+            1556,
+            805,
+            1563,
+            818
+          ],
+          "alignmentIoU": 0.6595744680851063
+        },
+        {
+          "digit": "0",
+          "box": [
+            1565,
+            805,
+            1573,
+            818
+          ],
+          "alignmentIoU": 0.5789473684210527
+        }
+      ]
+    },
+    {
+      "sourceId": 3,
+      "value": 1155227,
+      "buttonBox": [
+        406,
+        834,
+        56,
+        26
+      ],
+      "numericBox": [
+        440,
+        802,
+        500,
+        815
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            440,
+            802,
+            446,
+            815
+          ],
+          "alignmentIoU": 0.7454545454545455
+        },
+        {
+          "digit": "1",
+          "box": [
+            449,
+            802,
+            454,
+            815
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "5",
+          "box": [
+            457,
+            802,
+            466,
+            815
+          ],
+          "alignmentIoU": 0.5740740740740741
+        },
+        {
+          "digit": "5",
+          "box": [
+            466,
+            802,
+            475,
+            815
+          ],
+          "alignmentIoU": 0.5740740740740741
+        },
+        {
+          "digit": "2",
+          "box": [
+            475,
+            802,
+            481,
+            815
+          ],
+          "alignmentIoU": 0.7105263157894737
+        },
+        {
+          "digit": "2",
+          "box": [
+            484,
+            802,
+            491,
+            815
+          ],
+          "alignmentIoU": 0.5106382978723404
+        },
+        {
+          "digit": "7",
+          "box": [
+            494,
+            802,
+            500,
+            815
+          ],
+          "alignmentIoU": 0.47058823529411764
+        }
+      ]
+    },
+    {
+      "sourceId": 3,
+      "value": 752120,
+      "buttonBox": [
+        694,
+        939,
+        58,
+        30
+      ],
+      "numericBox": [
+        728,
+        910,
+        779,
+        923
+      ],
+      "glyphs": [
+        {
+          "digit": "7",
+          "box": [
+            728,
+            910,
+            735,
+            923
+          ],
+          "alignmentIoU": 0.7352941176470589
+        },
+        {
+          "digit": "5",
+          "box": [
+            736,
+            910,
+            745,
+            923
+          ],
+          "alignmentIoU": 0.5740740740740741
+        },
+        {
+          "digit": "2",
+          "box": [
+            745,
+            910,
+            752,
+            923
+          ],
+          "alignmentIoU": 0.5106382978723404
+        },
+        {
+          "digit": "1",
+          "box": [
+            755,
+            910,
+            760,
+            923
+          ],
+          "alignmentIoU": 0.9761904761904762
+        },
+        {
+          "digit": "2",
+          "box": [
+            763,
+            910,
+            769,
+            923
+          ],
+          "alignmentIoU": 0.7105263157894737
+        },
+        {
+          "digit": "0",
+          "box": [
+            772,
+            910,
+            779,
+            923
+          ],
+          "alignmentIoU": 0.5357142857142857
+        }
+      ]
+    },
+    {
+      "sourceId": 3,
+      "value": 1066599,
+      "buttonBox": [
+        936,
+        905,
+        52,
+        24
+      ],
+      "numericBox": [
+        970,
+        874,
+        1030,
+        887
+      ],
+      "glyphs": [
+        {
+          "digit": "1",
+          "box": [
+            970,
+            874,
+            974,
+            887
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "0",
+          "box": [
+            977,
+            874,
+            986,
+            887
+          ],
+          "alignmentIoU": 0.7142857142857143
+        },
+        {
+          "digit": "6",
+          "box": [
+            986,
+            874,
+            995,
+            887
+          ],
+          "alignmentIoU": 0.6721311475409836
+        },
+        {
+          "digit": "6",
+          "box": [
+            995,
+            874,
+            1004,
+            887
+          ],
+          "alignmentIoU": 0.6333333333333333
+        },
+        {
+          "digit": "5",
+          "box": [
+            1004,
+            874,
+            1013,
+            887
+          ],
+          "alignmentIoU": 0.5740740740740741
+        },
+        {
+          "digit": "9",
+          "box": [
+            1013,
+            874,
+            1022,
+            887
+          ],
+          "alignmentIoU": 0.6818181818181818
+        },
+        {
+          "digit": "9",
+          "box": [
+            1022,
+            874,
+            1030,
+            887
+          ],
+          "alignmentIoU": 0.7321428571428571
+        }
+      ]
+    },
+    {
+      "sourceId": 3,
+      "value": 618173,
+      "buttonBox": [
+        1162,
+        858,
+        58,
+        32
+      ],
+      "numericBox": [
+        1196,
+        829,
+        1249,
+        842
+      ],
+      "glyphs": [
+        {
+          "digit": "6",
+          "box": [
+            1196,
+            829,
+            1205,
+            842
+          ],
+          "alignmentIoU": 0.6229508196721312
+        },
+        {
+          "digit": "1",
+          "box": [
+            1207,
+            829,
+            1211,
+            842
+          ],
+          "alignmentIoU": 0.9666666666666667
+        },
+        {
+          "digit": "8",
+          "box": [
+            1214,
+            829,
+            1223,
+            842
+          ],
+          "alignmentIoU": 0.703125
+        },
+        {
+          "digit": "1",
+          "box": [
+            1225,
+            829,
+            1230,
+            842
+          ],
+          "alignmentIoU": 0.6744186046511628
+        },
+        {
+          "digit": "7",
+          "box": [
+            1233,
+            829,
+            1241,
+            842
+          ],
+          "alignmentIoU": 0.65
+        },
+        {
+          "digit": "3",
+          "box": [
+            1241,
+            829,
+            1249,
+            842
+          ],
+          "alignmentIoU": 0.725
+        }
+      ]
+    },
+    {
+      "sourceId": 3,
+      "value": 769353,
+      "buttonBox": [
+        1486,
+        834,
+        70,
+        30
+      ],
+      "numericBox": [
+        1521,
+        805,
+        1573,
+        818
+      ],
+      "glyphs": [
+        {
+          "digit": "7",
+          "box": [
+            1521,
+            805,
+            1529,
+            818
+          ],
+          "alignmentIoU": 0.65
+        },
+        {
+          "digit": "6",
+          "box": [
+            1529,
+            805,
+            1538,
+            818
+          ],
+          "alignmentIoU": 0.6333333333333333
+        },
+        {
+          "digit": "9",
+          "box": [
+            1538,
+            805,
+            1546,
+            818
+          ],
+          "alignmentIoU": 0.7142857142857143
+        },
+        {
+          "digit": "3",
+          "box": [
+            1547,
+            805,
+            1555,
+            818
+          ],
+          "alignmentIoU": 0.725
+        },
+        {
+          "digit": "5",
+          "box": [
+            1556,
+            805,
+            1565,
+            818
+          ],
+          "alignmentIoU": 0.5636363636363636
+        },
+        {
+          "digit": "3",
+          "box": [
+            1565,
+            805,
+            1573,
+            818
+          ],
+          "alignmentIoU": 0.725
+        }
+      ]
+    }
+  ],
+  "variantCounts": {
+    "0": 9,
+    "1": 7,
+    "2": 6,
+    "3": 3,
+    "4": 5,
+    "5": 8,
+    "6": 11,
+    "7": 4,
+    "8": 8,
+    "9": 7
+  },
+  "notes": [
+    "Manually labelled source values; supervised cuts reviewed in contact sheet.",
+    "Only source pixel references are stored; no duplicate digit PNGs.",
+    "Latest 674651/750130 and 960878 screenshots are excluded from the bank."
+  ]
+}
