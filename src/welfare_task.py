@@ -182,7 +182,7 @@ class WelfareTask:
 def run_welfare(flow):
     """Daily-queue bridge: reuse the worker window, OCR, control and logging."""
     stamp = datetime.now(timezone(timedelta(hours=8))).strftime('%Y%m%d-%H%M%S')
-    folder = Path(__file__).resolve().parent/'verification'/('welfare-'+stamp+'-'+uuid.uuid4().hex[:8])
+    folder = Path(__file__).resolve().parents[1]/'verification'/('welfare-'+stamp+'-'+uuid.uuid4().hex[:8])
     # Exclude time spent inside the host's blocking pause checkpoint from deadlines.
     blocked = 0.0
     def checkpoint():
