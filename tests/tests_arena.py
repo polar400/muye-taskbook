@@ -11,7 +11,7 @@ from arena_task import ArenaTask,run_arena,validate_arena_config
 import numpy as np
 from PIL import Image
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 DAILY='resources/local/arena/daily-user-game.png'
 OLD_DAILY='resources/local/catalog/activities/20261016-973-daily/game.png'
 PANEL='resources/local/catalog/arena/20261016-973-team-ready/game.png'
