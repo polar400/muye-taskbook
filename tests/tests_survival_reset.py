@@ -8,7 +8,7 @@ from local_flows import LocalFlows
 from PIL import Image
 import numpy as np
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 NEW = ('verification/failure-20261106-130948-38ab273018a5-survival.png',
        'verification/failure-20261106-131219-d075bd87471e-survival.png')
 
