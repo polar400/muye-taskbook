@@ -13,7 +13,7 @@ import tests_wanted
 from PIL import Image
 import numpy as np
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 QUESTS=[{'text':'任务列表','box':[1662,487,84,28],'score':.99},
         {'text':'[支线]等级达到100级','box':[1636,602,164,20],'score':.99},
         {'text':'[支线]通关剧情副本','box':[1634,668,204,25],'score':.99}]
@@ -77,13 +77,13 @@ class WantedIdleTests(unittest.TestCase):
             return original_match(image,name,threshold)
         game.ocr.match=match
         game.escort=Mock(side_effect=lambda:'accepted' if game.page=='home' else None)
-        worker=ast.parse((ROOT/'native_worker.py').read_text(encoding='utf-8'))
+        worker=ast.parse((ROOT/'src/native_worker.py').read_text(encoding='utf-8'))
         main=next(n for n in worker.body if isinstance(n,ast.FunctionDef) and n.name=='main')
         loop=next(n for n in main.body if isinstance(n,ast.For) and any(isinstance(x,ast.Try) for x in n.body))
         events=[];env={'cfg':{'tasks':['wanted','escort']},'tasks':{'wanted':'通缉任务','escort':'押镖'},
                       'flow':game,'checkpoint':lambda:None,'run_ranked_pipeline':Mock(),
                       'emit':lambda kind,message,**kw:events.append((kind,message,kw))}
-        exec(compile(ast.Module(body=[loop],type_ignores=[]),str(ROOT/'native_worker.py'),'exec'),env)
+        exec(compile(ast.Module(body=[loop],type_ignores=[]),str(ROOT/'src/native_worker.py'),'exec'),env)
         self.assertEqual(game.inputs,['wanted_auto','yes'])
         self.assertGreaterEqual(game.time,30);game.escort.assert_called_once()
         self.assertEqual([(e[2]['id'],e[2]['status']) for e in events],
