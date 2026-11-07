@@ -9,7 +9,7 @@ from unittest.mock import Mock,patch
 import app
 import native_worker
 
-PROJECT=Path(__file__).resolve().parent
+PROJECT=Path(__file__).resolve().parents[1]
 
 
 class ArenaUITests(unittest.TestCase):
