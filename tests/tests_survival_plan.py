@@ -46,7 +46,7 @@ class PlanTests(unittest.TestCase):
 
 class TaskSettingsTests(unittest.TestCase):
     def setUp(self):
-        self.temp=tempfile.TemporaryDirectory(prefix='settings-test-',dir=Path(__file__).resolve().parent/'verification')
+        self.temp=tempfile.TemporaryDirectory(prefix='settings-test-',dir=Path(__file__).resolve().parents[1]/'verification')
         self.root_patch=patch.object(app,'ROOT',Path(self.temp.name));self.root_patch.start()
         self.refresh_patch=patch.object(app.App,'refresh_windows');self.refresh_patch.start()
         self.error_patch=patch.object(app.messagebox,'showerror',side_effect=lambda title,message:(_ for _ in ()).throw(AssertionError(title+': '+message)));self.error_patch.start()
@@ -54,7 +54,7 @@ class TaskSettingsTests(unittest.TestCase):
 
     def tearDown(self):
         for callback in self.ui.tk.call('after','info'):self.ui.after_cancel(callback)
-        assert Path(self.temp.name).resolve().parent == (Path(__file__).resolve().parent/'verification').resolve()
+        assert Path(self.temp.name).resolve().parent == (Path(__file__).resolve().parents[1]/'verification').resolve()
         self.ui.destroy();self.error_patch.stop();self.refresh_patch.stop();self.root_patch.stop();self.temp.cleanup()
 
     def test_advanced_stays_in_task_and_preserves_choices_across_tabs(self):
