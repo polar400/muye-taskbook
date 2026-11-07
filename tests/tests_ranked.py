@@ -8,7 +8,7 @@ import numpy as np
 from local_flows import LocalFlows,select_opponent,normalized
 from ranked_vision import read_red_power,read_opponent_power
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 class RankedTests(unittest.TestCase):
     @classmethod
