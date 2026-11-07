@@ -2,7 +2,7 @@
 from pathlib import Path
 import sys
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 from adapters.local_ocr import LocalOCR
 from PIL import Image
 import numpy as np
