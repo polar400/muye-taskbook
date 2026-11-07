@@ -12,21 +12,36 @@
 
 **支持火影忍者 Online 的 Windows 每日任务助手。** 默认使用本地后台截图、OCR 和窗口消息输入。保留应用原有图标和木叶任务簿界面风格。完整每日任务链尚未全部实机验收；iOS、Android、macOS 和 Linux 暂无可用发行版。
 
+## 目录导航
+
+| 目录 / 文件 | 内容 |
+| --- | --- |
+| `src/` | 桌面界面、任务流程、Python / Node 工作进程、窗口适配与执行核心 |
+| `tests/` | Python 离线测试、界面测试和 Node 测试 |
+| `docs/` | 使用说明、架构、技术文档、任务状态、发布与验证记录 |
+| `scripts/` | Python / Node 依赖安装、福利大厅独立启动脚本 |
+| `resources/` | 原应用图标、OCR 模型、识别模板与来源资料 |
+| `tools/` | 开发、采集、准备素材和人工验证工具 |
+| `ui-preview/` | 独立网页交互预览 |
+| `verification/` | 运行时验证输出目录；公开源码只保留空目录占位 |
+| `启动.cmd` | Windows 主程序启动入口 |
+| `grocery_plan.json` | 杂货屋默认计划；个人运行状态不提交 |
+
 ## 下载与启动
 
-[下载 Windows x64 依赖随附包](https://github.com/polar400/muye-taskbook/releases/download/v0.2.0-rc.1/MuyeTaskbook-Windows-x64-Python314.zip) · [全部发行文件与校验值](https://github.com/polar400/muye-taskbook/releases/tag/v0.2.0-rc.1)
+[下载 Windows x64 依赖随附包](https://github.com/polar400/muye-taskbook/releases/download/v0.2.0-rc.2/MuyeTaskbook-Windows-x64-Python314.zip) · [全部发行文件与校验值](https://github.com/polar400/muye-taskbook/releases/tag/v0.2.0-rc.2)
 
 当前为预发布候选版本；Windows 包仍需安装 Python，并非免安装 EXE。
 
-Windows 依赖随附包：安装 **Windows x64 Python 3.14（含 Tkinter）** 后，在解压目录运行 `安装Python依赖.cmd`，再双击 `启动.cmd`。该包随附原项目 vendor 中的 MaaFramework 与 NumPy，Pillow 由安装脚本补齐；它不是免安装 EXE。
+Windows 依赖随附包：安装 **Windows x64 Python 3.14（含 Tkinter）** 后，在解压目录运行 `scripts/安装Python依赖.cmd`，再双击 `启动.cmd`。该包随附原项目 vendor 中的 MaaFramework 与 NumPy，Pillow 由安装脚本补齐；它不是免安装 EXE。
 
-源码包：先运行 `安装Python依赖.cmd` 安装锁定版本的依赖至 vendor，再运行 `启动.cmd`。下载依赖需要网络。若仅使用默认本地后台，无需 Node 或模型 API。
+源码包：先运行 `scripts/安装Python依赖.cmd` 安装锁定版本的依赖至 vendor，再运行 `启动.cmd`。下载依赖需要网络。若仅使用默认本地后台，无需 Node 或模型 API。
 
 1. 在 360 游戏大厅登录，停留木叶村主页，游戏不能最小化。
 2. 在助手设置里选择窗口和“本地后台（免API）”。
 3. 首次只选择一项任务；先运行流程预览，再进行游戏内验证。预览不会操作游戏，也不等于任务完成。
 
-可选 Midscene 前台方式需要 Node.js：运行 `安装依赖.cmd`，按[使用说明](使用说明.md)配置。它会使用真实鼠标键盘和模型服务。
+可选 Midscene 前台方式需要 Node.js：运行 `scripts/安装依赖.cmd`，按[使用说明](docs/使用说明.md)配置。它会使用真实鼠标键盘和模型服务。
 
 ## 本次整理
 
@@ -37,15 +52,15 @@ Windows 依赖随附包：安装 **Windows x64 Python 3.14（含 Tkinter）** �
 
 ## 文档与验证
 
-[使用说明](使用说明.md) · [后台使用说明](后台使用说明.md) · [架构说明](架构说明.md) · [技术文档](技术文档.md) · [发布说明](发布说明.md)
+[使用说明](docs/使用说明.md) · [后台使用说明](docs/后台使用说明.md) · [架构说明](docs/架构说明.md) · [技术文档](docs/技术文档.md) · [发布说明](docs/发布说明.md)
 
 ```powershell
-python -B -m unittest tests_release tests_failure_archive tests_native_failure
-node --test tests.mjs
+python -B -m unittest tests.tests_release tests.tests_failure_archive tests.tests_native_failure
+node --test tests/*.test.mjs
 ```
 
 部分既有离线测试需要原 `verification` 截图，源码候选包不附带个人实机记录；维护者可从私有完整备份恢复。不得把这些离线检查解释为游戏全流程通过。押镖目前仅接取，托管可靠收尾等范围以技术文档为准。
 
 ## 授权与素材
 
-未擅自为原代码选择开源许可证。第三方依赖自带各自许可；游戏素材、图标来源及公开再分发权限尚需作者核对，见[第三方说明](THIRD_PARTY_NOTICES.md)。本项目不代表游戏官方。
+未擅自为原代码选择开源许可证。第三方依赖自带各自许可；游戏素材、图标来源及公开再分发权限尚需作者核对，见[第三方说明](docs/THIRD_PARTY_NOTICES.md)。本项目不代表游戏官方。
