@@ -12,7 +12,7 @@ from ranked_pipeline import RankedSession
 from ranked_vision import (read_opponent_power,read_white_power,white_digit_candidates,
                            white_ink,white_power_templates)
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class WhiteDigitTests(unittest.TestCase):
