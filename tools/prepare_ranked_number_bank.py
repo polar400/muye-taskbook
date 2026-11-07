@@ -6,7 +6,7 @@ import json
 import sys
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT));sys.path.insert(0,str(ROOT/'vendor'))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)];sys.path.insert(0,str(ROOT/'vendor'))
 from adapters.local_ocr import LocalOCR
 from PIL import Image,ImageDraw
 import numpy as np
