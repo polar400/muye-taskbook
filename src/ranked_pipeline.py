@@ -16,7 +16,7 @@ from maa.custom_recognition import CustomRecognition
 from maa.resource import Resource
 from maa.tasker import Tasker
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 BUNDLE = ROOT / 'resources/maa_ranked'
 LABELS = {
     'start':'检查当前页面', 'enter':'进入排位战', 'scope':'确认挑战范围',
