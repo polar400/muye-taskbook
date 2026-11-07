@@ -14,7 +14,7 @@ from tkinter import messagebox
 
 from grocery_plan import load_state, load_catalog, new_state, save_state, now
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[1]
 OBSERVE_TIMEOUT_SECONDS = 45
 
 
@@ -123,7 +123,7 @@ class GroceryController:
                            stderr=subprocess.STDOUT, text=True, encoding='utf-8', errors='replace', bufsize=1)
             if sys.platform == 'win32':
                 options['creationflags'] = subprocess.CREATE_NO_WINDOW
-            process = self._popen([sys.executable, '-B', str(ROOT/'grocery_worker.py'), str(request_path)], **options)
+            process = self._popen([sys.executable, '-B', str(ROOT/'src/grocery_worker.py'), str(request_path)], **options)
         except (OSError, ValueError, TypeError, KeyError) as error:
             return self._error(f'杂货屋未启动：{error}')
         self.process, self.running, self.stopping = process, True, False
@@ -155,7 +155,7 @@ class GroceryController:
                            stderr=subprocess.STDOUT, text=True, encoding='utf-8', errors='replace', bufsize=1)
             if sys.platform == 'win32':
                 options['creationflags'] = subprocess.CREATE_NO_WINDOW
-            process = self._popen([sys.executable, '-B', str(ROOT/'grocery_worker.py'), str(path)], **options)
+            process = self._popen([sys.executable, '-B', str(ROOT/'src/grocery_worker.py'), str(path)], **options)
         except (OSError, ValueError, TypeError) as error:
             return self._error(f'余额读取未启动：{error}')
         self.process, self.running, self.stopping = process, True, False
