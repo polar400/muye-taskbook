@@ -12,7 +12,7 @@ import app
 import native_worker
 import welfare_task
 
-PROJECT = Path(__file__).resolve().parent
+PROJECT = Path(__file__).resolve().parents[1]
 
 
 class WelfareUITests(unittest.TestCase):
@@ -96,7 +96,7 @@ class WelfareUITests(unittest.TestCase):
         cfg['preview'] = True
         path = self.folder/'preview.json'
         path.write_text(json.dumps(cfg), encoding='utf-8')
-        result = subprocess.run([sys.executable, '-B', str(PROJECT/'native_worker.py'), str(path)],
+        result = subprocess.run([sys.executable, '-B', str(PROJECT/'src/native_worker.py'), str(path)],
                                 cwd=PROJECT, capture_output=True, text=True, encoding='utf-8',
                                 env=dict(os.environ, PYTHONIOENCODING='utf-8'), timeout=30,
                                 creationflags=subprocess.CREATE_NO_WINDOW)
