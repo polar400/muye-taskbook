@@ -9,7 +9,7 @@ import time
 import unittest
 
 ROOT=Path(__file__).resolve().parents[1]
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT/'src'), str(ROOT/'tests'), str(ROOT)]
 
 
 def digest(path):return hashlib.sha256((ROOT/path).read_bytes()).hexdigest()
@@ -35,11 +35,11 @@ def main():
     applied=integration.get('applied',False) and integration.get('decision')=='allowed_by_user'
     same=all(after[p]==sha for p,sha in baseline.items() if not(applied and not popup_scope and p=='app.py'))
     if applied and not popup_scope:
-        same=same and hashlib.sha256((ROOT/'app.py').read_text(encoding='utf-8').encode()).hexdigest()==integration['files']['app.py']['proposedTextSha256']
+        same=same and hashlib.sha256((ROOT/'src/app.py').read_text(encoding='utf-8').encode()).hexdigest()==integration['files']['app.py']['proposedTextSha256']
     static_same=all(after[p]==sha for p,sha in baseline.items() if p not in ('config.json','run.json')) if popup_scope else same
     user_changes={p:dict(baseline=baseline[p],beforeTests=before[p],afterTests=after[p])
                   for p in ('config.json','run.json') if after[p]!=baseline[p]}
-    ui_applied=(ROOT/'arena_task_ui.py').read_text(encoding='utf-8')==UI_SOURCE
+    ui_applied=(ROOT/'src/arena_task_ui.py').read_text(encoding='utf-8')==UI_SOURCE
     files=('arena_daily.py','arena_task.py','arena_settings.py','arena_task_ui.py','arena_tokens.py',
            'tests_arena_daily.py','tests_arena_tokens.py','tests_arena_count_ui.py',
            'tools/prepare_arena_count_integration.py','app.py','tests_arena_popups.py',
