@@ -57,7 +57,7 @@ class TeamInstanceUITests(unittest.TestCase):
     def test_preview_and_unverified_dispatch(self):
         resources=self.folder/'resources'
         resources.mkdir()
-        (resources/'tasks.json').write_bytes((app.Path(__file__).resolve().parent/'resources/tasks.json').read_bytes())
+        (resources/'tasks.json').write_bytes((app.Path(__file__).resolve().parents[1]/'resources/tasks.json').read_bytes())
         path=self.folder/'run.json'
         cfg=dict(tasks=['team_instance'],gameHwnd=1,preview=True)
         path.write_text(json.dumps(cfg),encoding='utf-8')
