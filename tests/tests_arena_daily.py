@@ -12,7 +12,7 @@ from arena_daily import DailyVision,ArenaDaily,next_action
 from arena_task import ArenaTask,run_arena,validate_arena_config
 from adapters.local_ocr import LocalOCR
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 
 
 class DailyVisionTests(unittest.TestCase):
